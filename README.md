@@ -5,7 +5,7 @@
 -->
 
 <p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/dvd233/dvd233@main/assets/demo-sanitized-1080p60-muted.mp4">
+  <a href="https://cdn.jsdelivr.net/gh/dvd233/dvd233@23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4">
     <img src="assets/demo-loop.webp" width="100%" alt="Looping preview of a two-person team's private hyperspectral reconstruction prototype: camera capture, 30-band reconstruction from 400 to 690 nanometres, and a sampled spectral curve.">
   </a>
 </p>
