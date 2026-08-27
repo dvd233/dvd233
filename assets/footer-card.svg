@@ -36,7 +36,7 @@
     <path d="M802 134l46-28v72l-46 28z"/>
     <path d="M762 80v72M716 108l46 26M762 152l86 26"/>
   </g>
-  <text x="762" y="72" text-anchor="middle" fill="#6D8797" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.4">DATA CUBE</text>
+  <text x="782" y="226" text-anchor="middle" fill="#6D8797" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.4">DATA CUBE</text>
 
   <path d="M78 212 C132 252 201 246 250 198 S344 132 411 178 S512 246 584 201 S671 118 747 148 S819 191 872 120" fill="none" stroke="#71D6BD" stroke-width="19" stroke-linecap="round" opacity=".2" filter="url(#soft-trace)"/>
   <path d="M78 212 C132 252 201 246 250 198 S344 132 411 178 S512 246 584 201 S671 118 747 148 S819 191 872 120" fill="none" stroke="url(#trace)" stroke-width="8" stroke-linecap="round"/>

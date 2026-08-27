@@ -52,16 +52,19 @@ I turn AI capabilities into products people can use: streaming interfaces, local
 My coding-agent toolkit includes Kimi Code, Codex, Pi, Claude Code, Hermes, OpenCode, and ZCode. I use these tools inside a human-led loop: understand the codebase, implement the change, test edge cases, document decisions, and review the result.
 
 <div align="center">
-  <span class="agent-grid" role="group" aria-label="Coding agents used in my workflow">
-    <a href="https://github.com/MoonshotAI/kimi-cli" title="Kimi Code"><img class="agent-icon" src="assets/agent-kimi-official.png" width="46" height="46" alt="Official Kimi Code agent mark from Moonshot AI"></a>&nbsp;
-    <a href="https://github.com/openai/codex" title="Codex"><img class="agent-icon" src="assets/agent-codex-official.png" width="46" height="46" alt="Official OpenAI mark used for Codex"></a>&nbsp;
-    <a href="https://pi.dev/" title="Pi"><img class="agent-icon" src="assets/agent-pi-official.svg" width="46" height="46" alt="Official Pi coding agent mark from pi.dev"></a>&nbsp;
-    <a href="https://github.com/anthropics/claude-code" title="Claude Code"><img class="agent-icon" src="assets/agent-claude-official.png" width="46" height="46" alt="Official Anthropic mark used for Claude Code"></a>&nbsp;
-    <a href="https://github.com/NousResearch/hermes-agent" title="Hermes"><img class="agent-icon" src="assets/agent-hermes-official.png" width="46" height="46" alt="Official Nous Research mark for the Hermes agent"></a>&nbsp;
-    <a href="https://github.com/anomalyco/opencode" title="OpenCode"><img class="agent-icon" src="assets/agent-opencode-official.svg" width="46" height="46" alt="Official OpenCode coding agent mark"></a>&nbsp;
-    <a href="https://github.com/zai-org/zcode-plugins" title="ZCode"><img class="agent-icon" src="assets/agent-zcode-official.svg" width="46" height="46" alt="Official ZCode plugin ecosystem mark from Z.ai"></a>
-  </span>
-  <sub>Kimi Code / Codex / Pi · Claude Code / Hermes / OpenCode / ZCode</sub>
+  <div class="agent-grid" role="group" aria-label="Coding agents used in my workflow">
+    <p>
+      <a href="https://github.com/MoonshotAI/kimi-cli" title="Kimi Code"><img class="agent-icon" src="assets/agent-kimi-official.png" width="40" height="40" alt="Official Kimi Code agent mark from Moonshot AI">&nbsp;<strong>Kimi Code</strong></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://github.com/openai/codex" title="Codex"><img class="agent-icon" src="assets/agent-codex-official.png" width="40" height="40" alt="Official OpenAI mark used for Codex">&nbsp;<strong>Codex</strong></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://pi.dev/" title="Pi"><img class="agent-icon" src="assets/agent-pi-official.svg" width="40" height="40" alt="Official Pi coding agent mark from pi.dev">&nbsp;<strong>Pi</strong></a>
+      <br><br>
+      <a href="https://github.com/anthropics/claude-code" title="Claude Code"><img class="agent-icon" src="assets/agent-claude-official.png" width="40" height="40" alt="Official Anthropic mark used for Claude Code">&nbsp;<strong>Claude Code</strong></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://github.com/NousResearch/hermes-agent" title="Hermes"><img class="agent-icon" src="assets/agent-hermes-official.png" width="40" height="40" alt="Official Nous Research mark for the Hermes agent">&nbsp;<strong>Hermes</strong></a>
+      <br><br>
+      <a href="https://github.com/anomalyco/opencode" title="OpenCode"><img class="agent-icon" src="assets/agent-opencode-official.svg" width="40" height="40" alt="Official OpenCode coding agent mark">&nbsp;<strong>OpenCode</strong></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://github.com/zai-org/zcode-plugins" title="ZCode"><img class="agent-icon" src="assets/agent-zcode-official.svg" width="40" height="40" alt="Official ZCode plugin ecosystem mark from Z.ai">&nbsp;<strong>ZCode</strong></a>
+    </p>
+  </div>
 </div>
 
 ## What the demo shows
