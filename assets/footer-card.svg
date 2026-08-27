@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+  <title id="title">Keep building, keep shipping</title>
+  <desc id="desc">A static spectral snake trail across a quiet engineering grid for dvd's profile footer. It is an authored outro, not live GitHub activity.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1B2934" stroke-width="1" opacity=".62"/>
+    </pattern>
+    <linearGradient id="spectrum" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#8B6BFF"/>
+      <stop offset="0.34" stop-color="#70CFF0"/>
+      <stop offset="0.65" stop-color="#83E2B4"/>
+      <stop offset="1" stop-color="#F2B36D"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="958" height="298" rx="22" fill="#0B1219" stroke="#2B3947" stroke-width="2"/>
+  <rect x="2" y="2" width="956" height="296" rx="21" fill="url(#grid)" opacity=".64"/>
+  <text x="42" y="45" fill="#F4F7FA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="2">KEEP BUILDING / KEEP SHIPPING</text>
+  <text x="918" y="45" text-anchor="end" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15">AI APPLICATIONS · FRONTEND · CLIENTS · IMAGING</text>
+  <path d="M76 213 C132 254 204 242 252 193 S344 124 414 173 S518 246 590 194 S674 104 754 137 S823 181 874 108" fill="none" stroke="#71D6BD" stroke-width="18" stroke-linecap="round" opacity=".22" filter="url(#glow)"/>
+  <path d="M76 213 C132 254 204 242 252 193 S344 124 414 173 S518 246 590 194 S674 104 754 137 S823 181 874 108" fill="none" stroke="url(#spectrum)" stroke-width="8" stroke-linecap="round"/>
+  <g transform="translate(874 108)">
+    <circle r="15" fill="#0B1219" stroke="#D8F5E6" stroke-width="3"/>
+    <circle cx="-5" cy="-3" r="2.2" fill="#D8F5E6"/>
+    <circle cx="5" cy="-3" r="2.2" fill="#D8F5E6"/>
+    <path d="M-5 5c3 3 7 3 10 0" fill="none" stroke="#D8F5E6" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <line x1="76" y1="263" x2="874" y2="263" stroke="#31424F" stroke-width="2"/>
+  <line x1="76" y1="257" x2="76" y2="269" stroke="#8293A2" stroke-width="2"/>
+  <line x1="475" y1="257" x2="475" y2="269" stroke="#8293A2" stroke-width="2"/>
+  <line x1="874" y1="257" x2="874" y2="269" stroke="#8293A2" stroke-width="2"/>
+  <text x="76" y="287" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">400 nm</text>
+  <text x="475" y="287" text-anchor="middle" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">540 nm</text>
+  <text x="874" y="287" text-anchor="end" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">690 nm</text>
+</svg>

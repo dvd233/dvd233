@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Core stack for AI application delivery</title>
+  <desc id="desc">A local technology stack card showing React, TypeScript, Vite, React Flow, Python, PyTorch, LangGraph, MCP, Node.js, NestJS, PostgreSQL, Redis, Rust, Tauri, Git, and SSE or WebSocket.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1B2934" stroke-width="1" opacity=".58"/>
+    </pattern>
+    <linearGradient id="spectrum" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#7DD3FC"/>
+      <stop offset="0.52" stop-color="#8BE7C5"/>
+      <stop offset="1" stop-color="#F2B36D"/>
+    </linearGradient>
+    <symbol id="react" viewBox="0 0 40 40">
+      <g fill="none" stroke="#73D8FF" stroke-width="1.7">
+        <ellipse cx="20" cy="20" rx="5" ry="17"/>
+        <ellipse cx="20" cy="20" rx="5" ry="17" transform="rotate(60 20 20)"/>
+        <ellipse cx="20" cy="20" rx="5" ry="17" transform="rotate(120 20 20)"/>
+      </g>
+      <circle cx="20" cy="20" r="2.9" fill="#73D8FF"/>
+    </symbol>
+    <symbol id="typescript" viewBox="0 0 40 40">
+      <rect x="3" y="3" width="34" height="34" rx="5" fill="#3178C6"/>
+      <text x="20" y="27" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="16" font-weight="700">TS</text>
+    </symbol>
+    <symbol id="vite" viewBox="0 0 40 40">
+      <path d="M5 6l15 3 15-3-15 30z" fill="#B9E7FF"/>
+      <path d="M23 6l-5 17 8-7-4 14 13-24z" fill="#8B74FF"/>
+    </symbol>
+    <symbol id="flow" viewBox="0 0 40 40">
+      <g fill="none" stroke="#8ED5FF" stroke-width="2">
+        <path d="M9 12h12v16H9zM21 20h10M27 15l5 5-5 5"/>
+      </g>
+      <circle cx="9" cy="12" r="3" fill="#8ED5FF"/><circle cx="9" cy="28" r="3" fill="#8ED5FF"/>
+    </symbol>
+    <symbol id="python" viewBox="0 0 40 40">
+      <path d="M20 4c-8 0-8 4-8 7v4h10v3H8c-4 0-5-4-5-7 0-7 5-9 12-9h5z" fill="#FFD15C"/>
+      <path d="M20 36c8 0 8-4 8-7v-4H18v-3h14c4 0 5 4 5 7 0 7-5 9-12 9h-5z" fill="#6CA6FF"/>
+      <circle cx="16" cy="10" r="1.6" fill="#10202C"/><circle cx="24" cy="30" r="1.6" fill="#10202C"/>
+    </symbol>
+    <symbol id="pytorch" viewBox="0 0 40 40">
+      <path d="M22 4v9a8 8 0 11-7 13" fill="none" stroke="#F17C5D" stroke-width="4" stroke-linecap="round"/>
+      <path d="M22 4h.1M30 8h.1" stroke="#FFB07A" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="29.5" cy="8" r="2.5" fill="#FFB07A"/>
+    </symbol>
+    <symbol id="langgraph" viewBox="0 0 40 40">
+      <g fill="none" stroke="#9BE5C5" stroke-width="2">
+        <path d="M10 11l20 9-20 9 20-18-20 18"/>
+      </g>
+      <circle cx="10" cy="11" r="4" fill="#9BE5C5"/><circle cx="30" cy="20" r="4" fill="#9BE5C5"/><circle cx="10" cy="29" r="4" fill="#9BE5C5"/>
+    </symbol>
+    <symbol id="mcp" viewBox="0 0 40 40">
+      <path d="M10 7v26M10 7h9M10 33h9M30 7v26M30 7h-9M30 33h-9" fill="none" stroke="#D0B4FF" stroke-width="3" stroke-linecap="round"/>
+      <path d="M18 20h8" stroke="#D0B4FF" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="27" cy="20" r="3" fill="#D0B4FF"/>
+    </symbol>
+    <symbol id="node" viewBox="0 0 40 40">
+      <path d="M20 3l15 8.5v17L20 37 5 28.5v-17z" fill="#7FCB79"/>
+      <text x="20" y="26" text-anchor="middle" fill="#10201A" font-family="Arial, sans-serif" font-size="13" font-weight="700">JS</text>
+    </symbol>
+    <symbol id="nest" viewBox="0 0 40 40">
+      <path d="M20 3l15 5v10c0 9-6.5 15-15 19C12.5 33 5 27 5 18V8z" fill="#EF6474"/>
+      <text x="20" y="27" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="18" font-weight="700">N</text>
+    </symbol>
+    <symbol id="postgres" viewBox="0 0 40 40">
+      <path d="M12 11c1-5 15-6 17 1v12c0 5-3 9-8 10l-3-2c-5 0-8-4-8-10z" fill="none" stroke="#8BBCE2" stroke-width="2.4"/>
+      <path d="M20 28c6 1 9-2 10-6" fill="none" stroke="#8BBCE2" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="16" cy="16" r="1.5" fill="#8BBCE2"/><circle cx="24" cy="16" r="1.5" fill="#8BBCE2"/>
+    </symbol>
+    <symbol id="redis" viewBox="0 0 40 40">
+      <path d="M4 12l16-7 16 7-16 7zM4 20l16-7 16 7-16 7zM4 28l16-7 16 7-16 7z" fill="#EE5A52"/>
+    </symbol>
+    <symbol id="rust" viewBox="0 0 40 40">
+      <circle cx="20" cy="20" r="15" fill="#F2AC6B"/>
+      <path d="M12 27h16M14 13h12M20 13v14" stroke="#3A2417" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="20" cy="20" r="3" fill="#F2AC6B" stroke="#3A2417" stroke-width="2"/>
+    </symbol>
+    <symbol id="tauri" viewBox="0 0 40 40">
+      <rect x="5" y="5" width="30" height="30" rx="8" fill="#91D7C0"/>
+      <path d="M12 13h16M20 13v15M14 28h12" fill="none" stroke="#163128" stroke-width="3" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="git" viewBox="0 0 40 40">
+      <path d="M8 20l12-12 12 12-12 12z" fill="#F2A05A"/>
+      <path d="M14 18v8M26 14v8M14 18h12" fill="none" stroke="#3A2417" stroke-width="2"/>
+      <circle cx="14" cy="18" r="2.5" fill="#F2A05A" stroke="#3A2417" stroke-width="1.5"/><circle cx="26" cy="14" r="2.5" fill="#F2A05A" stroke="#3A2417" stroke-width="1.5"/><circle cx="26" cy="22" r="2.5" fill="#F2A05A" stroke="#3A2417" stroke-width="1.5"/>
+    </symbol>
+    <symbol id="network" viewBox="0 0 40 40">
+      <path d="M11 20h18M14 12l12 16M14 28l12-16" fill="none" stroke="#9BB3FF" stroke-width="2"/>
+      <circle cx="10" cy="20" r="4" fill="#9BB3FF"/><circle cx="30" cy="20" r="4" fill="#9BB3FF"/>
+      <circle cx="14" cy="11" r="3" fill="#9BB3FF"/><circle cx="14" cy="29" r="3" fill="#9BB3FF"/>
+    </symbol>
+  </defs>
+  <rect x="1" y="1" width="958" height="558" rx="22" fill="#0D141B" stroke="#2B3947" stroke-width="2"/>
+  <rect x="2" y="2" width="956" height="556" rx="21" fill="url(#grid)" opacity=".56"/>
+  <text x="42" y="44" fill="#8ED5FF" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="700" letter-spacing="2">CORE STACK</text>
+  <text x="42" y="76" fill="#B9C7D5" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="22">One practical toolchain, from interface to client delivery</text>
+  <line x1="42" y1="94" x2="918" y2="94" stroke="#263440" stroke-width="2"/>
+  <line x1="42" y1="94" x2="450" y2="94" stroke="url(#spectrum)" stroke-width="2"/>
+
+  <g>
+    <rect x="42" y="120" width="420" height="180" rx="18" fill="#121D26" stroke="#2B3B48"/>
+    <text x="66" y="157" fill="#F4F7FA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="24" font-weight="700">Interface</text>
+    <text x="66" y="181" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">product surfaces and interaction</text>
+    <use href="#react" x="66" y="198" width="36" height="36"/><text x="112" y="223" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">React</text>
+    <use href="#typescript" x="260" y="198" width="36" height="36"/><text x="306" y="223" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">TypeScript</text>
+    <use href="#vite" x="66" y="246" width="36" height="36"/><text x="112" y="271" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">Vite</text>
+    <use href="#flow" x="260" y="246" width="36" height="36"/><text x="306" y="271" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">React Flow</text>
+  </g>
+
+  <g>
+    <rect x="498" y="120" width="420" height="180" rx="18" fill="#121D26" stroke="#2B3B48"/>
+    <text x="522" y="157" fill="#F4F7FA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="24" font-weight="700">AI runtime</text>
+    <text x="522" y="181" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">models, graphs, and tool calls</text>
+    <use href="#python" x="522" y="198" width="36" height="36"/><text x="568" y="223" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">Python</text>
+    <use href="#pytorch" x="716" y="198" width="36" height="36"/><text x="762" y="223" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">PyTorch</text>
+    <use href="#langgraph" x="522" y="246" width="36" height="36"/><text x="568" y="271" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">LangGraph</text>
+    <use href="#mcp" x="716" y="246" width="36" height="36"/><text x="762" y="271" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">MCP</text>
+  </g>
+
+  <g>
+    <rect x="42" y="324" width="420" height="180" rx="18" fill="#121D26" stroke="#2B3B48"/>
+    <text x="66" y="361" fill="#F4F7FA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="24" font-weight="700">Services + data</text>
+    <text x="66" y="385" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">APIs, state, and persistence</text>
+    <use href="#node" x="66" y="402" width="36" height="36"/><text x="112" y="427" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">Node.js</text>
+    <use href="#nest" x="260" y="402" width="36" height="36"/><text x="306" y="427" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">NestJS</text>
+    <use href="#postgres" x="66" y="450" width="36" height="36"/><text x="112" y="475" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">PostgreSQL</text>
+    <use href="#redis" x="260" y="450" width="36" height="36"/><text x="306" y="475" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">Redis</text>
+  </g>
+
+  <g>
+    <rect x="498" y="324" width="420" height="180" rx="18" fill="#121D26" stroke="#2B3B48"/>
+    <text x="522" y="361" fill="#F4F7FA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="24" font-weight="700">Client delivery</text>
+    <text x="522" y="385" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">desktop, source control, and streams</text>
+    <use href="#rust" x="522" y="402" width="36" height="36"/><text x="568" y="427" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">Rust</text>
+    <use href="#tauri" x="716" y="402" width="36" height="36"/><text x="762" y="427" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">Tauri</text>
+    <use href="#git" x="522" y="450" width="36" height="36"/><text x="568" y="475" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">Git</text>
+    <use href="#network" x="690" y="450" width="36" height="36"/><text x="736" y="475" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">SSE / WebSocket</text>
+  </g>
+  <text x="42" y="538" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15">HTML5 · CSS3 · JavaScript · Zustand · Webpack · Rspack · LangChain · pgvector · RBAC · diff / rollback</text>
+</svg>
