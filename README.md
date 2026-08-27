@@ -52,12 +52,12 @@ I turn AI and agent capabilities into products people can use: streaming interfa
 I use AI coding agents as force multipliers inside a human-led loop: understand the codebase, implement the change, test edge cases, document the decision, and review the result.
 
 <p align="center">
-  <a href="https://www.kimi.com/code/"><img class="agent-icon" src="assets/agent-kimi.svg" width="46" height="46" alt="Kimi Code logo used in AI coding workflow"><br><sub>Kimi Code</sub></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://openai.com/codex/"><img class="agent-icon" src="assets/agent-codex.svg" width="46" height="46" alt="Codex logo used in AI coding workflow"><br><sub>Codex</sub></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://pi.dev/"><img class="agent-icon" src="assets/agent-pi.svg" width="46" height="46" alt="Pi logo used in AI coding workflow"><br><sub>Pi</sub></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://www.anthropic.com/claude-code"><img class="agent-icon" src="assets/agent-claude.svg" width="46" height="46" alt="Claude Code logo used in AI coding workflow"><br><sub>Claude Code</sub></a>
+  <a href="https://www.kimi.com/code/" title="Kimi Code"><img class="agent-icon" src="assets/agent-kimi.svg" width="46" height="46" alt="Kimi Code logo used in AI coding workflow"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://openai.com/codex/" title="Codex"><img class="agent-icon" src="assets/agent-codex.svg" width="46" height="46" alt="Codex logo used in AI coding workflow"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://pi.dev/" title="Pi"><img class="agent-icon" src="assets/agent-pi.svg" width="46" height="46" alt="Pi logo used in AI coding workflow"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://www.anthropic.com/claude-code" title="Claude Code"><img class="agent-icon" src="assets/agent-claude.svg" width="46" height="46" alt="Claude Code logo used in AI coding workflow"></a>
   <br>
-  <sub>AI coding agents I use in a human-led engineering loop</sub>
+  <sub>AI coding agents I use · Kimi Code · Codex · Pi · Claude Code</sub>
 </p>
 
 ## What the demo shows
