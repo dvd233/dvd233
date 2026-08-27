@@ -50,7 +50,7 @@ I turn AI capabilities into products people can use: streaming interfaces, local
 
 ## AI coding workflow
 
-My coding-agent toolkit includes Kimi Code, Codex, Pi, Claude Code, Hermes, OpenCode, and ZCode. I use these tools inside a human-led loop: understand the codebase, implement the change, test edge cases, document decisions, and review the result.
+My coding-agent toolkit includes Kimi Code, Codex, Pi, Claude Code, Hermes, OpenCode, and ZCode. I also track DeepSeek Harness as part of the surrounding agent tooling ecosystem. I use these tools inside a human-led loop: understand the codebase, implement the change, test edge cases, document decisions, and review the result.
 
 <div align="center">
   <div class="agent-grid" role="group" aria-label="Coding agents used in my workflow">
@@ -90,7 +90,7 @@ I work on real issues across AI agent systems, desktop UX, web tooling, civic da
 
 ### Contribution map
 
-- **Civic data delivery** · [open-city-ai/haidian](https://github.com/open-city-ai/haidian) · `25 PRs · 23 merged · 2 open`<br>Structured submissions, geometry sources, deterministic artifacts, and review semantics.
+- **Civic data delivery** · [open-city-ai/haidian](https://github.com/open-city-ai/haidian) · `26 PRs · 25 merged · 1 open`<br>Structured submissions, geometry sources, deterministic artifacts, and review semantics.
 - **AI agent systems** · [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · `2 open`<br>AI system correctness and Windows subprocess behavior.
 - **Agent memory and Node.js** · [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) · `3 open`<br>Proxy preservation, SQLite filtering, and self-healing store state.
 - **Code review tooling** · [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · `1 open`<br>Go configuration and Jinja template support for review workflows.
@@ -152,7 +152,7 @@ One additional merged documentation PR lives in [26.6.13-codex1#2](https://githu
   **PR**: [open-city-ai/haidian#3982](https://github.com/open-city-ai/haidian/pull/3982); the original blocked head was re-reviewed and merged without weakening existing gates.
 </details>
 
-<sub>Latest merged follow-through: [open-city-ai/haidian#4011](https://github.com/open-city-ai/haidian/pull/4011), publish bounded per-dimension repairs in PR comments.</sub>
+<sub>Latest merged follow-through: [open-city-ai/haidian#3821](https://github.com/open-city-ai/haidian/pull/3821), expose synthetic capacity gates in review carriers.</sub>
 
 ### In review now
 
@@ -176,9 +176,8 @@ One additional merged documentation PR lives in [26.6.13-codex1#2](https://githu
 </details>
 
 <details>
-  <summary><strong>Civic data workflow · 2 open PRs</strong></summary>
+  <summary><strong>Civic data workflow · 1 open PR</strong></summary>
 
-  - [open-city-ai/haidian#3821](https://github.com/open-city-ai/haidian/pull/3821): expose synthetic-capacity gates in review carriers; currently in upstream review.
   - [open-city-ai/haidian#4106](https://github.com/open-city-ai/haidian/pull/4106): add a CJK font screenshot regression for the rendered artifact flow; currently in upstream review.
 </details>
 
