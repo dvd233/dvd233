@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="128" viewBox="0 0 960 128" role="img" aria-labelledby="title desc">
-  <title id="title">Hi, I'm dvd233. AI Full-Stack Engineer.</title>
-  <desc id="desc">A dark graphite identity card with a spectral gradient accent and the words Hi, I'm dvd233. AI Full-Stack Engineer.</desc>
+  <title id="title">Hi, I'm dvd. AI Full-Stack Engineer.</title>
+  <desc id="desc">A dark graphite identity card with a spectral gradient accent and the words Hi, I'm dvd. AI Full-Stack Engineer.</desc>
   <defs>
     <linearGradient id="spectrum" x1="0" x2="1" y1="0" y2="0">
       <stop offset="0" stop-color="#8200B4"/>
@@ -16,7 +16,7 @@
   <rect x="1" y="1" width="958" height="126" rx="18" fill="#0F141B" stroke="#2B3947" stroke-width="2"/>
   <rect x="24" y="24" width="8" height="80" rx="4" fill="url(#spectrum)"/>
   <circle cx="58" cy="38" r="5" fill="#00FF92"/>
-  <text x="78" y="55" fill="#F4F7FA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="27" font-weight="700">Hi, I'm <tspan fill="#B9C7D5">dvd233</tspan>.</text>
+  <text x="78" y="55" fill="#F4F7FA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="27" font-weight="700">Hi, I'm <tspan fill="#B9C7D5">dvd</tspan>.</text>
   <text x="78" y="91" fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="24" font-weight="700">AI Full-Stack Engineer</text>
   <text x="530" y="52" fill="#8B97A3" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">frontend · client · imaging</text>
   <text x="530" y="77" fill="#8B97A3" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">evidence-first delivery</text>

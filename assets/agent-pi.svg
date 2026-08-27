@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Pi</title>
+  <desc id="desc">A warm amber pi symbol for the Pi coding agent.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3A1E0D"/>
+      <stop offset="1" stop-color="#C76B22"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="62" height="62" rx="16" fill="url(#bg)" stroke="#FFC875" stroke-width="2"/>
+  <text x="32" y="44" text-anchor="middle" fill="#FFF8EA" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="700">π</text>
+  <path d="M17 50h30" stroke="#FFDCA6" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+</svg>

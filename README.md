@@ -5,15 +5,15 @@
 -->
 
 <p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/dvd233/dvd233@a9e0e32e544dc7cbafe1de8c0cc99e64aa82d55b/assets/demo-sanitized-1080p30-muted.mp4">
+  <a href="https://cdn.jsdelivr.net/gh/dvd233/dvd233@main/assets/demo-sanitized-1080p60-muted.mp4">
     <img src="assets/demo-loop.webp" width="100%" alt="Looping preview of a two-person team's private hyperspectral reconstruction prototype: camera capture, 30-band reconstruction from 400 to 690 nanometres, and a sampled spectral curve.">
   </a>
 </p>
 
-<p align="center"><sub>↗ Click the loop to open the full muted demo · 10.77 s · 400–690 nm</sub></p>
+<p align="center"><sub>↗ Click the loop to open the full muted demo · 10.75 s · 1920×1080 · 60 fps · 400–690 nm</sub></p>
 
 <p align="center">
-  <img src="assets/intro-card.svg" width="100%" alt="Hi, I'm dvd233. AI Full-Stack Engineer.">
+  <img src="assets/intro-card.svg" width="100%" alt="Hi, I'm dvd. AI Full-Stack Engineer.">
 </p>
 
 > I build reliable AI applications end to end, from frontend and client experiences to agent runtimes, APIs, and data workflows, grounded in computational imaging and evidence-first engineering.
@@ -28,8 +28,6 @@
   <code>🧾 evidence-first</code>
 </p>
 
-构建可靠的 AI 全栈应用与前端/客户端体验，以计算成像和证据驱动工程形成技术纵深。
-
 ## 👋 About
 
 I turn AI and agent capabilities into end-to-end interfaces and local tools people can actually inspect, use, and verify. My strongest overlap is **AI full-stack engineering with frontend, client, orchestration, and data delivery**; computational imaging gives that work a real systems constraint, and open-source collaboration keeps the claims honest.
@@ -43,16 +41,16 @@ I turn AI and agent capabilities into end-to-end interfaces and local tools peop
 
 ## 🧰 AI engineering workflow
 
-I use AI coding agents across the engineering loop: exploring unfamiliar codebases, implementing features, debugging, designing tests, documenting decisions, and preparing reviewable changes.
+I use AI coding agents as part of a reviewable engineering loop: exploring unfamiliar codebases, implementing features, debugging failures, designing tests, documenting decisions, and preparing changes for review.
 
 <p align="center">
-  <code>Kimi Code</code>&nbsp;&nbsp;
-  <code>Codex</code>&nbsp;&nbsp;
-  <code>Pi</code>&nbsp;&nbsp;
-  <code>Claude Code</code>
+  <a href="https://www.kimi.com/code/"><img class="agent-icon" src="assets/agent-kimi.svg" width="46" height="46" alt="Kimi Code AI coding agent icon"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://openai.com/codex/"><img class="agent-icon" src="assets/agent-codex.svg" width="46" height="46" alt="Codex AI coding agent icon"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://pi.dev/"><img class="agent-icon" src="assets/agent-pi.svg" width="46" height="46" alt="Pi AI coding agent icon"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://www.anthropic.com/claude-code"><img class="agent-icon" src="assets/agent-claude.svg" width="46" height="46" alt="Claude Code AI coding agent icon"></a>
+  <br>
+  <sub>Common AI coding agents · Kimi Code · Codex · Pi · Claude Code</sub>
 </p>
-
-将 AI 编程工具融入代码理解、实现、调试、测试、文档与评审流程；架构决策、验证和最终改动仍由我负责。
 
 ## 🎬 What the demo shows
 
@@ -70,7 +68,7 @@ Open source is where I practice the same loop I bring to product work: **reprodu
   <code>7 upstream repositories</code>
 </p>
 
-<sub>Public snapshot · 27 Aug 2026 · plus one merged documentation PR in my own repository. Counts are time-bound; open work is shown as collaboration in review, not as shipped product.</sub>
+<sub>Public snapshot · 28 Aug 2026 · plus one merged documentation PR in my own repository. Counts are time-bound; open work is shown as collaboration in review, not as shipped product.</sub>
 
 ### 🧩 Contribution map
 
