@@ -8,14 +8,11 @@ Open to AI application engineering opportunities.
 
 构建可靠的 AI 应用与前端/客户端体验，以计算成像和证据驱动工程形成技术纵深。
 
-<!-- PUBLICATION GATE: the poster below links to the local sanitized derivative.
-     Before publishing, replace the href with the public GitHub-hosted video URL
-     (uploaded attachment or agreed platform) after media QA passes. -->
-<a href="assets/demo-sanitized-1080p30-muted.mp4">
+<a href="https://cdn.jsdelivr.net/gh/dvd233/dvd233@a9e0e32e544dc7cbafe1de8c0cc99e64aa82d55b/assets/demo-sanitized-1080p30-muted.mp4">
   <img src="assets/demo-poster-1920x1080.png" alt="Screen recording poster of a hyperspectral image processing desktop app: a live color-checker capture on the left, a 30-band spectral reconstruction grid sweeping from violet 400 nm to deep red 690 nm on the right, and a per-point spectral curve at lower left.">
 </a>
 
-<sub>Earlier private prototype · co-developed in a two-person team · sanitized demo, publication pending · wavelength ruler marks the real 400–690 nm reconstruction range</sub>
+<sub>Earlier private prototype · co-developed in a two-person team · public demo · wavelength ruler marks the real 400–690 nm reconstruction range</sub>
 
 ## What the demo shows
 
