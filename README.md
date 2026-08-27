@@ -4,42 +4,42 @@
   the visual system without third-party stats or badge services.
 -->
 
+<div align="center">
+  <img class="intro-card" src="assets/intro-card.svg" width="100%" alt="Hi, I'm dvd. AI Full-Stack Engineer.">
+</div>
+
 <p align="center">
   <a href="https://cdn.jsdelivr.net/gh/dvd233/dvd233@23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4">
-    <img src="assets/demo-loop.webp" width="100%" alt="Looping preview of a two-person team's private hyperspectral reconstruction prototype: camera capture, 30-band reconstruction from 400 to 690 nanometres, and a sampled spectral curve.">
+    <img class="demo-preview" src="assets/demo-loop.webp" width="100%" alt="Looping preview of a two-person team's private hyperspectral reconstruction prototype: camera capture, 30-band reconstruction from 400 to 690 nanometres, and a sampled spectral curve.">
   </a>
 </p>
 
-<p align="center"><sub>Click the loop to open the full muted demo · 10.75 s · 1920x1080 · 60 fps · 400-690 nm</sub></p>
+<p align="center"><sub class="demo-caption">Click the preview to open the full muted demo. 10.75 s, 1920x1080, 60 fps, 400-690 nm.</sub></p>
 
-<p align="center">
-  <img src="assets/intro-card.svg" width="100%" alt="Hi, I'm dvd. AI Full-Stack Engineer.">
-</p>
-
-> I build reliable AI applications end to end, from frontend and client experiences to agent runtimes, APIs, and data workflows, with computational imaging as a technical edge.
+> I build reliable AI applications end to end, connecting product interfaces, agent workflows, APIs, and data systems. Computational imaging is my technical edge.
 
 <p align="center">
   <code>AI applications</code>&nbsp;&nbsp;
   <code>frontend + client systems</code>&nbsp;&nbsp;
-  <code>agent runtimes</code>&nbsp;&nbsp;
+  <code>agent workflows</code>&nbsp;&nbsp;
   <code>computational imaging</code>
 </p>
 
 ## About
 
-I turn AI and agent capabilities into products people can use: streaming interfaces, local client workflows, orchestration, APIs, and data delivery. My strongest overlap is AI full-stack engineering, with computational imaging and open-source collaboration adding depth.
+I turn AI capabilities into products people can use: streaming interfaces, local client workflows, orchestration, APIs, and data delivery. My main lane is AI full-stack engineering, with computational imaging and open-source collaboration adding technical depth.
 
 ## Engineering focus
 
 - **AI application engineering**: turning LLM and agent capabilities into product flows across UI, orchestration, APIs, and data.
-- **Frontend and client systems**: building streaming interfaces, desktop workflows, device-facing controls, and cross-platform behavior.
-- **Agent runtimes and data**: working with RAG, DAG execution, model routing, MCP, SSE, RBAC, state, and storage.
-- **Computational imaging**: bringing reconstruction research into usable software through camera acquisition, spectral visualization, and result handling.
+- **Frontend and client engineering**: building streaming interfaces, desktop workflows, device-facing controls, and cross-platform behavior.
+- **Agent workflows and data systems**: working with RAG, DAG execution, model routing, MCP, SSE, RBAC, state, and storage.
+- **Computational imaging**: turning reconstruction research into usable software through camera acquisition, spectral visualization, and result handling.
 
 ## Core stack
 
 <p align="center">
-  <img class="tech-stack" src="assets/tech-stack.svg" width="100%" alt="Core stack across interface, AI applications, services, data, and client delivery: HTML5, CSS3, JavaScript, TypeScript, React, React Flow, Zustand, Vite, Node.js, NestJS, Python, PyTorch, LangGraph, RAG, MCP, SSE, WebSocket, PostgreSQL, pgvector, Redis, Rust, Tauri, Git, Windows, and PyInstaller.">
+  <img class="tech-stack" src="assets/tech-stack.svg" width="100%" alt="Core stack across interface, AI applications, backend and data, client delivery, and spectral imaging: HTML5, CSS3, JavaScript, TypeScript, React, React Flow, Zustand, Vite, Node.js, NestJS, Python, PyTorch, LangGraph, RAG, MCP, SSE, WebSocket, PostgreSQL, pgvector, Redis, Rust, Tauri, Git, Windows, PyInstaller, and camera workflows.">
 </p>
 
 - **Interface**: HTML5, CSS3, JavaScript, TypeScript, React, React Flow, Zustand, Vite, Webpack, and Rspack.
@@ -47,18 +47,22 @@ I turn AI and agent capabilities into products people can use: streaming interfa
 - **Services and data**: Node.js, NestJS, Python, PyTorch, PostgreSQL, pgvector, Redis, DAG execution, RBAC, snapshots, and structured diff or rollback.
 - **Client delivery**: Rust, Tauri, Git, Windows tooling, PyInstaller, camera workflows, and desktop result handling.
 
-## AI engineering workflow
+## AI coding workflow
 
-I use AI coding agents as force multipliers inside a human-led loop: understand the codebase, implement the change, test edge cases, document the decision, and review the result.
+My coding-agent toolkit includes Kimi Code, Codex, Pi, Claude Code, Hermes, OpenCode, and ZCode. I use these tools inside a human-led loop: understand the codebase, implement the change, test edge cases, document decisions, and review the result.
 
-<p align="center">
-  <a href="https://www.kimi.com/code/" title="Kimi Code"><img class="agent-icon" src="assets/agent-kimi.svg" width="46" height="46" alt="Kimi Code logo used in AI coding workflow"></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://openai.com/codex/" title="Codex"><img class="agent-icon" src="assets/agent-codex.svg" width="46" height="46" alt="Codex logo used in AI coding workflow"></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://pi.dev/" title="Pi"><img class="agent-icon" src="assets/agent-pi.svg" width="46" height="46" alt="Pi logo used in AI coding workflow"></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://www.anthropic.com/claude-code" title="Claude Code"><img class="agent-icon" src="assets/agent-claude.svg" width="46" height="46" alt="Claude Code logo used in AI coding workflow"></a>
-  <br>
-  <sub>AI coding agents I use · Kimi Code · Codex · Pi · Claude Code</sub>
-</p>
+<div align="center">
+  <span class="agent-grid" role="group" aria-label="Coding agents used in my workflow">
+    <a href="https://github.com/MoonshotAI/kimi-cli" title="Kimi Code"><img class="agent-icon" src="assets/agent-kimi-official.png" width="46" height="46" alt="Official Kimi Code agent mark from Moonshot AI"></a>&nbsp;
+    <a href="https://github.com/openai/codex" title="Codex"><img class="agent-icon" src="assets/agent-codex-official.png" width="46" height="46" alt="Official OpenAI mark used for Codex"></a>&nbsp;
+    <a href="https://pi.dev/" title="Pi"><img class="agent-icon" src="assets/agent-pi-official.svg" width="46" height="46" alt="Official Pi coding agent mark from pi.dev"></a>&nbsp;
+    <a href="https://github.com/anthropics/claude-code" title="Claude Code"><img class="agent-icon" src="assets/agent-claude-official.png" width="46" height="46" alt="Official Anthropic mark used for Claude Code"></a>&nbsp;
+    <a href="https://github.com/NousResearch/hermes-agent" title="Hermes"><img class="agent-icon" src="assets/agent-hermes-official.png" width="46" height="46" alt="Official Nous Research mark for the Hermes agent"></a>&nbsp;
+    <a href="https://github.com/anomalyco/opencode" title="OpenCode"><img class="agent-icon" src="assets/agent-opencode-official.svg" width="46" height="46" alt="Official OpenCode coding agent mark"></a>&nbsp;
+    <a href="https://github.com/zai-org/zcode-plugins" title="ZCode"><img class="agent-icon" src="assets/agent-zcode-official.svg" width="46" height="46" alt="Official ZCode plugin ecosystem mark from Z.ai"></a>
+  </span>
+  <sub>Kimi Code / Codex / Pi · Claude Code / Hermes / OpenCode / ZCode</sub>
+</div>
 
 ## What the demo shows
 
@@ -71,26 +75,26 @@ I was responsible for the lightweight deep-learning reconstruction and dataset w
 I am using a dated local snapshot instead of a live stats service. GitHub currently returns no language bytes for my three owned repositories, so a Most Used Languages chart would not represent my working stack.
 
 <p align="center">
-  <a href="https://github.com/search?q=author%3Advd233+is%3Apr&type=pullrequests"><img class="github-footprint" src="assets/github-footprint.svg" width="100%" alt="Static GitHub footprint snapshot dated 28 August 2026: 36 public pull requests, 24 merged, 11 open, and 7 active upstream repositories; 23 merged were upstream and 1 was in my own repository."></a>
+  <img class="github-footprint" src="assets/github-footprint.svg" width="100%" alt="Static GitHub footprint snapshot dated 28 August 2026: 36 public pull requests, 24 merged, 11 open, and 7 active upstream repositories; 23 merged were upstream and 1 was in my own repository.">
 </p>
 
 <sub>Snapshot: 28 Aug 2026. Counts are time-bound; open work is shown as collaboration in review, not as shipped product.</sub>
 
 ## Open-source contributions
 
-I work on real issues across AI runtimes, desktop UX, web tooling, civic data, and cross-platform behavior.
+I work on real issues across AI agent systems, desktop UX, web tooling, civic data, and cross-platform behavior.
 
 ### Contribution map
 
 - **Civic data delivery** · [open-city-ai/haidian](https://github.com/open-city-ai/haidian) · `25 PRs · 23 merged · 2 open`<br>Structured submissions, geometry sources, deterministic artifacts, and review semantics.
-- **AI and agent runtimes** · [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · `2 open`<br>AI runtime correctness and Windows subprocess behavior.
-- **Agent memory and Node runtime** · [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) · `3 open`<br>Proxy preservation, SQLite filtering, and self-healing store state.
+- **AI agent systems** · [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · `2 open`<br>AI system correctness and Windows subprocess behavior.
+- **Agent memory and Node.js** · [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) · `3 open`<br>Proxy preservation, SQLite filtering, and self-healing store state.
 - **Code review tooling** · [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · `1 open`<br>Go configuration and Jinja template support for review workflows.
 - **Desktop UX** · [desktop/desktop](https://github.com/desktop/desktop) · `1 open`<br>React and TypeScript pull-request state and suggestion behavior.
 - **Web tooling** · [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) · `1 open`<br>Correct UTF-8 BOM JSON parsing in the resolver path.
 - **Search and coordinates** · [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) · `1 open`<br>C++ search behavior for space-separated DMS coordinates.
 
-One additional merged documentation PR lives in [dvd233/26.6.13-codex1#2](https://github.com/dvd233/26.6.13-codex1/pull/2); it is counted separately from upstream work.
+One additional merged documentation PR lives in [26.6.13-codex1#2](https://github.com/dvd233/26.6.13-codex1/pull/2); it is counted separately from upstream work.
 
 ### Merged proof
 
@@ -149,7 +153,7 @@ One additional merged documentation PR lives in [dvd233/26.6.13-codex1#2](https:
 ### In review now
 
 <details>
-  <summary><strong>AI and agent runtime · 5 open PRs</strong></summary>
+  <summary><strong>AI agent systems · 5 open PRs</strong></summary>
 
   - [agentscope-ai/agentscope#2434](https://github.com/agentscope-ai/agentscope/pull/2434): disable Uvicorn hot reload on Windows so subprocess execution keeps a compatible event loop.
   - [agentscope-ai/agentscope#2435](https://github.com/agentscope-ai/agentscope/pull/2435): preserve <code>encrypted_content</code> on Responses reasoning items for stateless multi-turn calls.
@@ -173,8 +177,6 @@ One additional merged documentation PR lives in [dvd233/26.6.13-codex1#2](https:
   - [open-city-ai/haidian#3821](https://github.com/open-city-ai/haidian/pull/3821): expose synthetic-capacity gates in review carriers; currently in upstream review.
   - [open-city-ai/haidian#4106](https://github.com/open-city-ai/haidian/pull/4106): add a CJK font screenshot regression for the rendered artifact flow; currently in upstream review.
 </details>
-
-<p align="center"><a href="https://github.com/search?q=author%3Advd233+is%3Apr&type=pullrequests">Browse the full public PR trail</a></p>
 
 ## Education
 

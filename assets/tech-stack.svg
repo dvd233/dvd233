@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
   <title id="title">Core stack for AI application delivery</title>
-  <desc id="desc">A local technology stack card showing React, TypeScript, Vite, React Flow, Python, PyTorch, LangGraph, MCP, Node.js, NestJS, PostgreSQL, Redis, Rust, Tauri, Git, and SSE or WebSocket.</desc>
+  <desc id="desc">A local technology stack card showing interface, AI systems, backend and data, client delivery, and spectral imaging tools.</desc>
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" fill="none" stroke="#1B2934" stroke-width="1" opacity=".58"/>
@@ -92,7 +92,7 @@
   <rect x="1" y="1" width="958" height="558" rx="22" fill="#0D141B" stroke="#2B3947" stroke-width="2"/>
   <rect x="2" y="2" width="956" height="556" rx="21" fill="url(#grid)" opacity=".56"/>
   <text x="42" y="44" fill="#8ED5FF" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="700" letter-spacing="2">CORE STACK</text>
-  <text x="42" y="76" fill="#B9C7D5" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="22">One practical toolchain, from interface to client delivery</text>
+  <text x="42" y="76" fill="#B9C7D5" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="22">A practical toolchain from product interface to spectral imaging</text>
   <line x1="42" y1="94" x2="918" y2="94" stroke="#263440" stroke-width="2"/>
   <line x1="42" y1="94" x2="450" y2="94" stroke="url(#spectrum)" stroke-width="2"/>
 
@@ -108,7 +108,7 @@
 
   <g>
     <rect x="498" y="120" width="420" height="180" rx="18" fill="#121D26" stroke="#2B3B48"/>
-    <text x="522" y="157" fill="#F4F7FA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="24" font-weight="700">AI runtime</text>
+    <text x="522" y="157" fill="#F4F7FA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="24" font-weight="700">AI systems</text>
     <text x="522" y="181" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">models, graphs, and tool calls</text>
     <use href="#python" x="522" y="198" width="36" height="36"/><text x="568" y="223" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">Python</text>
     <use href="#pytorch" x="716" y="198" width="36" height="36"/><text x="762" y="223" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">PyTorch</text>
@@ -118,7 +118,7 @@
 
   <g>
     <rect x="42" y="324" width="420" height="180" rx="18" fill="#121D26" stroke="#2B3B48"/>
-    <text x="66" y="361" fill="#F4F7FA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="24" font-weight="700">Services + data</text>
+    <text x="66" y="361" fill="#F4F7FA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="24" font-weight="700">Backend + data</text>
     <text x="66" y="385" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">APIs, state, and persistence</text>
     <use href="#node" x="66" y="402" width="36" height="36"/><text x="112" y="427" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">Node.js</text>
     <use href="#nest" x="260" y="402" width="36" height="36"/><text x="306" y="427" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">NestJS</text>
@@ -135,5 +135,5 @@
     <use href="#git" x="522" y="450" width="36" height="36"/><text x="568" y="475" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">Git</text>
     <use href="#network" x="690" y="450" width="36" height="36"/><text x="736" y="475" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">SSE / WebSocket</text>
   </g>
-  <text x="42" y="538" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15">HTML5 · CSS3 · JavaScript · Zustand · Webpack · Rspack · LangChain · pgvector · RBAC · diff / rollback</text>
+  <text x="42" y="538" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15">HTML5 / CSS3 / JavaScript / Zustand / Webpack / Rspack / LangChain / pgvector / RBAC / diff and rollback / 400-700 nm</text>
 </svg>
