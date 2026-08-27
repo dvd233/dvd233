@@ -71,7 +71,7 @@ I was responsible for the lightweight deep-learning reconstruction and dataset w
 I am using a dated local snapshot instead of a live stats service. GitHub currently returns no language bytes for my three owned repositories, so a Most Used Languages chart would not represent my working stack.
 
 <p align="center">
-  <a href="https://github.com/search?q=author%3Advd233+is%3Apr&type=pullrequests"><img class="github-footprint" src="assets/github-footprint.svg" width="100%" alt="Static GitHub footprint snapshot dated 28 August 2026: 35 public pull requests, 24 merged, 10 open, and 7 active upstream repositories; 23 merged were upstream and 1 was in my own repository."></a>
+  <a href="https://github.com/search?q=author%3Advd233+is%3Apr&type=pullrequests"><img class="github-footprint" src="assets/github-footprint.svg" width="100%" alt="Static GitHub footprint snapshot dated 28 August 2026: 36 public pull requests, 24 merged, 11 open, and 7 active upstream repositories; 23 merged were upstream and 1 was in my own repository."></a>
 </p>
 
 <sub>Snapshot: 28 Aug 2026. Counts are time-bound; open work is shown as collaboration in review, not as shipped product.</sub>
@@ -82,7 +82,7 @@ I work on real issues across AI runtimes, desktop UX, web tooling, civic data, a
 
 ### Contribution map
 
-- **Civic data delivery** · [open-city-ai/haidian](https://github.com/open-city-ai/haidian) · `24 PRs · 23 merged · 1 open`<br>Structured submissions, geometry sources, deterministic artifacts, and review semantics.
+- **Civic data delivery** · [open-city-ai/haidian](https://github.com/open-city-ai/haidian) · `25 PRs · 23 merged · 2 open`<br>Structured submissions, geometry sources, deterministic artifacts, and review semantics.
 - **AI and agent runtimes** · [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · `2 open`<br>AI runtime correctness and Windows subprocess behavior.
 - **Agent memory and Node runtime** · [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) · `3 open`<br>Proxy preservation, SQLite filtering, and self-healing store state.
 - **Code review tooling** · [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · `1 open`<br>Go configuration and Jinja template support for review workflows.
@@ -168,9 +168,10 @@ One additional merged documentation PR lives in [dvd233/26.6.13-codex1#2](https:
 </details>
 
 <details>
-  <summary><strong>Civic data workflow · 1 open PR</strong></summary>
+  <summary><strong>Civic data workflow · 2 open PRs</strong></summary>
 
   - [open-city-ai/haidian#3821](https://github.com/open-city-ai/haidian/pull/3821): expose synthetic-capacity gates in review carriers; currently in upstream review.
+  - [open-city-ai/haidian#4106](https://github.com/open-city-ai/haidian/pull/4106): add a CJK font screenshot regression for the rendered artifact flow; currently in upstream review.
 </details>
 
 <p align="center"><a href="https://github.com/search?q=author%3Advd233+is%3Apr&type=pullrequests">Browse the full public PR trail</a></p>
