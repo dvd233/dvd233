@@ -20,8 +20,8 @@ jobs:
         with:
           github_user_name: dvd233
           outputs: |
-            github-contribution-grid-snake.svg?color_snake=%23C84A4A&color_dots=%23E7EEF2,%23D8E9E7,%23A9EBD4,%2355D9C0,%237B2CBF
-            github-contribution-grid-snake-dark.svg?color_snake=%23F3B36C&color_dots=%23131D25,%231D3541,%23345D68,%2355D9C0,%23F3B36C
+            dist/github-contribution-grid-snake.svg?color_snake=%23C84A4A&color_dots=%23E7EEF2,%23D8E9E7,%23A9EBD4,%2355D9C0,%237B2CBF
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23F3B36C&color_dots=%23131D25,%231D3541,%23345D68,%2355D9C0,%23F3B36C
 
       - name: Publish generated SVGs to the output branch
         uses: peaceiris/actions-gh-pages@v4
