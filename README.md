@@ -61,15 +61,15 @@ My coding-agent toolkit includes Kimi Code, Codex, Pi, Claude Code, Hermes, Open
 <div align="center">
   <div class="agent-grid" role="group" aria-label="Coding agents used in my workflow">
     <p>
-      <span class="agent-item"><a href="https://github.com/MoonshotAI/kimi-cli" title="Kimi Code"><img class="agent-icon" src="assets/agent-kimi-official.png" width="36" height="36" align="middle" alt="Official Kimi Code agent mark from Moonshot AI"></a>&nbsp;<strong>Kimi Code</strong></span>&ensp;
-      <span class="agent-item"><a href="https://github.com/openai/codex" title="Codex"><img class="agent-icon" src="assets/agent-codex-official.png" width="36" height="36" align="middle" alt="Official OpenAI mark used for Codex"></a>&nbsp;<strong>Codex</strong></span>&ensp;
-      <span class="agent-item"><a href="https://pi.dev/" title="Pi"><img class="agent-icon" src="assets/agent-pi-official.svg" width="36" height="36" align="middle" alt="Official Pi coding agent mark from pi.dev"></a>&nbsp;<strong>Pi</strong></span>&ensp;
-      <span class="agent-item"><a href="https://github.com/anthropics/claude-code" title="Claude Code"><img class="agent-icon" src="assets/agent-claude-official.png" width="36" height="36" align="middle" alt="Official Anthropic mark used for Claude Code"></a>&nbsp;<strong>Claude Code</strong></span>
+      <span class="agent-item"><a href="https://github.com/MoonshotAI/kimi-cli" title="Kimi Code"><img class="agent-icon" src="assets/agent-kimi-official.png" width="36" height="36" align="absmiddle" alt="Official Kimi Code agent mark from Moonshot AI"></a>&nbsp;<strong>Kimi Code</strong></span>&ensp;
+      <span class="agent-item"><a href="https://github.com/openai/codex" title="Codex"><img class="agent-icon" src="assets/agent-codex-official.png" width="36" height="36" align="absmiddle" alt="Official OpenAI mark used for Codex"></a>&nbsp;<strong>Codex</strong></span>&ensp;
+      <span class="agent-item"><a href="https://pi.dev/" title="Pi"><img class="agent-icon" src="assets/agent-pi-official.svg" width="36" height="36" align="absmiddle" alt="Official Pi coding agent mark from pi.dev"></a>&nbsp;<strong>Pi</strong></span>&ensp;
+      <span class="agent-item"><a href="https://github.com/anthropics/claude-code" title="Claude Code"><img class="agent-icon" src="assets/agent-claude-official.png" width="36" height="36" align="absmiddle" alt="Official Anthropic mark used for Claude Code"></a>&nbsp;<strong>Claude Code</strong></span>
       <br><br>
-      <span class="agent-item"><a href="https://github.com/NousResearch/hermes-agent" title="Hermes"><img class="agent-icon" src="assets/agent-hermes-official.png" width="36" height="36" align="middle" alt="Official Nous Research mark for the Hermes agent"></a>&nbsp;<strong>Hermes</strong></span>&ensp;
-      <span class="agent-item"><a href="https://github.com/anomalyco/opencode" title="OpenCode"><img class="agent-icon" src="assets/agent-opencode-official.svg" width="36" height="36" align="middle" alt="Official OpenCode coding agent mark"></a>&nbsp;<strong>OpenCode</strong></span>&ensp;
-      <span class="agent-item"><a href="https://github.com/zai-org/zcode-plugins" title="ZCode"><img class="agent-icon" src="assets/agent-zcode-official.svg" width="36" height="36" align="middle" alt="Official ZCode plugin ecosystem mark from Z.ai"></a>&nbsp;<strong>ZCode</strong></span>&ensp;
-      <span class="agent-item"><a href="https://github.com/deepseek-ai/deepseek-harness" title="DeepSeek Harness"><img class="agent-icon" src="assets/agent-deepseek-harness-official.png" width="36" height="36" align="middle" alt="Official DeepSeek mark for the DeepSeek Harness project"></a>&nbsp;<strong>DeepSeek Harness</strong></span>
+      <span class="agent-item"><a href="https://github.com/NousResearch/hermes-agent" title="Hermes"><img class="agent-icon" src="assets/agent-hermes-official.png" width="36" height="36" align="absmiddle" alt="Official Nous Research mark for the Hermes agent"></a>&nbsp;<strong>Hermes</strong></span>&ensp;
+      <span class="agent-item"><a href="https://github.com/anomalyco/opencode" title="OpenCode"><img class="agent-icon" src="assets/agent-opencode-official.svg" width="36" height="36" align="absmiddle" alt="Official OpenCode coding agent mark"></a>&nbsp;<strong>OpenCode</strong></span>&ensp;
+      <span class="agent-item"><a href="https://github.com/zai-org/zcode-plugins" title="ZCode"><img class="agent-icon" src="assets/agent-zcode-official.svg" width="36" height="36" align="absmiddle" alt="Official ZCode plugin ecosystem mark from Z.ai"></a>&nbsp;<strong>ZCode</strong></span>&ensp;
+      <span class="agent-item"><a href="https://github.com/deepseek-ai/deepseek-harness" title="DeepSeek Harness"><img class="agent-icon" src="assets/agent-deepseek-harness-official.png" width="36" height="36" align="absmiddle" alt="Official DeepSeek mark for the DeepSeek Harness project"></a>&nbsp;<strong>DeepSeek Harness</strong></span>
     </p>
   </div>
 </div>
@@ -87,8 +87,6 @@ I work on real issues across AI agent systems, desktop UX, web tooling, civic da
 - **Desktop UX** · [desktop/desktop](https://github.com/desktop/desktop) · `1 open`<br>React and TypeScript pull-request state and suggestion behavior.
 - **Web tooling** · [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) · `1 open`<br>Correct UTF-8 BOM JSON parsing in the resolver path.
 - **Search and coordinates** · [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) · `1 open`<br>C++ search behavior for space-separated DMS coordinates.
-
-One additional merged documentation PR lives in [26.6.13-codex1#2](https://github.com/dvd233/26.6.13-codex1/pull/2); it is counted separately from upstream work.
 
 ### Merged proof
 
