@@ -17,6 +17,12 @@
 
 <p align="center"><sub class="demo-caption">Click the preview to open the full muted demo. 10.75 s, 1920x1080, 60 fps, 400-690 nm.</sub></p>
 
+## What the demo shows
+
+This is an **earlier private hyperspectral reconstruction prototype**, co-developed in a two-person team. The public loop and full demo show a desktop workflow for camera acquisition, lightweight deep-learning reconstruction, 30-band spectral display across 400-690 nm, per-point spectral curves, and result saving.
+
+I was responsible for the lightweight deep-learning reconstruction and dataset work, plus the camera acquisition, desktop UI, spectral visualization, and result-saving modules. Code and data remain private because of research and industry-collaboration constraints.
+
 > I build reliable AI applications end to end, connecting product interfaces, agent workflows, APIs, and data systems. Computational imaging is my technical edge.
 
 <p align="center">
@@ -55,34 +61,18 @@ My coding-agent toolkit includes Kimi Code, Codex, Pi, Claude Code, Hermes, Open
 <div align="center">
   <div class="agent-grid" role="group" aria-label="Coding agents used in my workflow">
     <p>
-      <a href="https://github.com/MoonshotAI/kimi-cli" title="Kimi Code"><img class="agent-icon" src="assets/agent-kimi-official.png" width="40" height="40" alt="Official Kimi Code agent mark from Moonshot AI">&nbsp;<strong>Kimi Code</strong></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://github.com/openai/codex" title="Codex"><img class="agent-icon" src="assets/agent-codex-official.png" width="40" height="40" alt="Official OpenAI mark used for Codex">&nbsp;<strong>Codex</strong></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://pi.dev/" title="Pi"><img class="agent-icon" src="assets/agent-pi-official.svg" width="40" height="40" alt="Official Pi coding agent mark from pi.dev">&nbsp;<strong>Pi</strong></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://github.com/anthropics/claude-code" title="Claude Code"><img class="agent-icon" src="assets/agent-claude-official.png" width="40" height="40" alt="Official Anthropic mark used for Claude Code">&nbsp;<strong>Claude Code</strong></a>
+      <span class="agent-item"><a href="https://github.com/MoonshotAI/kimi-cli" title="Kimi Code"><img class="agent-icon" src="assets/agent-kimi-official.png" width="36" height="36" align="middle" alt="Official Kimi Code agent mark from Moonshot AI"></a>&nbsp;<strong>Kimi Code</strong></span>&ensp;
+      <span class="agent-item"><a href="https://github.com/openai/codex" title="Codex"><img class="agent-icon" src="assets/agent-codex-official.png" width="36" height="36" align="middle" alt="Official OpenAI mark used for Codex"></a>&nbsp;<strong>Codex</strong></span>&ensp;
+      <span class="agent-item"><a href="https://pi.dev/" title="Pi"><img class="agent-icon" src="assets/agent-pi-official.svg" width="36" height="36" align="middle" alt="Official Pi coding agent mark from pi.dev"></a>&nbsp;<strong>Pi</strong></span>&ensp;
+      <span class="agent-item"><a href="https://github.com/anthropics/claude-code" title="Claude Code"><img class="agent-icon" src="assets/agent-claude-official.png" width="36" height="36" align="middle" alt="Official Anthropic mark used for Claude Code"></a>&nbsp;<strong>Claude Code</strong></span>
       <br><br>
-      <a href="https://github.com/NousResearch/hermes-agent" title="Hermes"><img class="agent-icon" src="assets/agent-hermes-official.png" width="40" height="40" alt="Official Nous Research mark for the Hermes agent">&nbsp;<strong>Hermes</strong></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://github.com/anomalyco/opencode" title="OpenCode"><img class="agent-icon" src="assets/agent-opencode-official.svg" width="40" height="40" alt="Official OpenCode coding agent mark">&nbsp;<strong>OpenCode</strong></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://github.com/zai-org/zcode-plugins" title="ZCode"><img class="agent-icon" src="assets/agent-zcode-official.svg" width="40" height="40" alt="Official ZCode plugin ecosystem mark from Z.ai">&nbsp;<strong>ZCode</strong></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://github.com/deepseek-ai/deepseek-harness" title="DeepSeek Harness"><img class="agent-icon" src="assets/agent-deepseek-harness-official.png" width="40" height="40" alt="Official DeepSeek mark for the DeepSeek Harness project">&nbsp;<strong>DeepSeek Harness</strong></a>
+      <span class="agent-item"><a href="https://github.com/NousResearch/hermes-agent" title="Hermes"><img class="agent-icon" src="assets/agent-hermes-official.png" width="36" height="36" align="middle" alt="Official Nous Research mark for the Hermes agent"></a>&nbsp;<strong>Hermes</strong></span>&ensp;
+      <span class="agent-item"><a href="https://github.com/anomalyco/opencode" title="OpenCode"><img class="agent-icon" src="assets/agent-opencode-official.svg" width="36" height="36" align="middle" alt="Official OpenCode coding agent mark"></a>&nbsp;<strong>OpenCode</strong></span>&ensp;
+      <span class="agent-item"><a href="https://github.com/zai-org/zcode-plugins" title="ZCode"><img class="agent-icon" src="assets/agent-zcode-official.svg" width="36" height="36" align="middle" alt="Official ZCode plugin ecosystem mark from Z.ai"></a>&nbsp;<strong>ZCode</strong></span>&ensp;
+      <span class="agent-item"><a href="https://github.com/deepseek-ai/deepseek-harness" title="DeepSeek Harness"><img class="agent-icon" src="assets/agent-deepseek-harness-official.png" width="36" height="36" align="middle" alt="Official DeepSeek mark for the DeepSeek Harness project"></a>&nbsp;<strong>DeepSeek Harness</strong></span>
     </p>
   </div>
 </div>
-
-## What the demo shows
-
-This is an **earlier private hyperspectral reconstruction prototype**, co-developed in a two-person team. The public loop and full demo show a desktop workflow for camera acquisition, lightweight deep-learning reconstruction, 30-band spectral display across 400-690 nm, per-point spectral curves, and result saving.
-
-I was responsible for the lightweight deep-learning reconstruction and dataset work, plus the camera acquisition, desktop UI, spectral visualization, and result-saving modules. Code and data remain private because of research and industry-collaboration constraints.
-
-## Most Used Languages
-
-GitHub's repository language API currently returns no byte counts for my three owned repositories, so this card reports the result instead of inventing a percentage split.
-
-<p align="center">
-  <img class="most-used-languages" src="assets/most-used-languages.svg" width="100%" alt="Most Used Languages status card dated 28 August 2026: GitHub returned no language byte counts for dvd233's three owned repositories, so no percentage chart is shown.">
-</p>
-
-<sub>Direct API check: 28 Aug 2026. The card reports the result instead of inventing a ranking.</sub>
 
 ## Open-source contributions
 
@@ -201,5 +191,5 @@ Undergraduate background in Network Engineering at BUPT
 <p align="center"><sub>Animated SVG generated from the public contribution calendar by a scheduled <a href="https://github.com/Platane/snk">Platane/snk</a> workflow.</sub></p>
 
 <p align="center">
-  <img class="footer-card" src="assets/footer-card.svg" width="100%" alt="Static spectral snake artwork for dvd's profile footer, showing a contribution-inspired trail on a grid and explicitly not live GitHub activity data.">
+  <img class="footer-card" src="assets/footer-card.svg" width="100%" alt="Spectral trace footer artwork for dvd's profile, with a contribution-inspired trail on an engineering grid and a 400 to 700 nanometre axis.">
 </p>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
-  <title id="title">Static spectral trace outro</title>
-  <desc id="desc">A static authored spectral snake trail across a data grid for dvd's profile footer. The visible-spectrum axis runs from 400 to 700 nanometres, and the artwork is not live GitHub activity.</desc>
+  <title id="title">Spectral trace footer</title>
+  <desc id="desc">An authored spectral trace over an engineering grid for dvd's profile footer, with a visible-spectrum axis from 400 to 700 nanometres.</desc>
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" fill="none" stroke="#1B2934" stroke-width="1" opacity=".62"/>
@@ -26,17 +26,7 @@
   <rect x="2" y="2" width="956" height="316" rx="21" fill="url(#grid)" opacity=".64"/>
 
   <text x="42" y="43" fill="#8ED5FF" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="2.2">SPECTRAL TRACE</text>
-  <text x="918" y="43" text-anchor="end" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="1.1">STATIC ARTWORK / NOT LIVE ACTIVITY</text>
   <text x="42" y="78" fill="#F4F7FA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="25" font-weight="700">KEEP BUILDING / KEEP SHIPPING</text>
-  <text x="918" y="78" text-anchor="end" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">30 CHANNELS / X-Y-WAVELENGTH</text>
-
-  <g fill="none" stroke="#38505E" stroke-width="1.5" opacity=".5">
-    <path d="M716 108l86 26v72l-86-26z"/>
-    <path d="M716 108l46-28 86 26-46 28z"/>
-    <path d="M802 134l46-28v72l-46 28z"/>
-    <path d="M762 80v72M716 108l46 26M762 152l86 26"/>
-  </g>
-  <text x="782" y="226" text-anchor="middle" fill="#6D8797" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.4">DATA CUBE</text>
 
   <path d="M78 212 C132 252 201 246 250 198 S344 132 411 178 S512 246 584 201 S671 118 747 148 S819 191 872 120" fill="none" stroke="#71D6BD" stroke-width="19" stroke-linecap="round" opacity=".2" filter="url(#soft-trace)"/>
   <path d="M78 212 C132 252 201 246 250 198 S344 132 411 178 S512 246 584 201 S671 118 747 148 S819 191 872 120" fill="none" stroke="url(#trace)" stroke-width="8" stroke-linecap="round"/>
