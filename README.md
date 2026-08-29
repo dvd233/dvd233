@@ -43,10 +43,10 @@ I turn AI capabilities into products people can use: streaming interfaces, local
 - **Agent workflows and data systems**: working with RAG, DAG execution, model routing, MCP, SSE, RBAC, state, and storage.
 - **Computational imaging**: turning reconstruction research into usable software through camera acquisition, spectral visualization, and result handling.
 
-## Core stack
+## Tech stack
 
 <p align="center">
-  <img class="tech-stack" src="assets/tech-stack.svg" width="100%" alt="Core stack across interface, AI applications, backend and data, client delivery, and spectral imaging: HTML5, CSS3, JavaScript, TypeScript, React, React Flow, Zustand, Vite, Node.js, NestJS, Python, PyTorch, LangGraph, RAG, MCP, SSE, WebSocket, PostgreSQL, pgvector, Redis, Rust, Tauri, Git, Windows, PyInstaller, and camera workflows.">
+  <img class="tech-stack" src="assets/tech-stack.svg" width="100%" alt="Tech stack across interface, AI applications, backend and data, client delivery, and spectral imaging: HTML5, CSS3, JavaScript, TypeScript, React, React Flow, Zustand, Vite, Node.js, NestJS, Python, PyTorch, LangGraph, RAG, MCP, SSE, WebSocket, PostgreSQL, pgvector, Redis, Rust, Tauri, Git, Windows, PyInstaller, and camera workflows.">
 </p>
 
 - **Interface**: HTML5, CSS3, JavaScript, TypeScript, React, React Flow, Zustand, Vite, Webpack, and Rspack.
@@ -80,8 +80,8 @@ I work on real issues across AI agent systems, desktop UX, web tooling, civic da
 
 ### Contribution map
 
-- **Civic data delivery** · [open-city-ai/haidian](https://github.com/open-city-ai/haidian) · `26 PRs · 25 merged · 1 open`<br>Structured submissions, geometry sources, deterministic artifacts, and review semantics.
-- **AI agent systems** · [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · `2 open`<br>AI system correctness and Windows subprocess behavior.
+- **Civic data delivery** · [open-city-ai/haidian](https://github.com/open-city-ai/haidian) · `27 PRs · 26 merged · 1 open`<br>Structured submissions, geometry sources, deterministic artifacts, and review semantics.
+- **AI agent systems** · [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · `1 open`<br>Windows subprocess behavior in an AI agent example.
 - **Agent memory and Node.js** · [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) · `3 open`<br>Proxy preservation, SQLite filtering, and self-healing store state.
 - **Code review tooling** · [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · `1 open`<br>Go configuration and Jinja template support for review workflows.
 - **Desktop UX** · [desktop/desktop](https://github.com/desktop/desktop) · `1 open`<br>React and TypeScript pull-request state and suggestion behavior.
@@ -140,15 +140,14 @@ I work on real issues across AI agent systems, desktop UX, web tooling, civic da
   **PR**: [open-city-ai/haidian#3982](https://github.com/open-city-ai/haidian/pull/3982); the original blocked head was re-reviewed and merged without weakening existing gates.
 </details>
 
-<sub>Latest merged follow-through: [open-city-ai/haidian#3821](https://github.com/open-city-ai/haidian/pull/3821), expose synthetic capacity gates in review carriers.</sub>
+<sub>Latest merged follow-through: [open-city-ai/haidian#4114](https://github.com/open-city-ai/haidian/pull/4114), add a machine-readable implementation-readiness handoff register and fail-closed audit.</sub>
 
 ### In review now
 
 <details>
-  <summary><strong>AI agent systems · 5 open PRs</strong></summary>
+  <summary><strong>AI agent systems · 4 open PRs</strong></summary>
 
   - [agentscope-ai/agentscope#2434](https://github.com/agentscope-ai/agentscope/pull/2434): disable Uvicorn hot reload on Windows so subprocess execution keeps a compatible event loop.
-  - [agentscope-ai/agentscope#2435](https://github.com/agentscope-ai/agentscope/pull/2435): preserve <code>encrypted_content</code> on Responses reasoning items for stateless multi-turn calls.
   - [TencentCloud/TencentDB-Agent-Memory#1171](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1171): keep Node's global proxy dispatcher intact while loading <code>undici@8</code>.
   - [TencentCloud/TencentDB-Agent-Memory#1172](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1172): self-heal the store-init cache after failed initialization or a closed store.
   - [TencentCloud/TencentDB-Agent-Memory#1173](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1173): honor <code>recordIds</code> filtering in the SQLite L1 query path.
