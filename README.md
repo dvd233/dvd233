@@ -74,27 +74,29 @@ My coding-agent toolkit includes Kimi Code, Codex, Pi, Claude Code, Hermes, Open
   </div>
 </div>
 
-## Open-source contributions
+## 🌐 Open-source contributions
 
-I work on real issues across AI agent systems, frontend ecosystems, desktop and web tooling, and civic data. As of 2026-09-01, 32 PRs are merged across six upstream projects, with 24 more in review.
+I work on real issues across AI agent systems, frontend ecosystems, desktop and web tooling, and civic data. As of 2026-09-01, **32 PRs are merged across six upstream projects**, with 24 more in review.
 
-### Contribution map
+### 🗺️ Contribution map
 
-- **Civic data delivery** · [open-city-ai/haidian](https://github.com/open-city-ai/haidian) · `28 PRs · 27 merged`<br>Structured submissions, geometry sources, deterministic artifacts, review semantics, and a CJK font screenshot regression.
-- **AI agent systems** · [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · `2 PRs · 1 merged`<br>Windows subprocess behavior in an AI agent example.
-- **Agent memory and Node.js** · [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) · `3 open`<br>Proxy preservation, SQLite filtering, and self-healing store state.
-- **Code review tooling** · [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · `1 merged · 1 open`<br>Pug template support merged; Jinja template support in review.
-- **Frontend ecosystems** · [ant-design/ant-design](https://github.com/ant-design/ant-design) · [alibaba/hooks](https://github.com/alibaba/hooks) · [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) · `3 merged`<br>Contribution-guide link repair, non-nullable ref types, and previewer lifecycle cleanup.
-- **Cross-end frontend** · [NervJS/taro](https://github.com/NervJS/taro) · `6 open`<br>Component rendering, platform API typings, and Vite runner CSS behavior.
-- **Agent desktop UI** · [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) · `5 open`<br>Agent server streaming, MCP initialization, device actions, and workspace search ordering.
-- **Desktop UX** · [desktop/desktop](https://github.com/desktop/desktop) · `1 open`<br>React and TypeScript pull-request state and suggestion behavior.
-- **Web tooling** · [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) · `1 open`<br>Correct UTF-8 BOM JSON parsing in the resolver path.
-- **Search and coordinates** · [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) · `1 open`<br>C++ search behavior for space-separated DMS coordinates.
+| Area | Project | Status | Selected work |
+|---|---|---|---|
+| 🏙️ **Civic data delivery** | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | `28 PRs · 27 merged` | Structured submissions, geometry sources, deterministic artifacts, review semantics, and a CJK font screenshot regression |
+| 🤖 **AI agent systems** | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | `2 PRs · 1 merged` | Windows subprocess behavior in an AI agent example |
+| 🧠 **Agent memory & Node.js** | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | `3 open` | Proxy preservation, SQLite filtering, and self-healing store state |
+| 🔍 **Code review tooling** | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | `1 merged · 1 open` | Pug template support merged; Jinja template support in review |
+| ⚛️ **Frontend ecosystems** | [ant-design/ant-design](https://github.com/ant-design/ant-design) · [alibaba/hooks](https://github.com/alibaba/hooks) · [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) | `3 merged` | Contribution-guide link repair, non-nullable ref types, and previewer lifecycle cleanup |
+| 📱 **Cross-end frontend** | [NervJS/taro](https://github.com/NervJS/taro) | `6 open` | Component rendering, platform API typings, and Vite runner CSS behavior |
+| 🖥️ **Agent desktop UI** | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | `5 open` | Agent server streaming, MCP initialization, device actions, and workspace search ordering |
+| 💻 **Desktop UX** | [desktop/desktop](https://github.com/desktop/desktop) | `1 open` | React and TypeScript pull-request state and suggestion behavior |
+| 📦 **Web tooling** | [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) | `1 open` | Correct UTF-8 BOM JSON parsing in the resolver path |
+| 🧭 **Search & coordinates** | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | `1 open` | C++ search behavior for space-separated DMS coordinates |
 
-### Merged proof
+### 🏆 Merged proof
 
 <details>
-  <summary><strong>Complete delivery · bilingual formal submission · merged</strong></summary>
+  <summary><strong>🥇 Complete delivery · bilingual formal submission · merged</strong></summary>
 
   **Problem**: A civic-data submission needed a complete, reviewable package rather than an unsupported concept.
 
@@ -104,7 +106,7 @@ I work on real issues across AI agent systems, frontend ecosystems, desktop and 
 </details>
 
 <details>
-  <summary><strong>Site provenance · merged</strong></summary>
+  <summary><strong>🔎 Site provenance · merged</strong></summary>
 
   **Problem**: Provisional site inputs lacked consistent dates, hashes, licence and use boundaries, while an empty constraints layer could be mistaken for proof that no controls existed.
 
@@ -114,7 +116,7 @@ I work on real issues across AI agent systems, frontend ecosystems, desktop and 
 </details>
 
 <details>
-  <summary><strong>Windows portability · import and worker locking · merged</strong></summary>
+  <summary><strong>🪟 Windows portability · import and worker locking · merged</strong></summary>
 
   **Problem**: An unconditional <code>fcntl</code> import stopped two test modules from being collected on Windows, and worker-lock contention needed consistent cross-platform semantics.
 
@@ -124,7 +126,7 @@ I work on real issues across AI agent systems, frontend ecosystems, desktop and 
 </details>
 
 <details>
-  <summary><strong>Deterministic artifacts · LF across platforms · merged</strong></summary>
+  <summary><strong>📄 Deterministic artifacts · LF across platforms · merged</strong></summary>
 
   **Problem**: Three writer paths emitted CRLF on Windows, creating whole-file diff noise and breaking byte-hash consistency after line-ending normalization.
 
@@ -134,7 +136,7 @@ I work on real issues across AI agent systems, frontend ecosystems, desktop and 
 </details>
 
 <details>
-  <summary><strong>Review semantics · blockers versus future follow-ups · merged</strong></summary>
+  <summary><strong>⚖️ Review semantics · blockers versus future follow-ups · merged</strong></summary>
 
   **Problem**: A flat review-action list converted future conditions into immediate change requests, creating an intake loop that compliant edits could not close.
 
@@ -147,16 +149,16 @@ I work on real issues across AI agent systems, frontend ecosystems, desktop and 
 
 Beyond `haidian`, five more PRs have been merged across AI agent and frontend ecosystems:
 
-- [agentscope-ai/agentscope#2434](https://github.com/agentscope-ai/agentscope/pull/2434): Uvicorn hot reload forced a SelectorEventLoop on Windows and broke subprocess execution; disabling reload on Windows keeps a compatible event loop.
-- [alibaba/open-code-review#1114](https://github.com/alibaba/open-code-review/pull/1114): added Pug template support to the review allowlist, with a dedicated rule covering escaping contexts, attribute spreads, and URL sinks.
-- [alibaba/hooks#2956](https://github.com/alibaba/hooks/pull/2956): kept `useLatest` and `useUnmountedRef` returns as non-nullable `MutableRefObject` across the supported React type versions, backed by declaration-emission regression tests.
-- [Tencent/cherry-markdown#1871](https://github.com/Tencent/cherry-markdown/pull/1871): guarded pending image load and error callbacks after previewer destroy, so late events no longer touch torn-down state.
-- [ant-design/ant-design#59173](https://github.com/ant-design/ant-design/pull/59173): fixed the Chinese contribution guide to link the English locale list in its i18n step, so contributors update both locale lists.
+- 🤖 [agentscope-ai/agentscope#2434](https://github.com/agentscope-ai/agentscope/pull/2434): Uvicorn hot reload forced a SelectorEventLoop on Windows and broke subprocess execution; disabling reload on Windows keeps a compatible event loop.
+- 🔍 [alibaba/open-code-review#1114](https://github.com/alibaba/open-code-review/pull/1114): added Pug template support to the review allowlist, with a dedicated rule covering escaping contexts, attribute spreads, and URL sinks.
+- ⚛️ [alibaba/hooks#2956](https://github.com/alibaba/hooks/pull/2956): kept `useLatest` and `useUnmountedRef` returns as non-nullable `MutableRefObject` across the supported React type versions, backed by declaration-emission regression tests.
+- 🍒 [Tencent/cherry-markdown#1871](https://github.com/Tencent/cherry-markdown/pull/1871): guarded pending image load and error callbacks after previewer destroy, so late events no longer touch torn-down state.
+- 🐜 [ant-design/ant-design#59173](https://github.com/ant-design/ant-design/pull/59173): fixed the Chinese contribution guide to link the English locale list in its i18n step, so contributors update both locale lists.
 
-### In review now
+### 🚀 In review now
 
 <details>
-  <summary><strong>AI agent systems · 9 open PRs</strong></summary>
+  <summary><strong>🤖 AI agent systems · 9 open PRs</strong></summary>
 
   - [TencentCloud/TencentDB-Agent-Memory#1171](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1171): keep Node's global proxy dispatcher intact while loading <code>undici@8</code>.
   - [TencentCloud/TencentDB-Agent-Memory#1172](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1172): self-heal the store-init cache after failed initialization or a closed store.
@@ -170,7 +172,7 @@ Beyond `haidian`, five more PRs have been merged across AI agent and frontend ec
 </details>
 
 <details>
-  <summary><strong>Cross-end frontend · 6 open PRs</strong></summary>
+  <summary><strong>📱 Cross-end frontend · 6 open PRs</strong></summary>
 
   - [NervJS/taro#19491](https://github.com/NervJS/taro/pull/19491): center aspectFit images horizontally.
   - [NervJS/taro#19492](https://github.com/NervJS/taro/pull/19492): keep global page styles when syncing CSS in the Vite runner.
@@ -181,7 +183,7 @@ Beyond `haidian`, five more PRs have been merged across AI agent and frontend ec
 </details>
 
 <details>
-  <summary><strong>Frontend, client, and tooling · 8 open PRs</strong></summary>
+  <summary><strong>🛠️ Frontend, client, and tooling · 8 open PRs</strong></summary>
 
   - [alibaba/open-code-review#1056](https://github.com/alibaba/open-code-review/pull/1056): add Jinja template support to the review configuration flow.
   - [desktop/desktop#22767](https://github.com/desktop/desktop/pull/22767): hide pull-request suggestions when a branch has no commits ahead of the default branch.
@@ -194,10 +196,41 @@ Beyond `haidian`, five more PRs have been merged across AI agent and frontend ec
 </details>
 
 <details>
-  <summary><strong>Search and coordinates · 1 open PR</strong></summary>
+  <summary><strong>🧭 Search and coordinates · 1 open PR</strong></summary>
 
   - [organicmaps/organicmaps#13423](https://github.com/organicmaps/organicmaps/pull/13423): support space-separated DMS coordinates in search.
 </details>
+
+### 📊 Full footprint
+
+<sub>Auto-aggregated from every public PR against external repositories, and refreshed daily by a [GitHub Action](https://github.com/dvd233/dvd233/blob/main/.github/workflows/oss-footprint.yml) — dynamic numbers stay current without manual edits.</sub>
+
+<!--START_SECTION:oss-footprint-->
+| Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
+|---|---:|---:|---:|---:|
+| [`open-city-ai/haidian`](https://github.com/open-city-ai/haidian) | 406 | 28 | 27 | 0 |
+| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 30305 | 2 | 1 | 0 |
+| [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 21764 | 2 | 1 | 1 |
+| [`alibaba/hooks`](https://github.com/alibaba/hooks) | 14977 | 1 | 1 | 0 |
+| [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 99344 | 1 | 1 | 0 |
+| [`Tencent/cherry-markdown`](https://github.com/Tencent/cherry-markdown) | 4857 | 1 | 1 | 0 |
+| [`NervJS/taro`](https://github.com/NervJS/taro) | 37660 | 6 | 0 | 6 |
+| [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop) | 38775 | 5 | 0 | 5 |
+| [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 25523 | 3 | 0 | 3 |
+| [`alibaba/formily`](https://github.com/alibaba/formily) | 12566 | 1 | 0 | 1 |
+| [`assistant-ui/assistant-ui`](https://github.com/assistant-ui/assistant-ui) | 11966 | 1 | 0 | 0 |
+| [`bytedance/flowgram.ai`](https://github.com/bytedance/flowgram.ai) | 8406 | 1 | 0 | 1 |
+| [`desktop/desktop`](https://github.com/desktop/desktop) | 21811 | 1 | 0 | 1 |
+| [`organicmaps/organicmaps`](https://github.com/organicmaps/organicmaps) | 15271 | 1 | 0 | 1 |
+| [`parcel-bundler/parcel`](https://github.com/parcel-bundler/parcel) | 44023 | 1 | 0 | 1 |
+| [`pnpm/pnpm.io`](https://github.com/pnpm/pnpm.io) | 312 | 1 | 0 | 1 |
+| [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) | 27548 | 1 | 0 | 1 |
+| [`Tencent/vConsole`](https://github.com/Tencent/vConsole) | 17519 | 1 | 0 | 1 |
+| [`Tencent/wujie`](https://github.com/Tencent/wujie) | 5025 | 1 | 0 | 1 |
+| **Total across 19 upstream projects** |  | **59** | **32** | **24** |
+
+<sub>Snapshot 2026-09-01 (UTC) — PRs minus merged minus open are closed without merge and are not counted as adopted work.</sub>
+<!--END_SECTION:oss-footprint-->
 
 ## Education
 

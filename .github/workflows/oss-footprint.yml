@@ -1,0 +1,33 @@
+name: Refresh open-source footprint
+
+on:
+  schedule:
+    - cron: "42 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+
+      - name: Regenerate footprint table
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/update_oss_footprint.py
+
+      - name: Commit and push if changed
+        run: |
+          if [ -n "$(git status --porcelain README.md)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs(profile): auto-refresh open-source footprint"
+            git push
+          else
+            echo "footprint unchanged"
+          fi
