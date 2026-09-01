@@ -15,7 +15,7 @@
   </a>
 </p>
 
-<p align="center"><sub class="demo-caption">Click the preview to open the full muted demo. 10.75 s, 1920x1080, 60 fps, 400-690 nm.</sub></p>
+<p align="center"><sub class="demo-caption">Click the preview to play the full demo (muted) · 10.75 s · 1920x1080 · 60 fps · 400-690 nm.</sub></p>
 
 ## What the demo shows
 
@@ -56,7 +56,7 @@ I turn AI capabilities into products people can use: streaming interfaces, local
 
 ## AI coding workflow
 
-My coding-agent toolkit includes Kimi Code, Codex, Pi, Claude Code, Hermes, OpenCode, and ZCode. I also track DeepSeek Harness as part of the surrounding agent tooling ecosystem. I use these tools inside a human-led loop: understand the codebase, implement the change, test edge cases, document decisions, and review the result.
+My coding-agent toolkit includes Kimi Code, Codex, Pi, Claude Code, Hermes, OpenCode, and ZCode. I also follow DeepSeek Harness within the broader agent tooling ecosystem. I use these tools inside a human-led loop: understand the codebase, implement the change, test edge cases, document decisions, and review the result.
 
 <div align="center">
   <div class="agent-grid" role="group" aria-label="Coding agents used in my workflow">
@@ -76,14 +76,17 @@ My coding-agent toolkit includes Kimi Code, Codex, Pi, Claude Code, Hermes, Open
 
 ## Open-source contributions
 
-I work on real issues across AI agent systems, desktop UX, web tooling, civic data, and cross-platform behavior.
+I work on real issues across AI agent systems, frontend ecosystems, desktop and web tooling, and civic data. As of 2026-09-01, 32 PRs are merged across six upstream projects, with 24 more in review.
 
 ### Contribution map
 
-- **Civic data delivery** · [open-city-ai/haidian](https://github.com/open-city-ai/haidian) · `27 PRs · 26 merged · 1 open`<br>Structured submissions, geometry sources, deterministic artifacts, and review semantics.
-- **AI agent systems** · [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · `1 open`<br>Windows subprocess behavior in an AI agent example.
+- **Civic data delivery** · [open-city-ai/haidian](https://github.com/open-city-ai/haidian) · `28 PRs · 27 merged`<br>Structured submissions, geometry sources, deterministic artifacts, review semantics, and a CJK font screenshot regression.
+- **AI agent systems** · [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · `2 PRs · 1 merged`<br>Windows subprocess behavior in an AI agent example.
 - **Agent memory and Node.js** · [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) · `3 open`<br>Proxy preservation, SQLite filtering, and self-healing store state.
-- **Code review tooling** · [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · `1 open`<br>Go configuration and Jinja template support for review workflows.
+- **Code review tooling** · [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · `1 merged · 1 open`<br>Pug template support merged; Jinja template support in review.
+- **Frontend ecosystems** · [ant-design/ant-design](https://github.com/ant-design/ant-design) · [alibaba/hooks](https://github.com/alibaba/hooks) · [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) · `3 merged`<br>Contribution-guide link repair, non-nullable ref types, and previewer lifecycle cleanup.
+- **Cross-end frontend** · [NervJS/taro](https://github.com/NervJS/taro) · `6 open`<br>Component rendering, platform API typings, and Vite runner CSS behavior.
+- **Agent desktop UI** · [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) · `5 open`<br>Agent server streaming, MCP initialization, device actions, and workspace search ordering.
 - **Desktop UX** · [desktop/desktop](https://github.com/desktop/desktop) · `1 open`<br>React and TypeScript pull-request state and suggestion behavior.
 - **Web tooling** · [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) · `1 open`<br>Correct UTF-8 BOM JSON parsing in the resolver path.
 - **Search and coordinates** · [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) · `1 open`<br>C++ search behavior for space-separated DMS coordinates.
@@ -140,32 +143,60 @@ I work on real issues across AI agent systems, desktop UX, web tooling, civic da
   **PR**: [open-city-ai/haidian#3982](https://github.com/open-city-ai/haidian/pull/3982); the original blocked head was re-reviewed and merged without weakening existing gates.
 </details>
 
-<sub>Latest merged follow-through: [open-city-ai/haidian#4114](https://github.com/open-city-ai/haidian/pull/4114), add a machine-readable implementation-readiness handoff register and fail-closed audit.</sub>
+<sub>Latest merged follow-through: [open-city-ai/haidian#4273](https://github.com/open-city-ai/haidian/pull/4273), a deterministic CJK font screenshot regression built on an original CC0 fixture and a fallback-gated pixel comparison.</sub>
+
+Beyond `haidian`, five more PRs have been merged across AI agent and frontend ecosystems:
+
+- [agentscope-ai/agentscope#2434](https://github.com/agentscope-ai/agentscope/pull/2434): Uvicorn hot reload forced a SelectorEventLoop on Windows and broke subprocess execution; disabling reload on Windows keeps a compatible event loop.
+- [alibaba/open-code-review#1114](https://github.com/alibaba/open-code-review/pull/1114): added Pug template support to the review allowlist, with a dedicated rule covering escaping contexts, attribute spreads, and URL sinks.
+- [alibaba/hooks#2956](https://github.com/alibaba/hooks/pull/2956): kept `useLatest` and `useUnmountedRef` returns as non-nullable `MutableRefObject` across the supported React type versions, backed by declaration-emission regression tests.
+- [Tencent/cherry-markdown#1871](https://github.com/Tencent/cherry-markdown/pull/1871): guarded pending image load and error callbacks after previewer destroy, so late events no longer touch torn-down state.
+- [ant-design/ant-design#59173](https://github.com/ant-design/ant-design/pull/59173): fixed the Chinese contribution guide to link the English locale list in its i18n step, so contributors update both locale lists.
 
 ### In review now
 
 <details>
-  <summary><strong>AI agent systems · 4 open PRs</strong></summary>
+  <summary><strong>AI agent systems · 9 open PRs</strong></summary>
 
-  - [agentscope-ai/agentscope#2434](https://github.com/agentscope-ai/agentscope/pull/2434): disable Uvicorn hot reload on Windows so subprocess execution keeps a compatible event loop.
   - [TencentCloud/TencentDB-Agent-Memory#1171](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1171): keep Node's global proxy dispatcher intact while loading <code>undici@8</code>.
   - [TencentCloud/TencentDB-Agent-Memory#1172](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1172): self-heal the store-init cache after failed initialization or a closed store.
   - [TencentCloud/TencentDB-Agent-Memory#1173](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1173): honor <code>recordIds</code> filtering in the SQLite L1 query path.
+  - [bytedance/UI-TARS-desktop#1957](https://github.com/bytedance/UI-TARS-desktop/pull/1957): release the exclusive slot when agent-server stream startup fails.
+  - [bytedance/UI-TARS-desktop#1958](https://github.com/bytedance/UI-TARS-desktop/pull/1958): await asynchronous ADB device actions.
+  - [bytedance/UI-TARS-desktop#1959](https://github.com/bytedance/UI-TARS-desktop/pull/1959): add default search exclusions to the MCP filesystem server.
+  - [bytedance/UI-TARS-desktop#1960](https://github.com/bytedance/UI-TARS-desktop/pull/1960): surface MCP agent initialization failures.
+  - [bytedance/UI-TARS-desktop#1961](https://github.com/bytedance/UI-TARS-desktop/pull/1961): prioritize source workspace results in the contextual selector.
+  - [QwenLM/qwen-code#10580](https://github.com/QwenLM/qwen-code/pull/10580): localize untitled session search in the VS Code integration.
 </details>
 
 <details>
-  <summary><strong>Frontend, client, and tooling · 4 open PRs</strong></summary>
+  <summary><strong>Cross-end frontend · 6 open PRs</strong></summary>
+
+  - [NervJS/taro#19491](https://github.com/NervJS/taro/pull/19491): center aspectFit images horizontally.
+  - [NervJS/taro#19492](https://github.com/NervJS/taro/pull/19492): keep global page styles when syncing CSS in the Vite runner.
+  - [NervJS/taro#19493](https://github.com/NervJS/taro/pull/19493): add the WeChat phone-number quota toast prop to Button and its template.
+  - [NervJS/taro#19494](https://github.com/NervJS/taro/pull/19494): mark holdKeyboard for Baidu and pass hold-keyboard through the swan templates.
+  - [NervJS/taro#19495](https://github.com/NervJS/taro/pull/19495): fix self-contradictory generic constraints and missing RequestParams in the request typings.
+  - [NervJS/taro#19496](https://github.com/NervJS/taro/pull/19496): add the missing requestCommonPayment typings for WeChat payment.
+</details>
+
+<details>
+  <summary><strong>Frontend, client, and tooling · 8 open PRs</strong></summary>
 
   - [alibaba/open-code-review#1056](https://github.com/alibaba/open-code-review/pull/1056): add Jinja template support to the review configuration flow.
   - [desktop/desktop#22767](https://github.com/desktop/desktop/pull/22767): hide pull-request suggestions when a branch has no commits ahead of the default branch.
   - [parcel-bundler/parcel#10352](https://github.com/parcel-bundler/parcel/pull/10352): parse UTF-8 BOM JSON correctly in the resolver path.
-  - [organicmaps/organicmaps#13423](https://github.com/organicmaps/organicmaps/pull/13423): support space-separated DMS coordinates in search.
+  - [Tencent/wujie#1105](https://github.com/Tencent/wujie/pull/1105): avoid the reserved style prop warning in the Vue 2 adapter.
+  - [Tencent/vConsole#737](https://github.com/Tencent/vConsole/pull/737): restore inherited event properties in log output.
+  - [bytedance/flowgram.ai#1176](https://github.com/bytedance/flowgram.ai/pull/1176): scaffold projects without partial mutations.
+  - [alibaba/formily#4363](https://github.com/alibaba/formily/pull/4363): export static guide routes in the docs build.
+  - [pnpm/pnpm.io#908](https://github.com/pnpm/pnpm.io/pull/908): document confirmModulesPurge.
 </details>
 
 <details>
-  <summary><strong>Civic data workflow · 1 open PR</strong></summary>
+  <summary><strong>Search and coordinates · 1 open PR</strong></summary>
 
-  - [open-city-ai/haidian#4106](https://github.com/open-city-ai/haidian/pull/4106): add a CJK font screenshot regression for the rendered artifact flow; currently in upstream review.
+  - [organicmaps/organicmaps#13423](https://github.com/organicmaps/organicmaps/pull/13423): support space-separated DMS coordinates in search.
 </details>
 
 ## Education
