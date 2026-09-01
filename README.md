@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://cdn.jsdelivr.net/gh/dvd233/dvd233@23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4">
-    <img class="demo-preview" src="assets/demo-loop.webp" width="100%" alt="Looping preview of a two-person team's private hyperspectral reconstruction prototype: camera capture, 30-band reconstruction from 400 to 690 nanometres, and a sampled spectral curve.">
+    <img class="demo-preview" src="assets/demo-loop.webp" width="100%" alt="Looping preview of an earlier private hyperspectral reconstruction prototype: camera capture, 30-band reconstruction from 400 to 690 nanometres, and a sampled spectral curve.">
   </a>
 </p>
 
@@ -19,7 +19,7 @@
 
 ## What the demo shows
 
-This is an **earlier private hyperspectral reconstruction prototype**, co-developed in a two-person team. The public loop and full demo show a desktop workflow for camera acquisition, lightweight deep-learning reconstruction, 30-band spectral display across 400-690 nm, per-point spectral curves, and result saving.
+This is an **earlier private hyperspectral reconstruction prototype**. The public loop and full demo show a desktop workflow for camera acquisition, lightweight deep-learning reconstruction, 30-band spectral display across 400-690 nm, per-point spectral curves, and result saving.
 
 I was responsible for the lightweight deep-learning reconstruction and dataset work, plus the camera acquisition, desktop UI, spectral visualization, and result-saving modules. Code and data remain private because of research and industry-collaboration constraints.
 
