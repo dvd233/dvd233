@@ -36,8 +36,8 @@ jobs:
             done
             echo "keeping previous $out (source unavailable)"
           }
-          fetch "https://github-profile-trophy-pied-two.vercel.app/?username=dvd233&theme=flat&no-bg=true&no-frame=true&column=6&margin-w=8" assets/trophy-light.svg
-          fetch "https://github-profile-trophy-pied-two.vercel.app/?username=dvd233&theme=onedark&no-bg=true&no-frame=true&column=6&margin-w=8" assets/trophy-dark.svg
+          fetch "https://github-profile-trophy-pied-two.vercel.app/?username=dvd233&theme=flat&no-bg=true&no-frame=true&column=7&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" assets/trophy-light.svg
+          fetch "https://github-profile-trophy-pied-two.vercel.app/?username=dvd233&theme=onedark&no-bg=true&no-frame=true&column=7&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" assets/trophy-dark.svg
 
       - name: Commit and push if changed
         run: |

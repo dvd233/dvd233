@@ -19,17 +19,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate general stats card
-        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
-        with:
-          filename: metrics-stats-raw.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: dvd233
-          base: header, activity, community, repositories
-          config_timezone: Asia/Shanghai
-          config_display: regular
-          output_action: none
-
       - name: Generate isometric contribution calendar
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
@@ -46,7 +35,7 @@ jobs:
       - name: Apply spectral palette (light and dark variants)
         run: |
           set -euo pipefail
-          for name in stats isocalendar; do
+          for name in isocalendar; do
             python3 .github/scripts/style_metrics_svg.py /metrics_renders/metrics-$name-raw.svg light assets/metrics-$name-light.svg
             python3 .github/scripts/style_metrics_svg.py /metrics_renders/metrics-$name-raw.svg dark assets/metrics-$name-dark.svg
           done
@@ -56,8 +45,7 @@ jobs:
           if [ -n "$(git status --porcelain assets)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add assets/metrics-stats-light.svg assets/metrics-stats-dark.svg \
-                    assets/metrics-isocalendar-light.svg assets/metrics-isocalendar-dark.svg
+            git add assets/metrics-isocalendar-light.svg assets/metrics-isocalendar-dark.svg
             git commit -m "chore(profile): refresh metrics cards"
             for attempt in 1 2 3 4 5; do
               git pull --rebase --autostash origin main && git push && exit 0
