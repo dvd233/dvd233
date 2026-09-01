@@ -78,21 +78,6 @@ My coding-agent toolkit includes Kimi Code, Codex, Pi, Claude Code, Hermes, Open
 
 I work on real issues across AI agent systems, frontend ecosystems, desktop and web tooling, and civic data. As of 2026-09-01, **32 PRs are merged across six upstream projects**, with 24 more in review.
 
-### 🗺️ Contribution map
-
-| Area | Project | Status | Selected work |
-|---|---|---|---|
-| 🏙️ **Civic data delivery** | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | `28 PRs · 27 merged` | Structured submissions, geometry sources, deterministic artifacts, review semantics, and a CJK font screenshot regression |
-| 🤖 **AI agent systems** | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | `2 PRs · 1 merged` | Windows subprocess behavior in an AI agent example |
-| 🧠 **Agent memory & Node.js** | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | `3 open` | Proxy preservation, SQLite filtering, and self-healing store state |
-| 🔍 **Code review tooling** | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | `1 merged · 1 open` | Pug template support merged; Jinja template support in review |
-| ⚛️ **Frontend ecosystems** | [ant-design/ant-design](https://github.com/ant-design/ant-design) · [alibaba/hooks](https://github.com/alibaba/hooks) · [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) | `3 merged` | Contribution-guide link repair, non-nullable ref types, and previewer lifecycle cleanup |
-| 📱 **Cross-end frontend** | [NervJS/taro](https://github.com/NervJS/taro) | `6 open` | Component rendering, platform API typings, and Vite runner CSS behavior |
-| 🖥️ **Agent desktop UI** | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | `5 open` | Agent server streaming, MCP initialization, device actions, and workspace search ordering |
-| 💻 **Desktop UX** | [desktop/desktop](https://github.com/desktop/desktop) | `1 open` | React and TypeScript pull-request state and suggestion behavior |
-| 📦 **Web tooling** | [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) | `1 open` | Correct UTF-8 BOM JSON parsing in the resolver path |
-| 🧭 **Search & coordinates** | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | `1 open` | C++ search behavior for space-separated DMS coordinates |
-
 ### 🏆 Merged proof
 
 Recently merged across major AI agent and frontend ecosystems:
@@ -154,6 +139,21 @@ Recently merged across major AI agent and frontend ecosystems:
 
   **PR**: [open-city-ai/haidian#3982](https://github.com/open-city-ai/haidian/pull/3982); the original blocked head was re-reviewed and merged without weakening existing gates.
 </details>
+
+### 🗺️ Contribution map
+
+| Area | Project | Status | Selected work |
+|---|---|---|---|
+| 🏙️ **Civic data delivery** | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | `28 PRs · 27 merged` | Structured submissions, geometry sources, deterministic artifacts, review semantics, and a CJK font screenshot regression |
+| ⚛️ **Frontend ecosystems** | [ant-design/ant-design](https://github.com/ant-design/ant-design) · [alibaba/hooks](https://github.com/alibaba/hooks) · [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) | `3 merged` | Contribution-guide link repair, non-nullable ref types, and previewer lifecycle cleanup |
+| 🔍 **Code review tooling** | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | `1 merged · 1 open` | Pug template support merged; Jinja template support in review |
+| 🤖 **AI agent systems** | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | `2 PRs · 1 merged` | Windows subprocess behavior in an AI agent example |
+| 📱 **Cross-end frontend** | [NervJS/taro](https://github.com/NervJS/taro) | `6 open` | Component rendering, platform API typings, and Vite runner CSS behavior |
+| 🖥️ **Agent desktop UI** | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | `5 open` | Agent server streaming, MCP initialization, device actions, and workspace search ordering |
+| 🧠 **Agent memory & Node.js** | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | `3 open` | Proxy preservation, SQLite filtering, and self-healing store state |
+| 💻 **Desktop UX** | [desktop/desktop](https://github.com/desktop/desktop) | `1 open` | React and TypeScript pull-request state and suggestion behavior |
+| 📦 **Web tooling** | [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) | `1 open` | Correct UTF-8 BOM JSON parsing in the resolver path |
+| 🧭 **Search & coordinates** | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | `1 open` | C++ search behavior for space-separated DMS coordinates |
 
 ### 🚀 In review now
 
