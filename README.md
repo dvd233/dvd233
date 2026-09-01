@@ -95,8 +95,18 @@ I work on real issues across AI agent systems, frontend ecosystems, desktop and 
 
 ### 🏆 Merged proof
 
+Recently merged across major AI agent and frontend ecosystems:
+
+- 🐜 [ant-design/ant-design#59173](https://github.com/ant-design/ant-design/pull/59173) · ⭐ 99.3k — fixed the Chinese contribution guide to link the English locale list in its i18n step, so contributors update both locale lists.
+- 🤖 [agentscope-ai/agentscope#2434](https://github.com/agentscope-ai/agentscope/pull/2434) · ⭐ 30.3k — Uvicorn hot reload forced a SelectorEventLoop on Windows and broke subprocess execution; disabling reload on Windows keeps a compatible event loop.
+- 🔍 [alibaba/open-code-review#1114](https://github.com/alibaba/open-code-review/pull/1114) · ⭐ 21.8k — added Pug template support to the review allowlist, with a dedicated rule covering escaping contexts, attribute spreads, and URL sinks.
+- ⚛️ [alibaba/hooks#2956](https://github.com/alibaba/hooks/pull/2956) · ⭐ 15.0k — kept `useLatest` and `useUnmountedRef` returns as non-nullable `MutableRefObject` across the supported React type versions, backed by declaration-emission regression tests.
+- 🍒 [Tencent/cherry-markdown#1871](https://github.com/Tencent/cherry-markdown/pull/1871) · ⭐ 4.9k — guarded pending image load and error callbacks after previewer destroy, so late events no longer touch torn-down state.
+
+**27 merged PRs in [open-city-ai/haidian](https://github.com/open-city-ai/haidian)** — selected deep dives:
+
 <details>
-  <summary><strong>🥇 Complete delivery · bilingual formal submission · merged</strong></summary>
+  <summary><strong>🥇 Complete delivery · bilingual formal submission</strong></summary>
 
   **Problem**: A civic-data submission needed a complete, reviewable package rather than an unsupported concept.
 
@@ -106,7 +116,7 @@ I work on real issues across AI agent systems, frontend ecosystems, desktop and 
 </details>
 
 <details>
-  <summary><strong>🔎 Site provenance · merged</strong></summary>
+  <summary><strong>🔎 Site provenance</strong></summary>
 
   **Problem**: Provisional site inputs lacked consistent dates, hashes, licence and use boundaries, while an empty constraints layer could be mistaken for proof that no controls existed.
 
@@ -116,7 +126,7 @@ I work on real issues across AI agent systems, frontend ecosystems, desktop and 
 </details>
 
 <details>
-  <summary><strong>🪟 Windows portability · import and worker locking · merged</strong></summary>
+  <summary><strong>🪟 Windows portability · import and worker locking</strong></summary>
 
   **Problem**: An unconditional <code>fcntl</code> import stopped two test modules from being collected on Windows, and worker-lock contention needed consistent cross-platform semantics.
 
@@ -126,7 +136,7 @@ I work on real issues across AI agent systems, frontend ecosystems, desktop and 
 </details>
 
 <details>
-  <summary><strong>📄 Deterministic artifacts · LF across platforms · merged</strong></summary>
+  <summary><strong>📄 Deterministic artifacts · LF across platforms</strong></summary>
 
   **Problem**: Three writer paths emitted CRLF on Windows, creating whole-file diff noise and breaking byte-hash consistency after line-ending normalization.
 
@@ -136,7 +146,7 @@ I work on real issues across AI agent systems, frontend ecosystems, desktop and 
 </details>
 
 <details>
-  <summary><strong>⚖️ Review semantics · blockers versus future follow-ups · merged</strong></summary>
+  <summary><strong>⚖️ Review semantics · blockers versus future follow-ups</strong></summary>
 
   **Problem**: A flat review-action list converted future conditions into immediate change requests, creating an intake loop that compliant edits could not close.
 
@@ -144,16 +154,6 @@ I work on real issues across AI agent systems, frontend ecosystems, desktop and 
 
   **PR**: [open-city-ai/haidian#3982](https://github.com/open-city-ai/haidian/pull/3982); the original blocked head was re-reviewed and merged without weakening existing gates.
 </details>
-
-<sub>Latest merged follow-through: [open-city-ai/haidian#4273](https://github.com/open-city-ai/haidian/pull/4273), a deterministic CJK font screenshot regression built on an original CC0 fixture and a fallback-gated pixel comparison.</sub>
-
-Beyond `haidian`, five more PRs have been merged across AI agent and frontend ecosystems:
-
-- 🤖 [agentscope-ai/agentscope#2434](https://github.com/agentscope-ai/agentscope/pull/2434): Uvicorn hot reload forced a SelectorEventLoop on Windows and broke subprocess execution; disabling reload on Windows keeps a compatible event loop.
-- 🔍 [alibaba/open-code-review#1114](https://github.com/alibaba/open-code-review/pull/1114): added Pug template support to the review allowlist, with a dedicated rule covering escaping contexts, attribute spreads, and URL sinks.
-- ⚛️ [alibaba/hooks#2956](https://github.com/alibaba/hooks/pull/2956): kept `useLatest` and `useUnmountedRef` returns as non-nullable `MutableRefObject` across the supported React type versions, backed by declaration-emission regression tests.
-- 🍒 [Tencent/cherry-markdown#1871](https://github.com/Tencent/cherry-markdown/pull/1871): guarded pending image load and error callbacks after previewer destroy, so late events no longer touch torn-down state.
-- 🐜 [ant-design/ant-design#59173](https://github.com/ant-design/ant-design/pull/59173): fixed the Chinese contribution guide to link the English locale list in its i18n step, so contributors update both locale lists.
 
 ### 🚀 In review now
 
