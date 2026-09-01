@@ -209,7 +209,7 @@ Beyond `haidian`, five more PRs have been merged across AI agent and frontend ec
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
 |---|---:|---:|---:|---:|
 | [`open-city-ai/haidian`](https://github.com/open-city-ai/haidian) | 406 | 28 | 27 | 0 |
-| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 30305 | 2 | 1 | 0 |
+| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 30306 | 2 | 1 | 0 |
 | [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 21764 | 2 | 1 | 1 |
 | [`alibaba/hooks`](https://github.com/alibaba/hooks) | 14977 | 1 | 1 | 0 |
 | [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 99344 | 1 | 1 | 0 |
