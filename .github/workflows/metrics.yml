@@ -61,9 +61,8 @@ jobs:
         run: |
           set -euo pipefail
           for name in stats languages isocalendar; do
-            python3 .github/scripts/style_metrics_svg.py metrics-$name-raw.svg light assets/metrics-$name-light.svg
-            python3 .github/scripts/style_metrics_svg.py metrics-$name-raw.svg dark assets/metrics-$name-dark.svg
-            rm metrics-$name-raw.svg
+            python3 .github/scripts/style_metrics_svg.py /metrics_renders/metrics-$name-raw.svg light assets/metrics-$name-light.svg
+            python3 .github/scripts/style_metrics_svg.py /metrics_renders/metrics-$name-raw.svg dark assets/metrics-$name-dark.svg
           done
 
       - name: Commit and push if changed
