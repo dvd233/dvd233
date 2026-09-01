@@ -267,12 +267,7 @@ Undergraduate background in Network Engineering at BUPT
   <picture class="stats-card">
     <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-stats-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/metrics-stats-light.svg">
-    <img height="180" src="assets/metrics-stats-light.svg" alt="GitHub statistics for dvd233: commits, pull requests, and reviews" align="top">
-  </picture>
-  <picture class="languages-card">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-languages-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/metrics-languages-light.svg">
-    <img height="180" src="assets/metrics-languages-light.svg" alt="Most used languages across dvd233's public repositories" align="top">
+    <img src="assets/metrics-stats-light.svg" alt="GitHub statistics for dvd233: commits, pull requests, reviews, and repositories" align="top">
   </picture>
 </p>
 
@@ -292,7 +287,7 @@ Undergraduate background in Network Engineering at BUPT
   </picture>
 </p>
 
-<p align="center"><sub>Trophy, stats, languages, streak, and calendar cards are regenerated daily by <a href="https://github.com/dvd233/dvd233/blob/main/.github/workflows/metrics.yml">GitHub</a> <a href="https://github.com/dvd233/dvd233/blob/main/.github/workflows/trophy.yml">Actions</a> <a href="https://github.com/dvd233/dvd233/blob/main/.github/workflows/streak.yml">workflows</a> in this repository.</sub></p>
+<p align="center"><sub>Trophy, stats, streak, and calendar cards are regenerated daily by <a href="https://github.com/dvd233/dvd233/blob/main/.github/workflows/metrics.yml">GitHub</a> <a href="https://github.com/dvd233/dvd233/blob/main/.github/workflows/trophy.yml">Actions</a> <a href="https://github.com/dvd233/dvd233/blob/main/.github/workflows/streak.yml">workflows</a> in this repository.</sub></p>
 
 <p align="center">
   <picture class="contribution-snake">
