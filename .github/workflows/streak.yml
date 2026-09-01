@@ -41,7 +41,7 @@ jobs:
             echo "keeping previous $out (source unavailable)"
           }
           fetch "https://streak-stats.demolab.com?user=dvd233&hide_border=true&background=00000000&ring=7B2CBF&fire=C84A4A&currStreakLabel=1D3541&sideLabels=345D68&dates=345D68" assets/streak-light.svg
-          fetch "https://streak-stats.demolab.com?user=dvd233&hide_border=true&background=00000000&ring=F3B36C&fire=F3B36C&currStreakLabel=E7EEF2&sideLabels=B8C8D0&dates=B8C8D0" assets/streak-dark.svg
+          fetch "https://streak-stats.demolab.com?user=dvd233&hide_border=true&background=00000000&ring=F3B36C&fire=F3B36C&currStreakNum=E7EEF2&sideNums=E7EEF2&currStreakLabel=B8C8D0&sideLabels=B8C8D0&dates=8FA8B5" assets/streak-dark.svg
 
       - name: Commit and push if changed
         run: |
