@@ -214,29 +214,29 @@ Recently merged across major AI agent and frontend ecosystems:
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
 |---|---:|---:|---:|---:|
 | [`open-city-ai/haidian`](https://github.com/open-city-ai/haidian) | 405 | 28 | 27 | 0 |
-| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 30503 | 2 | 1 | 0 |
-| [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 21850 | 2 | 1 | 1 |
-| [`alibaba/hooks`](https://github.com/alibaba/hooks) | 14975 | 1 | 1 | 0 |
-| [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 99364 | 1 | 1 | 0 |
-| [`Tencent/cherry-markdown`](https://github.com/Tencent/cherry-markdown) | 4857 | 1 | 1 | 0 |
-| [`NervJS/taro`](https://github.com/NervJS/taro) | 37663 | 6 | 0 | 6 |
-| [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop) | 38823 | 5 | 0 | 5 |
-| [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 25755 | 3 | 0 | 3 |
-| [`alibaba/formily`](https://github.com/alibaba/formily) | 12566 | 1 | 0 | 1 |
-| [`assistant-ui/assistant-ui`](https://github.com/assistant-ui/assistant-ui) | 11990 | 1 | 0 | 0 |
+| [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 21907 | 3 | 1 | 2 |
+| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 30616 | 2 | 1 | 0 |
+| [`alibaba/hooks`](https://github.com/alibaba/hooks) | 14974 | 1 | 1 | 0 |
+| [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 99382 | 1 | 1 | 0 |
+| [`Tencent/cherry-markdown`](https://github.com/Tencent/cherry-markdown) | 4859 | 1 | 1 | 0 |
+| [`NervJS/taro`](https://github.com/NervJS/taro) | 37664 | 6 | 0 | 6 |
+| [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop) | 38834 | 5 | 0 | 5 |
+| [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 25888 | 3 | 0 | 3 |
+| [`alibaba/formily`](https://github.com/alibaba/formily) | 12567 | 1 | 0 | 1 |
+| [`assistant-ui/assistant-ui`](https://github.com/assistant-ui/assistant-ui) | 12000 | 1 | 0 | 0 |
 | [`bytedance/flowgram.ai`](https://github.com/bytedance/flowgram.ai) | 8419 | 1 | 0 | 1 |
-| [`desktop/desktop`](https://github.com/desktop/desktop) | 21813 | 1 | 0 | 1 |
+| [`desktop/desktop`](https://github.com/desktop/desktop) | 21811 | 1 | 0 | 1 |
 | [`NervJS/taro-docs`](https://github.com/NervJS/taro-docs) | 31 | 1 | 0 | 1 |
-| [`organicmaps/organicmaps`](https://github.com/organicmaps/organicmaps) | 15293 | 1 | 0 | 1 |
-| [`parcel-bundler/parcel`](https://github.com/parcel-bundler/parcel) | 44023 | 1 | 0 | 1 |
+| [`organicmaps/organicmaps`](https://github.com/organicmaps/organicmaps) | 15305 | 1 | 0 | 1 |
+| [`parcel-bundler/parcel`](https://github.com/parcel-bundler/parcel) | 44024 | 1 | 0 | 1 |
 | [`pnpm/pnpm.io`](https://github.com/pnpm/pnpm.io) | 312 | 1 | 0 | 1 |
-| [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) | 27599 | 1 | 0 | 1 |
-| [`Tencent/vConsole`](https://github.com/Tencent/vConsole) | 17517 | 1 | 0 | 1 |
-| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 21235 | 1 | 0 | 1 |
+| [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) | 27632 | 1 | 0 | 1 |
+| [`Tencent/vConsole`](https://github.com/Tencent/vConsole) | 17518 | 1 | 0 | 1 |
+| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 21305 | 1 | 0 | 1 |
 | [`Tencent/wujie`](https://github.com/Tencent/wujie) | 5026 | 1 | 0 | 1 |
-| **Total across 21 upstream projects** |  | **61** | **32** | **26** |
+| **Total across 21 upstream projects** |  | **62** | **32** | **27** |
 
-<sub>Snapshot 2026-09-03 (UTC) — PRs minus merged minus open are closed without merge and are not counted as adopted work.</sub>
+<sub>Snapshot 2026-09-04 (UTC) — PRs minus merged minus open are closed without merge and are not counted as adopted work.</sub>
 <!--END_SECTION:oss-footprint-->
 
 ## Education
