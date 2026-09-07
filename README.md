@@ -214,29 +214,31 @@ Recently merged across major AI agent and frontend ecosystems:
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
 |---|---:|---:|---:|---:|
 | [`open-city-ai/haidian`](https://github.com/open-city-ai/haidian) | 407 | 28 | 27 | 0 |
-| [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 21970 | 3 | 1 | 2 |
-| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 30821 | 2 | 1 | 0 |
+| [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 22018 | 3 | 1 | 2 |
+| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 30940 | 2 | 1 | 0 |
 | [`alibaba/hooks`](https://github.com/alibaba/hooks) | 14975 | 1 | 1 | 0 |
-| [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 99403 | 1 | 1 | 0 |
-| [`Tencent/cherry-markdown`](https://github.com/Tencent/cherry-markdown) | 4860 | 1 | 1 | 0 |
-| [`NervJS/taro`](https://github.com/NervJS/taro) | 37664 | 6 | 0 | 6 |
-| [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop) | 38867 | 5 | 0 | 5 |
-| [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 25983 | 3 | 0 | 3 |
-| [`alibaba/formily`](https://github.com/alibaba/formily) | 12567 | 1 | 0 | 1 |
-| [`assistant-ui/assistant-ui`](https://github.com/assistant-ui/assistant-ui) | 12024 | 1 | 0 | 0 |
-| [`bytedance/flowgram.ai`](https://github.com/bytedance/flowgram.ai) | 8428 | 1 | 0 | 1 |
-| [`desktop/desktop`](https://github.com/desktop/desktop) | 21824 | 1 | 0 | 1 |
+| [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 99409 | 1 | 1 | 0 |
+| [`Tencent/cherry-markdown`](https://github.com/Tencent/cherry-markdown) | 4859 | 1 | 1 | 0 |
+| [`NervJS/taro`](https://github.com/NervJS/taro) | 37662 | 6 | 0 | 6 |
+| [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop) | 38882 | 5 | 0 | 5 |
+| [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 26043 | 5 | 0 | 5 |
+| [`alibaba/formily`](https://github.com/alibaba/formily) | 12569 | 1 | 0 | 1 |
+| [`assistant-ui/assistant-ui`](https://github.com/assistant-ui/assistant-ui) | 12035 | 1 | 0 | 0 |
+| [`bytedance/flowgram.ai`](https://github.com/bytedance/flowgram.ai) | 8430 | 1 | 0 | 1 |
+| [`desktop/desktop`](https://github.com/desktop/desktop) | 21827 | 1 | 0 | 1 |
+| [`DouyinFE/semi-design`](https://github.com/DouyinFE/semi-design) | 10349 | 1 | 0 | 1 |
 | [`NervJS/taro-docs`](https://github.com/NervJS/taro-docs) | 31 | 1 | 0 | 1 |
-| [`organicmaps/organicmaps`](https://github.com/organicmaps/organicmaps) | 15326 | 1 | 0 | 1 |
-| [`parcel-bundler/parcel`](https://github.com/parcel-bundler/parcel) | 44027 | 1 | 0 | 1 |
+| [`organicmaps/organicmaps`](https://github.com/organicmaps/organicmaps) | 15341 | 1 | 0 | 1 |
+| [`parcel-bundler/parcel`](https://github.com/parcel-bundler/parcel) | 44026 | 1 | 0 | 1 |
 | [`pnpm/pnpm.io`](https://github.com/pnpm/pnpm.io) | 313 | 1 | 0 | 1 |
-| [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) | 27673 | 1 | 0 | 1 |
+| [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) | 27689 | 1 | 0 | 1 |
+| [`Tencent/tdesign-common`](https://github.com/Tencent/tdesign-common) | 189 | 1 | 0 | 1 |
 | [`Tencent/vConsole`](https://github.com/Tencent/vConsole) | 17519 | 1 | 0 | 1 |
-| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 21472 | 1 | 0 | 1 |
-| [`Tencent/wujie`](https://github.com/Tencent/wujie) | 5026 | 1 | 0 | 1 |
-| **Total across 21 upstream projects** |  | **62** | **32** | **27** |
+| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 21630 | 1 | 0 | 1 |
+| [`Tencent/wujie`](https://github.com/Tencent/wujie) | 5027 | 1 | 0 | 1 |
+| **Total across 23 upstream projects** |  | **66** | **32** | **31** |
 
-<sub>Snapshot 2026-09-06 (UTC) — PRs minus merged minus open are closed without merge and are not counted as adopted work.</sub>
+<sub>Snapshot 2026-09-07 (UTC) — PRs minus merged minus open are closed without merge and are not counted as adopted work.</sub>
 <!--END_SECTION:oss-footprint-->
 
 ## Education
