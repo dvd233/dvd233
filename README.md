@@ -214,39 +214,58 @@ Recently merged across major AI agent and frontend ecosystems:
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
 |---|---:|---:|---:|---:|
 | [`open-city-ai/haidian`](https://github.com/open-city-ai/haidian) | 407 | 28 | 27 | 0 |
-| [`grafana/grafana-pathfinder-app`](https://github.com/grafana/grafana-pathfinder-app) | 19 | 6 | 5 | 1 |
-| [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 22067 | 3 | 1 | 2 |
-| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 31060 | 2 | 1 | 0 |
-| [`alibaba/hooks`](https://github.com/alibaba/hooks) | 14976 | 1 | 1 | 0 |
-| [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 99426 | 1 | 1 | 0 |
-| [`callstack/agent-device`](https://github.com/callstack/agent-device) | 4436 | 1 | 1 | 0 |
-| [`Tencent/cherry-markdown`](https://github.com/Tencent/cherry-markdown) | 4860 | 1 | 1 | 0 |
-| [`NervJS/taro`](https://github.com/NervJS/taro) | 37665 | 6 | 0 | 6 |
-| [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop) | 38895 | 5 | 0 | 5 |
-| [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 26139 | 5 | 0 | 5 |
-| [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) | 27707 | 2 | 0 | 2 |
-| [`AgentPostmortem/agentpostmortem`](https://github.com/AgentPostmortem/agentpostmortem) | 2 | 1 | 0 | 1 |
-| [`alibaba/formily`](https://github.com/alibaba/formily) | 12569 | 1 | 0 | 1 |
-| [`assistant-ui/assistant-ui`](https://github.com/assistant-ui/assistant-ui) | 12045 | 1 | 0 | 0 |
-| [`bytedance/flowgram.ai`](https://github.com/bytedance/flowgram.ai) | 8431 | 1 | 0 | 1 |
+| [`grafana/grafana-pathfinder-app`](https://github.com/grafana/grafana-pathfinder-app) | 19 | 8 | 5 | 3 |
+| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 31164 | 3 | 1 | 1 |
+| [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 22131 | 3 | 1 | 2 |
+| [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) | 27718 | 2 | 1 | 1 |
+| [`AgentPostmortem/agentpostmortem`](https://github.com/AgentPostmortem/agentpostmortem) | 2 | 1 | 1 | 0 |
+| [`alibaba/hooks`](https://github.com/alibaba/hooks) | 14974 | 1 | 1 | 0 |
+| [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 99453 | 1 | 1 | 0 |
+| [`callstack/agent-device`](https://github.com/callstack/agent-device) | 4463 | 1 | 1 | 0 |
+| [`kNoAPP/MeshCore-WebAgent`](https://github.com/kNoAPP/MeshCore-WebAgent) | 4 | 1 | 1 | 0 |
+| [`libredb/libredb-studio`](https://github.com/libredb/libredb-studio) | 461 | 1 | 1 | 0 |
+| [`PostHog/posthog-js`](https://github.com/PostHog/posthog-js) | 603 | 1 | 1 | 0 |
+| [`reticlehq/reticle`](https://github.com/reticlehq/reticle) | 454 | 1 | 1 | 0 |
+| [`Tencent/cherry-markdown`](https://github.com/Tencent/cherry-markdown) | 4861 | 1 | 1 | 0 |
+| [`NervJS/taro`](https://github.com/NervJS/taro) | 37664 | 6 | 0 | 6 |
+| [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop) | 38905 | 5 | 0 | 5 |
+| [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 26206 | 5 | 0 | 5 |
+| [`michaelegner/architecture-intelligence-platform`](https://github.com/michaelegner/architecture-intelligence-platform) | 0 | 2 | 0 | 2 |
+| [`storybookjs/storybook`](https://github.com/storybookjs/storybook) | 91026 | 2 | 0 | 2 |
+| [`wxt-dev/wxt`](https://github.com/wxt-dev/wxt) | 10469 | 2 | 0 | 2 |
+| [`alibaba/formily`](https://github.com/alibaba/formily) | 12570 | 1 | 0 | 1 |
+| [`assistant-ui/assistant-ui`](https://github.com/assistant-ui/assistant-ui) | 12067 | 1 | 0 | 0 |
+| [`AubaidFarrukh/smart-retry`](https://github.com/AubaidFarrukh/smart-retry) | 2 | 1 | 0 | 1 |
+| [`backblaze-labs/b2-mcp`](https://github.com/backblaze-labs/b2-mcp) | 10 | 1 | 0 | 1 |
+| [`bytedance/flowgram.ai`](https://github.com/bytedance/flowgram.ai) | 8435 | 1 | 0 | 1 |
+| [`chakra-ui/chakra-ui`](https://github.com/chakra-ui/chakra-ui) | 40637 | 1 | 0 | 1 |
 | [`crxjs/chrome-extension-tools`](https://github.com/crxjs/chrome-extension-tools) | 4167 | 1 | 0 | 1 |
-| [`desktop/desktop`](https://github.com/desktop/desktop) | 21828 | 1 | 0 | 1 |
-| [`DouyinFE/semi-design`](https://github.com/DouyinFE/semi-design) | 10350 | 1 | 0 | 1 |
+| [`dequelabs/axe-core`](https://github.com/dequelabs/axe-core) | 7493 | 1 | 0 | 1 |
+| [`desktop/desktop`](https://github.com/desktop/desktop) | 21833 | 1 | 0 | 1 |
+| [`DouyinFE/semi-design`](https://github.com/DouyinFE/semi-design) | 10351 | 1 | 0 | 1 |
+| [`DSpace/dspace-angular`](https://github.com/DSpace/dspace-angular) | 180 | 1 | 0 | 1 |
+| [`floating-ui/floating-ui`](https://github.com/floating-ui/floating-ui) | 32735 | 1 | 0 | 1 |
 | [`Gamote/lottie-react`](https://github.com/Gamote/lottie-react) | 968 | 1 | 0 | 0 |
-| [`libredb/libredb-studio`](https://github.com/libredb/libredb-studio) | 446 | 1 | 0 | 1 |
 | [`NervJS/taro-docs`](https://github.com/NervJS/taro-docs) | 31 | 1 | 0 | 1 |
-| [`organicmaps/organicmaps`](https://github.com/organicmaps/organicmaps) | 15348 | 1 | 0 | 1 |
-| [`parcel-bundler/parcel`](https://github.com/parcel-bundler/parcel) | 44025 | 1 | 0 | 1 |
+| [`NimbleBrainInc/nimblebrain`](https://github.com/NimbleBrainInc/nimblebrain) | 20 | 1 | 0 | 1 |
+| [`organicmaps/organicmaps`](https://github.com/organicmaps/organicmaps) | 15352 | 1 | 0 | 1 |
+| [`parcel-bundler/parcel`](https://github.com/parcel-bundler/parcel) | 44023 | 1 | 0 | 1 |
+| [`payloadcms/payload`](https://github.com/payloadcms/payload) | 44636 | 1 | 0 | 1 |
+| [`pnpm/pnpm`](https://github.com/pnpm/pnpm) | 36467 | 1 | 0 | 1 |
 | [`pnpm/pnpm.io`](https://github.com/pnpm/pnpm.io) | 313 | 1 | 0 | 1 |
-| [`TanStack/router`](https://github.com/TanStack/router) | 15057 | 1 | 0 | 1 |
+| [`TanStack/router`](https://github.com/TanStack/router) | 15065 | 1 | 0 | 1 |
 | [`Tencent/tdesign-common`](https://github.com/Tencent/tdesign-common) | 189 | 1 | 0 | 1 |
-| [`Tencent/vConsole`](https://github.com/Tencent/vConsole) | 17519 | 1 | 0 | 1 |
-| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 21764 | 1 | 0 | 1 |
-| [`Tencent/wujie`](https://github.com/Tencent/wujie) | 5029 | 1 | 0 | 1 |
-| [`vitest-dev/vitest`](https://github.com/vitest-dev/vitest) | 17071 | 1 | 0 | 0 |
-| **Total across 31 upstream projects** |  | **80** | **38** | **37** |
+| [`Tencent/tdesign-vue-next`](https://github.com/Tencent/tdesign-vue-next) | 2178 | 1 | 0 | 1 |
+| [`Tencent/vConsole`](https://github.com/Tencent/vConsole) | 17517 | 1 | 0 | 1 |
+| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 21897 | 1 | 0 | 1 |
+| [`Tencent/wujie`](https://github.com/Tencent/wujie) | 5031 | 1 | 0 | 1 |
+| [`theaiteam-dev/conduit`](https://github.com/theaiteam-dev/conduit) | 0 | 1 | 0 | 1 |
+| [`trpc/trpc`](https://github.com/trpc/trpc) | 40588 | 1 | 0 | 1 |
+| [`vitest-dev/vitest`](https://github.com/vitest-dev/vitest) | 17078 | 1 | 0 | 0 |
+| [`w3c/aria`](https://github.com/w3c/aria) | 751 | 1 | 0 | 0 |
+| **Total across 50 upstream projects** |  | **105** | **44** | **55** |
 
-<sub>Snapshot 2026-09-08 (UTC) — PRs minus merged minus open are closed without merge and are not counted as adopted work.</sub>
+<sub>Snapshot 2026-09-09 (UTC) — PRs minus merged minus open are closed without merge and are not counted as adopted work.</sub>
 <!--END_SECTION:oss-footprint-->
 
 ## Education
