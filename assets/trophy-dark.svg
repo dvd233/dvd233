@@ -290,7 +290,7 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
   
           <text x="50%" y="18" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="13" fill="#e5c07b">PullRequest</text>
           <text x="50%" y="85" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10.5" fill="#e06c75">Ultra Puller</text>
-          <text x="50%" y="97" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10" fill="#e06c75">127pt</text>
+          <text x="50%" y="97" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10" fill="#e06c75">128pt</text>
           
     <style>
     @keyframes PullRequestRankAnimation {
@@ -298,7 +298,7 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         width: 0px;
       }
       to {
-        width: 21.6px;
+        width: 22.400000000000002px;
       }
     }
     #PullRequest-rank-progress{
@@ -400,7 +400,7 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
   
           <text x="50%" y="18" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="13" fill="#e5c07b">Commits</text>
           <text x="50%" y="85" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10.5" fill="#e06c75">Hyper Committer</text>
-          <text x="50%" y="97" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10" fill="#e06c75">413pt</text>
+          <text x="50%" y="97" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10" fill="#e06c75">415pt</text>
           
     <style>
     @keyframes CommitsRankAnimation {
@@ -408,7 +408,7 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         width: 0px;
       }
       to {
-        width: 56.8px;
+        width: 57.333333333333336px;
       }
     }
     #Commits-rank-progress{
@@ -581,7 +581,7 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
   
           <text x="50%" y="18" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="13" fill="#e5c07b">Followers</text>
           <text x="50%" y="85" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10.5" fill="#e06c75">Many Friends</text>
-          <text x="50%" y="97" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10" fill="#e06c75">11pt</text>
+          <text x="50%" y="97" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10" fill="#e06c75">12pt</text>
           
     <style>
     @keyframes FollowersRankAnimation {
@@ -589,7 +589,7 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         width: 0px;
       }
       to {
-        width: 8px;
+        width: 16px;
       }
     }
     #Followers-rank-progress{
