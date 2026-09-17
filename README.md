@@ -103,7 +103,7 @@ Merged in international frontend and tooling ecosystems:
 - ⚡ [chakra-ui/chakra-ui#10979](https://github.com/chakra-ui/chakra-ui/pull/10979) · ⭐ 40.6k — gave the file-upload delete trigger a proper disabled style.
 - 📦 [pnpm/pnpm#14708](https://github.com/pnpm/pnpm/pull/14708) · ⭐ 36.5k — stopped emitting empty package authors in SBOM documents.
 
-**28 merged PRs in [grafana/grafana-pathfinder-app](https://github.com/grafana/grafana-pathfinder-app)** · ⭐ 19 — sustained features, fixes, and hardening across Grafana's interactive learning app: block-editor bulk actions, coda VM lifecycle, docs retrieval, and lint plus e2e coverage.
+**28 merged PRs in [grafana/grafana-pathfinder-app](https://github.com/grafana/grafana-pathfinder-app)** · ⭐ 19 — sustained features, fixes, and hardening that span Grafana's interactive learning app end to end: block-editor bulk actions, coda VM lifecycle, docs retrieval, and lint plus e2e coverage.
 
 **27 merged PRs in [open-city-ai/haidian](https://github.com/open-city-ai/haidian)** — selected deep dives:
 
@@ -143,7 +143,7 @@ Merged in international frontend and tooling ecosystems:
 |---|---|---|---|
 | 🎓 **Interactive learning tooling** | [grafana/grafana-pathfinder-app](https://github.com/grafana/grafana-pathfinder-app) | `29 PRs · 28 merged · 1 open` | Block editor bulk actions, coda VM lifecycle, docs retrieval, and lint plus e2e coverage |
 | 🏙️ **Civic data delivery** | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | `28 PRs · 27 merged` | Structured submissions, geometry sources, deterministic artifacts, review semantics, and a CJK font screenshot regression |
-| 🤖 **AI agent systems** | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) · [michaelegner/architecture-intelligence-platform](https://github.com/michaelegner/architecture-intelligence-platform) · [AgentPostmortem/agentpostmortem](https://github.com/AgentPostmortem/agentpostmortem) | `9 merged · 3 open` | Windows event-loop and post-checkout safety merged; MCP evidence validation and agent case-registry fixes |
+| 🤖 **AI agent systems** | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | `2 merged · 3 open` | Windows event-loop and post-checkout commit safety merged; tool data-block replay and output-language fixes in review |
 | 🧩 **Frontend component ecosystems** | [ant-design/ant-design](https://github.com/ant-design/ant-design) · [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) · [DouyinFE/semi-design](https://github.com/DouyinFE/semi-design) · [alibaba/hooks](https://github.com/alibaba/hooks) · [nuxt/ui](https://github.com/nuxt/ui) · [Tencent/tdesign-vue-next](https://github.com/Tencent/tdesign-vue-next) · [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) | `8 merged · 1 open` | i18n guide links, modal stacking, non-nullable ref types, Dropdown and Menu fixes, and disabled upload triggers |
 | 🔍 **Code review tooling** | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | `3 PRs · 2 merged · 1 open` | Pug template support and atomic report writes merged; Jinja template support in review |
 | 🔐 **AI safety & evaluation** | [microsoft/PyRIT](https://github.com/microsoft/PyRIT) · [wandb/rai-toolkit](https://github.com/wandb/rai-toolkit) | `2 merged` | Feedback-dialog restore after secret confirmation; explicit adapter call-time options |
