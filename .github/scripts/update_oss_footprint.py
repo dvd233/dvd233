@@ -6,7 +6,6 @@ owner against external repositories, aggregates per-project totals, and
 rewrites the block between START/END markers. Stdlib only; GH_TOKEN env var
 required (the workflow passes GITHUB_TOKEN).
 """
-import datetime
 import json
 import os
 import re
@@ -112,13 +111,6 @@ def build_block(stats):
             "",
             "</details>",
         ]
-    today = datetime.date.today().isoformat()
-    lines.append(
-        f"\n<sub>Snapshot {today} (UTC) — the visible table lists projects"
-        " with at least one merged PR; the collapsed list keeps the rest."
-        " PRs minus merged minus open are closed without merge and are not"
-        " counted as adopted work.</sub>"
-    )
     return "\n".join(lines)
 
 

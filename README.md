@@ -118,16 +118,6 @@ Merged in international frontend and tooling ecosystems:
 </details>
 
 <details>
-  <summary><strong>🔎 Site provenance</strong></summary>
-
-  **Problem**: Provisional site inputs lacked consistent dates, hashes, licence and use boundaries, while an empty constraints layer could be mistaken for proof that no controls existed.
-
-  **Contribution**: I added a built-ins-only audit for four submitted geometries, recorded six missing official-control layers, and made replacement triggers and permitted uses traceable across the package. The merged change passed 18/18 audit checks.
-
-  **PR**: [open-city-ai/haidian#3525](https://github.com/open-city-ai/haidian/pull/3525)
-</details>
-
-<details>
   <summary><strong>🪟 Windows portability · import and worker locking</strong></summary>
 
   **Problem**: An unconditional <code>fcntl</code> import stopped two test modules from being collected on Windows, and worker-lock contention needed consistent cross-platform semantics.
@@ -135,16 +125,6 @@ Merged in international frontend and tooling ecosystems:
   **Contribution**: I reproduced the failure, introduced the guarded POSIX and Windows lock path, and added the initial regression. Maintainer review then corrected the production file-open path and strengthened its test; the previously uncollectable target suite passed 21/21 tests.
 
   **PR**: [open-city-ai/haidian#3859](https://github.com/open-city-ai/haidian/pull/3859)
-</details>
-
-<details>
-  <summary><strong>📄 Deterministic artifacts · LF across platforms</strong></summary>
-
-  **Problem**: Three writer paths emitted CRLF on Windows, creating whole-file diff noise and breaking byte-hash consistency after line-ending normalization.
-
-  **Contribution**: I made the writers emit LF bytes and added direct plus end-to-end regressions. After review exposed a Python 3.9 compatibility issue, I revised the implementation and revalidated both flows.
-
-  **PR**: [open-city-ai/haidian#3915](https://github.com/open-city-ai/haidian/pull/3915)
 </details>
 
 <details>
@@ -239,26 +219,26 @@ Merged in international frontend and tooling ecosystems:
 | [`open-city-ai/haidian`](https://github.com/open-city-ai/haidian) | 411 | 28 | 27 | 0 |
 | [`michaelegner/architecture-intelligence-platform`](https://github.com/michaelegner/architecture-intelligence-platform) | 3 | 4 | 4 | 0 |
 | [`AgentPostmortem/agentpostmortem`](https://github.com/AgentPostmortem/agentpostmortem) | 2 | 3 | 3 | 0 |
-| [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 33512 | 3 | 2 | 1 |
+| [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 33602 | 3 | 2 | 1 |
 | [`snapotter-hq/SnapOtter`](https://github.com/snapotter-hq/SnapOtter) | 2682 | 2 | 2 | 0 |
 | [`Tencent/tdesign-vue-next`](https://github.com/Tencent/tdesign-vue-next) | 2180 | 2 | 2 | 0 |
-| [`reticlehq/reticle`](https://github.com/reticlehq/reticle) | 692 | 2 | 2 | 0 |
-| [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 99521 | 1 | 1 | 0 |
-| [`chakra-ui/chakra-ui`](https://github.com/chakra-ui/chakra-ui) | 40648 | 1 | 1 | 0 |
+| [`reticlehq/reticle`](https://github.com/reticlehq/reticle) | 693 | 2 | 2 | 0 |
+| [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 99522 | 1 | 1 | 0 |
+| [`chakra-ui/chakra-ui`](https://github.com/chakra-ui/chakra-ui) | 40649 | 1 | 1 | 0 |
 | [`pnpm/pnpm`](https://github.com/pnpm/pnpm) | 36547 | 1 | 1 | 0 |
-| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 31861 | 3 | 1 | 1 |
+| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 31862 | 3 | 1 | 1 |
 | [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) | 27917 | 3 | 1 | 2 |
 | [`alibaba/hooks`](https://github.com/alibaba/hooks) | 14972 | 1 | 1 | 0 |
 | [`DouyinFE/semi-design`](https://github.com/DouyinFE/semi-design) | 10363 | 1 | 1 | 0 |
-| [`nuxt/ui`](https://github.com/nuxt/ui) | 6931 | 2 | 1 | 1 |
+| [`nuxt/ui`](https://github.com/nuxt/ui) | 6932 | 2 | 1 | 1 |
 | [`kando-menu/kando`](https://github.com/kando-menu/kando) | 6351 | 1 | 1 | 0 |
 | [`Tencent/cherry-markdown`](https://github.com/Tencent/cherry-markdown) | 4873 | 1 | 1 | 0 |
 | [`callstack/agent-device`](https://github.com/callstack/agent-device) | 4613 | 1 | 1 | 0 |
 | [`microsoft/PyRIT`](https://github.com/microsoft/PyRIT) | 4488 | 1 | 1 | 0 |
-| [`conorbronsdon/avoid-ai-writing`](https://github.com/conorbronsdon/avoid-ai-writing) | 4435 | 1 | 1 | 0 |
+| [`conorbronsdon/avoid-ai-writing`](https://github.com/conorbronsdon/avoid-ai-writing) | 4437 | 1 | 1 | 0 |
 | [`crxjs/chrome-extension-tools`](https://github.com/crxjs/chrome-extension-tools) | 4170 | 1 | 1 | 0 |
 | [`add2cal/add-to-calendar-button`](https://github.com/add2cal/add-to-calendar-button) | 1484 | 1 | 1 | 0 |
-| [`libredb/libredb-studio`](https://github.com/libredb/libredb-studio) | 786 | 1 | 1 | 0 |
+| [`libredb/libredb-studio`](https://github.com/libredb/libredb-studio) | 787 | 1 | 1 | 0 |
 | [`PostHog/posthog-js`](https://github.com/PostHog/posthog-js) | 608 | 1 | 1 | 0 |
 | [`OpsiMate/OpsiMate`](https://github.com/OpsiMate/OpsiMate) | 214 | 1 | 1 | 0 |
 | [`Tencent/tdesign-common`](https://github.com/Tencent/tdesign-common) | 188 | 1 | 1 | 0 |
@@ -274,12 +254,12 @@ Merged in international frontend and tooling ecosystems:
 
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
 |---|---:|---:|---:|---:|
-| [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 26891 | 8 | 0 | 8 |
+| [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 26897 | 8 | 0 | 8 |
 | [`NervJS/taro`](https://github.com/NervJS/taro) | 37678 | 6 | 0 | 6 |
-| [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop) | 39020 | 5 | 0 | 5 |
+| [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop) | 39019 | 5 | 0 | 5 |
 | [`storybookjs/storybook`](https://github.com/storybookjs/storybook) | 91078 | 3 | 0 | 3 |
 | [`payloadcms/payload`](https://github.com/payloadcms/payload) | 44789 | 2 | 0 | 2 |
-| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 25933 | 2 | 0 | 2 |
+| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 25957 | 2 | 0 | 2 |
 | [`radix-ui/primitives`](https://github.com/radix-ui/primitives) | 19284 | 2 | 0 | 2 |
 | [`Tencent/vConsole`](https://github.com/Tencent/vConsole) | 17520 | 2 | 0 | 2 |
 | [`adobe/react-spectrum`](https://github.com/adobe/react-spectrum) | 15871 | 2 | 0 | 2 |
@@ -288,8 +268,8 @@ Merged in international frontend and tooling ecosystems:
 | [`wxt-dev/wxt`](https://github.com/wxt-dev/wxt) | 10515 | 2 | 0 | 2 |
 | [`ChatGPTNextWeb/NextChat`](https://github.com/ChatGPTNextWeb/NextChat) | 88772 | 1 | 0 | 1 |
 | [`parcel-bundler/parcel`](https://github.com/parcel-bundler/parcel) | 44025 | 1 | 0 | 1 |
-| [`volcengine/OpenViking`](https://github.com/volcengine/OpenViking) | 37861 | 1 | 0 | 1 |
-| [`continuedev/continue`](https://github.com/continuedev/continue) | 35940 | 1 | 0 | 1 |
+| [`volcengine/OpenViking`](https://github.com/volcengine/OpenViking) | 37863 | 1 | 0 | 1 |
+| [`continuedev/continue`](https://github.com/continuedev/continue) | 35941 | 1 | 0 | 1 |
 | [`floating-ui/floating-ui`](https://github.com/floating-ui/floating-ui) | 32750 | 1 | 0 | 1 |
 | [`tailwindlabs/headlessui`](https://github.com/tailwindlabs/headlessui) | 28743 | 1 | 0 | 1 |
 | [`eslint/eslint`](https://github.com/eslint/eslint) | 27510 | 1 | 0 | 1 |
@@ -300,8 +280,8 @@ Merged in international frontend and tooling ecosystems:
 | [`organicmaps/organicmaps`](https://github.com/organicmaps/organicmaps) | 15436 | 1 | 0 | 1 |
 | [`Tencent/omi`](https://github.com/Tencent/omi) | 13266 | 1 | 0 | 1 |
 | [`alibaba/formily`](https://github.com/alibaba/formily) | 12580 | 1 | 0 | 1 |
-| [`didi/LogicFlow`](https://github.com/didi/LogicFlow) | 11703 | 1 | 0 | 1 |
-| [`huggingface/chat-ui`](https://github.com/huggingface/chat-ui) | 10954 | 1 | 0 | 1 |
+| [`didi/LogicFlow`](https://github.com/didi/LogicFlow) | 11702 | 1 | 0 | 1 |
+| [`huggingface/chat-ui`](https://github.com/huggingface/chat-ui) | 10953 | 1 | 0 | 1 |
 | [`gridstack/gridstack.js`](https://github.com/gridstack/gridstack.js) | 9118 | 1 | 0 | 1 |
 | [`bytedance/flowgram.ai`](https://github.com/bytedance/flowgram.ai) | 8454 | 1 | 0 | 1 |
 | [`dequelabs/axe-core`](https://github.com/dequelabs/axe-core) | 7520 | 1 | 0 | 1 |
@@ -322,7 +302,7 @@ Merged in international frontend and tooling ecosystems:
 | [`theaiteam-dev/conduit`](https://github.com/theaiteam-dev/conduit) | 0 | 1 | 0 | 1 |
 | [`vitejs/vite`](https://github.com/vitejs/vite) | 82856 | 1 | 0 | 0 |
 | [`trpc/trpc`](https://github.com/trpc/trpc) | 40605 | 1 | 0 | 0 |
-| [`vitest-dev/vitest`](https://github.com/vitest-dev/vitest) | 17116 | 2 | 0 | 0 |
+| [`vitest-dev/vitest`](https://github.com/vitest-dev/vitest) | 17119 | 2 | 0 | 0 |
 | [`typescript-eslint/typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint) | 16391 | 4 | 0 | 0 |
 | [`assistant-ui/assistant-ui`](https://github.com/assistant-ui/assistant-ui) | 12185 | 1 | 0 | 0 |
 | [`npmx-dev/npmx.dev`](https://github.com/npmx-dev/npmx.dev) | 3622 | 3 | 0 | 0 |
@@ -332,8 +312,6 @@ Merged in international frontend and tooling ecosystems:
 | [`backblaze-labs/b2-mcp`](https://github.com/backblaze-labs/b2-mcp) | 36 | 1 | 0 | 0 |
 
 </details>
-
-<sub>Snapshot 2026-09-17 (UTC) — the visible table lists projects with at least one merged PR; the collapsed list keeps the rest. PRs minus merged minus open are closed without merge and are not counted as adopted work.</sub>
 <!--END_SECTION:oss-footprint-->
 
 ## Education
