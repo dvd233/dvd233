@@ -316,12 +316,8 @@ Merged in international frontend and tooling ecosystems:
 
 ## Education
 
-<img align="right" width="96" src="assets/bupt-seal.svg" alt="Seal of Beijing University of Posts and Telecommunications">
-
 - **Master's student** — Electronic Engineering and Information Photonics, BUPT
 - **Undergraduate background** — Network Engineering, BUPT
-
-<br clear="right">
 
 ## Contact
 
