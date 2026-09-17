@@ -65,20 +65,34 @@ def aggregate(items):
 
 
 def build_block(stats):
-    rows = sorted(
-        stats.items(),
-        key=lambda kv: (-kv[1]["merged"], -kv[1]["total"], kv[0].lower()),
-    )
-    lines = [
+    stars = {
+        repo: api(f"https://api.github.com/repos/{repo}")["stargazers_count"]
+        for repo in stats
+    }
+    header = [
         "| Project | ⭐ | PRs | ✅ Merged | 🚀 Open |",
         "|---|---:|---:|---:|---:|",
     ]
-    for repo, s in rows:
-        stars = api(f"https://api.github.com/repos/{repo}")["stargazers_count"]
-        lines.append(
+
+    def row(repo, s):
+        return (
             f"| [`{repo}`](https://github.com/{repo}) "
-            f"| {stars} | {s['total']} | {s['merged']} | {s['open']} |"
+            f"| {stars[repo]} | {s['total']} | {s['merged']} | {s['open']} |"
         )
+
+    # Visible table: projects with at least one merged PR, highest merged
+    # count first, then highest stars. Zero-merge projects move behind a
+    # collapsed details so the ledger stays complete without flooding the
+    # profile.
+    adopted = sorted(
+        (kv for kv in stats.items() if kv[1]["merged"] > 0),
+        key=lambda kv: (-kv[1]["merged"], -stars[kv[0]], kv[0].lower()),
+    )
+    pending = sorted(
+        (kv for kv in stats.items() if kv[1]["merged"] == 0),
+        key=lambda kv: (-kv[1]["open"], -stars[kv[0]], kv[0].lower()),
+    )
+    lines = header + [row(repo, s) for repo, s in adopted]
     total = sum(s["total"] for s in stats.values())
     merged = sum(s["merged"] for s in stats.values())
     opened = sum(s["open"] for s in stats.values())
@@ -86,10 +100,24 @@ def build_block(stats):
         f"| **Total across {len(stats)} upstream projects** "
         f"|  | **{total}** | **{merged}** | **{opened}** |"
     )
+    if pending:
+        lines += [
+            "",
+            "<details>",
+            f"<summary><strong>🧾 {len(pending)} more projects with PRs"
+            " only in review or closed without merge</strong></summary>",
+            "",
+            *header,
+            *(row(repo, s) for repo, s in pending),
+            "",
+            "</details>",
+        ]
     today = datetime.date.today().isoformat()
     lines.append(
-        f"\n<sub>Snapshot {today} (UTC) — PRs minus merged minus open are"
-        " closed without merge and are not counted as adopted work.</sub>"
+        f"\n<sub>Snapshot {today} (UTC) — the visible table lists projects"
+        " with at least one merged PR; the collapsed list keeps the rest."
+        " PRs minus merged minus open are closed without merge and are not"
+        " counted as adopted work.</sub>"
     )
     return "\n".join(lines)
 
