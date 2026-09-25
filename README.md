@@ -26,7 +26,7 @@
 
 ## What the demo shows
 
-This is an **earlier private hyperspectral reconstruction prototype**. The public loop and full demo show a desktop workflow for camera acquisition, lightweight deep-learning reconstruction, 30-band spectral display across 400-690 nm, per-point spectral curves, and result saving.
+This is an **earlier private hyperspectral reconstruction prototype**. The public loop and full demo show a desktop workflow for camera acquisition, lightweight deep-learning reconstruction, 30-band spectral display across 400-690 nm, spectral curves, and result saving.
 
 I was responsible for the lightweight deep-learning reconstruction and dataset work, plus the camera acquisition, desktop UI, spectral visualization, and result-saving modules. Code and data remain private because of research and industry-collaboration constraints.
 
@@ -39,31 +39,13 @@ I was responsible for the lightweight deep-learning reconstruction and dataset w
   <code>computational imaging</code>
 </p>
 
-## About
-
-I turn AI capabilities into products people can use: streaming interfaces, local client workflows, orchestration, APIs, and data delivery. My main lane is AI full-stack engineering, with computational imaging and open-source collaboration adding technical depth.
-
-## Engineering focus
-
-- **AI application engineering**: turning LLM and agent capabilities into product flows across UI, orchestration, APIs, and data.
-- **Frontend and client engineering**: building streaming interfaces, desktop workflows, device-facing controls, and cross-platform behavior.
-- **Agent workflows and data systems**: working with RAG, DAG execution, model routing, MCP, SSE, RBAC, state, and storage.
-- **Computational imaging**: turning reconstruction research into usable software through camera acquisition, spectral visualization, and result handling.
-
 ## Tech stack
 
 <p align="center">
   <img class="tech-stack" src="assets/tech-stack.svg" width="100%" alt="Tech stack across interface, AI applications, backend and data, client delivery, and spectral imaging: HTML5, CSS3, JavaScript, TypeScript, React, React Flow, Zustand, Vite, Node.js, NestJS, Python, PyTorch, LangGraph, RAG, MCP, SSE, WebSocket, PostgreSQL, pgvector, Redis, Rust, Tauri, Git, Windows, PyInstaller, and camera workflows.">
 </p>
 
-- **Interface**: HTML5, CSS3, JavaScript, TypeScript, React, React Flow, Zustand, Vite, Webpack, and Rspack.
-- **AI applications**: LLM agents, RAG, LangChain, LangGraph, MCP tool calling, model routing, SSE, and WebSocket workflows.
-- **Services and data**: Node.js, NestJS, Python, PyTorch, PostgreSQL, pgvector, Redis, DAG execution, RBAC, snapshots, and structured diff or rollback.
-- **Client delivery**: Rust, Tauri, Git, Windows tooling, PyInstaller, camera workflows, and desktop result handling.
-
 ## AI coding workflow
-
-My coding-agent toolkit includes Kimi Code, Codex, Pi, Claude Code, Hermes, OpenCode, and ZCode. I also follow DeepSeek Harness within the broader agent tooling ecosystem. I use these tools inside a human-led loop: understand the codebase, implement the change, test edge cases, document decisions, and review the result.
 
 <div align="center">
   <div class="agent-grid" role="group" aria-label="Coding agents used in my workflow">
