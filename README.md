@@ -83,25 +83,28 @@ My coding-agent toolkit includes Kimi Code, Codex, Pi, Claude Code, Hermes, Open
 
 ## 🌐 Open-source contributions
 
-I work on real issues across AI agent systems, frontend ecosystems, desktop and web tooling, and civic data. As of 2026-09-17, **94 PRs are merged across 32 upstream projects**, with 78 more in review.
+I work on real issues across AI agent systems, frontend ecosystems, desktop and web tooling, and civic data. As of 2026-09-25 (UTC), **125 PRs are merged across 43 upstream projects**, with 135 open PRs.
 
 ### 🏆 Merged proof
 
 Recently merged across major Chinese AI agent and frontend ecosystems:
 
-- 🐜 [ant-design/ant-design#59173](https://github.com/ant-design/ant-design/pull/59173) · ⭐ 99.5k — fixed the Chinese contribution guide to link the English locale list in its i18n step, so contributors update both locale lists.
-- 🔍 [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · ⭐ 33.5k — added Pug template support to the review allowlist ([#1114](https://github.com/alibaba/open-code-review/pull/1114)), then made report writes atomic so interrupted runs cannot leave truncated output ([#1160](https://github.com/alibaba/open-code-review/pull/1160)).
-- 🤖 [agentscope-ai/agentscope#2434](https://github.com/agentscope-ai/agentscope/pull/2434) · ⭐ 31.9k — Uvicorn hot reload forced a SelectorEventLoop on Windows and broke subprocess execution; disabling reload on Windows keeps a compatible event loop.
-- 💬 [QwenLM/qwen-code#11300](https://github.com/QwenLM/qwen-code/pull/11300) · ⭐ 27.9k — kept branch commits made before a failing post-checkout hook, so a failed hook no longer discards committed work.
+- 🐜 [ant-design/ant-design#59173](https://github.com/ant-design/ant-design/pull/59173) · ⭐ 99.6k — fixed the Chinese contribution guide to link the English locale list in its i18n step, so contributors update both locale lists.
+- 🔍 [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · ⭐ 41.0k — added Pug template support to the review allowlist ([#1114](https://github.com/alibaba/open-code-review/pull/1114)), then made report writes atomic so interrupted runs cannot leave truncated output ([#1160](https://github.com/alibaba/open-code-review/pull/1160)). Also preserved unknown JSON fields during config updates, including nested provider and MCP settings ([#1508](https://github.com/alibaba/open-code-review/pull/1508)).
+- 🧠 [volcengine/OpenViking](https://github.com/volcengine/OpenViking) · ⭐ 38.6k — restored DeepSeek Harness memory injection compatibility while retaining legacy replay ([#5318](https://github.com/volcengine/OpenViking/pull/5318)), and fixed broad MCP recall being narrowed to the process workspace ([#5346](https://github.com/volcengine/OpenViking/pull/5346)).
+- 📱 [NervJS/taro#19492](https://github.com/NervJS/taro/pull/19492) · ⭐ 37.7k — fixed missing page styles when mini-program pages share a CSS asset, with page/app sharing regressions and verification against the issue reproduction.
+- 🤖 [agentscope-ai/agentscope#2434](https://github.com/agentscope-ai/agentscope/pull/2434) · ⭐ 32.3k — Uvicorn hot reload forced a SelectorEventLoop on Windows and broke subprocess execution; disabling reload on Windows keeps a compatible event loop.
+- 💬 [QwenLM/qwen-code#11300](https://github.com/QwenLM/qwen-code/pull/11300) · ⭐ 28.1k — kept branch commits made before a failing post-checkout hook, so a failed hook no longer discards committed work. Updated SDK E2E assertions to recognize deferred MCP tool calls ([#12365](https://github.com/QwenLM/qwen-code/pull/12365)).
 - ⚛️ [alibaba/hooks#2956](https://github.com/alibaba/hooks/pull/2956) · ⭐ 15.0k — kept `useLatest` and `useUnmountedRef` returns as non-nullable `MutableRefObject` across the supported React type versions, backed by declaration-emission regression tests.
 - 🎨 [DouyinFE/semi-design#3352](https://github.com/DouyinFE/semi-design/pull/3352) · ⭐ 10.4k — made ESC close only the top-most modal, so stacked modals no longer collapse together.
+- 🛠️ [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) · ⭐ 5.0k — added explicit push branches and protected local changes in team clones ([#690](https://github.com/Tencent/teamai-cli/pull/690)); integrated DeepSeek Harness hooks with opt-in setup and uninstall cleanup ([#689](https://github.com/Tencent/teamai-cli/pull/689)).
 - 🍒 [Tencent/cherry-markdown#1871](https://github.com/Tencent/cherry-markdown/pull/1871) · ⭐ 4.9k — guarded pending image load and error callbacks after previewer destroy, so late events no longer touch torn-down state.
 - 🧩 [Tencent/tdesign-vue-next](https://github.com/Tencent/tdesign-vue-next) · ⭐ 2.2k — restored the Dropdown `onClick` option type ([#6959](https://github.com/Tencent/tdesign-vue-next/pull/6959)) and made Menu handle functional submenu parents ([#6967](https://github.com/Tencent/tdesign-vue-next/pull/6967)).
 
 Merged in international frontend and tooling ecosystems:
 
-- ⚡ [chakra-ui/chakra-ui#10979](https://github.com/chakra-ui/chakra-ui/pull/10979) · ⭐ 40.6k — gave the file-upload delete trigger a proper disabled style.
-- 📦 [pnpm/pnpm#14708](https://github.com/pnpm/pnpm/pull/14708) · ⭐ 36.5k — stopped emitting empty package authors in SBOM documents.
+- ⚡ [chakra-ui/chakra-ui#10979](https://github.com/chakra-ui/chakra-ui/pull/10979) · ⭐ 40.7k — gave the file-upload delete trigger a proper disabled style.
+- 📦 [pnpm/pnpm#14708](https://github.com/pnpm/pnpm/pull/14708) · ⭐ 36.6k — stopped emitting empty package authors in SBOM documents.
 
 **28 merged PRs in [grafana/grafana-pathfinder-app](https://github.com/grafana/grafana-pathfinder-app)** · ⭐ 19 — sustained features, fixes, and hardening that span Grafana's interactive learning app end to end: block-editor bulk actions, coda VM lifecycle, docs retrieval, and lint plus e2e coverage.
 
@@ -141,24 +144,24 @@ Merged in international frontend and tooling ecosystems:
 
 | Area | Project | Status | Selected work |
 |---|---|---|---|
-| 🎓 **Interactive learning tooling** | [grafana/grafana-pathfinder-app](https://github.com/grafana/grafana-pathfinder-app) | `29 PRs · 28 merged · 1 open` | Block editor bulk actions, coda VM lifecycle, docs retrieval, and lint plus e2e coverage |
+| 🎓 **Interactive learning tooling** | [grafana/grafana-pathfinder-app](https://github.com/grafana/grafana-pathfinder-app) | `30 PRs · 28 merged · 2 open` | Block editor bulk actions, coda VM lifecycle, docs retrieval, and lint plus e2e coverage |
 | 🏙️ **Civic data delivery** | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | `28 PRs · 27 merged` | Structured submissions, geometry sources, deterministic artifacts, review semantics, and a CJK font screenshot regression |
-| 🤖 **AI agent systems** | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | `2 merged · 3 open` | Windows event-loop and post-checkout commit safety merged; tool data-block replay and output-language fixes in review |
-| 🧩 **Frontend component ecosystems** | [ant-design/ant-design](https://github.com/ant-design/ant-design) · [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) · [DouyinFE/semi-design](https://github.com/DouyinFE/semi-design) · [alibaba/hooks](https://github.com/alibaba/hooks) · [nuxt/ui](https://github.com/nuxt/ui) · [Tencent/tdesign-vue-next](https://github.com/Tencent/tdesign-vue-next) · [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) | `8 merged · 1 open` | i18n guide links, modal stacking, non-nullable ref types, Dropdown and Menu fixes, and disabled upload triggers |
-| 🔍 **Code review tooling** | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | `3 PRs · 2 merged · 1 open` | Pug template support and atomic report writes merged; Jinja template support in review |
+| 🤖 **AI agent systems** | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | `5 merged · 9 open` | Windows event-loop and post-checkout commit safety merged; tool data-block replay and output-language fixes in review |
+| 🧩 **Frontend component ecosystems** | [ant-design/ant-design](https://github.com/ant-design/ant-design) · [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) · [DouyinFE/semi-design](https://github.com/DouyinFE/semi-design) · [alibaba/hooks](https://github.com/alibaba/hooks) · [nuxt/ui](https://github.com/nuxt/ui) · [Tencent/tdesign-vue-next](https://github.com/Tencent/tdesign-vue-next) · [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) | `9 merged · 1 open` | i18n guide links, modal stacking, non-nullable ref types, Dropdown and Menu fixes, and disabled upload triggers |
+| 🔍 **Code review tooling** | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | `6 PRs · 4 merged · 1 open` | Pug support, atomic report writes, and unknown config-field preservation merged; Jinja support in review |
 | 🔐 **AI safety & evaluation** | [microsoft/PyRIT](https://github.com/microsoft/PyRIT) · [wandb/rai-toolkit](https://github.com/wandb/rai-toolkit) | `2 merged` | Feedback-dialog restore after secret confirmation; explicit adapter call-time options |
-| 🛠️ **Web & build tooling** | [pnpm/pnpm](https://github.com/pnpm/pnpm) · [crxjs/chrome-extension-tools](https://github.com/crxjs/chrome-extension-tools) · [storybookjs/storybook](https://github.com/storybookjs/storybook) · [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) | `2 merged · 4 open` | SBOM and sourcemap fixes merged; Next.js-Vite resolution and resolver BOM parsing in review |
+| 🛠️ **Web & build tooling** | [pnpm/pnpm](https://github.com/pnpm/pnpm) · [crxjs/chrome-extension-tools](https://github.com/crxjs/chrome-extension-tools) · [storybookjs/storybook](https://github.com/storybookjs/storybook) · [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) | `2 merged · 3 open` | SBOM and sourcemap fixes merged; Next.js-Vite resolution and resolver BOM parsing in review |
 | 💻 **Desktop UX** | [desktop/desktop](https://github.com/desktop/desktop) · [kando-menu/kando](https://github.com/kando-menu/kando) | `1 merged · 1 open` | WebSocket message action merged; pull-request suggestion behavior in review |
 | 🧠 **Agent memory & Node.js** | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | `8 open` | Gateway lifecycle and env forwarding, bash 3.2 deploys, proxy preservation, SQLite filtering, and self-healing store state |
-| 📱 **Cross-end frontend** | [NervJS/taro](https://github.com/NervJS/taro) · [NervJS/taro-docs](https://github.com/NervJS/taro-docs) | `7 open` | Component rendering, platform API typings, Vite runner CSS behavior, and llms.txt docs |
-| 🖥️ **Agent desktop UI** | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | `5 open` | Agent server streaming, MCP initialization, device actions, and workspace search ordering |
-| 📖 **Knowledge & RAG** | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | `2 open` | PDF text extraction and editor resource loading |
+| 📱 **Cross-end frontend** | [NervJS/taro](https://github.com/NervJS/taro) · [NervJS/taro-docs](https://github.com/NervJS/taro-docs) | `5 merged · 3 open` | Shared CSS output, image alignment, request typings, and swan input behavior merged; other platform props and docs in review |
+| 🖥️ **Agent desktop UI** | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | `9 open` | Agent server streaming, MCP initialization, device actions, and workspace search ordering |
+| 📖 **Knowledge & RAG** | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | `1 merged · 4 open` | Wiki MCP structured content merged; PDF extraction and other document fixes in review |
 | 🧭 **Search & coordinates** | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | `1 open` | C++ search behavior for space-separated DMS coordinates |
 
 ### 🚀 In review now
 
 <details>
-  <summary><strong>🤖 AI agent systems · 18 open PRs</strong></summary>
+  <summary><strong>🤖 AI agent systems · 17 open PRs</strong></summary>
 
   - [TencentCloud/TencentDB-Agent-Memory#1388](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1388): forward <code>MEMORY_TENCENTDB_LLM_*</code> settings to the Gateway as <code>TDAI_LLM_*</code>.
   - [TencentCloud/TencentDB-Agent-Memory#1383](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1383): terminate the Gateway process tree on Windows.
@@ -177,29 +180,21 @@ Merged in international frontend and tooling ecosystems:
   - [QwenLM/qwen-code#10580](https://github.com/QwenLM/qwen-code/pull/10580): localize untitled session search in the VS Code integration.
   - [agentscope-ai/agentscope#2551](https://github.com/agentscope-ai/agentscope/pull/2551): preserve tool data-block identity during event replay.
   - [Tencent/WeKnora#3228](https://github.com/Tencent/WeKnora/pull/3228): preserve numeric rows in PDF text extraction.
-  - [Tencent/WeKnora#3003](https://github.com/Tencent/WeKnora/pull/3003): load editor resources for contributors.
 </details>
 
 <details>
-  <summary><strong>📱 Cross-end and domestic frontend · 9 open PRs</strong></summary>
+  <summary><strong>📱 Cross-end and domestic frontend · 4 open PRs</strong></summary>
 
-  - [NervJS/taro#19491](https://github.com/NervJS/taro/pull/19491): center aspectFit images horizontally.
-  - [NervJS/taro#19492](https://github.com/NervJS/taro/pull/19492): keep global page styles when syncing CSS in the Vite runner.
   - [NervJS/taro#19493](https://github.com/NervJS/taro/pull/19493): add the WeChat phone-number quota toast prop to Button and its template.
-  - [NervJS/taro#19494](https://github.com/NervJS/taro/pull/19494): mark holdKeyboard for Baidu and pass hold-keyboard through the swan templates.
-  - [NervJS/taro#19495](https://github.com/NervJS/taro/pull/19495): fix self-contradictory generic constraints and missing RequestParams in the request typings.
-  - [NervJS/taro#19496](https://github.com/NervJS/taro/pull/19496): add the missing requestCommonPayment typings for WeChat payment.
   - [Tencent/vConsole#739](https://github.com/Tencent/vConsole/pull/739): guard reserved request IDs against prototype pollution in the Network panel.
   - [Tencent/vConsole#737](https://github.com/Tencent/vConsole/pull/737): restore inherited event properties in log output.
   - [baidu/amis#21517](https://github.com/baidu/amis/pull/21517): restore list order on drag reset.
 </details>
 
 <details>
-  <summary><strong>🛠️ Frontend platforms and tooling · 9 open PRs</strong></summary>
+  <summary><strong>🛠️ Frontend platforms and tooling · 7 open PRs</strong></summary>
 
   - [storybookjs/storybook#36296](https://github.com/storybookjs/storybook/pull/36296): skip unresolved image imports in the Next.js-Vite integration.
-  - [storybookjs/storybook#36239](https://github.com/storybookjs/storybook/pull/36239): resolve styled-jsx through Next.js under strict pnpm.
-  - [storybookjs/storybook#36238](https://github.com/storybookjs/storybook/pull/36238): keep pnpm catalog references during CLI upgrades.
   - [TanStack/router#8438](https://github.com/TanStack/router/pull/8438): hydrate route error components consistently in the Solid router.
   - [TanStack/router#8283](https://github.com/TanStack/router/pull/8283): reject non-ok JSON server function responses.
   - [radix-ui/primitives#4145](https://github.com/radix-ui/primitives/pull/4145): prevent Escape from dismissing the underlying layer.
@@ -208,7 +203,7 @@ Merged in international frontend and tooling ecosystems:
   - [adobe/react-spectrum#10595](https://github.com/adobe/react-spectrum/pull/10595): scope ariaHideOutside to the target document.
 </details>
 
-<sub>…plus single PRs across parcel, desktop/desktop, payloadcms, continue, eslint, NextChat, OpenViking, and other ecosystems — the auto-refreshed 📊 Full footprint below tracks every upstream project.</sub>
+<sub>…plus more PRs across parcel, desktop/desktop, payloadcms, continue, eslint, NextChat, OpenViking, and other ecosystems — the auto-refreshed 📊 Full footprint below tracks every upstream project.</sub>
 
 ### 📊 Full footprint
 
@@ -219,31 +214,31 @@ Merged in international frontend and tooling ecosystems:
 | [`open-city-ai/haidian`](https://github.com/open-city-ai/haidian) | 414 | 28 | 27 | 0 |
 | [`Tencent/teamai-cli`](https://github.com/Tencent/teamai-cli) | 4997 | 11 | 9 | 0 |
 | [`NervJS/taro`](https://github.com/NervJS/taro) | 37694 | 7 | 5 | 2 |
-| [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 40998 | 6 | 4 | 1 |
-| [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) | 28123 | 12 | 4 | 8 |
+| [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 41045 | 6 | 4 | 1 |
+| [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) | 28125 | 12 | 4 | 8 |
 | [`michaelegner/architecture-intelligence-platform`](https://github.com/michaelegner/architecture-intelligence-platform) | 3 | 4 | 4 | 0 |
-| [`volcengine/OpenViking`](https://github.com/volcengine/OpenViking) | 38642 | 5 | 3 | 2 |
+| [`volcengine/OpenViking`](https://github.com/volcengine/OpenViking) | 38650 | 5 | 3 | 2 |
 | [`AgentPostmortem/agentpostmortem`](https://github.com/AgentPostmortem/agentpostmortem) | 2 | 3 | 3 | 0 |
 | [`nuxt/ui`](https://github.com/nuxt/ui) | 6963 | 2 | 2 | 0 |
-| [`snapotter-hq/SnapOtter`](https://github.com/snapotter-hq/SnapOtter) | 2738 | 2 | 2 | 0 |
+| [`snapotter-hq/SnapOtter`](https://github.com/snapotter-hq/SnapOtter) | 2740 | 2 | 2 | 0 |
 | [`Tencent/tdesign-vue-next`](https://github.com/Tencent/tdesign-vue-next) | 2185 | 3 | 2 | 1 |
-| [`reticlehq/reticle`](https://github.com/reticlehq/reticle) | 847 | 2 | 2 | 0 |
+| [`reticlehq/reticle`](https://github.com/reticlehq/reticle) | 849 | 2 | 2 | 0 |
 | [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 99614 | 1 | 1 | 0 |
 | [`chakra-ui/chakra-ui`](https://github.com/chakra-ui/chakra-ui) | 40667 | 1 | 1 | 0 |
 | [`pnpm/pnpm`](https://github.com/pnpm/pnpm) | 36632 | 2 | 1 | 0 |
-| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 32329 | 3 | 1 | 1 |
-| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 29838 | 7 | 1 | 4 |
+| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 32332 | 3 | 1 | 1 |
+| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 29876 | 7 | 1 | 4 |
 | [`camsong/You-Dont-Need-jQuery`](https://github.com/camsong/You-Dont-Need-jQuery) | 20126 | 1 | 1 | 0 |
 | [`alibaba/hooks`](https://github.com/alibaba/hooks) | 14974 | 1 | 1 | 0 |
 | [`Tencent/omi`](https://github.com/Tencent/omi) | 13271 | 1 | 1 | 0 |
 | [`DouyinFE/semi-design`](https://github.com/DouyinFE/semi-design) | 10385 | 1 | 1 | 0 |
 | [`gridstack/gridstack.js`](https://github.com/gridstack/gridstack.js) | 9140 | 1 | 1 | 0 |
 | [`dequelabs/axe-core`](https://github.com/dequelabs/axe-core) | 7556 | 1 | 1 | 0 |
-| [`Tencent/BrowserSkill`](https://github.com/Tencent/BrowserSkill) | 7166 | 1 | 1 | 0 |
+| [`Tencent/BrowserSkill`](https://github.com/Tencent/BrowserSkill) | 7171 | 1 | 1 | 0 |
 | [`kando-menu/kando`](https://github.com/kando-menu/kando) | 6373 | 1 | 1 | 0 |
 | [`Tencent/cherry-markdown`](https://github.com/Tencent/cherry-markdown) | 4880 | 1 | 1 | 0 |
 | [`callstack/agent-device`](https://github.com/callstack/agent-device) | 4767 | 1 | 1 | 0 |
-| [`conorbronsdon/avoid-ai-writing`](https://github.com/conorbronsdon/avoid-ai-writing) | 4711 | 1 | 1 | 0 |
+| [`conorbronsdon/avoid-ai-writing`](https://github.com/conorbronsdon/avoid-ai-writing) | 4712 | 1 | 1 | 0 |
 | [`microsoft/PyRIT`](https://github.com/microsoft/PyRIT) | 4537 | 1 | 1 | 0 |
 | [`crxjs/chrome-extension-tools`](https://github.com/crxjs/chrome-extension-tools) | 4171 | 1 | 1 | 0 |
 | [`add2cal/add-to-calendar-button`](https://github.com/add2cal/add-to-calendar-button) | 1486 | 1 | 1 | 0 |
@@ -266,8 +261,8 @@ Merged in international frontend and tooling ecosystems:
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
 |---|---:|---:|---:|---:|
 | [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop) | 39108 | 9 | 0 | 9 |
-| [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 27258 | 8 | 0 | 8 |
-| [`MiniMax-AI/skills`](https://github.com/MiniMax-AI/skills) | 13647 | 5 | 0 | 5 |
+| [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 27263 | 8 | 0 | 8 |
+| [`MiniMax-AI/skills`](https://github.com/MiniMax-AI/skills) | 13650 | 5 | 0 | 5 |
 | [`adobe/react-spectrum`](https://github.com/adobe/react-spectrum) | 15891 | 4 | 0 | 4 |
 | [`MiniMax-AI/Mini-Agent`](https://github.com/MiniMax-AI/Mini-Agent) | 3046 | 4 | 0 | 4 |
 | [`freshframework/fresh`](https://github.com/freshframework/fresh) | 13790 | 3 | 0 | 3 |
@@ -277,33 +272,33 @@ Merged in international frontend and tooling ecosystems:
 | [`deepseek-ai/deepseek-recipe`](https://github.com/deepseek-ai/deepseek-recipe) | 348 | 3 | 0 | 3 |
 | [`MiniMax-AI/MiniMax-MCP-JS`](https://github.com/MiniMax-AI/MiniMax-MCP-JS) | 130 | 3 | 0 | 3 |
 | [`storybookjs/storybook`](https://github.com/storybookjs/storybook) | 91148 | 4 | 0 | 2 |
-| [`payloadcms/payload`](https://github.com/payloadcms/payload) | 44936 | 2 | 0 | 2 |
+| [`payloadcms/payload`](https://github.com/payloadcms/payload) | 44938 | 2 | 0 | 2 |
 | [`facebook/lexical`](https://github.com/facebook/lexical) | 23894 | 2 | 0 | 2 |
-| [`radix-ui/primitives`](https://github.com/radix-ui/primitives) | 19327 | 2 | 0 | 2 |
+| [`radix-ui/primitives`](https://github.com/radix-ui/primitives) | 19328 | 2 | 0 | 2 |
 | [`baidu/amis`](https://github.com/baidu/amis) | 18896 | 2 | 0 | 2 |
 | [`Tencent/vConsole`](https://github.com/Tencent/vConsole) | 17528 | 2 | 0 | 2 |
 | [`TanStack/router`](https://github.com/TanStack/router) | 15129 | 2 | 0 | 2 |
-| [`MoonshotAI/kimi-cli`](https://github.com/MoonshotAI/kimi-cli) | 11432 | 3 | 0 | 2 |
+| [`MoonshotAI/kimi-cli`](https://github.com/MoonshotAI/kimi-cli) | 11433 | 3 | 0 | 2 |
 | [`zai-org/GLM-4`](https://github.com/zai-org/GLM-4) | 7071 | 2 | 0 | 2 |
 | [`ant-design/pro-components`](https://github.com/ant-design/pro-components) | 4833 | 2 | 0 | 2 |
 | [`MiniMax-AI/cli`](https://github.com/MiniMax-AI/cli) | 2172 | 5 | 0 | 2 |
 | [`ChatGPTNextWeb/NextChat`](https://github.com/ChatGPTNextWeb/NextChat) | 88811 | 1 | 0 | 1 |
 | [`code-yeongyu/oh-my-openagent`](https://github.com/code-yeongyu/oh-my-openagent) | 69395 | 1 | 0 | 1 |
-| [`TanStack/query`](https://github.com/TanStack/query) | 50355 | 1 | 0 | 1 |
+| [`TanStack/query`](https://github.com/TanStack/query) | 50356 | 1 | 0 | 1 |
 | [`parcel-bundler/parcel`](https://github.com/parcel-bundler/parcel) | 44026 | 1 | 0 | 1 |
 | [`continuedev/continue`](https://github.com/continuedev/continue) | 36019 | 1 | 0 | 1 |
 | [`floating-ui/floating-ui`](https://github.com/floating-ui/floating-ui) | 32752 | 1 | 0 | 1 |
 | [`alibaba/page-agent`](https://github.com/alibaba/page-agent) | 29205 | 2 | 0 | 1 |
 | [`tailwindlabs/headlessui`](https://github.com/tailwindlabs/headlessui) | 28753 | 1 | 0 | 1 |
 | [`OtterMind/Chat2DB`](https://github.com/OtterMind/Chat2DB) | 28226 | 1 | 0 | 1 |
-| [`eslint/eslint`](https://github.com/eslint/eslint) | 27516 | 1 | 0 | 1 |
-| [`zai-org/Open-AutoGLM`](https://github.com/zai-org/Open-AutoGLM) | 26301 | 1 | 0 | 1 |
-| [`browserbase/stagehand`](https://github.com/browserbase/stagehand) | 25368 | 1 | 0 | 1 |
+| [`eslint/eslint`](https://github.com/eslint/eslint) | 27517 | 1 | 0 | 1 |
+| [`zai-org/Open-AutoGLM`](https://github.com/zai-org/Open-AutoGLM) | 26304 | 1 | 0 | 1 |
+| [`browserbase/stagehand`](https://github.com/browserbase/stagehand) | 25370 | 1 | 0 | 1 |
 | [`desktop/desktop`](https://github.com/desktop/desktop) | 21901 | 1 | 0 | 1 |
 | [`langchain-ai/langchainjs`](https://github.com/langchain-ai/langchainjs) | 18226 | 1 | 0 | 1 |
-| [`organicmaps/organicmaps`](https://github.com/organicmaps/organicmaps) | 15492 | 1 | 0 | 1 |
+| [`organicmaps/organicmaps`](https://github.com/organicmaps/organicmaps) | 15493 | 1 | 0 | 1 |
 | [`lynx-family/lynx`](https://github.com/lynx-family/lynx) | 15131 | 1 | 0 | 1 |
-| [`antvis/G6`](https://github.com/antvis/G6) | 12307 | 1 | 0 | 1 |
+| [`antvis/G6`](https://github.com/antvis/G6) | 12308 | 1 | 0 | 1 |
 | [`didi/LogicFlow`](https://github.com/didi/LogicFlow) | 11725 | 1 | 0 | 1 |
 | [`deepseek-ai/DeepEP`](https://github.com/deepseek-ai/DeepEP) | 10207 | 1 | 0 | 1 |
 | [`bytedance/flowgram.ai`](https://github.com/bytedance/flowgram.ai) | 8463 | 1 | 0 | 1 |
@@ -331,11 +326,11 @@ Merged in international frontend and tooling ecosystems:
 | [`alibaba/loongsuite-js`](https://github.com/alibaba/loongsuite-js) | 24 | 1 | 0 | 1 |
 | [`Tnsor-Labs/brokoli`](https://github.com/Tnsor-Labs/brokoli) | 7 | 1 | 0 | 1 |
 | [`vitejs/vite`](https://github.com/vitejs/vite) | 82985 | 1 | 0 | 0 |
-| [`langchain-ai/langgraph`](https://github.com/langchain-ai/langgraph) | 42248 | 1 | 0 | 0 |
-| [`trpc/trpc`](https://github.com/trpc/trpc) | 40656 | 1 | 0 | 0 |
+| [`langchain-ai/langgraph`](https://github.com/langchain-ai/langgraph) | 42252 | 1 | 0 | 0 |
+| [`trpc/trpc`](https://github.com/trpc/trpc) | 40657 | 1 | 0 | 0 |
 | [`vitest-dev/vitest`](https://github.com/vitest-dev/vitest) | 17155 | 2 | 0 | 0 |
 | [`typescript-eslint/typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint) | 16398 | 4 | 0 | 0 |
-| [`assistant-ui/assistant-ui`](https://github.com/assistant-ui/assistant-ui) | 12294 | 1 | 0 | 0 |
+| [`assistant-ui/assistant-ui`](https://github.com/assistant-ui/assistant-ui) | 12296 | 1 | 0 | 0 |
 | [`npmx-dev/npmx.dev`](https://github.com/npmx-dev/npmx.dev) | 3630 | 3 | 0 | 0 |
 | [`Gamote/lottie-react`](https://github.com/Gamote/lottie-react) | 969 | 1 | 0 | 0 |
 | [`w3c/aria`](https://github.com/w3c/aria) | 754 | 1 | 0 | 0 |
