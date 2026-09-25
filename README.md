@@ -18,15 +18,15 @@
 
 <p align="center">
   <a href="https://cdn.jsdelivr.net/gh/dvd233/dvd233@23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4">
-    <img class="demo-preview" src="assets/demo-loop.webp" width="100%" alt="Looping preview of an earlier private hyperspectral reconstruction prototype: camera capture, 30-band reconstruction from 400 to 690 nanometres, and a sampled spectral curve.">
+    <img class="demo-preview" src="assets/demo-loop.webp" width="100%" alt="Looping preview of an earlier private hyperspectral reconstruction prototype: camera capture, 30-band reconstruction from 400 to 700 nanometres, and a sampled spectral curve.">
   </a>
 </p>
 
-<p align="center"><sub class="demo-caption">Click the preview to play the full demo (muted) · 10.75 s · 1920x1080 · 60 fps · 400-690 nm.</sub></p>
+<p align="center"><sub class="demo-caption">Click the preview to play the full demo (muted) · 10.75 s · 1920x1080 · 60 fps · 400–700 nm.</sub></p>
 
 ## What the demo shows
 
-This is an **earlier private hyperspectral reconstruction prototype**. The public loop and full demo show a desktop workflow for camera acquisition, lightweight deep-learning reconstruction, 30-band spectral display across 400-690 nm, spectral curves, and result saving.
+This is an **earlier private hyperspectral reconstruction prototype**. The public loop and full demo show a desktop workflow for camera acquisition, lightweight deep-learning reconstruction, 30-band spectral display across 400–700 nm, spectral curves, and result saving.
 
 I was responsible for the lightweight deep-learning reconstruction and dataset work, plus the camera acquisition, desktop UI, spectral visualization, and result-saving modules. Code and data remain private because of research and industry-collaboration constraints.
 
@@ -65,7 +65,7 @@ I was responsible for the lightweight deep-learning reconstruction and dataset w
 
 ## 🌐 Open-source contributions
 
-I work on real issues across AI agent systems, frontend ecosystems, desktop and web tooling, and civic data. As of 2026-09-25 (UTC), **125 PRs are merged across 43 upstream projects**, with 135 open PRs.
+I work on real issues across AI agent systems, frontend ecosystems, desktop and web tooling, and civic data.
 
 ### 🏆 Merged proof
 

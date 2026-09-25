@@ -135,5 +135,5 @@
     <use href="#git" x="522" y="450" width="36" height="36"/><text x="568" y="475" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">Git</text>
     <use href="#network" x="690" y="450" width="36" height="36"/><text x="736" y="475" fill="#C8D7E2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19">SSE / WebSocket</text>
   </g>
-  <text x="42" y="538" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15"><tspan x="42" y="538">HTML5 / CSS3 / JavaScript / Zustand / Webpack / Rspack</tspan><tspan x="42" y="562">LangChain / pgvector / RBAC / diff and rollback / 400–690 nm</tspan></text>
+  <text x="42" y="538" fill="#8293A2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15"><tspan x="42" y="538">HTML5 / CSS3 / JavaScript / Zustand / Webpack / Rspack</tspan><tspan x="42" y="562">LangChain / pgvector / RBAC / diff and rollback / 400–700 nm</tspan></text>
 </svg>
