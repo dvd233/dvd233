@@ -340,14 +340,9 @@ Merged in international frontend and tooling ecosystems:
 </details>
 <!--END_SECTION:oss-footprint-->
 
-## Education
-
-- **Master's student** — Electronic Engineering and Information Photonics, BUPT
-- **Undergraduate background** — Network Engineering, BUPT
-
 ## Contact
 
-[dvd@linux.do](mailto:dvd@linux.do) · [z1403594118@gmail.com](mailto:z1403594118@gmail.com)
+[z1403594118@gmail.com](mailto:z1403594118@gmail.com) · [dvd@linux.do](mailto:dvd@linux.do)
 
 ## 📈 GitHub activity
 
