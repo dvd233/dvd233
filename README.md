@@ -142,6 +142,9 @@ Merged in international frontend and tooling ecosystems:
 
 ### 🗺️ Contribution map
 
+<details>
+<summary><strong>🗺️ Explore contributions by area</strong></summary>
+
 | Area | Project | Status | Selected work |
 |---|---|---|---|
 | 🎓 **Interactive learning tooling** | [grafana/grafana-pathfinder-app](https://github.com/grafana/grafana-pathfinder-app) | `30 PRs · 28 merged · 2 open` | Block editor bulk actions, coda VM lifecycle, docs retrieval, and lint plus e2e coverage |
@@ -157,6 +160,8 @@ Merged in international frontend and tooling ecosystems:
 | 🖥️ **Agent desktop UI** | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | `9 open` | Agent server streaming, MCP initialization, device actions, and workspace search ordering |
 | 📖 **Knowledge & RAG** | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | `1 merged · 4 open` | Wiki MCP structured content merged; PDF extraction and other document fixes in review |
 | 🧭 **Search & coordinates** | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | `1 open` | C++ search behavior for space-separated DMS coordinates |
+
+</details>
 
 ### 🚀 In review now
 
@@ -210,6 +215,13 @@ Merged in international frontend and tooling ecosystems:
 <!--START_SECTION:oss-footprint-->
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
 |---|---:|---:|---:|---:|
+| **Total across 119 upstream projects** |  | **293** | **125** | **135** |
+
+<details>
+<summary><strong>✅ 43 projects with merged PRs</strong></summary>
+
+| Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
+|---|---:|---:|---:|---:|
 | [`grafana/grafana-pathfinder-app`](https://github.com/grafana/grafana-pathfinder-app) | 19 | 30 | 28 | 2 |
 | [`open-city-ai/haidian`](https://github.com/open-city-ai/haidian) | 414 | 28 | 27 | 0 |
 | [`Tencent/teamai-cli`](https://github.com/Tencent/teamai-cli) | 4997 | 11 | 9 | 0 |
@@ -253,10 +265,11 @@ Merged in international frontend and tooling ecosystems:
 | [`AubaidFarrukh/smart-retry`](https://github.com/AubaidFarrukh/smart-retry) | 2 | 1 | 1 | 0 |
 | [`exactml/marginal`](https://github.com/exactml/marginal) | 1 | 1 | 1 | 0 |
 | [`theaiteam-dev/conduit`](https://github.com/theaiteam-dev/conduit) | 0 | 1 | 1 | 0 |
-| **Total across 119 upstream projects** |  | **293** | **125** | **135** |
+
+</details>
 
 <details>
-<summary><strong>🧾 76 more projects with PRs only in review or closed without merge</strong></summary>
+<summary><strong>🧾 76 projects with PRs only in review or closed without merge</strong></summary>
 
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
 |---|---:|---:|---:|---:|

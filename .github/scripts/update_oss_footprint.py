@@ -79,10 +79,8 @@ def build_block(stats):
             f"| {stars[repo]} | {s['total']} | {s['merged']} | {s['open']} |"
         )
 
-    # Visible table: projects with at least one merged PR, highest merged
-    # count first, then highest stars. Zero-merge projects move behind a
-    # collapsed details so the ledger stays complete without flooding the
-    # profile.
+    # Keep totals visible and both project groups collapsed. Preserve the
+    # existing merged/open and star ordering inside each disclosure.
     adopted = sorted(
         (kv for kv in stats.items() if kv[1]["merged"] > 0),
         key=lambda kv: (-kv[1]["merged"], -stars[kv[0]], kv[0].lower()),
@@ -91,7 +89,7 @@ def build_block(stats):
         (kv for kv in stats.items() if kv[1]["merged"] == 0),
         key=lambda kv: (-kv[1]["open"], -stars[kv[0]], kv[0].lower()),
     )
-    lines = header + [row(repo, s) for repo, s in adopted]
+    lines = header.copy()
     total = sum(s["total"] for s in stats.values())
     merged = sum(s["merged"] for s in stats.values())
     opened = sum(s["open"] for s in stats.values())
@@ -99,11 +97,22 @@ def build_block(stats):
         f"| **Total across {len(stats)} upstream projects** "
         f"|  | **{total}** | **{merged}** | **{opened}** |"
     )
+    if adopted:
+        lines += [
+            "",
+            "<details>",
+            f"<summary><strong>✅ {len(adopted)} projects with merged PRs</strong></summary>",
+            "",
+            *header,
+            *(row(repo, s) for repo, s in adopted),
+            "",
+            "</details>",
+        ]
     if pending:
         lines += [
             "",
             "<details>",
-            f"<summary><strong>🧾 {len(pending)} more projects with PRs"
+            f"<summary><strong>🧾 {len(pending)} projects with PRs"
             " only in review or closed without merge</strong></summary>",
             "",
             *header,
