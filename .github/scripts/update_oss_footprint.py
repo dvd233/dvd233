@@ -70,7 +70,7 @@ def build_block(stats):
     }
     header = [
         "| Project | ⭐ | PRs | ✅ Merged | 🚀 Open |",
-        "|---|---:|---:|---:|---:|",
+        "|:---|:---:|:---:|:---:|:---:|",
     ]
 
     def row(repo, s):

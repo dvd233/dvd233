@@ -6,9 +6,9 @@
   Actions from public activity data.
 -->
 
-<div align="center">
+<p align="center">
   <img class="intro-card" src="assets/intro-card.svg" width="100%" alt="Hi, I'm dvd. AI Full-Stack Engineer.">
-</div>
+</p>
 
 <p align="center">
   <a href="https://github.com/dvd233">
@@ -54,7 +54,8 @@ I was responsible for the lightweight deep-learning reconstruction and dataset w
       <span class="agent-item"><a href="https://github.com/openai/codex" title="Codex"><img class="agent-icon" src="assets/agent-codex-official.png" width="36" height="36" align="absmiddle" alt="Official OpenAI mark used for Codex"></a>&nbsp;<strong>Codex</strong></span>&ensp;
       <span class="agent-item"><a href="https://pi.dev/" title="Pi"><img class="agent-icon" src="assets/agent-pi-official.svg" width="36" height="36" align="absmiddle" alt="Official Pi coding agent mark from pi.dev"></a>&nbsp;<strong>Pi</strong></span>&ensp;
       <span class="agent-item"><a href="https://github.com/anthropics/claude-code" title="Claude Code"><img class="agent-icon" src="assets/agent-claude-official.png" width="36" height="36" align="absmiddle" alt="Official Anthropic mark used for Claude Code"></a>&nbsp;<strong>Claude Code</strong></span>
-      <br><br>
+    </p>
+    <p>
       <span class="agent-item"><a href="https://github.com/NousResearch/hermes-agent" title="Hermes"><img class="agent-icon" src="assets/agent-hermes-official.png" width="36" height="36" align="absmiddle" alt="Official Nous Research mark for the Hermes agent"></a>&nbsp;<strong>Hermes</strong></span>&ensp;
       <span class="agent-item"><a href="https://github.com/anomalyco/opencode" title="OpenCode"><img class="agent-icon" src="assets/agent-opencode-official.svg" width="36" height="36" align="absmiddle" alt="Official OpenCode coding agent mark"></a>&nbsp;<strong>OpenCode</strong></span>&ensp;
       <span class="agent-item"><a href="https://github.com/zai-org/zcode-plugins" title="ZCode"><img class="agent-icon" src="assets/agent-zcode-official.svg" width="36" height="36" align="absmiddle" alt="Official ZCode plugin ecosystem mark from Z.ai"></a>&nbsp;<strong>ZCode</strong></span>&ensp;
@@ -196,14 +197,14 @@ Merged in international frontend and tooling ecosystems:
 
 <!--START_SECTION:oss-footprint-->
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
-|---|---:|---:|---:|---:|
+|:---|:---:|:---:|:---:|:---:|
 | **Total across 119 upstream projects** |  | **293** | **125** | **135** |
 
 <details>
 <summary><strong>✅ 43 projects with merged PRs</strong></summary>
 
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
-|---|---:|---:|---:|---:|
+|:---|:---:|:---:|:---:|:---:|
 | [`grafana/grafana-pathfinder-app`](https://github.com/grafana/grafana-pathfinder-app) | 19 | 30 | 28 | 2 |
 | [`open-city-ai/haidian`](https://github.com/open-city-ai/haidian) | 414 | 28 | 27 | 0 |
 | [`Tencent/teamai-cli`](https://github.com/Tencent/teamai-cli) | 4997 | 11 | 9 | 0 |
@@ -254,7 +255,7 @@ Merged in international frontend and tooling ecosystems:
 <summary><strong>🧾 76 projects with PRs only in review or closed without merge</strong></summary>
 
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
-|---|---:|---:|---:|---:|
+|:---|:---:|:---:|:---:|:---:|
 | [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop) | 39108 | 9 | 0 | 9 |
 | [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 27263 | 8 | 0 | 8 |
 | [`MiniMax-AI/skills`](https://github.com/MiniMax-AI/skills) | 13650 | 5 | 0 | 5 |
