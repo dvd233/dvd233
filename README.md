@@ -73,22 +73,22 @@ I work on real issues across AI agent systems, frontend ecosystems, desktop and 
 Recently merged across major Chinese AI agent and frontend ecosystems:
 
 - 🐜 [ant-design/ant-design#59173](https://github.com/ant-design/ant-design/pull/59173) · ⭐ 99.7k — fixed the Chinese contribution guide to link the English locale list in its i18n step, so contributors update both locale lists.
-- 🔍 [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · ⭐ 43.9k — added Pug and Jinja template support to the review allowlist ([#1114](https://github.com/alibaba/open-code-review/pull/1114), [#1056](https://github.com/alibaba/open-code-review/pull/1056)), then made report writes atomic so interrupted runs cannot leave truncated output ([#1160](https://github.com/alibaba/open-code-review/pull/1160)). Also preserved unknown JSON fields during config updates, including nested provider and MCP settings ([#1508](https://github.com/alibaba/open-code-review/pull/1508)), and wrapped long session metadata on mobile viewers ([#1458](https://github.com/alibaba/open-code-review/pull/1458)).
-- 🧠 [volcengine/OpenViking](https://github.com/volcengine/OpenViking) · ⭐ 39.3k — restored DeepSeek Harness memory injection compatibility while retaining legacy replay ([#5318](https://github.com/volcengine/OpenViking/pull/5318)), fixed broad MCP recall being narrowed to the process workspace ([#5346](https://github.com/volcengine/OpenViking/pull/5346)), and kept OpenCode plugin state snapshots free of captured message parts ([#5179](https://github.com/volcengine/OpenViking/pull/5179)).
+- 🔍 [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · ⭐ 44.6k — added Pug and Jinja template support to the review allowlist ([#1114](https://github.com/alibaba/open-code-review/pull/1114), [#1056](https://github.com/alibaba/open-code-review/pull/1056)), then made report writes atomic so interrupted runs cannot leave truncated output ([#1160](https://github.com/alibaba/open-code-review/pull/1160)). Also preserved unknown JSON fields during config updates, including nested provider and MCP settings ([#1508](https://github.com/alibaba/open-code-review/pull/1508)), and wrapped long session metadata on mobile viewers ([#1458](https://github.com/alibaba/open-code-review/pull/1458)).
+- 🧠 [volcengine/OpenViking](https://github.com/volcengine/OpenViking) · ⭐ 39.4k — restored DeepSeek Harness memory injection compatibility while retaining legacy replay ([#5318](https://github.com/volcengine/OpenViking/pull/5318)), fixed broad MCP recall being narrowed to the process workspace ([#5346](https://github.com/volcengine/OpenViking/pull/5346)), and kept OpenCode plugin state snapshots free of captured message parts ([#5179](https://github.com/volcengine/OpenViking/pull/5179)).
 - 📱 [NervJS/taro](https://github.com/NervJS/taro) · ⭐ 37.7k — seven merged fixes across mini-program, swan, and RN targets: shared CSS page styles ([#19492](https://github.com/NervJS/taro/pull/19492)), centered aspectFit images ([#19491](https://github.com/NervJS/taro/pull/19491)), swan hold-keyboard input ([#19494](https://github.com/NervJS/taro/pull/19494)), request and payment typings ([#19495](https://github.com/NervJS/taro/pull/19495), [#19496](https://github.com/NervJS/taro/pull/19496)), and real file names for RN uploadFile ([#19507](https://github.com/NervJS/taro/pull/19507)).
-- 🤖 [agentscope-ai/agentscope#2434](https://github.com/agentscope-ai/agentscope/pull/2434) · ⭐ 32.8k — Uvicorn hot reload forced a SelectorEventLoop on Windows and broke subprocess execution; disabling reload on Windows keeps a compatible event loop.
-- 📖 [Tencent/WeKnora](https://github.com/Tencent/WeKnora) · ⭐ 32.2k — exposed wiki output in MCP structured content ([#3590](https://github.com/Tencent/WeKnora/pull/3590)) and propagated host project lookup errors to container callers ([#3611](https://github.com/Tencent/WeKnora/pull/3611)).
-- 💬 [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) · ⭐ 28.3k — eight merged fixes: kept branch commits made before a failing post-checkout hook ([#11300](https://github.com/QwenLM/qwen-code/pull/11300)), preserved MCP registration URLs and optional-method status ([#12205](https://github.com/QwenLM/qwen-code/pull/12205), [#12500](https://github.com/QwenLM/qwen-code/pull/12500)), hardened ACP and web-shell diagnostics ([#12256](https://github.com/QwenLM/qwen-code/pull/12256), [#12367](https://github.com/QwenLM/qwen-code/pull/12367), [#12268](https://github.com/QwenLM/qwen-code/pull/12268)), recognized sed quiet aliases as read-only ([#12221](https://github.com/QwenLM/qwen-code/pull/12221)), and recognized deferred MCP tool calls in SDK E2E ([#12365](https://github.com/QwenLM/qwen-code/pull/12365)).
+- 🤖 [agentscope-ai/agentscope#2434](https://github.com/agentscope-ai/agentscope/pull/2434) · ⭐ 32.9k — Uvicorn hot reload forced a SelectorEventLoop on Windows and broke subprocess execution; disabling reload on Windows keeps a compatible event loop.
+- 📖 [Tencent/WeKnora](https://github.com/Tencent/WeKnora) · ⭐ 32.7k — exposed wiki output in MCP structured content ([#3590](https://github.com/Tencent/WeKnora/pull/3590)) and propagated host project lookup errors to container callers ([#3611](https://github.com/Tencent/WeKnora/pull/3611)). Also propagated paginated CLI response read errors ([#3983](https://github.com/Tencent/WeKnora/pull/3983)) and restored paginated text-mode output ([#3984](https://github.com/Tencent/WeKnora/pull/3984)).
+- 💬 [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) · ⭐ 28.4k — eight merged fixes: kept branch commits made before a failing post-checkout hook ([#11300](https://github.com/QwenLM/qwen-code/pull/11300)), preserved MCP registration URLs and optional-method status ([#12205](https://github.com/QwenLM/qwen-code/pull/12205), [#12500](https://github.com/QwenLM/qwen-code/pull/12500)), hardened ACP and web-shell diagnostics ([#12256](https://github.com/QwenLM/qwen-code/pull/12256), [#12367](https://github.com/QwenLM/qwen-code/pull/12367), [#12268](https://github.com/QwenLM/qwen-code/pull/12268)), recognized sed quiet aliases as read-only ([#12221](https://github.com/QwenLM/qwen-code/pull/12221)), and recognized deferred MCP tool calls in SDK E2E ([#12365](https://github.com/QwenLM/qwen-code/pull/12365)).
 - ⚛️ [alibaba/hooks#2956](https://github.com/alibaba/hooks/pull/2956) · ⭐ 15.0k — kept `useLatest` and `useUnmountedRef` returns as non-nullable `MutableRefObject` across the supported React type versions, backed by declaration-emission regression tests.
 - 🎨 [DouyinFE/semi-design#3352](https://github.com/DouyinFE/semi-design/pull/3352) · ⭐ 10.4k — made ESC close only the top-most modal, so stacked modals no longer collapse together.
-- 🛠️ [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) · ⭐ 5.1k — nine merged fixes across team sync and agent tooling: explicit push branches with protected local changes ([#690](https://github.com/Tencent/teamai-cli/pull/690), [#820](https://github.com/Tencent/teamai-cli/pull/820)), DeepSeek Harness hooks with opt-in setup and uninstall cleanup ([#689](https://github.com/Tencent/teamai-cli/pull/689)), mirrored deletions and namespaced rule destinations on push ([#651](https://github.com/Tencent/teamai-cli/pull/651), [#654](https://github.com/Tencent/teamai-cli/pull/654)), shared CLAUDE.md fragments on pull ([#653](https://github.com/Tencent/teamai-cli/pull/653)), anchored docs destinations ([#652](https://github.com/Tencent/teamai-cli/pull/652)), OpenCode hook listener leak fixes ([#688](https://github.com/Tencent/teamai-cli/pull/688)), and preserved roles at init ([#765](https://github.com/Tencent/teamai-cli/pull/765)).
+- 🛠️ [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) · ⭐ 5.2k — nine merged fixes across team sync and agent tooling: explicit push branches with protected local changes ([#690](https://github.com/Tencent/teamai-cli/pull/690), [#820](https://github.com/Tencent/teamai-cli/pull/820)), DeepSeek Harness hooks with opt-in setup and uninstall cleanup ([#689](https://github.com/Tencent/teamai-cli/pull/689)), mirrored deletions and namespaced rule destinations on push ([#651](https://github.com/Tencent/teamai-cli/pull/651), [#654](https://github.com/Tencent/teamai-cli/pull/654)), shared CLAUDE.md fragments on pull ([#653](https://github.com/Tencent/teamai-cli/pull/653)), anchored docs destinations ([#652](https://github.com/Tencent/teamai-cli/pull/652)), OpenCode hook listener leak fixes ([#688](https://github.com/Tencent/teamai-cli/pull/688)), and preserved roles at init ([#765](https://github.com/Tencent/teamai-cli/pull/765)).
 - 🍒 [Tencent/cherry-markdown#1871](https://github.com/Tencent/cherry-markdown/pull/1871) · ⭐ 4.9k — guarded pending image load and error callbacks after previewer destroy, so late events no longer touch torn-down state.
 - 🧩 [Tencent/tdesign-vue-next](https://github.com/Tencent/tdesign-vue-next) · ⭐ 2.2k — restored the Dropdown `onClick` option type ([#6959](https://github.com/Tencent/tdesign-vue-next/pull/6959)) and made Menu handle functional submenu parents ([#6967](https://github.com/Tencent/tdesign-vue-next/pull/6967)).
 
 Merged in international frontend and tooling ecosystems:
 
 - ⚡ [chakra-ui/chakra-ui#10979](https://github.com/chakra-ui/chakra-ui/pull/10979) · ⭐ 40.7k — gave the file-upload delete trigger a proper disabled style.
-- 📦 [pnpm/pnpm#14708](https://github.com/pnpm/pnpm/pull/14708) · ⭐ 36.7k — stopped emitting empty package authors in SBOM documents.
+- 📦 [pnpm/pnpm#14708](https://github.com/pnpm/pnpm/pull/14708) · ⭐ 36.8k — stopped emitting empty package authors in SBOM documents.
 
 **29 merged PRs in [grafana/grafana-pathfinder-app](https://github.com/grafana/grafana-pathfinder-app)** · ⭐ 21 — sustained features, fixes, and hardening that span Grafana's interactive learning app end to end: block-editor bulk actions, coda VM lifecycle, docs retrieval, and lint plus e2e coverage.
 
@@ -134,15 +134,15 @@ Merged in international frontend and tooling ecosystems:
 | 🎓 **Interactive learning tooling** | [grafana/grafana-pathfinder-app](https://github.com/grafana/grafana-pathfinder-app) | `31 PRs · 29 merged · 2 open` | Block editor bulk actions, coda VM lifecycle, docs retrieval, and lint plus e2e coverage |
 | 🏙️ **Civic data delivery** | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | `28 PRs · 27 merged` | Structured submissions, geometry sources, deterministic artifacts, review semantics, and a CJK font screenshot regression |
 | 🤖 **AI agent systems** | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | `9 merged · 5 open` | Windows event-loop, post-checkout commit safety, and MCP registration plus status fixes merged; tool data-block replay and output-language fixes in review |
-| 🧩 **Frontend component ecosystems** | [ant-design/ant-design](https://github.com/ant-design/ant-design) · [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) · [DouyinFE/semi-design](https://github.com/DouyinFE/semi-design) · [alibaba/hooks](https://github.com/alibaba/hooks) · [nuxt/ui](https://github.com/nuxt/ui) · [Tencent/tdesign-vue-next](https://github.com/Tencent/tdesign-vue-next) · [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) | `9 merged · 2 open` | i18n guide links, modal stacking, non-nullable ref types, Dropdown and Menu fixes, and disabled upload triggers |
+| 🧩 **Frontend component ecosystems** | [ant-design/ant-design](https://github.com/ant-design/ant-design) · [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) · [DouyinFE/semi-design](https://github.com/DouyinFE/semi-design) · [alibaba/hooks](https://github.com/alibaba/hooks) · [nuxt/ui](https://github.com/nuxt/ui) · [Tencent/tdesign-vue-next](https://github.com/Tencent/tdesign-vue-next) · [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) | `9 merged · 3 open` | i18n guide links, modal stacking, non-nullable ref types, Dropdown and Menu fixes, and disabled upload triggers |
 | 🔍 **Code review tooling** | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | `6 PRs · 5 merged` | Pug and Jinja support, atomic report writes, unknown config-field preservation, and mobile viewer wrapping merged |
 | 🔐 **AI safety & evaluation** | [microsoft/PyRIT](https://github.com/microsoft/PyRIT) · [wandb/rai-toolkit](https://github.com/wandb/rai-toolkit) | `2 merged` | Feedback-dialog restore after secret confirmation; explicit adapter call-time options |
-| 🛠️ **Web & build tooling** | [pnpm/pnpm](https://github.com/pnpm/pnpm) · [crxjs/chrome-extension-tools](https://github.com/crxjs/chrome-extension-tools) · [storybookjs/storybook](https://github.com/storybookjs/storybook) · [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) | `2 merged · 3 open` | SBOM and sourcemap fixes merged; Next.js-Vite resolution and resolver BOM parsing in review |
+| 🛠️ **Web & build tooling** | [pnpm/pnpm](https://github.com/pnpm/pnpm) · [crxjs/chrome-extension-tools](https://github.com/crxjs/chrome-extension-tools) · [storybookjs/storybook](https://github.com/storybookjs/storybook) · [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) | `3 merged · 2 open` | SBOM, sourcemap, and Next.js-Vite resolution fixes merged; resolver BOM parsing in review |
 | 💻 **Desktop UX** | [desktop/desktop](https://github.com/desktop/desktop) · [kando-menu/kando](https://github.com/kando-menu/kando) | `1 merged · 1 open` | WebSocket message action merged; pull-request suggestion behavior in review |
 | 🧠 **Agent memory & Node.js** | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | `8 open` | Gateway lifecycle and env forwarding, bash 3.2 deploys, proxy preservation, SQLite filtering, and self-healing store state |
 | 📱 **Cross-end frontend** | [NervJS/taro](https://github.com/NervJS/taro) · [NervJS/taro-docs](https://github.com/NervJS/taro-docs) | `7 merged · 1 open` | Shared CSS output, image centering, request and payment typings, swan input behavior, and RN upload file names merged; documentation update in review |
 | 🖥️ **Agent desktop UI** | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | `8 open` | Agent server streaming, MCP initialization, device actions, and workspace search ordering |
-| 📖 **Knowledge & RAG** | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | `2 merged · 4 open` | Wiki MCP structured content and container lookup errors merged; PDF extraction and other document fixes in review |
+| 📖 **Knowledge & RAG** | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | `4 merged · 3 open` | Wiki MCP structured content, container lookup errors, and CLI pagination fixes merged; PDF extraction and other document fixes in review |
 | 🧭 **Search & coordinates** | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | `1 open` | C++ search behavior for space-separated DMS coordinates |
 
 </details>
@@ -150,7 +150,7 @@ Merged in international frontend and tooling ecosystems:
 ### 🚀 In review now
 
 <details>
-  <summary><strong>🤖 AI agent systems · 25 open PRs</strong></summary>
+  <summary><strong>🤖 AI agent systems · 24 open PRs</strong></summary>
 
   - [TencentCloud/TencentDB-Agent-Memory#1388](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1388): forward <code>MEMORY_TENCENTDB_LLM_*</code> settings to the Gateway as <code>TDAI_LLM_*</code>.
   - [TencentCloud/TencentDB-Agent-Memory#1383](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1383): terminate the Gateway process tree on Windows.
@@ -173,7 +173,6 @@ Merged in international frontend and tooling ecosystems:
   - [QwenLM/qwen-code#11794](https://github.com/QwenLM/qwen-code/pull/11794): honor the configured output language in stateless generation.
   - [QwenLM/qwen-code#10580](https://github.com/QwenLM/qwen-code/pull/10580): localize untitled session search in the VS Code integration.
   - [agentscope-ai/agentscope#2551](https://github.com/agentscope-ai/agentscope/pull/2551): preserve tool data-block identity during event replay.
-  - [Tencent/WeKnora#3983](https://github.com/Tencent/WeKnora/pull/3983): propagate paginated response read errors in the CLI.
   - [Tencent/WeKnora#3592](https://github.com/Tencent/WeKnora/pull/3592): prevent large spreadsheet preview crashes.
   - [Tencent/WeKnora#3499](https://github.com/Tencent/WeKnora/pull/3499): accept SQL uploads and route them through MarkItDown.
   - [Tencent/WeKnora#3228](https://github.com/Tencent/WeKnora/pull/3228): preserve numeric rows in PDF text extraction.
@@ -189,10 +188,9 @@ Merged in international frontend and tooling ecosystems:
 </details>
 
 <details>
-  <summary><strong>🛠️ Frontend platforms and tooling · 10 open PRs</strong></summary>
+  <summary><strong>🛠️ Frontend platforms and tooling · 9 open PRs</strong></summary>
 
   - [storybookjs/storybook#36358](https://github.com/storybookjs/storybook/pull/36358): preserve empty string args in story URLs.
-  - [storybookjs/storybook#36296](https://github.com/storybookjs/storybook/pull/36296): skip unresolved image imports in the Next.js-Vite integration.
   - [TanStack/router#8438](https://github.com/TanStack/router/pull/8438): hydrate route error components consistently in the Solid router.
   - [TanStack/router#8283](https://github.com/TanStack/router/pull/8283): reject non-ok JSON server function responses.
   - [radix-ui/primitives#4145](https://github.com/radix-ui/primitives/pull/4145): prevent Escape from dismissing the underlying layer.
@@ -210,7 +208,7 @@ Merged in international frontend and tooling ecosystems:
 <!--START_SECTION:oss-footprint-->
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
 |:---|:---:|:---:|:---:|:---:|
-| **Total across 132 upstream projects** |  | **327** | **148** | **137** |
+| **Total across 134 upstream projects** |  | **330** | **148** | **139** |
 
 <details>
 <summary><strong>✅ 50 projects with merged PRs</strong></summary>
@@ -218,49 +216,49 @@ Merged in international frontend and tooling ecosystems:
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
 |:---|:---:|:---:|:---:|:---:|
 | [`grafana/grafana-pathfinder-app`](https://github.com/grafana/grafana-pathfinder-app) | 21 | 31 | 29 | 2 |
-| [`open-city-ai/haidian`](https://github.com/open-city-ai/haidian) | 415 | 28 | 27 | 0 |
-| [`Tencent/teamai-cli`](https://github.com/Tencent/teamai-cli) | 5149 | 11 | 9 | 0 |
-| [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) | 28355 | 12 | 8 | 4 |
-| [`NervJS/taro`](https://github.com/NervJS/taro) | 37710 | 7 | 7 | 0 |
-| [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 44427 | 6 | 5 | 0 |
-| [`PKU-YuanGroup/OpenAI4S`](https://github.com/PKU-YuanGroup/OpenAI4S) | 617 | 10 | 5 | 5 |
-| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 32550 | 9 | 4 | 3 |
+| [`open-city-ai/haidian`](https://github.com/open-city-ai/haidian) | 417 | 28 | 27 | 0 |
+| [`Tencent/teamai-cli`](https://github.com/Tencent/teamai-cli) | 5152 | 11 | 9 | 0 |
+| [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) | 28369 | 12 | 8 | 4 |
+| [`NervJS/taro`](https://github.com/NervJS/taro) | 37709 | 7 | 7 | 0 |
+| [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 44621 | 6 | 5 | 0 |
+| [`PKU-YuanGroup/OpenAI4S`](https://github.com/PKU-YuanGroup/OpenAI4S) | 619 | 10 | 5 | 5 |
+| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 32670 | 9 | 4 | 3 |
 | [`michaelegner/architecture-intelligence-platform`](https://github.com/michaelegner/architecture-intelligence-platform) | 7 | 4 | 4 | 0 |
-| [`volcengine/OpenViking`](https://github.com/volcengine/OpenViking) | 39404 | 5 | 3 | 1 |
+| [`volcengine/OpenViking`](https://github.com/volcengine/OpenViking) | 39442 | 5 | 3 | 1 |
 | [`AgentPostmortem/agentpostmortem`](https://github.com/AgentPostmortem/agentpostmortem) | 2 | 3 | 3 | 0 |
-| [`wxt-dev/wxt`](https://github.com/wxt-dev/wxt) | 10582 | 3 | 2 | 1 |
-| [`nuxt/ui`](https://github.com/nuxt/ui) | 6993 | 2 | 2 | 0 |
-| [`snapotter-hq/SnapOtter`](https://github.com/snapotter-hq/SnapOtter) | 2789 | 2 | 2 | 0 |
+| [`wxt-dev/wxt`](https://github.com/wxt-dev/wxt) | 10586 | 3 | 2 | 1 |
+| [`nuxt/ui`](https://github.com/nuxt/ui) | 6994 | 2 | 2 | 0 |
+| [`snapotter-hq/SnapOtter`](https://github.com/snapotter-hq/SnapOtter) | 2793 | 2 | 2 | 0 |
 | [`Tencent/tdesign-vue-next`](https://github.com/Tencent/tdesign-vue-next) | 2194 | 3 | 2 | 1 |
-| [`reticlehq/reticle`](https://github.com/reticlehq/reticle) | 1190 | 2 | 2 | 0 |
-| [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 99708 | 1 | 1 | 0 |
-| [`storybookjs/storybook`](https://github.com/storybookjs/storybook) | 91209 | 4 | 1 | 1 |
-| [`chakra-ui/chakra-ui`](https://github.com/chakra-ui/chakra-ui) | 40678 | 1 | 1 | 0 |
-| [`pnpm/pnpm`](https://github.com/pnpm/pnpm) | 36759 | 2 | 1 | 0 |
-| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 32887 | 3 | 1 | 1 |
-| [`facebook/lexical`](https://github.com/facebook/lexical) | 23934 | 2 | 1 | 1 |
-| [`camsong/You-Dont-Need-jQuery`](https://github.com/camsong/You-Dont-Need-jQuery) | 20119 | 1 | 1 | 0 |
-| [`langchain-ai/langchainjs`](https://github.com/langchain-ai/langchainjs) | 18246 | 2 | 1 | 1 |
+| [`reticlehq/reticle`](https://github.com/reticlehq/reticle) | 1194 | 2 | 2 | 0 |
+| [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 99713 | 1 | 1 | 0 |
+| [`storybookjs/storybook`](https://github.com/storybookjs/storybook) | 91208 | 4 | 1 | 1 |
+| [`chakra-ui/chakra-ui`](https://github.com/chakra-ui/chakra-ui) | 40676 | 1 | 1 | 0 |
+| [`pnpm/pnpm`](https://github.com/pnpm/pnpm) | 36762 | 2 | 1 | 0 |
+| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 32923 | 3 | 1 | 1 |
+| [`facebook/lexical`](https://github.com/facebook/lexical) | 23936 | 2 | 1 | 1 |
+| [`camsong/You-Dont-Need-jQuery`](https://github.com/camsong/You-Dont-Need-jQuery) | 20120 | 1 | 1 | 0 |
+| [`langchain-ai/langchainjs`](https://github.com/langchain-ai/langchainjs) | 18249 | 2 | 1 | 1 |
 | [`alibaba/hooks`](https://github.com/alibaba/hooks) | 14975 | 2 | 1 | 1 |
 | [`Tencent/omi`](https://github.com/Tencent/omi) | 13274 | 1 | 1 | 0 |
 | [`DouyinFE/semi-design`](https://github.com/DouyinFE/semi-design) | 10406 | 1 | 1 | 0 |
-| [`gridstack/gridstack.js`](https://github.com/gridstack/gridstack.js) | 9173 | 1 | 1 | 0 |
-| [`Tencent/BrowserSkill`](https://github.com/Tencent/BrowserSkill) | 8403 | 1 | 1 | 0 |
-| [`dequelabs/axe-core`](https://github.com/dequelabs/axe-core) | 7612 | 1 | 1 | 0 |
-| [`Tencent/AI-Infra-Guard`](https://github.com/Tencent/AI-Infra-Guard) | 6787 | 1 | 1 | 0 |
-| [`kando-menu/kando`](https://github.com/kando-menu/kando) | 6418 | 1 | 1 | 0 |
-| [`callstack/agent-device`](https://github.com/callstack/agent-device) | 4928 | 1 | 1 | 0 |
-| [`conorbronsdon/avoid-ai-writing`](https://github.com/conorbronsdon/avoid-ai-writing) | 4913 | 1 | 1 | 0 |
-| [`Tencent/cherry-markdown`](https://github.com/Tencent/cherry-markdown) | 4889 | 2 | 1 | 1 |
-| [`microsoft/PyRIT`](https://github.com/microsoft/PyRIT) | 4592 | 1 | 1 | 0 |
-| [`crxjs/chrome-extension-tools`](https://github.com/crxjs/chrome-extension-tools) | 4178 | 1 | 1 | 0 |
+| [`gridstack/gridstack.js`](https://github.com/gridstack/gridstack.js) | 9179 | 1 | 1 | 0 |
+| [`Tencent/BrowserSkill`](https://github.com/Tencent/BrowserSkill) | 8456 | 1 | 1 | 0 |
+| [`dequelabs/axe-core`](https://github.com/dequelabs/axe-core) | 7614 | 1 | 1 | 0 |
+| [`Tencent/AI-Infra-Guard`](https://github.com/Tencent/AI-Infra-Guard) | 6793 | 1 | 1 | 0 |
+| [`kando-menu/kando`](https://github.com/kando-menu/kando) | 6422 | 1 | 1 | 0 |
+| [`callstack/agent-device`](https://github.com/callstack/agent-device) | 4939 | 1 | 1 | 0 |
+| [`conorbronsdon/avoid-ai-writing`](https://github.com/conorbronsdon/avoid-ai-writing) | 4920 | 1 | 1 | 0 |
+| [`Tencent/cherry-markdown`](https://github.com/Tencent/cherry-markdown) | 4888 | 2 | 1 | 1 |
+| [`microsoft/PyRIT`](https://github.com/microsoft/PyRIT) | 4593 | 1 | 1 | 0 |
+| [`crxjs/chrome-extension-tools`](https://github.com/crxjs/chrome-extension-tools) | 4179 | 1 | 1 | 0 |
 | [`add2cal/add-to-calendar-button`](https://github.com/add2cal/add-to-calendar-button) | 1488 | 1 | 1 | 0 |
-| [`libredb/libredb-studio`](https://github.com/libredb/libredb-studio) | 1166 | 1 | 1 | 0 |
-| [`PostHog/posthog-js`](https://github.com/PostHog/posthog-js) | 613 | 1 | 1 | 0 |
-| [`OpsiMate/OpsiMate`](https://github.com/OpsiMate/OpsiMate) | 229 | 1 | 1 | 0 |
+| [`libredb/libredb-studio`](https://github.com/libredb/libredb-studio) | 1171 | 1 | 1 | 0 |
+| [`PostHog/posthog-js`](https://github.com/PostHog/posthog-js) | 621 | 1 | 1 | 0 |
+| [`OpsiMate/OpsiMate`](https://github.com/OpsiMate/OpsiMate) | 233 | 1 | 1 | 0 |
 | [`Tencent/tdesign-common`](https://github.com/Tencent/tdesign-common) | 192 | 1 | 1 | 0 |
-| [`wandb/rai-toolkit`](https://github.com/wandb/rai-toolkit) | 110 | 1 | 1 | 0 |
-| [`agentic-ai-java/argi`](https://github.com/agentic-ai-java/argi) | 78 | 1 | 1 | 0 |
+| [`wandb/rai-toolkit`](https://github.com/wandb/rai-toolkit) | 114 | 1 | 1 | 0 |
+| [`agentic-ai-java/argi`](https://github.com/agentic-ai-java/argi) | 80 | 1 | 1 | 0 |
 | [`NimbleBrainInc/nimblebrain`](https://github.com/NimbleBrainInc/nimblebrain) | 25 | 1 | 1 | 0 |
 | [`KnobanLabs/MeshCore-Desktop`](https://github.com/KnobanLabs/MeshCore-Desktop) | 9 | 1 | 1 | 0 |
 | [`Tnsor-Labs/brokoli`](https://github.com/Tnsor-Labs/brokoli) | 7 | 1 | 1 | 0 |
@@ -271,92 +269,94 @@ Merged in international frontend and tooling ecosystems:
 </details>
 
 <details>
-<summary><strong>🧾 82 projects with PRs only in review or closed without merge</strong></summary>
+<summary><strong>🧾 84 projects with PRs only in review or closed without merge</strong></summary>
 
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
 |:---|:---:|:---:|:---:|:---:|
-| [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop) | 39214 | 9 | 0 | 8 |
-| [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 27802 | 8 | 0 | 8 |
-| [`MiniMax-AI/skills`](https://github.com/MiniMax-AI/skills) | 13673 | 5 | 0 | 5 |
-| [`adobe/react-spectrum`](https://github.com/adobe/react-spectrum) | 15920 | 4 | 0 | 4 |
-| [`MiniMax-AI/Mini-Agent`](https://github.com/MiniMax-AI/Mini-Agent) | 3047 | 4 | 0 | 4 |
+| [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop) | 39218 | 9 | 0 | 8 |
+| [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 27829 | 8 | 0 | 8 |
+| [`MiniMax-AI/skills`](https://github.com/MiniMax-AI/skills) | 13675 | 5 | 0 | 5 |
+| [`adobe/react-spectrum`](https://github.com/adobe/react-spectrum) | 15927 | 4 | 0 | 4 |
+| [`MiniMax-AI/Mini-Agent`](https://github.com/MiniMax-AI/Mini-Agent) | 3049 | 4 | 0 | 4 |
 | [`baidu/amis`](https://github.com/baidu/amis) | 18896 | 3 | 0 | 3 |
-| [`freshframework/fresh`](https://github.com/freshframework/fresh) | 13791 | 3 | 0 | 3 |
+| [`freshframework/fresh`](https://github.com/freshframework/fresh) | 13792 | 3 | 0 | 3 |
 | [`alibaba/formily`](https://github.com/alibaba/formily) | 12590 | 3 | 0 | 3 |
-| [`huggingface/chat-ui`](https://github.com/huggingface/chat-ui) | 10974 | 4 | 0 | 3 |
-| [`denoland/std`](https://github.com/denoland/std) | 3559 | 3 | 0 | 3 |
-| [`MiniMax-AI/cli`](https://github.com/MiniMax-AI/cli) | 2182 | 6 | 0 | 3 |
-| [`deepseek-ai/deepseek-recipe`](https://github.com/deepseek-ai/deepseek-recipe) | 378 | 4 | 0 | 3 |
+| [`huggingface/chat-ui`](https://github.com/huggingface/chat-ui) | 10976 | 4 | 0 | 3 |
+| [`denoland/std`](https://github.com/denoland/std) | 3558 | 3 | 0 | 3 |
+| [`MiniMax-AI/cli`](https://github.com/MiniMax-AI/cli) | 2183 | 6 | 0 | 3 |
+| [`deepseek-ai/deepseek-recipe`](https://github.com/deepseek-ai/deepseek-recipe) | 379 | 4 | 0 | 3 |
 | [`MiniMax-AI/MiniMax-MCP-JS`](https://github.com/MiniMax-AI/MiniMax-MCP-JS) | 130 | 3 | 0 | 3 |
-| [`payloadcms/payload`](https://github.com/payloadcms/payload) | 45145 | 2 | 0 | 2 |
-| [`radix-ui/primitives`](https://github.com/radix-ui/primitives) | 19368 | 2 | 0 | 2 |
-| [`Tencent/vConsole`](https://github.com/Tencent/vConsole) | 17534 | 2 | 0 | 2 |
+| [`payloadcms/payload`](https://github.com/payloadcms/payload) | 45157 | 2 | 0 | 2 |
+| [`radix-ui/primitives`](https://github.com/radix-ui/primitives) | 19369 | 2 | 0 | 2 |
+| [`Tencent/vConsole`](https://github.com/Tencent/vConsole) | 17533 | 2 | 0 | 2 |
 | [`TanStack/router`](https://github.com/TanStack/router) | 15160 | 2 | 0 | 2 |
 | [`MoonshotAI/kimi-cli`](https://github.com/MoonshotAI/kimi-cli) | 11425 | 3 | 0 | 2 |
-| [`bytedance/flowgram.ai`](https://github.com/bytedance/flowgram.ai) | 8487 | 2 | 0 | 2 |
-| [`zai-org/GLM-OCR`](https://github.com/zai-org/GLM-OCR) | 7488 | 2 | 0 | 2 |
-| [`zai-org/GLM-4`](https://github.com/zai-org/GLM-4) | 7069 | 2 | 0 | 2 |
-| [`mui/material-ui`](https://github.com/mui/material-ui) | 99143 | 1 | 0 | 1 |
+| [`bytedance/flowgram.ai`](https://github.com/bytedance/flowgram.ai) | 8488 | 2 | 0 | 2 |
+| [`zai-org/GLM-OCR`](https://github.com/zai-org/GLM-OCR) | 7489 | 2 | 0 | 2 |
+| [`zai-org/GLM-4`](https://github.com/zai-org/GLM-4) | 7068 | 2 | 0 | 2 |
+| [`zai-org/zcode-plugins`](https://github.com/zai-org/zcode-plugins) | 89 | 2 | 0 | 2 |
+| [`mui/material-ui`](https://github.com/mui/material-ui) | 99147 | 1 | 0 | 1 |
 | [`ChatGPTNextWeb/NextChat`](https://github.com/ChatGPTNextWeb/NextChat) | 88834 | 1 | 0 | 1 |
-| [`cline/cline`](https://github.com/cline/cline) | 70012 | 1 | 0 | 1 |
-| [`code-yeongyu/oh-my-openagent`](https://github.com/code-yeongyu/oh-my-openagent) | 69892 | 1 | 0 | 1 |
-| [`TanStack/query`](https://github.com/TanStack/query) | 50407 | 1 | 0 | 1 |
-| [`parcel-bundler/parcel`](https://github.com/parcel-bundler/parcel) | 44013 | 1 | 0 | 1 |
-| [`streamich/react-use`](https://github.com/streamich/react-use) | 44001 | 1 | 0 | 1 |
-| [`continuedev/continue`](https://github.com/continuedev/continue) | 36153 | 1 | 0 | 1 |
-| [`floating-ui/floating-ui`](https://github.com/floating-ui/floating-ui) | 32761 | 1 | 0 | 1 |
-| [`mantinedev/mantine`](https://github.com/mantinedev/mantine) | 31807 | 1 | 0 | 1 |
-| [`alibaba/page-agent`](https://github.com/alibaba/page-agent) | 29358 | 2 | 0 | 1 |
-| [`tailwindlabs/headlessui`](https://github.com/tailwindlabs/headlessui) | 28771 | 1 | 0 | 1 |
-| [`OtterMind/Chat2DB`](https://github.com/OtterMind/Chat2DB) | 28303 | 1 | 0 | 1 |
+| [`cline/cline`](https://github.com/cline/cline) | 70038 | 1 | 0 | 1 |
+| [`code-yeongyu/oh-my-openagent`](https://github.com/code-yeongyu/oh-my-openagent) | 69907 | 1 | 0 | 1 |
+| [`parcel-bundler/parcel`](https://github.com/parcel-bundler/parcel) | 44010 | 1 | 0 | 1 |
+| [`streamich/react-use`](https://github.com/streamich/react-use) | 43997 | 1 | 0 | 1 |
+| [`continuedev/continue`](https://github.com/continuedev/continue) | 36162 | 1 | 0 | 1 |
+| [`floating-ui/floating-ui`](https://github.com/floating-ui/floating-ui) | 32758 | 1 | 0 | 1 |
+| [`mantinedev/mantine`](https://github.com/mantinedev/mantine) | 31810 | 1 | 0 | 1 |
+| [`alibaba/page-agent`](https://github.com/alibaba/page-agent) | 29363 | 2 | 0 | 1 |
+| [`tailwindlabs/headlessui`](https://github.com/tailwindlabs/headlessui) | 28772 | 1 | 0 | 1 |
+| [`OtterMind/Chat2DB`](https://github.com/OtterMind/Chat2DB) | 28306 | 1 | 0 | 1 |
 | [`eslint/eslint`](https://github.com/eslint/eslint) | 27626 | 1 | 0 | 1 |
-| [`zai-org/Open-AutoGLM`](https://github.com/zai-org/Open-AutoGLM) | 26355 | 1 | 0 | 1 |
-| [`browserbase/stagehand`](https://github.com/browserbase/stagehand) | 25570 | 1 | 0 | 1 |
-| [`desktop/desktop`](https://github.com/desktop/desktop) | 21922 | 1 | 0 | 1 |
-| [`QwenLM/Qwen-Agent`](https://github.com/QwenLM/Qwen-Agent) | 17142 | 1 | 0 | 1 |
-| [`organicmaps/organicmaps`](https://github.com/organicmaps/organicmaps) | 15613 | 1 | 0 | 1 |
-| [`lynx-family/lynx`](https://github.com/lynx-family/lynx) | 15165 | 1 | 0 | 1 |
-| [`antvis/G6`](https://github.com/antvis/G6) | 12324 | 1 | 0 | 1 |
-| [`didi/LogicFlow`](https://github.com/didi/LogicFlow) | 11745 | 1 | 0 | 1 |
-| [`alibaba/spring-ai-alibaba`](https://github.com/alibaba/spring-ai-alibaba) | 10975 | 1 | 0 | 1 |
-| [`evidence-dev/evidence`](https://github.com/evidence-dev/evidence) | 6988 | 1 | 0 | 1 |
+| [`zai-org/Open-AutoGLM`](https://github.com/zai-org/Open-AutoGLM) | 26364 | 1 | 0 | 1 |
+| [`browserbase/stagehand`](https://github.com/browserbase/stagehand) | 25582 | 1 | 0 | 1 |
+| [`desktop/desktop`](https://github.com/desktop/desktop) | 21926 | 1 | 0 | 1 |
+| [`QwenLM/Qwen-Agent`](https://github.com/QwenLM/Qwen-Agent) | 17151 | 1 | 0 | 1 |
+| [`organicmaps/organicmaps`](https://github.com/organicmaps/organicmaps) | 15616 | 1 | 0 | 1 |
+| [`lynx-family/lynx`](https://github.com/lynx-family/lynx) | 15168 | 1 | 0 | 1 |
+| [`antvis/G6`](https://github.com/antvis/G6) | 12323 | 1 | 0 | 1 |
+| [`didi/LogicFlow`](https://github.com/didi/LogicFlow) | 11746 | 1 | 0 | 1 |
+| [`alibaba/spring-ai-alibaba`](https://github.com/alibaba/spring-ai-alibaba) | 10977 | 1 | 0 | 1 |
+| [`bytedance/xgplayer`](https://github.com/bytedance/xgplayer) | 9306 | 1 | 0 | 1 |
+| [`evidence-dev/evidence`](https://github.com/evidence-dev/evidence) | 6989 | 1 | 0 | 1 |
 | [`jd-opensource/nutui`](https://github.com/jd-opensource/nutui) | 6512 | 1 | 0 | 1 |
 | [`jd-opensource/micro-app`](https://github.com/jd-opensource/micro-app) | 6260 | 1 | 0 | 1 |
 | [`arco-design/arco-design`](https://github.com/arco-design/arco-design) | 5714 | 1 | 0 | 1 |
 | [`tencentmusic/supersonic`](https://github.com/tencentmusic/supersonic) | 5118 | 1 | 0 | 1 |
 | [`Tencent/wujie`](https://github.com/Tencent/wujie) | 5047 | 1 | 0 | 1 |
-| [`web-infra-dev/modern.js`](https://github.com/web-infra-dev/modern.js) | 5046 | 1 | 0 | 1 |
-| [`ant-design/x`](https://github.com/ant-design/x) | 4802 | 1 | 0 | 1 |
+| [`web-infra-dev/modern.js`](https://github.com/web-infra-dev/modern.js) | 5047 | 1 | 0 | 1 |
+| [`ant-design/x`](https://github.com/ant-design/x) | 4801 | 1 | 0 | 1 |
 | [`alibaba/ChatUI`](https://github.com/alibaba/ChatUI) | 4452 | 1 | 0 | 1 |
-| [`zai-org/GLM-4.5`](https://github.com/zai-org/GLM-4.5) | 4424 | 1 | 0 | 1 |
-| [`astral-sh/ruff-vscode`](https://github.com/astral-sh/ruff-vscode) | 1676 | 1 | 0 | 1 |
+| [`zai-org/GLM-4.5`](https://github.com/zai-org/GLM-4.5) | 4425 | 1 | 0 | 1 |
+| [`astral-sh/ruff-vscode`](https://github.com/astral-sh/ruff-vscode) | 1677 | 1 | 0 | 1 |
 | [`MiniMax-AI/MiniMax-MCP`](https://github.com/MiniMax-AI/MiniMax-MCP) | 1583 | 1 | 0 | 1 |
+| [`MiniMax-AI/OpenRoom`](https://github.com/MiniMax-AI/OpenRoom) | 1268 | 1 | 0 | 1 |
 | [`Tencent/tdesign-vue`](https://github.com/Tencent/tdesign-vue) | 1034 | 1 | 0 | 1 |
 | [`Tencent/tdesign-react`](https://github.com/Tencent/tdesign-react) | 968 | 1 | 0 | 1 |
-| [`MoonshotAI/kimi-agent-sdk`](https://github.com/MoonshotAI/kimi-agent-sdk) | 575 | 1 | 0 | 1 |
+| [`MoonshotAI/kimi-agent-sdk`](https://github.com/MoonshotAI/kimi-agent-sdk) | 576 | 1 | 0 | 1 |
 | [`ant-design/ant-design-cli`](https://github.com/ant-design/ant-design-cli) | 260 | 1 | 0 | 1 |
-| [`MiniMax-AI/OpenAgentCore`](https://github.com/MiniMax-AI/OpenAgentCore) | 201 | 1 | 0 | 1 |
+| [`MiniMax-AI/OpenAgentCore`](https://github.com/MiniMax-AI/OpenAgentCore) | 202 | 1 | 0 | 1 |
 | [`DSpace/dspace-angular`](https://github.com/DSpace/dspace-angular) | 180 | 1 | 0 | 1 |
-| [`zai-org/zcode-plugins`](https://github.com/zai-org/zcode-plugins) | 88 | 1 | 0 | 1 |
 | [`NervJS/taro-docs`](https://github.com/NervJS/taro-docs) | 32 | 1 | 0 | 1 |
 | [`ant-design/x-markdown-mini`](https://github.com/ant-design/x-markdown-mini) | 29 | 1 | 0 | 1 |
-| [`alibaba/loongsuite-js`](https://github.com/alibaba/loongsuite-js) | 24 | 1 | 0 | 1 |
-| [`vitejs/vite`](https://github.com/vitejs/vite) | 83262 | 1 | 0 | 0 |
-| [`langchain-ai/langgraph`](https://github.com/langchain-ai/langgraph) | 42881 | 1 | 0 | 0 |
-| [`trpc/trpc`](https://github.com/trpc/trpc) | 40689 | 1 | 0 | 0 |
-| [`recharts/recharts`](https://github.com/recharts/recharts) | 27617 | 1 | 0 | 0 |
-| [`vitest-dev/vitest`](https://github.com/vitest-dev/vitest) | 17192 | 2 | 0 | 0 |
-| [`typescript-eslint/typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint) | 16412 | 4 | 0 | 0 |
-| [`assistant-ui/assistant-ui`](https://github.com/assistant-ui/assistant-ui) | 12440 | 1 | 0 | 0 |
-| [`deepseek-ai/DeepEP`](https://github.com/deepseek-ai/DeepEP) | 10249 | 1 | 0 | 0 |
-| [`ant-design/pro-components`](https://github.com/ant-design/pro-components) | 4838 | 2 | 0 | 0 |
+| [`alibaba/loongsuite-js`](https://github.com/alibaba/loongsuite-js) | 25 | 1 | 0 | 1 |
+| [`vitejs/vite`](https://github.com/vitejs/vite) | 83263 | 1 | 0 | 0 |
+| [`TanStack/query`](https://github.com/TanStack/query) | 50407 | 1 | 0 | 0 |
+| [`langchain-ai/langgraph`](https://github.com/langchain-ai/langgraph) | 42917 | 1 | 0 | 0 |
+| [`trpc/trpc`](https://github.com/trpc/trpc) | 40687 | 1 | 0 | 0 |
+| [`recharts/recharts`](https://github.com/recharts/recharts) | 27618 | 1 | 0 | 0 |
+| [`vitest-dev/vitest`](https://github.com/vitest-dev/vitest) | 17191 | 2 | 0 | 0 |
+| [`typescript-eslint/typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint) | 16415 | 4 | 0 | 0 |
+| [`assistant-ui/assistant-ui`](https://github.com/assistant-ui/assistant-ui) | 12453 | 1 | 0 | 0 |
+| [`deepseek-ai/DeepEP`](https://github.com/deepseek-ai/DeepEP) | 10251 | 1 | 0 | 0 |
+| [`ant-design/pro-components`](https://github.com/ant-design/pro-components) | 4839 | 2 | 0 | 0 |
 | [`npmx-dev/npmx.dev`](https://github.com/npmx-dev/npmx.dev) | 3637 | 3 | 0 | 0 |
 | [`eclipse-paho/paho.mqtt.golang`](https://github.com/eclipse-paho/paho.mqtt.golang) | 3130 | 1 | 0 | 0 |
 | [`Gamote/lottie-react`](https://github.com/Gamote/lottie-react) | 969 | 1 | 0 | 0 |
 | [`w3c/aria`](https://github.com/w3c/aria) | 755 | 1 | 0 | 0 |
 | [`astral-sh/ty-vscode`](https://github.com/astral-sh/ty-vscode) | 379 | 1 | 0 | 0 |
 | [`pnpm/pnpm.io`](https://github.com/pnpm/pnpm.io) | 313 | 1 | 0 | 0 |
-| [`backblaze-labs/b2-mcp`](https://github.com/backblaze-labs/b2-mcp) | 41 | 1 | 0 | 0 |
+| [`backblaze-labs/b2-mcp`](https://github.com/backblaze-labs/b2-mcp) | 42 | 1 | 0 | 0 |
 
 </details>
 <!--END_SECTION:oss-footprint-->
