@@ -22,15 +22,13 @@
   </a>
 </p>
 
-<p align="center"><sub class="demo-caption">Click the preview to play the full demo (muted) · 10.75 s · 1920x1080 · 60 fps · 400–700 nm.</sub></p>
+<p align="center"><sub class="demo-caption">Click the preview to play the full demo (muted) · 10.75 s · 1920x1080 · 60 fps video · 400–700 nm.</sub></p>
 
-## What the demo shows
+## Hyperspectral reconstruction demo
 
-This is an **earlier private hyperspectral reconstruction prototype**. The public loop and full demo show a desktop workflow for camera acquisition, lightweight deep-learning reconstruction, 30-band spectral display across 400–700 nm, spectral curves, and result saving.
+This is an **earlier private hyperspectral reconstruction prototype**, shared here as a public demo. The desktop workflow covers camera capture, 30-band reconstruction across 400–700 nm, and interactive spectral visualization.
 
-I was responsible for the lightweight deep-learning reconstruction and dataset work, plus the camera acquisition, desktop UI, spectral visualization, and result-saving modules. Code and data remain private because of research and industry-collaboration constraints.
-
-> I build reliable AI applications end to end, connecting product interfaces, agent workflows, APIs, and data systems. Computational imaging is my technical edge.
+My contributions covered lightweight deep-learning reconstruction, dataset work, and the desktop workflow—from camera capture and the UI to spectral visualization and result saving. Code and data remain private because of research and industry-collaboration constraints.
 
 <p align="center">
   <code>AI applications</code>&nbsp;&nbsp;
@@ -42,13 +40,13 @@ I was responsible for the lightweight deep-learning reconstruction and dataset w
 ## Tech stack
 
 <p align="center">
-  <img class="tech-stack" src="assets/tech-stack.svg" width="100%" alt="Tech stack across interface, AI applications, backend and data, client delivery, and spectral imaging: HTML5, CSS3, JavaScript, TypeScript, React, React Flow, Zustand, Vite, Node.js, NestJS, Python, PyTorch, LangGraph, RAG, MCP, SSE, WebSocket, PostgreSQL, pgvector, Redis, Rust, Tauri, Git, Windows, PyInstaller, and camera workflows.">
+  <img class="tech-stack" src="assets/tech-stack.svg" width="100%" alt="Tech stack: React, TypeScript, Vite, and React Flow for interfaces; Python, PyTorch, LangGraph, and MCP for AI applications; Node.js, NestJS, PostgreSQL, and Redis for backend and data; Rust, Tauri, Git, SSE, and WebSocket for client delivery. Also shown: HTML5, CSS3, JavaScript, Zustand, Webpack, Rspack, LangChain, pgvector, RBAC, diff and rollback, and the 400–700 nm imaging range.">
 </p>
 
-## AI coding workflow
+## AI development tools
 
 <div align="center">
-  <div class="agent-grid" role="group" aria-label="Coding agents used in my workflow">
+  <div class="agent-grid" role="group" aria-label="AI development tools">
     <p>
       <span class="agent-item"><a href="https://github.com/MoonshotAI/kimi-cli" title="Kimi Code"><img class="agent-icon" src="assets/agent-kimi-official.png" width="36" height="36" align="absmiddle" alt="Official Kimi Code agent mark from Moonshot AI"></a>&nbsp;<strong>Kimi Code</strong></span>&ensp;
       <span class="agent-item"><a href="https://github.com/openai/codex" title="Codex"><img class="agent-icon" src="assets/agent-codex-official.png" width="36" height="36" align="absmiddle" alt="Official OpenAI mark used for Codex"></a>&nbsp;<strong>Codex</strong></span>&ensp;
@@ -66,7 +64,7 @@ I was responsible for the lightweight deep-learning reconstruction and dataset w
 
 ## 🌐 Open-source contributions
 
-I contribute fixes and features focused on agent interoperability, developer-tool reliability, and correct frontend behavior.
+I contribute fixes and features focused on agent interoperability, reliable developer tools, and frontend interactions.
 
 ### 🏆 Merged contributions
 
@@ -135,16 +133,16 @@ Merged in international frontend and tooling ecosystems:
 |---|---|---|---|
 | 🎓 **Interactive learning tooling** | [grafana/grafana-pathfinder-app](https://github.com/grafana/grafana-pathfinder-app) | `31 PRs · 30 merged · 1 open` | Block editor bulk actions, coda VM lifecycle, docs retrieval, and lint plus e2e coverage |
 | 🏙️ **Civic data delivery** | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | `28 PRs · 27 merged` | Structured submissions, geometry sources, deterministic artifacts, review semantics, and a CJK font screenshot regression |
-| 🤖 **AI agent systems** | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | `9 merged · 5 open` | Windows event-loop, post-checkout commit safety, and MCP registration plus status fixes merged; tool data-block replay and output-language fixes in review |
+| 🤖 **AI agent systems** | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | `9 merged · 5 open` | Windows event-loop, post-checkout commit safety, and MCP registration plus status fixes merged; open PRs address tool data-block replay and output language |
 | 🧩 **Frontend component ecosystems** | [ant-design/ant-design](https://github.com/ant-design/ant-design) · [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) · [DouyinFE/semi-design](https://github.com/DouyinFE/semi-design) · [alibaba/hooks](https://github.com/alibaba/hooks) · [nuxt/ui](https://github.com/nuxt/ui) · [Tencent/tdesign-vue-next](https://github.com/Tencent/tdesign-vue-next) · [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) · [mui/material-ui](https://github.com/mui/material-ui) | `13 merged · 5 open` | i18n guide links, modal stacking, ref types, input and selection behavior, toolbar alignment, and upload triggers |
 | 🔍 **Code review tooling** | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | `6 PRs · 5 merged` | Pug and Jinja support, atomic report writes, unknown config-field preservation, and mobile viewer wrapping merged |
 | 🔐 **AI safety & evaluation** | [microsoft/PyRIT](https://github.com/microsoft/PyRIT) · [wandb/rai-toolkit](https://github.com/wandb/rai-toolkit) | `2 merged` | Feedback-dialog restore after secret confirmation; explicit adapter call-time options |
-| 🛠️ **Web & build tooling** | [pnpm/pnpm](https://github.com/pnpm/pnpm) · [crxjs/chrome-extension-tools](https://github.com/crxjs/chrome-extension-tools) · [storybookjs/storybook](https://github.com/storybookjs/storybook) · [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) · [web-infra-dev/rsdoctor](https://github.com/web-infra-dev/rsdoctor) | `6 merged · 2 open` | SBOM, sourcemap paths, bundle-size filters and sorting, and Next.js-Vite resolution fixes merged; resolver BOM parsing in review |
-| 💻 **Desktop UX** | [desktop/desktop](https://github.com/desktop/desktop) · [kando-menu/kando](https://github.com/kando-menu/kando) | `1 merged · 1 open` | WebSocket message action merged; pull-request suggestion behavior in review |
-| 🧠 **Agent memory & Node.js** | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | `1 merged · 5 open` | Auto-Sync documentation merged; Gateway lifecycle, timestamps, proxy preservation, SQLite filtering, and store initialization in review |
-| 📱 **Cross-end frontend** | [NervJS/taro](https://github.com/NervJS/taro) · [NervJS/taro-docs](https://github.com/NervJS/taro-docs) | `8 merged · 1 open` | Shared CSS output, image centering, typings, swan input, and RN upload plus Babel preset fixes merged; documentation update in review |
+| 🛠️ **Web & build tooling** | [pnpm/pnpm](https://github.com/pnpm/pnpm) · [crxjs/chrome-extension-tools](https://github.com/crxjs/chrome-extension-tools) · [storybookjs/storybook](https://github.com/storybookjs/storybook) · [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) · [web-infra-dev/rsdoctor](https://github.com/web-infra-dev/rsdoctor) | `6 merged · 2 open` | SBOM, sourcemap paths, bundle-size filters and sorting, and Next.js-Vite resolution fixes merged; resolver BOM parsing fix remains open |
+| 💻 **Desktop UX** | [desktop/desktop](https://github.com/desktop/desktop) · [kando-menu/kando](https://github.com/kando-menu/kando) | `1 merged · 1 open` | WebSocket message action merged; pull-request suggestion fix remains open |
+| 🧠 **Agent memory & Node.js** | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | `1 merged · 5 open` | Auto-Sync documentation merged; open PRs address Gateway lifecycle, timestamps, proxy preservation, SQLite filtering, and store initialization |
+| 📱 **Cross-end frontend** | [NervJS/taro](https://github.com/NervJS/taro) · [NervJS/taro-docs](https://github.com/NervJS/taro-docs) | `8 merged · 1 open` | Shared CSS output, image centering, typings, swan input, and RN upload plus Babel preset fixes merged; documentation update remains open |
 | 🖥️ **Agent desktop UI** | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | `8 open` | Agent server streaming, MCP initialization, device actions, and workspace search ordering |
-| 📖 **Knowledge & RAG** | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | `5 merged · 3 open` | Wiki MCP structured content, container lookup errors, CLI pagination, and Markdown caret fixes merged; PDF extraction and document fixes in review |
+| 📖 **Knowledge & RAG** | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | `5 merged · 3 open` | Wiki MCP structured content, container lookup errors, CLI pagination, and Markdown caret fixes merged; open PRs cover PDF extraction and other document fixes |
 | 🧭 **Search & coordinates** | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | `1 open` | C++ search behavior for space-separated DMS coordinates |
 
 </details>
