@@ -112,8 +112,8 @@ def build_block(stats):
         lines += [
             "",
             "<details>",
-            f"<summary><strong>🧾 {len(pending)} projects with PRs"
-            " only in review or closed without merge</strong></summary>",
+            f"<summary><strong>🧾 {len(pending)} projects with open PRs"
+            " or PRs closed without merge</strong></summary>",
             "",
             *header,
             *(row(repo, s) for repo, s in pending),
