@@ -70,6 +70,7 @@ I contribute fixes and features focused on agent interoperability, reliable deve
 
 Selected merged contributions across major Chinese AI agent and frontend ecosystems:
 
+- 🤖 [ant-design/x#2066](https://github.com/ant-design/x/pull/2066) · ⭐ 4.8k — fixed `XRequest` loading state after JSON business errors, without letting stale failures finish newer requests.
 - 🐜 [ant-design/ant-design#59173](https://github.com/ant-design/ant-design/pull/59173) · ⭐ 99.9k — fixed the Chinese contribution guide to link the English locale list in its i18n step, so contributors update both locale lists.
 - 🔍 [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · ⭐ 48.6k — preserved configuration and report integrity: atomic writes prevent truncated reports after interruption ([#1160](https://github.com/alibaba/open-code-review/pull/1160)), and config updates retain unknown provider and MCP fields ([#1508](https://github.com/alibaba/open-code-review/pull/1508)). Also expanded template support ([#1114](https://github.com/alibaba/open-code-review/pull/1114), [#1056](https://github.com/alibaba/open-code-review/pull/1056)) and kept long session metadata readable on mobile ([#1458](https://github.com/alibaba/open-code-review/pull/1458)).
 - 🧠 [volcengine/OpenViking](https://github.com/volcengine/OpenViking) · ⭐ 41.0k — restored DeepSeek Harness memory injection compatibility while retaining legacy replay ([#5318](https://github.com/volcengine/OpenViking/pull/5318)), fixed broad MCP recall being narrowed to the process workspace ([#5346](https://github.com/volcengine/OpenViking/pull/5346)), and kept OpenCode plugin state snapshots free of captured message parts ([#5179](https://github.com/volcengine/OpenViking/pull/5179)).
@@ -83,6 +84,7 @@ Selected merged contributions across major Chinese AI agent and frontend ecosyst
 - 🍒 [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) · ⭐ 4.9k — guarded pending image load and error callbacks after previewer destroy ([#1871](https://github.com/Tencent/cherry-markdown/pull/1871)), and centered toolbar menu icons and text across font sizes and wrapped labels ([#1898](https://github.com/Tencent/cherry-markdown/pull/1898)).
 - 🧩 [Tencent/tdesign-vue-next](https://github.com/Tencent/tdesign-vue-next) · ⭐ 2.2k — restored the Dropdown `onClick` option type ([#6959](https://github.com/Tencent/tdesign-vue-next/pull/6959)), made Menu handle functional submenu parents ([#6967](https://github.com/Tencent/tdesign-vue-next/pull/6967)), restored retained InputNumber values after clearing and blurring ([#6995](https://github.com/Tencent/tdesign-vue-next/pull/6995)), and synchronized TreeSelect all-mode values when removing tags ([#6998](https://github.com/Tencent/tdesign-vue-next/pull/6998)).
 - 🔬 [web-infra-dev/rsdoctor](https://github.com/web-infra-dev/rsdoctor) · ⭐ 1.2k — improved bundle-analysis accuracy and navigation: size filters now honor the selected units ([#2075](https://github.com/web-infra-dev/rsdoctor/pull/2075)), module trees can be sorted by bundled or source size ([#2101](https://github.com/web-infra-dev/rsdoctor/pull/2101)), and Windows path normalization restores module-size measurements that incorrectly stayed at zero ([#2102](https://github.com/web-infra-dev/rsdoctor/pull/2102)).
+- 🛠️ [ant-design/ant-design-cli#241](https://github.com/ant-design/ant-design-cli/pull/241) · ⭐ 260 — enabled JSX-in-`.js` analysis in `antd usage` and `antd lint`, while preserving genuine syntax-error reporting.
 - 🧪 [PKU-YuanGroup/OpenAI4S#216](https://github.com/PKU-YuanGroup/OpenAI4S/pull/216) — prevented stale execution-history responses from replacing newer cells through per-frame request ownership, with unit and browser regression coverage.
 
 Merged in international frontend and tooling ecosystems:
@@ -136,10 +138,10 @@ Merged in international frontend and tooling ecosystems:
 | 🎓 **Interactive learning tooling** | [grafana/grafana-pathfinder-app](https://github.com/grafana/grafana-pathfinder-app) | `31 PRs · 31 merged` | Block editor bulk actions, coda VM lifecycle, docs retrieval, Windows check-runner fixes, and lint plus e2e coverage |
 | 🏙️ **Civic data delivery** | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | `28 PRs · 27 merged` | Structured submissions, geometry sources, deterministic artifacts, review semantics, and a CJK font screenshot regression |
 | 🤖 **AI agent systems** | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | `10 merged · 4 open` | Windows event-loop compatibility, tool data-block replay, post-checkout commit safety, and MCP registration plus status fixes merged; open PRs address output language and session behavior |
-| 🧩 **Frontend component ecosystems** | [ant-design/ant-design](https://github.com/ant-design/ant-design) · [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) · [DouyinFE/semi-design](https://github.com/DouyinFE/semi-design) · [alibaba/hooks](https://github.com/alibaba/hooks) · [nuxt/ui](https://github.com/nuxt/ui) · [Tencent/tdesign-vue-next](https://github.com/Tencent/tdesign-vue-next) · [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) · [mui/material-ui](https://github.com/mui/material-ui) | `15 merged · 3 open` | i18n guide links, modal stacking, ref types, infinite-scroll cancellation, storage documentation, input and selection behavior, toolbar alignment, and upload triggers |
+| 🧩 **Frontend component ecosystems** | [ant-design/ant-design](https://github.com/ant-design/ant-design) · [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) · [DouyinFE/semi-design](https://github.com/DouyinFE/semi-design) · [alibaba/hooks](https://github.com/alibaba/hooks) · [nuxt/ui](https://github.com/nuxt/ui) · [Tencent/tdesign-vue-next](https://github.com/Tencent/tdesign-vue-next) · [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) · [mui/material-ui](https://github.com/mui/material-ui) · [ant-design/x](https://github.com/ant-design/x) | `16 merged · 7 open` | AI request loading state, i18n guide links, modal stacking, ref types, infinite-scroll cancellation, storage documentation, input and selection behavior, toolbar alignment, and upload triggers |
 | 🔍 **Code review tooling** | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | `6 PRs · 5 merged` | Pug and Jinja support, atomic report writes, unknown config-field preservation, and mobile viewer wrapping merged |
 | 🔐 **AI safety & evaluation** | [microsoft/PyRIT](https://github.com/microsoft/PyRIT) · [wandb/rai-toolkit](https://github.com/wandb/rai-toolkit) | `2 merged` | Feedback-dialog restore after secret confirmation; explicit adapter call-time options |
-| 🛠️ **Web & build tooling** | [pnpm/pnpm](https://github.com/pnpm/pnpm) · [crxjs/chrome-extension-tools](https://github.com/crxjs/chrome-extension-tools) · [storybookjs/storybook](https://github.com/storybookjs/storybook) · [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) · [web-infra-dev/rsdoctor](https://github.com/web-infra-dev/rsdoctor) | `6 merged · 1 open` | SBOM, sourcemap paths, bundle-size filters and sorting, and Next.js-Vite resolution fixes merged; resolver BOM parsing fix remains open |
+| 🛠️ **Web & build tooling** | [pnpm/pnpm](https://github.com/pnpm/pnpm) · [crxjs/chrome-extension-tools](https://github.com/crxjs/chrome-extension-tools) · [storybookjs/storybook](https://github.com/storybookjs/storybook) · [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) · [web-infra-dev/rsdoctor](https://github.com/web-infra-dev/rsdoctor) · [ant-design/ant-design-cli](https://github.com/ant-design/ant-design-cli) | `7 merged · 1 open` | JSX-in-.js analysis, SBOM, sourcemap paths, bundle-size filters and sorting, and Next.js-Vite resolution fixes merged; resolver BOM parsing fix remains open |
 | 💻 **Desktop UX** | [desktop/desktop](https://github.com/desktop/desktop) · [kando-menu/kando](https://github.com/kando-menu/kando) | `1 merged · 1 open` | WebSocket message action merged; pull-request suggestion fix remains open |
 | 🧠 **Agent memory & Node.js** | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | `1 merged · 5 open` | Auto-Sync documentation merged; open PRs address Gateway lifecycle, timestamps, proxy preservation, SQLite filtering, and store initialization |
 | 📱 **Cross-end frontend** | [NervJS/taro](https://github.com/NervJS/taro) · [NervJS/taro-docs](https://github.com/NervJS/taro-docs) | `8 merged · 1 open` | Shared CSS output, image centering, typings, swan input, and RN upload plus Babel preset fixes merged; documentation update remains open |
@@ -204,7 +206,7 @@ Merged in international frontend and tooling ecosystems:
 <!--START_SECTION:oss-footprint-->
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
 |:---|:---:|:---:|:---:|:---:|
-| **Total across 162 upstream projects** |  | **405** | **188** | **158** |
+| **Total across 162 upstream projects** |  | **405** | **189** | **157** |
 
 <details>
 <summary><strong>✅ 69 projects with merged PRs</strong></summary>
@@ -235,6 +237,7 @@ Merged in international frontend and tooling ecosystems:
 | [`Tencent/cherry-markdown`](https://github.com/Tencent/cherry-markdown) | 4912 | 2 | 2 | 0 |
 | [`snapotter-hq/SnapOtter`](https://github.com/snapotter-hq/SnapOtter) | 2886 | 2 | 2 | 0 |
 | [`reticlehq/reticle`](https://github.com/reticlehq/reticle) | 1281 | 2 | 2 | 0 |
+| [`Tencent/tdesign-common`](https://github.com/Tencent/tdesign-common) | 194 | 2 | 2 | 0 |
 | [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 99984 | 1 | 1 | 0 |
 | [`mui/material-ui`](https://github.com/mui/material-ui) | 99288 | 1 | 1 | 0 |
 | [`storybookjs/storybook`](https://github.com/storybookjs/storybook) | 91403 | 4 | 1 | 0 |
@@ -259,7 +262,7 @@ Merged in international frontend and tooling ecosystems:
 | [`kando-menu/kando`](https://github.com/kando-menu/kando) | 6548 | 1 | 1 | 0 |
 | [`conorbronsdon/avoid-ai-writing`](https://github.com/conorbronsdon/avoid-ai-writing) | 5309 | 1 | 1 | 0 |
 | [`callstack/agent-device`](https://github.com/callstack/agent-device) | 5180 | 1 | 1 | 0 |
-| [`ant-design/x`](https://github.com/ant-design/x) | 4822 | 5 | 1 | 4 |
+| [`ant-design/x`](https://github.com/ant-design/x) | 4823 | 5 | 1 | 4 |
 | [`microsoft/PyRIT`](https://github.com/microsoft/PyRIT) | 4710 | 1 | 1 | 0 |
 | [`crxjs/chrome-extension-tools`](https://github.com/crxjs/chrome-extension-tools) | 4180 | 1 | 1 | 0 |
 | [`astral-sh/ruff-vscode`](https://github.com/astral-sh/ruff-vscode) | 1678 | 1 | 1 | 0 |
@@ -270,7 +273,6 @@ Merged in international frontend and tooling ecosystems:
 | [`OpsiMate/OpsiMate`](https://github.com/OpsiMate/OpsiMate) | 285 | 1 | 1 | 0 |
 | [`VisActor/VRender`](https://github.com/VisActor/VRender) | 264 | 1 | 1 | 0 |
 | [`ant-design/ant-design-cli`](https://github.com/ant-design/ant-design-cli) | 260 | 1 | 1 | 0 |
-| [`Tencent/tdesign-common`](https://github.com/Tencent/tdesign-common) | 194 | 2 | 1 | 1 |
 | [`agentic-ai-java/argi`](https://github.com/agentic-ai-java/argi) | 133 | 1 | 1 | 0 |
 | [`wandb/rai-toolkit`](https://github.com/wandb/rai-toolkit) | 41 | 1 | 1 | 0 |
 | [`ant-design/x-markdown-mini`](https://github.com/ant-design/x-markdown-mini) | 31 | 1 | 1 | 0 |
