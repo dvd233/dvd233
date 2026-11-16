@@ -1,4 +1,12 @@
-# dvd · AI Full-Stack Engineer
+<h1 align="center">
+  <a name="dvd--ai-full-stack-engineer"></a>
+  <picture>
+    <source media="(max-width: 900px) and (prefers-reduced-motion: no-preference)" srcset="assets/spectral-intro-compact.svg#motion">
+    <source media="(max-width: 900px)" srcset="assets/spectral-intro-compact.svg">
+    <source media="(prefers-reduced-motion: no-preference)" srcset="assets/spectral-intro.svg#motion">
+    <img src="assets/spectral-intro.svg" width="100%" alt="dvd · AI Full-Stack Engineer">
+  </picture>
+</h1>
 
 I build the interfaces, agent workflows, and data services behind AI applications.
 
@@ -14,7 +22,10 @@ This earlier private desktop prototype reconstructs 30 spectral bands from a cam
 
 <p align="center">
   <a href="https://github.com/dvd233/dvd233/blob/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-loop.webp">
-    <img src="assets/demo-poster-1920x1080.png" width="100%" alt="Camera frame with a selected point on the left, its spectral curve below, and 30 reconstructed wavelength bands on the right.">
+    <picture>
+      <source media="(prefers-reduced-motion: no-preference)" srcset="assets/demo-preview.webp">
+      <img src="assets/demo-poster-1920x1080.png" width="100%" alt="Camera frame with a selected point on the left, its spectral curve below, and 30 reconstructed wavelength bands on the right.">
+    </picture>
   </a>
 </p>
 
