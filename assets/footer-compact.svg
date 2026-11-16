@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="424" height="96" viewBox="0 0 424 96" role="img">
+  <title>Spectral trace, 400 to 700 nm</title>
+  <style>.paper{fill:#192128}.legend{fill:#dce4e1}.rule{stroke:#6c827e}</style>
+  <rect x="1" y="1" width="422" height="94" rx="11" class="paper"/>
+  <defs>
+    <linearGradient id="trace">
+      <stop offset="0" stop-color="#ad99da"/>
+      <stop offset="0.3" stop-color="#86c8d8"/>
+      <stop offset="0.5" stop-color="#a5d4ba"/>
+      <stop offset="0.7" stop-color="#ded697"/>
+      <stop offset="1" stop-color="#db9ca9"/>
+    </linearGradient>
+  </defs>
+  <text x="23" y="23" font-size="14" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-weight="600" class="legend">Spectral trace</text>
+  <path d="M23 50C41.9 50.0 41.9 48.0 60.8 48.0C79.7 48.0 79.7 51.0 98.6 51.0C115.6 51.0 115.6 49.0 132.6 49.0C151.5 49.0 151.5 53.0 170.4 53.0C189.3 53.0 189.3 46.0 208.2 46.0C221.4 46.0 221.4 35.0 234.7 35.0C251.7 35.0 251.7 39.0 268.7 39.0C281.9 39.0 281.9 45.0 295.2 45.0C310.3 45.0 310.3 41.0 325.4 41.0C344.3 41.0 344.3 47.0 363.2 47.0C382.1 47.0 382.1 50.0 401.0 50.0" fill="none" stroke="url(#trace)" stroke-width="2"/>
+  <path d="M23.0 60v5" class="rule"/>
+  <path d="M35.6 60v2" class="rule"/>
+  <path d="M48.2 60v2" class="rule"/>
+  <path d="M60.8 60v2" class="rule"/>
+  <path d="M73.4 60v2" class="rule"/>
+  <path d="M86.0 60v2" class="rule"/>
+  <path d="M98.6 60v2" class="rule"/>
+  <path d="M111.2 60v2" class="rule"/>
+  <path d="M123.8 60v2" class="rule"/>
+  <path d="M136.4 60v2" class="rule"/>
+  <path d="M149.0 60v5" class="rule"/>
+  <path d="M161.6 60v2" class="rule"/>
+  <path d="M174.2 60v2" class="rule"/>
+  <path d="M186.8 60v2" class="rule"/>
+  <path d="M199.4 60v2" class="rule"/>
+  <path d="M212.0 60v2" class="rule"/>
+  <path d="M224.6 60v2" class="rule"/>
+  <path d="M237.2 60v2" class="rule"/>
+  <path d="M249.8 60v2" class="rule"/>
+  <path d="M262.4 60v2" class="rule"/>
+  <path d="M275.0 60v5" class="rule"/>
+  <path d="M287.6 60v2" class="rule"/>
+  <path d="M300.2 60v2" class="rule"/>
+  <path d="M312.8 60v2" class="rule"/>
+  <path d="M325.4 60v2" class="rule"/>
+  <path d="M338.0 60v2" class="rule"/>
+  <path d="M350.6 60v2" class="rule"/>
+  <path d="M363.2 60v2" class="rule"/>
+  <path d="M375.8 60v2" class="rule"/>
+  <path d="M388.4 60v2" class="rule"/>
+  <path d="M401.0 60v5" class="rule"/>
+  <text x="23.0" y="81" text-anchor="start" font-family="ui-monospace,Consolas,'Liberation Mono',monospace" font-size="11" class="legend">400 nm</text>
+  <text x="149.0" y="81" text-anchor="middle" font-family="ui-monospace,Consolas,'Liberation Mono',monospace" font-size="11" class="legend">500</text>
+  <text x="275.0" y="81" text-anchor="middle" font-family="ui-monospace,Consolas,'Liberation Mono',monospace" font-size="11" class="legend">600</text>
+  <text x="401.0" y="81" text-anchor="end" font-family="ui-monospace,Consolas,'Liberation Mono',monospace" font-size="11" class="legend">700 nm</text>
+  <circle r="3.1" fill="#f1dfab">
+    <animateMotion path="M23 50C41.9 50.0 41.9 48.0 60.8 48.0C79.7 48.0 79.7 51.0 98.6 51.0C115.6 51.0 115.6 49.0 132.6 49.0C151.5 49.0 151.5 53.0 170.4 53.0C189.3 53.0 189.3 46.0 208.2 46.0C221.4 46.0 221.4 35.0 234.7 35.0C251.7 35.0 251.7 39.0 268.7 39.0C281.9 39.0 281.9 45.0 295.2 45.0C310.3 45.0 310.3 41.0 325.4 41.0C344.3 41.0 344.3 47.0 363.2 47.0C382.1 47.0 382.1 50.0 401.0 50.0" dur="12s" keyPoints="0;0;1;1;0" keyTimes="0;.11;.59;.68;1" calcMode="linear" repeatCount="indefinite"/>
+  </circle>
+</svg>

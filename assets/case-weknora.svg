@@ -5,7 +5,10 @@
     text { font-family:system-ui,-apple-system,'Segoe UI',sans-serif; }
     .micro,.val,.ticket,.stars {font-family:ui-monospace,Consolas,'Liberation Mono',monospace}
     .micro {font-size:10px}.val {font-size:11.5px}.ticket {font-size:11px}.stars {font-size:12px;font-weight:600}
-  </style>
+
+    .signal{opacity:0;animation:arrival 7s ease-out infinite;animation-delay:var(--phase,0s)}
+    @keyframes arrival{0%,46%,94%,100%{opacity:0}59%{opacity:.88}79%{opacity:.25}}
+    </style>
   <defs>
     <linearGradient id="ink-weknora" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1c3030"/><stop offset="1" stop-color="#10161d"/></linearGradient>
     <linearGradient id="gilt" x1="0" y1="0" x2=".65" y2="1"><stop stop-color="#fff1ba"/><stop offset=".53" stop-color="#f3c66e"/><stop offset="1" stop-color="#d79b48"/></linearGradient>
@@ -31,8 +34,8 @@
   <rect x="178" y="73" width="65" height="20" rx="3" fill="#193531" stroke="#4d8071"/>
   <g class="val" fill="#c4f5d7"><text x="190" y="60">124</text><text x="190" y="87">237</text></g>
   <g fill="none" stroke="#9de2cc" stroke-width="1.5" stroke-linecap="round"><path d="m226 56 2 2 4-5"/><path d="m226 83 2 2 4-5"/></g>
-  <path d="M21 60h82" stroke="#b1ffdb" stroke-width="1.9" opacity=".75"><animateTransform attributeName="transform" type="translate" values="0 0;0 31;0 0" dur="5.8s" repeatCount="indefinite"/></path>
-</g>
+  <path d="M21 60h82" stroke="#b1ffdb" stroke-width="1.9" opacity=".75"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 26;0 26;0 0" dur="7s" repeatCount="indefinite" keyTimes="0;.06;.46;.70;1"/></path>
+<circle r="2.3" fill="#dbffec"><animateMotion path="M109 68H141L154 56H176" dur="7s" begin="0s" keyTimes="0;.23;.58;1" keyPoints="0;0;1;1" calcMode="linear" repeatCount="indefinite"/></circle><rect x="178" y="46" width="65" height="20" rx="3" fill="none" stroke="#9ce7ce" stroke-width="1.4" class="signal" style="--phase:0s"/><circle r="2.3" fill="#dbffec"><animateMotion path="M109 68H141L154 83H176" dur="7s" begin="1.0s" keyTimes="0;.23;.58;1" keyPoints="0;0;1;1" calcMode="linear" repeatCount="indefinite"/></circle><rect x="178" y="73" width="65" height="20" rx="3" fill="none" stroke="#9ce7ce" stroke-width="1.4" class="signal" style="--phase:1.0s"/></g>
     <path d="M15 105h244" stroke="#47515b" opacity=".69"/>
     <text x="15" y="126" fill="#eef2ef" font-size="15" font-weight="610">Keep numeric PDF rows</text>
     <text x="15" y="146" class="ticket" fill="#9fdbc4">PDF extraction</text>

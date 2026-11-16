@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="213" height="26" viewBox="0 0 213 26" role="img">
+  <title>Tencent/cherry-markdown</title>
+  <style>
+  .paper {fill:#f6f3eb;stroke:#b9b6aa} .surface {fill:#eeeadf}
+  .ink {fill:#222a2e} .muted {fill:#505956} .line {stroke:#68726d}
+  @media (prefers-color-scheme:dark) {
+    .paper {fill:#1b2126;stroke:#414d50} .surface {fill:#2c343a}
+    .ink {fill:#f1efe6} .muted {fill:#b6c3c0} .line {stroke:#9aaca5}
+  }</style>
+  <text x="1" y="18" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="14" textLength="61" lengthAdjust="spacingAndGlyphs" class="muted">Tencent / </text>
+  <text x="63" y="18" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="650" textLength="130" lengthAdjust="spacingAndGlyphs" class="ink">cherry-markdown</text>
+  <path d="M202 15l6-6m-6 0h6v6" fill="none" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" class="line"/>
+</svg>
