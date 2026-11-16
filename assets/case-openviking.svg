@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="280" height="158" viewBox="-3 0 280 158" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="190" viewBox="-3 0 280 190" role="img" aria-labelledby="title desc">
   <title id="title">volcengine/OpenViking #5318</title>
-  <desc id="desc">OpenViking restores memory injection into DeepSeek Harness and replays older sessions. Merged AI-generated PR 5318. The star count belongs to the upstream repository.</desc>
+  <desc id="desc">OpenViking writes new memory injections with the producer-owned plugin:openviking-memory source kind. Replay still recognizes the legacy OpenViking plugin tag. Merged AI-generated PR 5318. The star count belongs to the upstream repository.</desc>
   <style>
     text { font-family:system-ui,-apple-system,'Segoe UI',sans-serif; }
     .micro,.val,.ticket,.stars {font-family:ui-monospace,Consolas,'Liberation Mono',monospace}
@@ -16,7 +16,7 @@
     <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".55" fill="#adbbc0"/></pattern>
   </defs>
   <g>
-    <rect x=".6" y=".6" width="272.8" height="156.8" rx="10" fill="url(#ink-openviking)" stroke="#47525d" stroke-width="1.2"/>
+    <rect x=".6" y=".6" width="272.8" height="188.8" rx="10" fill="url(#ink-openviking)" stroke="#47525d" stroke-width="1.2"/>
     <path d="M15 35h244" stroke="#48515e" opacity=".62"/>
     <rect x="15" y="39" width="244" height="59" fill="url(#dots)" opacity=".21"/>
     <text x="15" y="25" fill="#f0f3f2" font-size="17.5" font-weight="650">OpenViking</text>
@@ -35,7 +35,9 @@
 <path d="M166 64h7" stroke="#f0bc92" stroke-width="1.5" stroke-linecap="round" class="signal" style="--phase:-0.5s"/><path d="M166 74h7" stroke="#f0bc92" stroke-width="1.5" stroke-linecap="round" class="signal" style="--phase:2.3s"/></g>
     <path d="M15 105h244" stroke="#47515b" opacity=".69"/>
     <text x="15" y="126" fill="#eef2ef" font-size="15" font-weight="610">Replay older memory sessions</text>
-    <text x="15" y="146" class="ticket" fill="#eab995">AI-generated PR</text>
-    <text x="259" y="146" text-anchor="end" class="ticket" fill="#d2d9da">#5318 ↗</text>
+    <text x="15" y="145" font-size="13.25" fill="#cedad6" class="decision">Write <tspan font-family="ui-monospace, Consolas, monospace" font-size="12.5" fill="#f2d7c2">plugin:openviking-memory</tspan>.</text>
+    <text x="15" y="162" font-size="13.25" fill="#cedad6" class="decision">On replay, also accept its legacy tag.</text>
+    <text x="15" y="181" class="ticket" fill="#eab995">AI-generated PR</text>
+    <text x="259" y="181" text-anchor="end" class="ticket" fill="#d2d9da">#5318 ↗</text>
   </g>
 </svg>

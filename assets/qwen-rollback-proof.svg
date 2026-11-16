@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="56" viewBox="0 0 300 56" role="img" aria-labelledby="title desc">
+  <title id="title">Qwen Code · Merged #11300</title>
+  <desc id="desc">Qwen Code merged my fix to preserve hook-created commits during rollback.</desc>
+  <style>
+    .plate { fill: #f5f5ed; stroke: #b8c5bc; }
+    .ink { fill: #1f2d29; }
+    .detail { fill: #34453d; }
+    .merge { stroke: #3f7460; }
+    .status { fill: #3e6755; }
+    @media (prefers-color-scheme: dark) {
+      .plate { fill: #192321; stroke: #425751; }
+      .ink { fill: #f1f1e8; }
+      .detail { fill: #d2dfd5; }
+      .merge { stroke: #a0d6b7; }
+      .status { fill: #a8d4b8; }
+    }
+  </style>
+  <rect x=".75" y=".75" width="298.5" height="54.5" rx="7" class="plate"/>
+  <g class="merge" fill="none" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+    <path d="M16 22v12m0-12c0 7 10 3 10 10"/>
+    <circle cx="16" cy="19" r="2.6"/><circle cx="16" cy="37" r="2.6"/><circle cx="26" cy="35" r="2.6"/>
+    <path d="m277 23 7-7m-7 0h7v7"/>
+  </g>
+  <text x="42" y="22" class="ink" font-family="system-ui, 'Segoe UI', sans-serif" font-size="15" font-weight="650">Qwen Code</text>
+  <text x="143" y="21.5" class="status" font-family="ui-monospace, Consolas, monospace" font-size="12">Merged #11300</text>
+  <text x="42" y="43" class="detail" xml:lang="zh-CN" font-family="'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14">我的回滚修复保住了钩子创建的提交</text>
+</svg>

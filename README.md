@@ -1,3 +1,7 @@
+<p>
+  <a href="https://github.com/QwenLM/qwen-code/pull/11300" title="Qwen Code #11300 · Preserve hook-created commits on rollback"><img src="assets/qwen-rollback-proof.svg" width="300" alt="Qwen Code · Merged #11300. 我的回滚修复保住了钩子创建的提交。"></a>
+</p>
+
 <details open>
 <summary>Introduction &amp; engineering cases</summary>
 
@@ -9,14 +13,12 @@
   </picture>
 </h1>
 
-I build the interfaces, agent workflows, and data services behind AI applications.
-
 ### ✦ Selected engineering work
 
 <p align="center">
-  <a href="https://github.com/QwenLM/qwen-code/pull/11300"><img src="assets/case-qwen.svg" width="272" alt="Qwen Code keeps commits made by a failing checkout hook. Merged PR 11300."></a>
-  <a href="https://github.com/Tencent/WeKnora/pull/3228"><img src="assets/case-weknora.svg" width="272" alt="WeKnora preserves numeric rows and their label–value pairs during PDF extraction. Merged PR 3228."></a>
-  <a href="https://github.com/volcengine/OpenViking/pull/5318"><img src="assets/case-openviking.svg" width="272" alt="OpenViking restores memory injection into DeepSeek Harness and replays older sessions. Merged AI-generated PR 5318."></a>
+  <a href="https://github.com/QwenLM/qwen-code/pull/11300"><img src="assets/case-qwen.svg" width="272" alt="Qwen Code keeps hook-created commits on rollback. Delete the newly created branch only if its tip still matches the starting commit. Merged PR 11300."></a>
+  <a href="https://github.com/Tencent/WeKnora/pull/3228"><img src="assets/case-weknora.svg" width="272" alt="WeKnora preserves numeric rows and their label–value pairs in PDFs. Filter numeric text only when context identifies a page number or chart label. Merged PR 3228."></a>
+  <a href="https://github.com/volcengine/OpenViking/pull/5318"><img src="assets/case-openviking.svg" width="272" alt="OpenViking writes new memory injections with the producer-owned plugin:openviking-memory source kind. Replay still recognizes the legacy OpenViking plugin tag. Merged AI-generated PR 5318."></a>
 </p>
 
 <p align="center"><sub>⭐ Upstream repository stars · Select a case to read the merged change.</sub></p>

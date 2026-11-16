@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="280" height="158" viewBox="-3 0 280 158" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="190" viewBox="-3 0 280 190" role="img" aria-labelledby="title desc">
   <title id="title">Tencent/WeKnora #3228</title>
-  <desc id="desc">WeKnora preserves numeric rows and their label–value pairs during PDF extraction. Merged PR 3228. The star count belongs to the upstream repository.</desc>
+  <desc id="desc">WeKnora preserves numeric rows and their label–value pairs in PDFs. Filter numeric text only when context identifies a page number or chart label. Merged PR 3228. The star count belongs to the upstream repository.</desc>
   <style>
     text { font-family:system-ui,-apple-system,'Segoe UI',sans-serif; }
     .micro,.val,.ticket,.stars {font-family:ui-monospace,Consolas,'Liberation Mono',monospace}
@@ -16,7 +16,7 @@
     <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".55" fill="#adbbc0"/></pattern>
   </defs>
   <g>
-    <rect x=".6" y=".6" width="272.8" height="156.8" rx="10" fill="url(#ink-weknora)" stroke="#47525d" stroke-width="1.2"/>
+    <rect x=".6" y=".6" width="272.8" height="188.8" rx="10" fill="url(#ink-weknora)" stroke="#47525d" stroke-width="1.2"/>
     <path d="M15 35h244" stroke="#48515e" opacity=".62"/>
     <rect x="15" y="39" width="244" height="59" fill="url(#dots)" opacity=".21"/>
     <text x="15" y="25" fill="#f0f3f2" font-size="17.5" font-weight="650">WeKnora</text>
@@ -38,7 +38,9 @@
 <circle r="2.3" fill="#dbffec"><animateMotion path="M109 68H141L154 56H176" dur="7s" begin="0s" keyTimes="0;.23;.58;1" keyPoints="0;0;1;1" calcMode="linear" repeatCount="indefinite"/></circle><rect x="178" y="46" width="65" height="20" rx="3" fill="none" stroke="#9ce7ce" stroke-width="1.4" class="signal" style="--phase:0s"/><circle r="2.3" fill="#dbffec"><animateMotion path="M109 68H141L154 83H176" dur="7s" begin="1.0s" keyTimes="0;.23;.58;1" keyPoints="0;0;1;1" calcMode="linear" repeatCount="indefinite"/></circle><rect x="178" y="73" width="65" height="20" rx="3" fill="none" stroke="#9ce7ce" stroke-width="1.4" class="signal" style="--phase:1.0s"/></g>
     <path d="M15 105h244" stroke="#47515b" opacity=".69"/>
     <text x="15" y="126" fill="#eef2ef" font-size="15" font-weight="610">Keep numeric PDF rows</text>
-    <text x="15" y="146" class="ticket" fill="#9fdbc4">PDF extraction</text>
-    <text x="259" y="146" text-anchor="end" class="ticket" fill="#d2d9da">#3228 ↗</text>
+    <text x="15" y="145" font-size="13.25" fill="#cedad6" class="decision">Filter a number only if context shows</text>
+    <text x="15" y="162" font-size="13.25" fill="#cedad6" class="decision">it is a page number or chart label.</text>
+    <text x="15" y="181" class="ticket" fill="#9fdbc4">PDF extraction</text>
+    <text x="259" y="181" text-anchor="end" class="ticket" fill="#d2d9da">#3228 ↗</text>
   </g>
   </svg>
