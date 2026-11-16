@@ -14,6 +14,7 @@ import urllib.request
 
 USER = "dvd233"
 README = "README.md"
+CASE_ASSETS = ("assets/case-qwen.svg", "assets/case-weknora.svg", "assets/case-openviking.svg")
 START = "<!--START_SECTION:oss-footprint-->"
 END = "<!--END_SECTION:oss-footprint-->"
 TOKEN = os.environ["GH_TOKEN"]
@@ -63,11 +64,37 @@ def aggregate(items):
     return stats
 
 
-def build_block(stats):
-    stars = {
+def project_stars(stats):
+    return {
         repo: api(f"https://api.github.com/repos/{repo}")["stargazers_count"]
         for repo in stats
     }
+
+
+STAR_SLOT = re.compile(r"(<!--stars:([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)-->)(?:\d+(?:\.\d+)?[km]?)(<!--/stars-->)")
+
+
+def update_star_slots(text, stars):
+    by_repo = {repo.casefold(): count for repo, count in stars.items()}
+
+    def replace(match):
+        count = by_repo.get(match[2].casefold())
+        if count is None:
+            return match[0]
+        if count >= 1_000_000:
+            value = f"{count / 1_000_000:.1f}m"
+        elif count >= 1_000:
+            value = f"{count / 1_000:.1f}k"
+        else:
+            value = str(count)
+        return match[1] + value + match[3]
+
+    return STAR_SLOT.sub(replace, text)
+
+
+def build_block(stats, stars=None):
+    if stars is None:
+        stars = project_stars(stats)
     header = [
         "| Project | ⭐ | PRs | ✅ Merged | 🚀 Open |",
         "|:---|:---:|:---:|:---:|:---:|",
@@ -129,14 +156,22 @@ def main():
     pattern = re.compile(f"{re.escape(START)}.*?{re.escape(END)}", re.S)
     if not pattern.search(content):
         sys.exit("footprint markers not found in README.md")
-    block = build_block(aggregate(collect_prs()))
-    updated = pattern.sub(f"{START}\n{block}\n{END}", content)
-    if updated == content:
-        print("footprint unchanged")
-    else:
-        with open(README, "w", encoding="utf-8", newline="\n") as fh:
-            fh.write(updated)
-        print("footprint updated")
+    stats = aggregate(collect_prs())
+    stars = project_stars(stats)
+    block = build_block(stats, stars)
+    updated = pattern.sub(lambda _: f"{START}\n{block}\n{END}", content)
+    outputs = [(README, content, update_star_slots(updated, stars))]
+    for path in CASE_ASSETS:
+        if path not in content:
+            continue
+        with open(path, encoding="utf-8", newline="") as fh:
+            art = fh.read()
+        outputs.append((path, art, update_star_slots(art, stars)))
+    for path, before, after in outputs:
+        if before != after:
+            with open(path, "w", encoding="utf-8", newline="") as fh:
+                fh.write(after)
+            print(f"updated {path}")
 
 
 if __name__ == "__main__":

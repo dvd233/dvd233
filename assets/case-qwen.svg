@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="158" viewBox="-3 0 280 158" role="img" aria-labelledby="title desc">
+  <title id="title">QwenLM/qwen-code #11300</title>
+  <desc id="desc">Qwen Code keeps commits made by a failing checkout hook. Merged PR 11300. The star count belongs to the upstream repository.</desc>
+  <style>
+    text { font-family:system-ui,-apple-system,'Segoe UI',sans-serif; }
+    .micro,.val,.ticket,.stars {font-family:ui-monospace,Consolas,'Liberation Mono',monospace}
+    .micro {font-size:10px}.val {font-size:11.5px}.ticket {font-size:11px}.stars {font-size:12px;font-weight:600}
+  </style>
+  <defs>
+    <linearGradient id="ink-qwen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#262537"/><stop offset="1" stop-color="#10161d"/></linearGradient>
+    <linearGradient id="gilt" x1="0" y1="0" x2=".65" y2="1"><stop stop-color="#fff1ba"/><stop offset=".53" stop-color="#f3c66e"/><stop offset="1" stop-color="#d79b48"/></linearGradient>
+    <path id="star" d="m8 .8 2.05 4.34 4.76 .64-3.48 3.36 .85 4.82L8 11.6 3.82 13.96l.85-4.82L1.2 5.78l4.75-.64z"/>
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".55" fill="#adbbc0"/></pattern>
+  </defs>
+  <g>
+    <rect x=".6" y=".6" width="272.8" height="156.8" rx="10" fill="url(#ink-qwen)" stroke="#47525d" stroke-width="1.2"/>
+    <path d="M15 35h244" stroke="#48515e" opacity=".62"/>
+    <rect x="15" y="39" width="244" height="59" fill="url(#dots)" opacity=".21"/>
+    <text x="15" y="25" fill="#f0f3f2" font-size="17.5" font-weight="650">Qwen Code</text>
+    <rect x="192" y="8.5" width="67" height="21" rx="10.5" fill="#292920" stroke="#826b43" stroke-opacity=".65"/>
+    <use href="#star" transform="translate(198 12) scale(.82)" fill="url(#gilt)"/>
+    <text x="253" y="23.5" text-anchor="end" class="stars" fill="#fbe4a6"><!--stars:QwenLM/qwen-code-->30.6k<!--/stars--></text>
+    <g aria-hidden="true">
+  <path d="M20 79H250" stroke="#514c69" stroke-width="2"/>
+  <path d="M56 79C79 79 78 54 102 54H195" stroke="#b1a2ff" stroke-width="2.4" fill="none"/>
+  <g fill="#242438" stroke="#9c99b2" stroke-width="1.5"><circle cx="25" cy="79" r="4"/><circle cx="56" cy="79" r="5"/><circle cx="98" cy="79" r="4"/><circle cx="234" cy="79" r="4"/></g>
+  <circle cx="150" cy="54" r="4.5" fill="#29283e" stroke="#bdaffe" stroke-width="1.8"/>
+  <g transform="translate(195 54)"><circle r="9.5" fill="#342d56" stroke="#bdafff"/><path d="m-4 0 3 3 5-6" fill="none" stroke="#ddffdf" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></g>
+  <text x="20" y="96" class="micro" fill="#b7b5ce">base</text><text x="105" y="45" class="micro" fill="#d2c8ff">hook commit</text>
+  <circle r="2.5" fill="#faf7ff"><animateMotion path="M56 79C79 79 78 54 102 54H181" dur="5.8s" keyPoints="0;0;1;1" keyTimes="0;.16;.65;1" calcMode="linear" repeatCount="indefinite"/></circle>
+</g>
+    <path d="M15 105h244" stroke="#47515b" opacity=".69"/>
+    <text x="15" y="126" fill="#eef2ef" font-size="15" font-weight="610">Keep hook-created commits</text>
+    <text x="15" y="146" class="ticket" fill="#b7a6ff">Git rollback</text>
+    <text x="259" y="146" text-anchor="end" class="ticket" fill="#d2d9da">#11300 ↗</text>
+  </g>
+  </svg>

@@ -1,37 +1,78 @@
+<details open>
+<summary>Introduction &amp; engineering cases</summary>
+
 <h1 align="center">
   <a name="dvd--ai-full-stack-engineer"></a>
   <picture>
-    <source media="(max-width: 900px) and (prefers-reduced-motion: no-preference)" srcset="assets/spectral-intro-compact.svg#motion">
     <source media="(max-width: 900px)" srcset="assets/spectral-intro-compact.svg">
-    <source media="(prefers-reduced-motion: no-preference)" srcset="assets/spectral-intro.svg#motion">
     <img src="assets/spectral-intro.svg" width="100%" alt="dvd · AI Full-Stack Engineer">
   </picture>
 </h1>
 
 I build the interfaces, agent workflows, and data services behind AI applications.
 
-**Selected fixes merged upstream**
+### ✦ Selected engineering work
 
-- **Qwen Code** keeps commits made by a checkout hook that later fails. [#11300](https://github.com/QwenLM/qwen-code/pull/11300)
-- **WeKnora** preserves numeric rows and their label–value pairs during PDF extraction. [#3228](https://github.com/Tencent/WeKnora/pull/3228)
-- **OpenViking** can inject memory into DeepSeek Harness and replay older sessions. [#5318 · AI-generated PR](https://github.com/volcengine/OpenViking/pull/5318)
+<p align="center">
+  <a href="https://github.com/QwenLM/qwen-code/pull/11300"><img src="assets/case-qwen.svg" width="272" alt="Qwen Code keeps commits made by a failing checkout hook. Merged PR 11300."></a>
+  <a href="https://github.com/Tencent/WeKnora/pull/3228"><img src="assets/case-weknora.svg" width="272" alt="WeKnora preserves numeric rows and their label–value pairs during PDF extraction. Merged PR 3228."></a>
+  <a href="https://github.com/volcengine/OpenViking/pull/5318"><img src="assets/case-openviking.svg" width="272" alt="OpenViking restores memory injection into DeepSeek Harness and replays older sessions. Merged AI-generated PR 5318."></a>
+</p>
+
+<p align="center"><sub>⭐ Upstream repository stars · Select a case to read the merged change.</sub></p>
+
+</details>
 
 ## Hyperspectral reconstruction demo
 
 This earlier private desktop prototype reconstructs 30 spectral bands from a camera frame. Selecting a point plots its spectrum on a 400–700 nm axis.
 
+<details open>
+<summary>Six-second motion preview</summary>
+
 <p align="center">
   <a href="https://github.com/dvd233/dvd233/blob/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-loop.webp">
-    <picture>
-      <source media="(prefers-reduced-motion: no-preference)" srcset="assets/demo-preview.webp">
-      <img src="assets/demo-poster-1920x1080.png" width="100%" alt="Camera frame with a selected point on the left, its spectral curve below, and 30 reconstructed wavelength bands on the right.">
-    </picture>
+    <img src="assets/demo-preview.webp" width="100%" alt="Looping camera capture, 30 reconstructed wavelength bands, and the spectral curve at a selected point.">
   </a>
 </p>
 
-[Watch the animated demo on GitHub](https://github.com/dvd233/dvd233/blob/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-loop.webp) · [Download the silent MP4](https://github.com/dvd233/dvd233/raw/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4) (10.75 s, 1080p, 60 fps)
+</details>
+
+[View the still frame](https://github.com/dvd233/dvd233/blob/cb92e3eb0c7bacf655d355e856b35d2cde9550f4/assets/demo-poster-1920x1080.png) · [Watch the animated demo on GitHub](https://github.com/dvd233/dvd233/blob/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-loop.webp) · [Download the silent MP4](https://github.com/dvd233/dvd233/raw/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4) (10.75 s, 1080p, 60 fps)
 
 My work covered the lightweight reconstruction model and dataset, along with the desktop modules for camera capture, the UI, spectral visualization, and saving results. The demo is public. The code and data remain private.
+
+<p align="center"><code>AI applications</code> &nbsp; <code>frontend + client systems</code> &nbsp; <code>agent workflows</code> &nbsp; <code>computational imaging</code></p>
+
+## Tech stack
+
+<details open>
+<summary>React and TypeScript · Python and PyTorch · Node.js and PostgreSQL · Rust and Tauri</summary>
+
+<p align="center">
+  <img class="tech-stack" src="assets/tech-stack.svg" width="100%" alt="Tech stack: React, TypeScript, Vite, and React Flow for interfaces; Python, PyTorch, LangGraph, and MCP for AI applications; Node.js, NestJS, PostgreSQL, and Redis for backend and data; Rust, Tauri, Git, SSE, and WebSocket for client delivery. Also shown: HTML5, CSS3, JavaScript, Zustand, Webpack, Rspack, LangChain, pgvector, RBAC, diff and rollback, and the 400–700 nm imaging range.">
+</p>
+
+</details>
+
+## AI development tools
+
+<div align="center">
+  <div class="agent-grid" role="group" aria-label="AI development tools">
+    <p>
+      <span class="agent-item"><a href="https://github.com/MoonshotAI/kimi-cli"><img src="assets/agent-kimi-official.png" width="36" height="36" align="absmiddle" alt="">&nbsp;<strong>Kimi Code</strong></a></span>&ensp;
+      <span class="agent-item"><a href="https://github.com/openai/codex"><img src="assets/agent-codex-official.png" width="36" height="36" align="absmiddle" alt="">&nbsp;<strong>Codex</strong></a></span>&ensp;
+      <span class="agent-item"><a href="https://pi.dev/"><img src="assets/agent-pi-official.svg" width="36" height="36" align="absmiddle" alt="">&nbsp;<strong>Pi</strong></a></span>&ensp;
+      <span class="agent-item"><a href="https://github.com/anthropics/claude-code"><img src="assets/agent-claude-official.png" width="36" height="36" align="absmiddle" alt="">&nbsp;<strong>Claude Code</strong></a></span>
+    </p>
+    <p>
+      <span class="agent-item"><a href="https://github.com/NousResearch/hermes-agent"><img src="assets/agent-hermes-official.png" width="36" height="36" align="absmiddle" alt="">&nbsp;<strong>Hermes</strong></a></span>&ensp;
+      <span class="agent-item"><a href="https://github.com/anomalyco/opencode"><img src="assets/agent-opencode-official.svg" width="36" height="36" align="absmiddle" alt="">&nbsp;<strong>OpenCode</strong></a></span>&ensp;
+      <span class="agent-item"><a href="https://github.com/zai-org/zcode-plugins"><img src="assets/agent-zcode-official.svg" width="36" height="36" align="absmiddle" alt="">&nbsp;<strong>ZCode</strong></a></span>&ensp;
+      <span class="agent-item"><a href="https://github.com/deepseek-ai/deepseek-harness"><img src="assets/agent-deepseek-harness-official.png" width="36" height="36" align="absmiddle" alt="">&nbsp;<strong>DeepSeek Harness</strong></a></span>
+    </p>
+  </div>
+</div>
 
 ## 🌐 Open-source contributions
 
@@ -39,33 +80,35 @@ I contribute fixes and features focused on agent interoperability, reliable deve
 
 ### 🏆 Merged contributions
 
-- 💬 [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) — kept commits created by a failing checkout hook ([#11300](https://github.com/QwenLM/qwen-code/pull/11300)). MCP fixes preserved discovered registration URLs ([#12205](https://github.com/QwenLM/qwen-code/pull/12205)) and kept tools available when a server lacked an optional method ([#12500](https://github.com/QwenLM/qwen-code/pull/12500)). Other merges covered ACP discovery configuration ([#12256](https://github.com/QwenLM/qwen-code/pull/12256)), npm packaging diagnostics ([#12367](https://github.com/QwenLM/qwen-code/pull/12367)), ACP recovery documentation ([#12268](https://github.com/QwenLM/qwen-code/pull/12268)), read-only sed aliases ([#12221](https://github.com/QwenLM/qwen-code/pull/12221)), and SDK test assertions for deferred tool calls ([#12365](https://github.com/QwenLM/qwen-code/pull/12365)).
-- 📖 [Tencent/WeKnora](https://github.com/Tencent/WeKnora) — improved MCP and CLI result handling: exposed structured wiki output ([#3590](https://github.com/Tencent/WeKnora/pull/3590)), surfaced container lookup failures and interrupted pagination as errors ([#3611](https://github.com/Tencent/WeKnora/pull/3611), [#3983](https://github.com/Tencent/WeKnora/pull/3983)), and restored paginated text output ([#3984](https://github.com/Tencent/WeKnora/pull/3984)). Also preserved the caret during Markdown list outdenting ([#4071](https://github.com/Tencent/WeKnora/pull/4071)) and retained numeric table values and label/value relationships during PDF text extraction ([#3228](https://github.com/Tencent/WeKnora/pull/3228)).
-- 🧠 [volcengine/OpenViking](https://github.com/volcengine/OpenViking) — three AI-generated PRs restored DeepSeek Harness memory injection while retaining support for older sessions ([#5318](https://github.com/volcengine/OpenViking/pull/5318)), fixed broad MCP recall being narrowed to the process workspace ([#5346](https://github.com/volcengine/OpenViking/pull/5346)), and kept OpenCode plugin state snapshots free of captured message parts ([#5179](https://github.com/volcengine/OpenViking/pull/5179)).
-- 🔍 [alibaba/open-code-review](https://github.com/alibaba/open-code-review) — preserved configuration and report integrity: atomic writes prevent truncated reports after interruption ([#1160](https://github.com/alibaba/open-code-review/pull/1160)), and config updates retain unknown provider and MCP fields ([#1508](https://github.com/alibaba/open-code-review/pull/1508)). Also expanded template support ([#1114](https://github.com/alibaba/open-code-review/pull/1114), [#1056](https://github.com/alibaba/open-code-review/pull/1056)) and kept long session metadata readable on mobile ([#1458](https://github.com/alibaba/open-code-review/pull/1458)).
-- 🛠️ [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) — improved team-sync consistency and agent-hook lifecycle handling through nine merged fixes: explicit-branch pushes that protect local changes ([#690](https://github.com/Tencent/teamai-cli/pull/690), [#820](https://github.com/Tencent/teamai-cli/pull/820)), opt-in DeepSeek Harness hooks with uninstall cleanup ([#689](https://github.com/Tencent/teamai-cli/pull/689)), deletion mirroring and namespaced rule paths ([#651](https://github.com/Tencent/teamai-cli/pull/651), [#654](https://github.com/Tencent/teamai-cli/pull/654)), shared instructions and docs paths ([#653](https://github.com/Tencent/teamai-cli/pull/653), [#652](https://github.com/Tencent/teamai-cli/pull/652)), OpenCode listener cleanup ([#688](https://github.com/Tencent/teamai-cli/pull/688)), and role preservation at init ([#765](https://github.com/Tencent/teamai-cli/pull/765)).
-- 🤖 [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) — restored subprocess execution in the Windows example server by disabling hot reload ([#2434](https://github.com/agentscope-ai/agentscope/pull/2434)), and preserved tool data-block IDs while merging same-ID Base64 chunks during event replay ([#2551](https://github.com/agentscope-ai/agentscope/pull/2551)).
-- 🤖 [ant-design/x#2066](https://github.com/ant-design/x/pull/2066) — fixed `XRequest` loading state after JSON business errors, without letting stale failures finish newer requests.
-- 📱 [NervJS/taro](https://github.com/NervJS/taro) — improved cross-platform compatibility through eight merged fixes: page styles and image layout ([#19492](https://github.com/NervJS/taro/pull/19492), [#19491](https://github.com/NervJS/taro/pull/19491)), mini-program props and request/payment typings ([#19493](https://github.com/NervJS/taro/pull/19493), [#19494](https://github.com/NervJS/taro/pull/19494), [#19495](https://github.com/NervJS/taro/pull/19495), [#19496](https://github.com/NervJS/taro/pull/19496)), and RN upload filenames plus Babel preset installation ([#19507](https://github.com/NervJS/taro/pull/19507), [#19521](https://github.com/NervJS/taro/pull/19521)).
-- 🧪 [PKU-YuanGroup/OpenAI4S#216](https://github.com/PKU-YuanGroup/OpenAI4S/pull/216) — prevented stale execution-history responses from replacing newer cells through per-frame request ownership, with unit and browser regression coverage.
+<sub>⭐ shows the upstream repository’s stars. Each star count links to its stargazers.</sub>
 
-**31 merged PRs in [grafana/grafana-pathfinder-app](https://github.com/grafana/grafana-pathfinder-app)** — sustained features, fixes, and hardening that span Grafana's interactive learning app end to end: block-editor bulk actions, coda VM lifecycle, docs retrieval, and lint plus e2e coverage.
+- 💬 **[QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)** · <a href="https://github.com/QwenLM/qwen-code/stargazers" title="Upstream stars for QwenLM/qwen-code">⭐ <!--stars:QwenLM/qwen-code-->30.6k<!--/stars--></a> — kept commits created by a failing checkout hook ([#11300](https://github.com/QwenLM/qwen-code/pull/11300)). MCP fixes preserved discovered registration URLs ([#12205](https://github.com/QwenLM/qwen-code/pull/12205)) and kept tools available when a server lacked an optional method ([#12500](https://github.com/QwenLM/qwen-code/pull/12500)). Other merges covered ACP discovery configuration ([#12256](https://github.com/QwenLM/qwen-code/pull/12256)), npm packaging diagnostics ([#12367](https://github.com/QwenLM/qwen-code/pull/12367)), ACP recovery documentation ([#12268](https://github.com/QwenLM/qwen-code/pull/12268)), read-only sed aliases ([#12221](https://github.com/QwenLM/qwen-code/pull/12221)), and SDK test assertions for deferred tool calls ([#12365](https://github.com/QwenLM/qwen-code/pull/12365)).
+- 📖 **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)** · <a href="https://github.com/Tencent/WeKnora/stargazers" title="Upstream stars for Tencent/WeKnora">⭐ <!--stars:Tencent/WeKnora-->37.5k<!--/stars--></a> — improved MCP and CLI result handling: exposed structured wiki output ([#3590](https://github.com/Tencent/WeKnora/pull/3590)), surfaced container lookup failures and interrupted pagination as errors ([#3611](https://github.com/Tencent/WeKnora/pull/3611), [#3983](https://github.com/Tencent/WeKnora/pull/3983)), and restored paginated text output ([#3984](https://github.com/Tencent/WeKnora/pull/3984)). Also preserved the caret during Markdown list outdenting ([#4071](https://github.com/Tencent/WeKnora/pull/4071)) and retained numeric table values and label/value relationships during PDF text extraction ([#3228](https://github.com/Tencent/WeKnora/pull/3228)).
+- 🧠 **[volcengine/OpenViking](https://github.com/volcengine/OpenViking)** · <a href="https://github.com/volcengine/OpenViking/stargazers" title="Upstream stars for volcengine/OpenViking">⭐ <!--stars:volcengine/OpenViking-->42.3k<!--/stars--></a> — three AI-generated PRs restored DeepSeek Harness memory injection while retaining support for older sessions ([#5318](https://github.com/volcengine/OpenViking/pull/5318)), fixed broad MCP recall being narrowed to the process workspace ([#5346](https://github.com/volcengine/OpenViking/pull/5346)), and kept OpenCode plugin state snapshots free of captured message parts ([#5179](https://github.com/volcengine/OpenViking/pull/5179)).
+- 🔍 **[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** · <a href="https://github.com/alibaba/open-code-review/stargazers" title="Upstream stars for alibaba/open-code-review">⭐ <!--stars:alibaba/open-code-review-->52.8k<!--/stars--></a> — preserved configuration and report integrity: atomic writes prevent truncated reports after interruption ([#1160](https://github.com/alibaba/open-code-review/pull/1160)), and config updates retain unknown provider and MCP fields ([#1508](https://github.com/alibaba/open-code-review/pull/1508)). Also expanded template support ([#1114](https://github.com/alibaba/open-code-review/pull/1114), [#1056](https://github.com/alibaba/open-code-review/pull/1056)) and kept long session metadata readable on mobile ([#1458](https://github.com/alibaba/open-code-review/pull/1458)).
+- 🛠️ **[Tencent/teamai-cli](https://github.com/Tencent/teamai-cli)** · <a href="https://github.com/Tencent/teamai-cli/stargazers" title="Upstream stars for Tencent/teamai-cli">⭐ <!--stars:Tencent/teamai-cli-->5.9k<!--/stars--></a> — improved team-sync consistency and agent-hook lifecycle handling through nine merged fixes: explicit-branch pushes that protect local changes ([#690](https://github.com/Tencent/teamai-cli/pull/690), [#820](https://github.com/Tencent/teamai-cli/pull/820)), opt-in DeepSeek Harness hooks with uninstall cleanup ([#689](https://github.com/Tencent/teamai-cli/pull/689)), deletion mirroring and namespaced rule paths ([#651](https://github.com/Tencent/teamai-cli/pull/651), [#654](https://github.com/Tencent/teamai-cli/pull/654)), shared instructions and docs paths ([#653](https://github.com/Tencent/teamai-cli/pull/653), [#652](https://github.com/Tencent/teamai-cli/pull/652)), OpenCode listener cleanup ([#688](https://github.com/Tencent/teamai-cli/pull/688)), and role preservation at init ([#765](https://github.com/Tencent/teamai-cli/pull/765)).
+- 🤖 **[agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)** · <a href="https://github.com/agentscope-ai/agentscope/stargazers" title="Upstream stars for agentscope-ai/agentscope">⭐ <!--stars:agentscope-ai/agentscope-->36.1k<!--/stars--></a> — restored subprocess execution in the Windows example server by disabling hot reload ([#2434](https://github.com/agentscope-ai/agentscope/pull/2434)), and preserved tool data-block IDs while merging same-ID Base64 chunks during event replay ([#2551](https://github.com/agentscope-ai/agentscope/pull/2551)).
+- 🤖 **[ant-design/x#2066](https://github.com/ant-design/x/pull/2066)** · <a href="https://github.com/ant-design/x/stargazers" title="Upstream stars for ant-design/x">⭐ <!--stars:ant-design/x-->4.8k<!--/stars--></a> — fixed `XRequest` loading state after JSON business errors, without letting stale failures finish newer requests.
+- 📱 **[NervJS/taro](https://github.com/NervJS/taro)** · <a href="https://github.com/NervJS/taro/stargazers" title="Upstream stars for NervJS/taro">⭐ <!--stars:NervJS/taro-->37.8k<!--/stars--></a> — improved cross-platform compatibility through eight merged fixes: page styles and image layout ([#19492](https://github.com/NervJS/taro/pull/19492), [#19491](https://github.com/NervJS/taro/pull/19491)), mini-program props and request/payment typings ([#19493](https://github.com/NervJS/taro/pull/19493), [#19494](https://github.com/NervJS/taro/pull/19494), [#19495](https://github.com/NervJS/taro/pull/19495), [#19496](https://github.com/NervJS/taro/pull/19496)), and RN upload filenames plus Babel preset installation ([#19507](https://github.com/NervJS/taro/pull/19507), [#19521](https://github.com/NervJS/taro/pull/19521)).
+- 🧪 **[PKU-YuanGroup/OpenAI4S#216](https://github.com/PKU-YuanGroup/OpenAI4S/pull/216)** · <a href="https://github.com/PKU-YuanGroup/OpenAI4S/stargazers" title="Upstream stars for PKU-YuanGroup/OpenAI4S">⭐ <!--stars:PKU-YuanGroup/OpenAI4S-->667<!--/stars--></a> — prevented stale execution-history responses from replacing newer cells through per-frame request ownership, with unit and browser regression coverage.
 
-- 🧱 [mui/material-ui#49318](https://github.com/mui/material-ui/pull/49318) — fixed inline completion for automatically highlighted Autocomplete options, while preserving typed input, text selection, and freeSolo behavior.
-- 🔗 [CopilotKit/CopilotKit#7761](https://github.com/CopilotKit/CopilotKit/pull/7761) — added CI coverage for native Strands tool lifecycles in a separate test process, checking state and history restoration, generated IDs, and session isolation.
-- 🔬 [web-infra-dev/rsdoctor](https://github.com/web-infra-dev/rsdoctor) — improved bundle-analysis accuracy and navigation: size filters now honor the selected units ([#2075](https://github.com/web-infra-dev/rsdoctor/pull/2075)), module trees can be sorted by bundled or source size ([#2101](https://github.com/web-infra-dev/rsdoctor/pull/2101)), and Windows path normalization restores module-size measurements that incorrectly stayed at zero ([#2102](https://github.com/web-infra-dev/rsdoctor/pull/2102)).
-- ⚛️ [alibaba/hooks](https://github.com/alibaba/hooks) — preserved non-nullable ref return types with declaration-emission regression tests ([#2956](https://github.com/alibaba/hooks/pull/2956)), reset `useInfiniteScroll.loadingMore` on cancellation so loading can resume ([#2970](https://github.com/alibaba/hooks/pull/2970)), and clarified the existing session-storage synchronization scope ([#2972](https://github.com/alibaba/hooks/pull/2972)).
-- 🛠️ [ant-design/ant-design-cli#241](https://github.com/ant-design/ant-design-cli/pull/241) — enabled JSX-in-`.js` analysis in `antd usage` and `antd lint`, while preserving genuine syntax-error reporting.
-- 🧩 [Tencent/tdesign-vue-next](https://github.com/Tencent/tdesign-vue-next) — restored the Dropdown `onClick` option type ([#6959](https://github.com/Tencent/tdesign-vue-next/pull/6959)), made Menu handle functional submenu parents ([#6967](https://github.com/Tencent/tdesign-vue-next/pull/6967)), restored retained InputNumber values after clearing and blurring ([#6995](https://github.com/Tencent/tdesign-vue-next/pull/6995)), and synchronized TreeSelect all-mode values when removing tags ([#6998](https://github.com/Tencent/tdesign-vue-next/pull/6998)).
-- [Tencent/tdesign-react#4425](https://github.com/Tencent/tdesign-react/pull/4425) — restored two-handle Slider interactions for empty range values, preserving controlled behavior and scalar callbacks for explicit numeric inputs, with interaction regression tests.
-- [Tencent/wujie](https://github.com/Tencent/wujie) — exposed the existing `clearAssetsCache` API through the React, Vue 2, and Vue 3 wrappers ([#1113](https://github.com/Tencent/wujie/pull/1113)). The Vue 2 wrapper also stopped declaring `style` as a reserved prop, so parent styles apply without a registration warning ([#1105](https://github.com/Tencent/wujie/pull/1105)).
-- 🎨 [DouyinFE/semi-design#3352](https://github.com/DouyinFE/semi-design/pull/3352) — made ESC close only the top-most modal, so stacked modals no longer collapse together.
-- 🍒 [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) — guarded pending image load and error callbacks after previewer destroy ([#1871](https://github.com/Tencent/cherry-markdown/pull/1871)), and centered toolbar menu icons and text across font sizes and wrapped labels ([#1898](https://github.com/Tencent/cherry-markdown/pull/1898)).
-- 📦 [pnpm/pnpm#14708](https://github.com/pnpm/pnpm/pull/14708) — stopped emitting empty package authors in SBOM documents.
-- ⚡ [chakra-ui/chakra-ui#10979](https://github.com/chakra-ui/chakra-ui/pull/10979) — gave the file-upload delete trigger a proper disabled style.
-- 🐜 [ant-design/ant-design#59173](https://github.com/ant-design/ant-design/pull/59173) — fixed the Chinese contribution guide to link the English locale list in its i18n step, so contributors update both locale lists.
+📊 **31 merged PRs in [grafana/grafana-pathfinder-app](https://github.com/grafana/grafana-pathfinder-app)** · <a href="https://github.com/grafana/grafana-pathfinder-app/stargazers" title="Upstream stars for grafana/grafana-pathfinder-app">⭐ <!--stars:grafana/grafana-pathfinder-app-->23<!--/stars--></a> — sustained features, fixes, and hardening that span Grafana's interactive learning app end to end: block-editor bulk actions, coda VM lifecycle, docs retrieval, and lint plus e2e coverage.
 
-**27 merged PRs in [open-city-ai/haidian](https://github.com/open-city-ai/haidian)** — selected deep dives:
+- 🧱 **[mui/material-ui#49318](https://github.com/mui/material-ui/pull/49318)** · <a href="https://github.com/mui/material-ui/stargazers" title="Upstream stars for mui/material-ui">⭐ <!--stars:mui/material-ui-->99.3k<!--/stars--></a> — fixed inline completion for automatically highlighted Autocomplete options, while preserving typed input, text selection, and freeSolo behavior.
+- 🔗 **[CopilotKit/CopilotKit#7761](https://github.com/CopilotKit/CopilotKit/pull/7761)** · <a href="https://github.com/CopilotKit/CopilotKit/stargazers" title="Upstream stars for CopilotKit/CopilotKit">⭐ <!--stars:CopilotKit/CopilotKit-->38.7k<!--/stars--></a> — added CI coverage for native Strands tool lifecycles in a separate test process, checking state and history restoration, generated IDs, and session isolation.
+- 🔬 **[web-infra-dev/rsdoctor](https://github.com/web-infra-dev/rsdoctor)** · <a href="https://github.com/web-infra-dev/rsdoctor/stargazers" title="Upstream stars for web-infra-dev/rsdoctor">⭐ <!--stars:web-infra-dev/rsdoctor-->1.2k<!--/stars--></a> — improved bundle-analysis accuracy and navigation: size filters now honor the selected units ([#2075](https://github.com/web-infra-dev/rsdoctor/pull/2075)), module trees can be sorted by bundled or source size ([#2101](https://github.com/web-infra-dev/rsdoctor/pull/2101)), and Windows path normalization restores module-size measurements that incorrectly stayed at zero ([#2102](https://github.com/web-infra-dev/rsdoctor/pull/2102)).
+- ⚛️ **[alibaba/hooks](https://github.com/alibaba/hooks)** · <a href="https://github.com/alibaba/hooks/stargazers" title="Upstream stars for alibaba/hooks">⭐ <!--stars:alibaba/hooks-->15.0k<!--/stars--></a> — preserved non-nullable ref return types with declaration-emission regression tests ([#2956](https://github.com/alibaba/hooks/pull/2956)), reset `useInfiniteScroll.loadingMore` on cancellation so loading can resume ([#2970](https://github.com/alibaba/hooks/pull/2970)), and clarified the existing session-storage synchronization scope ([#2972](https://github.com/alibaba/hooks/pull/2972)).
+- 🛠️ **[ant-design/ant-design-cli#241](https://github.com/ant-design/ant-design-cli/pull/241)** · <a href="https://github.com/ant-design/ant-design-cli/stargazers" title="Upstream stars for ant-design/ant-design-cli">⭐ <!--stars:ant-design/ant-design-cli-->262<!--/stars--></a> — enabled JSX-in-`.js` analysis in `antd usage` and `antd lint`, while preserving genuine syntax-error reporting.
+- 🧩 **[Tencent/tdesign-vue-next](https://github.com/Tencent/tdesign-vue-next)** · <a href="https://github.com/Tencent/tdesign-vue-next/stargazers" title="Upstream stars for Tencent/tdesign-vue-next">⭐ <!--stars:Tencent/tdesign-vue-next-->2.2k<!--/stars--></a> — restored the Dropdown `onClick` option type ([#6959](https://github.com/Tencent/tdesign-vue-next/pull/6959)), made Menu handle functional submenu parents ([#6967](https://github.com/Tencent/tdesign-vue-next/pull/6967)), restored retained InputNumber values after clearing and blurring ([#6995](https://github.com/Tencent/tdesign-vue-next/pull/6995)), and synchronized TreeSelect all-mode values when removing tags ([#6998](https://github.com/Tencent/tdesign-vue-next/pull/6998)).
+- 🎚️ **[Tencent/tdesign-react#4425](https://github.com/Tencent/tdesign-react/pull/4425)** · <a href="https://github.com/Tencent/tdesign-react/stargazers" title="Upstream stars for Tencent/tdesign-react">⭐ <!--stars:Tencent/tdesign-react-->978<!--/stars--></a> — restored two-handle Slider interactions for empty range values, preserving controlled behavior and scalar callbacks for explicit numeric inputs, with interaction regression tests.
+- 🧩 **[Tencent/wujie](https://github.com/Tencent/wujie)** · <a href="https://github.com/Tencent/wujie/stargazers" title="Upstream stars for Tencent/wujie">⭐ <!--stars:Tencent/wujie-->5.1k<!--/stars--></a> — exposed the existing `clearAssetsCache` API through the React, Vue 2, and Vue 3 wrappers ([#1113](https://github.com/Tencent/wujie/pull/1113)). The Vue 2 wrapper also stopped declaring `style` as a reserved prop, so parent styles apply without a registration warning ([#1105](https://github.com/Tencent/wujie/pull/1105)).
+- 🎨 **[DouyinFE/semi-design#3352](https://github.com/DouyinFE/semi-design/pull/3352)** · <a href="https://github.com/DouyinFE/semi-design/stargazers" title="Upstream stars for DouyinFE/semi-design">⭐ <!--stars:DouyinFE/semi-design-->10.5k<!--/stars--></a> — made ESC close only the top-most modal, so stacked modals no longer collapse together.
+- 🍒 **[Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown)** · <a href="https://github.com/Tencent/cherry-markdown/stargazers" title="Upstream stars for Tencent/cherry-markdown">⭐ <!--stars:Tencent/cherry-markdown-->4.9k<!--/stars--></a> — guarded pending image load and error callbacks after previewer destroy ([#1871](https://github.com/Tencent/cherry-markdown/pull/1871)), and centered toolbar menu icons and text across font sizes and wrapped labels ([#1898](https://github.com/Tencent/cherry-markdown/pull/1898)).
+- 📦 **[pnpm/pnpm#14708](https://github.com/pnpm/pnpm/pull/14708)** · <a href="https://github.com/pnpm/pnpm/stargazers" title="Upstream stars for pnpm/pnpm">⭐ <!--stars:pnpm/pnpm-->37.1k<!--/stars--></a> — stopped emitting empty package authors in SBOM documents.
+- ⚡ **[chakra-ui/chakra-ui#10979](https://github.com/chakra-ui/chakra-ui/pull/10979)** · <a href="https://github.com/chakra-ui/chakra-ui/stargazers" title="Upstream stars for chakra-ui/chakra-ui">⭐ <!--stars:chakra-ui/chakra-ui-->40.7k<!--/stars--></a> — gave the file-upload delete trigger a proper disabled style.
+- 🐜 **[ant-design/ant-design#59173](https://github.com/ant-design/ant-design/pull/59173)** · <a href="https://github.com/ant-design/ant-design/stargazers" title="Upstream stars for ant-design/ant-design">⭐ <!--stars:ant-design/ant-design-->100.2k<!--/stars--></a> — fixed the Chinese contribution guide to link the English locale list in its i18n step, so contributors update both locale lists.
+
+🗺️ **27 merged PRs in [open-city-ai/haidian](https://github.com/open-city-ai/haidian)** · <a href="https://github.com/open-city-ai/haidian/stargazers" title="Upstream stars for open-city-ai/haidian">⭐ <!--stars:open-city-ai/haidian-->416<!--/stars--></a> — selected deep dives:
 
 <details>
   <summary><strong>🥇 Complete delivery · bilingual formal submission</strong></summary>
@@ -370,39 +413,9 @@ I contribute fixes and features focused on agent interoperability, reliable deve
 
 [z1403594118@gmail.com](mailto:z1403594118@gmail.com) · [dvd@linux.do](mailto:dvd@linux.do)
 
-## Tech stack
-
-<details>
-<summary>React and TypeScript · Python and PyTorch · Node.js and PostgreSQL · Rust and Tauri</summary>
-
-<p align="center">
-  <img class="tech-stack" src="assets/tech-stack.svg" width="100%" alt="Tech stack: React, TypeScript, Vite, and React Flow for interfaces; Python, PyTorch, LangGraph, and MCP for AI applications; Node.js, NestJS, PostgreSQL, and Redis for backend and data; Rust, Tauri, Git, SSE, and WebSocket for client delivery. Also shown: HTML5, CSS3, JavaScript, Zustand, Webpack, Rspack, LangChain, pgvector, RBAC, diff and rollback, and the 400–700 nm imaging range.">
-</p>
-
-</details>
-
-## AI development tools
-
-<div align="center">
-  <div class="agent-grid" role="group" aria-label="AI development tools">
-    <p>
-      <span class="agent-item"><a href="https://github.com/MoonshotAI/kimi-cli"><img src="assets/agent-kimi-official.png" width="24" height="24" align="absmiddle" alt="">&nbsp;<strong>Kimi Code</strong></a></span>&ensp;
-      <span class="agent-item"><a href="https://github.com/openai/codex"><img src="assets/agent-codex-official.png" width="24" height="24" align="absmiddle" alt="">&nbsp;<strong>Codex</strong></a></span>&ensp;
-      <span class="agent-item"><a href="https://pi.dev/"><img src="assets/agent-pi-official.svg" width="24" height="24" align="absmiddle" alt="">&nbsp;<strong>Pi</strong></a></span>&ensp;
-      <span class="agent-item"><a href="https://github.com/anthropics/claude-code"><img src="assets/agent-claude-official.png" width="24" height="24" align="absmiddle" alt="">&nbsp;<strong>Claude Code</strong></a></span>
-    </p>
-    <p>
-      <span class="agent-item"><a href="https://github.com/NousResearch/hermes-agent"><img src="assets/agent-hermes-official.png" width="24" height="24" align="absmiddle" alt="">&nbsp;<strong>Hermes</strong></a></span>&ensp;
-      <span class="agent-item"><a href="https://github.com/anomalyco/opencode"><img src="assets/agent-opencode-official.svg" width="24" height="24" align="absmiddle" alt="">&nbsp;<strong>OpenCode</strong></a></span>&ensp;
-      <span class="agent-item"><a href="https://github.com/zai-org/zcode-plugins"><img src="assets/agent-zcode-official.svg" width="24" height="24" align="absmiddle" alt="">&nbsp;<strong>ZCode</strong></a></span>&ensp;
-      <span class="agent-item"><a href="https://github.com/deepseek-ai/deepseek-harness"><img src="assets/agent-deepseek-harness-official.png" width="24" height="24" align="absmiddle" alt="">&nbsp;<strong>DeepSeek Harness</strong></a></span>
-    </p>
-  </div>
-</div>
-
 ## 📈 GitHub activity
 
-<details>
+<details open>
 <summary>View trophies, contribution streak, and calendar</summary>
 
 <p align="center">

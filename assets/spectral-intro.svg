@@ -1,8 +1,8 @@
-<svg id="motion" xmlns="http://www.w3.org/2000/svg" width="960" height="288" viewBox="0 0 960 288" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" id="motion" width="960" height="328" viewBox="0 0 960 328" role="img" aria-labelledby="title desc">
   <title id="title">Hi, I'm dvd. AI Full-Stack Engineer.</title>
-  <desc id="desc">A camera frame and seven reconstructed bands from the public hyperspectral demo, arranged above a 400–700 nm wavelength ruler.</desc>
+  <desc id="desc">Seven genuine reconstructed bands and the camera frame are scanned in sequence above a wavelength ruler. The introduction cycles through AI applications, agent workflows, and computational imaging.</desc>
   <defs>
-    <clipPath id="bounds"><rect x=".5" y=".5" width="959" height="287" rx="19"/></clipPath>
+    <clipPath id="bounds"><rect x=".5" y=".5" width="959" height="327" rx="19"/></clipPath>
     <clipPath id="en" clipPathUnits="userSpaceOnUse"><rect class="english" x="47" y="40" width="95.4" height="33"/></clipPath>
     <clipPath id="cn" clipPathUnits="userSpaceOnUse"><rect class="chinese" x="47" y="40" width="0" height="33"/></clipPath>
     <linearGradient id="base" x1="0" y1="0" x2="1" y2=".55"><stop stop-color="#161821"/><stop offset=".45" stop-color="#10151e"/><stop offset="1" stop-color="#17232a"/></linearGradient>
@@ -22,17 +22,17 @@
     <linearGradient id="edge-610" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e0edf2"/><stop offset=".30" stop-color="#eda56f"/><stop offset=".77" stop-color="#eda56f" stop-opacity=".5"/><stop offset="1" stop-color="#d3ebf0"/></linearGradient>
     <linearGradient id="edge-660" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e0edf2"/><stop offset=".30" stop-color="#e67f87"/><stop offset=".77" stop-color="#e67f87" stop-opacity=".5"/><stop offset="1" stop-color="#d3ebf0"/></linearGradient>
     <linearGradient id="edge-frame" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e0edf2"/><stop offset=".30" stop-color="#cee4de"/><stop offset=".77" stop-color="#cee4de" stop-opacity=".5"/><stop offset="1" stop-color="#d3ebf0"/></linearGradient>
-  </defs>
+  <clipPath id="film-window" clipPathUnits="userSpaceOnUse"><rect x="4" y="4" width="156" height="106" rx="2"/></clipPath><linearGradient id="optical-pass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#83d5fa" stop-opacity="0"/><stop offset=".36" stop-color="#a3e2fd" stop-opacity=".12"/><stop offset=".55" stop-color="#f2ffed" stop-opacity=".72"/><stop offset=".60" stop-color="#f9e2bb" stop-opacity=".28"/><stop offset="1" stop-color="#e6a2d7" stop-opacity="0"/></linearGradient><clipPath id="statement-0" clipPathUnits="userSpaceOnUse"><rect class="statement-mask" x="75" y="286" height="26" width="503.6" style="--line:503.6px;--step:44;--delay:0.0s"/></clipPath><clipPath id="statement-1" clipPathUnits="userSpaceOnUse"><rect class="statement-mask" x="75" y="286" height="26" width="0" style="--line:674.6px;--step:59;--delay:5.5s"/></clipPath><clipPath id="statement-2" clipPathUnits="userSpaceOnUse"><rect class="statement-mask" x="75" y="286" height="26" width="0" style="--line:492.2px;--step:43;--delay:11.0s"/></clipPath></defs>
   <style>
     .mono { font-family: ui-monospace, Consolas, "Liberation Mono", monospace; }
     .scan { offset-distance:46%; }
     .cursor { opacity:0; }
-    /* The embedding picture opts into #motion. The unfragmented image stays still. */
-    #motion:target .plate { animation: separate 9s ease-in-out infinite; }
-    #motion:target .scan { animation: readout 9s cubic-bezier(.45,0,.55,1) infinite; }
-    #motion:target .english { animation: type-en 9s steps(7,end) infinite; }
-    #motion:target .chinese { animation: type-cn 9s steps(5,end) infinite; }
-    #motion:target .cursor { opacity:.8; animation: caret 9s infinite; }
+    /* The README provides a native disclosure for this animated cover. */
+    .plate { animation: separate 9s ease-in-out infinite; }
+    .scan { animation: readout 9s cubic-bezier(.45,0,.55,1) infinite; }
+    .english { animation: type-en 9s steps(7,end) infinite; }
+    .chinese { animation: type-cn 9s steps(5,end) infinite; }
+    .cursor { opacity:.8; animation: caret 9s infinite; }
     @keyframes separate { 0%,100% { transform:translate(0,0); } 50% { transform:translate(var(--dx),var(--dy)); } }
     @keyframes readout { 0%,100% { offset-distance:0%; } 50% { offset-distance:100%; } }
     @keyframes type-en { 0%,49%,100% {width:0} 10%,42% {width:95.4px} }
@@ -44,6 +44,12 @@
       60%,92% {transform:translateX(113px);animation-timing-function:steps(5,end)}
       99%,100% {transform:translateX(0)}
     }
+  
+    .read-light {opacity:0}
+    .read-light {animation:film-read 8.8s cubic-bezier(.42,0,.48,1) infinite;animation-delay:var(--lag)}
+    @keyframes film-read {0%,12%{transform:translateX(-58px);opacity:0}24%{opacity:.7}61%{transform:translateX(192px);opacity:.46}72%,100%{transform:translateX(200px);opacity:0}}
+    .statement-mask {animation:write-line 16.5s steps(var(--step),end) infinite both;animation-delay:var(--delay)}
+    @keyframes write-line {0%{width:0}9%,28%{width:var(--line)}33.3%,100%{width:0}}
   </style>
   <g clip-path="url(#bounds)">
     <rect width="100%" height="100%" fill="url(#base)"/><rect width="100%" height="100%" fill="url(#ambient)"/>
@@ -59,7 +65,7 @@
           <rect x="2" y="2" width="160" height="110" rx="2" fill="url(#glass)"/>
           <path d="M6 15V6h9M149 108h9v-9" fill="none" stroke="#aa88ed" stroke-width="1.1" opacity=".85"/>
           <path d="M2 2h158" stroke="#e2f0ee" opacity=".36"/>
-        </g>
+        <g clip-path="url(#film-window)"><g class="read-light" style="--lag:-1.12s"><path d="M-38 0h34l49 114H11z" fill="url(#optical-pass)"/><path d="m-18 0 49 114" stroke="#ebfaf0" stroke-width=".8" opacity=".5"/></g></g></g>
       </g>
     </g>
     <g transform="translate(18 143)">
@@ -71,7 +77,7 @@
           <rect x="2" y="2" width="160" height="110" rx="2" fill="url(#glass)"/>
           <path d="M6 15V6h9M149 108h9v-9" fill="none" stroke="#7a9af4" stroke-width="1.1" opacity=".85"/>
           <path d="M2 2h158" stroke="#e2f0ee" opacity=".36"/>
-        </g>
+        <g clip-path="url(#film-window)"><g class="read-light" style="--lag:-0.96s"><path d="M-38 0h34l49 114H11z" fill="url(#optical-pass)"/><path d="m-18 0 49 114" stroke="#ebfaf0" stroke-width=".8" opacity=".5"/></g></g></g>
       </g>
     </g>
     <g transform="translate(28 128)">
@@ -83,7 +89,7 @@
           <rect x="2" y="2" width="160" height="110" rx="2" fill="url(#glass)"/>
           <path d="M6 15V6h9M149 108h9v-9" fill="none" stroke="#76dbdf" stroke-width="1.1" opacity=".85"/>
           <path d="M2 2h158" stroke="#e2f0ee" opacity=".36"/>
-        </g>
+        <g clip-path="url(#film-window)"><g class="read-light" style="--lag:-0.80s"><path d="M-38 0h34l49 114H11z" fill="url(#optical-pass)"/><path d="m-18 0 49 114" stroke="#ebfaf0" stroke-width=".8" opacity=".5"/></g></g></g>
       </g>
     </g>
     <g transform="translate(38 113)">
@@ -95,7 +101,7 @@
           <rect x="2" y="2" width="160" height="110" rx="2" fill="url(#glass)"/>
           <path d="M6 15V6h9M149 108h9v-9" fill="none" stroke="#8ee3a9" stroke-width="1.1" opacity=".85"/>
           <path d="M2 2h158" stroke="#e2f0ee" opacity=".36"/>
-        </g>
+        <g clip-path="url(#film-window)"><g class="read-light" style="--lag:-0.64s"><path d="M-38 0h34l49 114H11z" fill="url(#optical-pass)"/><path d="m-18 0 49 114" stroke="#ebfaf0" stroke-width=".8" opacity=".5"/></g></g></g>
       </g>
     </g>
     <g transform="translate(48 98)">
@@ -107,7 +113,7 @@
           <rect x="2" y="2" width="160" height="110" rx="2" fill="url(#glass)"/>
           <path d="M6 15V6h9M149 108h9v-9" fill="none" stroke="#dce28b" stroke-width="1.1" opacity=".85"/>
           <path d="M2 2h158" stroke="#e2f0ee" opacity=".36"/>
-        </g>
+        <g clip-path="url(#film-window)"><g class="read-light" style="--lag:-0.48s"><path d="M-38 0h34l49 114H11z" fill="url(#optical-pass)"/><path d="m-18 0 49 114" stroke="#ebfaf0" stroke-width=".8" opacity=".5"/></g></g></g>
       </g>
     </g>
     <g transform="translate(58 83)">
@@ -119,7 +125,7 @@
           <rect x="2" y="2" width="160" height="110" rx="2" fill="url(#glass)"/>
           <path d="M6 15V6h9M149 108h9v-9" fill="none" stroke="#eda56f" stroke-width="1.1" opacity=".85"/>
           <path d="M2 2h158" stroke="#e2f0ee" opacity=".36"/>
-        </g>
+        <g clip-path="url(#film-window)"><g class="read-light" style="--lag:-0.32s"><path d="M-38 0h34l49 114H11z" fill="url(#optical-pass)"/><path d="m-18 0 49 114" stroke="#ebfaf0" stroke-width=".8" opacity=".5"/></g></g></g>
       </g>
     </g>
     <g transform="translate(68 68)">
@@ -131,7 +137,7 @@
           <rect x="2" y="2" width="160" height="110" rx="2" fill="url(#glass)"/>
           <path d="M6 15V6h9M149 108h9v-9" fill="none" stroke="#e67f87" stroke-width="1.1" opacity=".85"/>
           <path d="M2 2h158" stroke="#e2f0ee" opacity=".36"/>
-        </g>
+        <g clip-path="url(#film-window)"><g class="read-light" style="--lag:-0.16s"><path d="M-38 0h34l49 114H11z" fill="url(#optical-pass)"/><path d="m-18 0 49 114" stroke="#ebfaf0" stroke-width=".8" opacity=".5"/></g></g></g>
       </g>
     </g>
     <g transform="translate(78 53)">
@@ -143,7 +149,7 @@
           <rect x="2" y="2" width="160" height="110" rx="2" fill="url(#glass)"/>
           <path d="M6 15V6h9M149 108h9v-9" fill="none" stroke="#cee4de" stroke-width="1.1" opacity=".85"/>
           <path d="M2 2h158" stroke="#e2f0ee" opacity=".36"/>
-        </g>
+        <g clip-path="url(#film-window)"><g class="read-light" style="--lag:-0.00s"><path d="M-38 0h34l49 114H11z" fill="url(#optical-pass)"/><path d="m-18 0 49 114" stroke="#ebfaf0" stroke-width=".8" opacity=".5"/></g></g></g>
       </g>
     </g>
     </g>
@@ -161,6 +167,6 @@
     <path d="M48.00 241v9 M76.80 241v4 M105.60 241v4 M134.40 241v4 M163.20 241v4 M192.00 241v9 M220.80 241v4 M249.60 241v4 M278.40 241v4 M307.20 241v4 M336.00 241v9 M364.80 241v4 M393.60 241v4 M422.40 241v4 M451.20 241v4 M480.00 241v9 M508.80 241v4 M537.60 241v4 M566.40 241v4 M595.20 241v4 M624.00 241v9 M652.80 241v4 M681.60 241v4 M710.40 241v4 M739.20 241v4 M768.00 241v9 M796.80 241v4 M825.60 241v4 M854.40 241v4 M883.20 241v4 M912.00 241v9" fill="none" stroke="#8290a2" opacity=".75"/>
     <g class="mono" font-size="13.5" fill="#c2cad2"><text x="48.00" y="268" text-anchor="start">400 nm</text><text x="192.00" y="268" text-anchor="middle">450</text><text x="336.00" y="268" text-anchor="middle">500</text><text x="480.00" y="268" text-anchor="middle">550</text><text x="624.00" y="268" text-anchor="middle">600</text><text x="768.00" y="268" text-anchor="middle">650</text><text x="912.00" y="268" text-anchor="end">700 nm</text></g>
   </g>
-  </g>
-  <rect x=".75" y=".75" width="958.5" height="286.5" rx="19" fill="none" stroke="#45515f" stroke-width="1.5"/>
+  <path d="M48 284H912" stroke="#657383" opacity=".36"/><path d="M50 297l6 5-6 5" stroke="#91ddd7" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="76" y="307" class="mono" font-size="19" textLength="501.6" lengthAdjust="spacingAndGlyphs" fill="#d6c7f5" clip-path="url(#statement-0)">I build reliable AI applications end to end.</text><text x="76" y="307" class="mono" font-size="19" textLength="672.6" lengthAdjust="spacingAndGlyphs" fill="#d6c7f5" clip-path="url(#statement-1)">Product interfaces · agent workflows · APIs · data systems.</text><text x="76" y="307" class="mono" font-size="19" textLength="490.2" lengthAdjust="spacingAndGlyphs" fill="#d6c7f5" clip-path="url(#statement-2)">Computational imaging is my technical edge.</text></g>
+  <rect x=".75" y=".75" width="958.5" height="326.5" rx="19" fill="none" stroke="#45515f" stroke-width="1.5"/>
 </svg>
