@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="44" viewBox="0 0 154 44" role="img" aria-labelledby="title">
+  <title id="title">View all 24 selected projects</title>
+  <style>
+    .plate { fill:#f5f4eb; stroke:#b9c2b4 }
+    .label { fill:#26352e }
+    .arrow { stroke:#497359 }
+    @media (prefers-color-scheme:dark) {
+      .plate { fill:#202825; stroke:#48574f }
+      .label { fill:#e9eee5 }
+      .arrow { stroke:#abd1b5 }
+    }
+  </style>
+  <rect x=".75" y="4.75" width="152.5" height="34.5" rx="7" class="plate"/>
+  <text x="13" y="26.9" class="label" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="14" font-weight="600">All 24 projects</text>
+  <g class="arrow" fill="none" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M135 15v11m-4-4 4 4 4-4m-9 7h10"/>
+  </g>
+</svg>
