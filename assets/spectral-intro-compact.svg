@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" id="motion" width="480" height="277" viewBox="0 0 480 277" role="img" aria-labelledby="title desc">
-  <title id="title">Hello · dvd · AI Full-Stack Engineer</title>
+  <title id="title">Hello, I’m dvd · AI Full-Stack Engineer</title>
   <desc id="desc">Seven reconstructed bands and a camera frame from the public hyperspectral demo sit above a 400–700 nm wavelength ruler. A soft light passes over the layers.</desc>
   <defs>
     <clipPath id="bounds"><rect x=".5" y=".5" width="479" height="276" rx="15"/></clipPath>
@@ -141,9 +141,9 @@
     </g>
     </g>
 
-    <text x="24" y="44" class="mono" font-size="21" fill="#b6dfd7">Hello</text>
-    <text x="21" y="124" font-family="Georgia, 'Times New Roman', serif" font-size="84" font-style="italic" letter-spacing="-4" fill="#f4f2e9">dvd.</text>
-    <text x="24" y="160" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22" font-weight="550" letter-spacing="-.5" fill="#e3e9ed">AI Full-Stack Engineer</text>
+    <text x="139.4946" y="44" class="mono" font-size="21" fill="#b6dfd7" text-anchor="middle">Hello, I’m</text>
+    <text x="136.8809" y="124" font-family="Georgia, 'Times New Roman', serif" font-size="84" font-style="italic" letter-spacing="-4" fill="#f4f2e9" text-anchor="middle">dvd</text>
+    <text x="139.6328" y="160" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22" font-weight="550" letter-spacing="-.5" fill="#e3e9ed" text-anchor="middle">AI Full-Stack Engineer</text>
   <g aria-hidden="true">
     <g transform="translate(24 183)">
       <path d="M0 1.44C30.24 -1.44 51.84 -2.88 77.76 0.72 112.32 5.04 125.28 3.5999999999999996 155.52 -1.44 190.08 -6.4799999999999995 203.04 -3.5999999999999996 228.96 0.72 263.52 5.76 280.8 4.32 311.04 -1.44 336.96 -5.04 349.92 -5.04 380.16 -1.44 406.08 1.44 419.04 1.44 432 -1.44" stroke="url(#spectrum)" stroke-width="2" fill="none"/>

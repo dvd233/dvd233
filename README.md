@@ -2,7 +2,7 @@
   <a name="dvd--ai-full-stack-engineer"></a>
   <picture>
     <source media="(max-width: 900px)" srcset="assets/spectral-intro-compact.svg">
-    <img src="assets/spectral-intro.svg" width="100%" alt="Hello · dvd · AI Full-Stack Engineer">
+    <img src="assets/spectral-intro.svg" width="100%" alt="Hello, I’m dvd · AI Full-Stack Engineer">
   </picture>
 </h1>
 
