@@ -1,12 +1,9 @@
-<details open>
-<summary>Engineering overview · <a href="https://github.com/QwenLM/qwen-code/pull/11300" title="Qwen Code · Preserve hook-created commits on rollback"><kbd>Qwen #11300 ↗</kbd></a></summary>
-
 <h1 align="center">
   <a name="dvd--ai-full-stack-engineer"></a>
-  <a href="https://github.com/QwenLM/qwen-code/pull/11300" title="Open the Qwen Code rollback fix, PR #11300"><picture>
+  <picture>
     <source media="(max-width: 900px)" srcset="assets/spectral-intro-compact.svg">
-    <img src="assets/spectral-intro.svg" width="100%" alt="dvd · AI Full-Stack Engineer. Open the Qwen Code rollback fix, PR #11300.">
-  </picture></a>
+    <img src="assets/spectral-intro.svg" width="100%" alt="dvd · AI Full-Stack Engineer">
+  </picture>
 </h1>
 
 ### ✦ Selected engineering work <a href="#user-content-selected-projects" title="View all 24 selected projects"><img src="assets/selected-projects-link.svg" width="154" height="44" align="absmiddle" alt="View all 24 selected projects"></a>
@@ -19,30 +16,25 @@
 
 <p align="center"><sub>⭐ Upstream repository stars · Select a case to read the merged change.</sub></p>
 
-</details>
-
 ## Hyperspectral reconstruction demo
 
-This earlier private desktop prototype reconstructs 30 spectral bands from a camera frame. Selecting a point plots its spectrum on a 400–700 nm axis.
-
 <details open>
-<summary>Six-second motion preview</summary>
-
-<p><strong>My role in the prototype</strong><br>
-<strong>Reconstruction</strong> · I was responsible for the lightweight model and dataset.<br>
-<strong>Desktop</strong> · I developed modules for camera capture, the UI, spectral visualization and saving results.</p>
+<summary>Camera frame → 30 reconstructed bands → selected pixel’s spectrum (400–700 nm axis)</summary>
 
 <p align="center">
   <a href="https://github.com/dvd233/dvd233/blob/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-loop.webp">
-    <picture><source media="(max-width: 650px)" srcset="assets/demo-compact.webp"><img src="assets/demo-preview.webp" width="100%" alt="Looping camera capture, 30 reconstructed wavelength bands, and the spectral curve at a selected point."></picture>
+    <picture><source media="(max-width: 650px)" srcset="assets/demo-compact.webp"><img src="assets/demo-preview.webp" width="100%" alt="Six-second loop of a camera frame, 30 reconstructed bands and the selected pixel’s spectrum on a 400–700 nm axis."></picture>
   </a>
 </p>
+
+<p><strong>Reconstruction</strong> · I was responsible for the lightweight model and dataset.<br>
+<strong>Desktop</strong> · I developed modules for camera capture, the UI, spectral visualization and saving results.</p>
 
 </details>
 
 [View the still frame](https://github.com/dvd233/dvd233/blob/cb92e3eb0c7bacf655d355e856b35d2cde9550f4/assets/demo-poster-1920x1080.png) · [Watch the animated demo on GitHub](https://github.com/dvd233/dvd233/blob/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-loop.webp) · [Download the silent MP4](https://github.com/dvd233/dvd233/raw/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4) (10.75 s, 1080p, 60 fps)
 
-The demo is public. The code and data remain private.
+This public demo shows an earlier private desktop prototype. The code and data remain private.
 
 <p align="center"><code>AI applications</code> &nbsp; <code>frontend + client systems</code> &nbsp; <code>agent workflows</code> &nbsp; <code>computational imaging</code></p>
 
@@ -82,7 +74,9 @@ I contribute fixes and features focused on agent interoperability, reliable deve
 Kept hook-created commits reachable after a failed checkout <a href="https://github.com/QwenLM/qwen-code/pull/11300" title="QwenLM/qwen-code#11300"><kbd>#11300</kbd></a>.</p>
 
 <details>
-<summary>7 more PRs · MCP, ACP and SDK tools</summary>
+<summary>Rollback test · 7 more PRs</summary>
+
+<p>When a checkout hook commits and then fails, its commit stays reachable on the new branch. If the hook fails without moving the branch tip, rollback deletes the new branch.</p>
 
 <ul>
   <li>Preserved discovered MCP registration URLs <a href="https://github.com/QwenLM/qwen-code/pull/12205" title="QwenLM/qwen-code#12205"><kbd>#12205</kbd></a> and kept tools available when a server lacked an optional method <a href="https://github.com/QwenLM/qwen-code/pull/12500" title="QwenLM/qwen-code#12500"><kbd>#12500</kbd></a>.</li>
@@ -96,7 +90,9 @@ Kept hook-created commits reachable after a failed checkout <a href="https://git
 Preserved numeric PDF rows and their label–value pairs <a href="https://github.com/Tencent/WeKnora/pull/3228" title="Tencent/WeKnora#3228"><kbd>#3228</kbd></a>.</p>
 
 <details>
-<summary>5 more PRs · MCP, CLI and editor</summary>
+<summary>PDF cleanup test · 5 more PRs</summary>
+
+<p>The old parser dropped four standalone values under <code>Quantity</code>. The regression test checks that the extracted text retains all four (124, 237, 68 and 91).</p>
 
 <ul>
   <li>Exposed structured wiki output in MCP results <a href="https://github.com/Tencent/WeKnora/pull/3590" title="Tencent/WeKnora#3590"><kbd>#3590</kbd></a>.</li>
