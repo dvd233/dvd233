@@ -2,7 +2,7 @@
   <a name="dvd--ai-full-stack-engineer"></a>
   <picture>
     <source media="(max-width: 900px)" srcset="assets/spectral-intro-compact.svg">
-    <img src="assets/spectral-intro.svg" width="100%" alt="dvd · AI Full-Stack Engineer">
+    <img src="assets/spectral-intro.svg" width="100%" alt="Hello · dvd · AI Full-Stack Engineer">
   </picture>
 </h1>
 
@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://cdn.jsdelivr.net/gh/dvd233/dvd233@23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4">
-    <picture><source media="(max-width: 650px)" srcset="assets/demo-compact.webp"><img src="assets/demo-preview.webp" width="100%" alt="Six-second preview showing the camera frame, 30 reconstructed bands and the selected pixel’s spectrum on a 400–700 nm axis. Play the full silent demo."></picture>
+    <picture><source media="(max-width: 650px)" srcset="assets/demo-compact.webp"><img src="assets/demo-preview.webp" width="100%" alt="Six-second preview of a camera frame beside the selected pixel’s spectrum on a 400–700 nm axis, with 30 reconstructed bands below. Play the full silent demo."></picture>
   </a>
 </p>
 
@@ -38,7 +38,7 @@ Merged upstream fix · [Qwen Code #11300 — preserving commits after a failed c
   <a href="https://github.com/volcengine/OpenViking/pull/5318"><img src="assets/case-openviking.svg" width="272" alt="OpenViking writes new memory injections with the producer-owned plugin:openviking-memory source kind. Replay still recognizes the legacy OpenViking plugin tag. Merged AI-generated PR 5318."></a>
 </p>
 
-- **Qwen Code** · Rollback deletes the new branch only if its tip still matches the starting commit.
+- **Qwen Code** · A post-checkout hook can commit to the new branch and then fail. The old rollback deleted that branch even when it was the only ref keeping the commit reachable.
 - **WeKnora** · Four standalone quantities survive PDF cleanup. Page numbers and chart labels are filtered when the surrounding layout identifies them.
 - **OpenViking** · New memory injections use <code>plugin:openviking-memory</code>. Older sessions still replay with the legacy tag. This merged PR was AI-generated.
 
