@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" id="motion" width="480" height="277" viewBox="0 0 480 277" role="img" aria-labelledby="title desc">
   <title id="title">Hi, I'm dvd. AI Full-Stack Engineer.</title>
-  <desc id="desc">Seven genuine reconstructed bands and the camera frame are scanned in sequence above a wavelength ruler. The introduction cycles through AI applications, agent workflows, and computational imaging.</desc>
+  <desc id="desc">Seven reconstructed bands and a camera frame from the public hyperspectral demo sit above a 400–700 nm wavelength ruler. A soft light passes over the layers.</desc>
   <defs>
     <clipPath id="bounds"><rect x=".5" y=".5" width="479" height="276" rx="15"/></clipPath>
-    <clipPath id="en" clipPathUnits="userSpaceOnUse"><rect class="english" x="23" y="20" width="91.2" height="32"/></clipPath>
-    <clipPath id="cn" clipPathUnits="userSpaceOnUse"><rect class="chinese" x="23" y="20" width="0" height="32"/></clipPath>
+
+
     <linearGradient id="base" x1="0" y1="0" x2="1" y2=".55"><stop stop-color="#161821"/><stop offset=".45" stop-color="#10151e"/><stop offset="1" stop-color="#17232a"/></linearGradient>
     <radialGradient id="ambient" cx="75%" cy="31%" r="60%"><stop stop-color="#364b55" stop-opacity=".65"/><stop offset=".65" stop-color="#293745" stop-opacity=".20"/><stop offset="1" stop-color="#172330" stop-opacity="0"/></radialGradient>
     <radialGradient id="shadow"><stop stop-color="#050810" stop-opacity=".82"/><stop offset="1" stop-color="#050810" stop-opacity="0"/></radialGradient>
@@ -22,36 +22,29 @@
     <linearGradient id="edge-610" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e0edf2"/><stop offset=".30" stop-color="#eda56f"/><stop offset=".77" stop-color="#eda56f" stop-opacity=".5"/><stop offset="1" stop-color="#d3ebf0"/></linearGradient>
     <linearGradient id="edge-660" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e0edf2"/><stop offset=".30" stop-color="#e67f87"/><stop offset=".77" stop-color="#e67f87" stop-opacity=".5"/><stop offset="1" stop-color="#d3ebf0"/></linearGradient>
     <linearGradient id="edge-frame" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e0edf2"/><stop offset=".30" stop-color="#cee4de"/><stop offset=".77" stop-color="#cee4de" stop-opacity=".5"/><stop offset="1" stop-color="#d3ebf0"/></linearGradient>
-  <clipPath id="film-window" clipPathUnits="userSpaceOnUse"><rect x="4" y="4" width="156" height="106" rx="2"/></clipPath><linearGradient id="optical-pass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#83d5fa" stop-opacity="0"/><stop offset=".36" stop-color="#a3e2fd" stop-opacity=".12"/><stop offset=".55" stop-color="#f2ffed" stop-opacity=".72"/><stop offset=".60" stop-color="#f9e2bb" stop-opacity=".28"/><stop offset="1" stop-color="#e6a2d7" stop-opacity="0"/></linearGradient><clipPath id="statement-0" clipPathUnits="userSpaceOnUse"><rect class="statement-mask" x="45" y="241" height="23" width="270.8" style="--line:270.8px;--step:28;--delay:-18s"/></clipPath><clipPath id="statement-1" clipPathUnits="userSpaceOnUse"><rect class="statement-mask" x="45" y="241" height="23" width="0" style="--line:318.8px;--step:33;--delay:-12s"/></clipPath><clipPath id="statement-2" clipPathUnits="userSpaceOnUse"><rect class="statement-mask" x="45" y="241" height="23" width="0" style="--line:203.6px;--step:21;--delay:-6s"/></clipPath></defs>
+  <clipPath id="film-window" clipPathUnits="userSpaceOnUse"><rect x="4" y="4" width="156" height="106" rx="2"/></clipPath><linearGradient id="optical-pass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#83d5fa" stop-opacity="0"/><stop offset=".36" stop-color="#a3e2fd" stop-opacity=".12"/><stop offset=".55" stop-color="#f2ffed" stop-opacity=".72"/><stop offset=".60" stop-color="#f9e2bb" stop-opacity=".28"/><stop offset="1" stop-color="#e6a2d7" stop-opacity="0"/></linearGradient></defs>
   <style>
     .mono { font-family: ui-monospace, Consolas, "Liberation Mono", monospace; }
-    .scan { offset-distance:46%; }
-    .cursor { opacity:0; }
-
-    .plate {animation:separate 12s cubic-bezier(.45,0,.26,1) infinite}
-    @keyframes separate {0%,13%,100%{transform:translate(0,0)}49%,63%{transform:translate(var(--dx),var(--dy))}}
-    .scan {animation:readout 12s ease-in-out infinite}
-    @keyframes readout {0%,11%,100%{offset-distance:0%}59%,68%{offset-distance:100%}}
-    .carriage {animation:optical-carriage 12s ease-in-out infinite}
-    @keyframes optical-carriage {0%,11%,100%{transform:translateX(0)}59%,68%{transform:translateX(var(--travel))}}
-    .read-light {opacity:0;animation:film-read 12s cubic-bezier(.42,0,.48,1) infinite;animation-delay:var(--lag)}
-    @keyframes film-read {0%,19%{transform:translateX(-60px);opacity:0}26%{opacity:.55}57%{transform:translateX(192px);opacity:.60}66%,100%{transform:translateX(200px);opacity:0}}
-    .english{animation:greet-en 12s steps(7,end) infinite}
-    .chinese{animation:greet-cn 12s steps(5,end) infinite}
-    @keyframes greet-en {0%,33%,100%{width:95.4px}42%,88%{width:0}}
-    @keyframes greet-cn {0%,41%,91%,100%{width:0}50%,82%{width:113px}}
-    .cursor{opacity:.75;animation:caret-pos 12s infinite}
-    @keyframes caret-pos {0%,33%,100%{transform:translateX(95.4px);animation-timing-function:steps(7,end)}42%,43%,90%{transform:translateX(0);animation-timing-function:steps(5,end)}50%,82%{transform:translateX(113px);animation-timing-function:steps(5,end)}}
-    .statement-mask{animation:line-cycle 18s steps(var(--step),end) infinite;animation-delay:var(--delay)}
-    @keyframes line-cycle {0%,23%{width:var(--line)}28%,94.7%{width:0}100%{width:var(--line)}}
-    </style>
+    .scan { offset-distance: 46%; }
+    .read-light {
+      opacity: 0;
+      animation: film-read 14s ease-in-out infinite;
+      animation-delay: var(--lag);
+    }
+    @keyframes film-read {
+      0%, 22% { transform: translateX(-60px); opacity: 0; }
+      31% { opacity: .25; }
+      53% { transform: translateX(185px); opacity: .28; }
+      64%, 100% { transform: translateX(200px); opacity: 0; }
+    }
+  </style>
   <g clip-path="url(#bounds)">
     <rect width="100%" height="100%" fill="url(#base)"/><rect width="100%" height="100%" fill="url(#ambient)"/>
     <rect width="100%" height="100%" fill="url(#grain)" mask="url(#grid-fade)" opacity=".27"/>
-    <g aria-hidden="true"><path d="M266 17h-12v12 M447 17h12v12 M254 160v12h12 M459 160v12h-12" fill="none" stroke="#92afa8" stroke-width=".9" opacity=".50"/><path d="M266 172h181" fill="none" stroke="#839ca0" stroke-dasharray="1 6" opacity=".42"/><path d="M258 166h25" stroke="#a5d9cf" stroke-width="1.3" class="carriage" style="--travel:167px"/></g><g transform="translate(261 35) scale(.55)" aria-hidden="true">
+    <g aria-hidden="true"><path d="M266 17h-12v12 M447 17h12v12 M254 160v12h12 M459 160v12h-12" fill="none" stroke="#92afa8" stroke-width=".9" opacity=".50"/><path d="M266 172h181" fill="none" stroke="#839ca0" stroke-dasharray="1 6" opacity=".42"/><path d="M258 166h25" stroke="#a5d9cf" stroke-width="1.3"/></g><g transform="translate(261 35) scale(.55)" aria-hidden="true">
       <ellipse cx="201" cy="198" rx="160" ry="25" fill="url(#shadow)"/>
     <g transform="translate(8 158)">
-      <g class="plate" style="--dx:-7.95px;--dy:10.80px">
+      <g>
         <path d="M0 0 93.48 54.72 257.48 -1.04v3.6L93.48 58.32 0 3.6z" fill="#aa88ed" opacity=".50"/>
         <g transform="matrix(1 -.34 .82 .48 0 0)">
           <rect width="164" height="114" rx="3" fill="#14202b" stroke="url(#edge-420)" stroke-width="1.9"/>
@@ -63,7 +56,7 @@
       </g>
     </g>
     <g transform="translate(18 143)">
-      <g class="plate" style="--dx:-5.30px;--dy:7.20px">
+      <g>
         <path d="M0 0 93.48 54.72 257.48 -1.04v3.6L93.48 58.32 0 3.6z" fill="#7a9af4" opacity=".50"/>
         <g transform="matrix(1 -.34 .82 .48 0 0)">
           <rect width="164" height="114" rx="3" fill="#14202b" stroke="url(#edge-460)" stroke-width="1.9"/>
@@ -75,7 +68,7 @@
       </g>
     </g>
     <g transform="translate(28 128)">
-      <g class="plate" style="--dx:-2.65px;--dy:3.60px">
+      <g>
         <path d="M0 0 93.48 54.72 257.48 -1.04v3.6L93.48 58.32 0 3.6z" fill="#76dbdf" opacity=".50"/>
         <g transform="matrix(1 -.34 .82 .48 0 0)">
           <rect width="164" height="114" rx="3" fill="#14202b" stroke="url(#edge-500)" stroke-width="1.9"/>
@@ -87,7 +80,7 @@
       </g>
     </g>
     <g transform="translate(38 113)">
-      <g class="plate" style="--dx:0.00px;--dy:0.00px">
+      <g>
         <path d="M0 0 93.48 54.72 257.48 -1.04v3.6L93.48 58.32 0 3.6z" fill="#8ee3a9" opacity=".50"/>
         <g transform="matrix(1 -.34 .82 .48 0 0)">
           <rect width="164" height="114" rx="3" fill="#14202b" stroke="url(#edge-540)" stroke-width="1.9"/>
@@ -99,7 +92,7 @@
       </g>
     </g>
     <g transform="translate(48 98)">
-      <g class="plate" style="--dx:2.65px;--dy:-3.60px">
+      <g>
         <path d="M0 0 93.48 54.72 257.48 -1.04v3.6L93.48 58.32 0 3.6z" fill="#dce28b" opacity=".50"/>
         <g transform="matrix(1 -.34 .82 .48 0 0)">
           <rect width="164" height="114" rx="3" fill="#14202b" stroke="url(#edge-570)" stroke-width="1.9"/>
@@ -111,7 +104,7 @@
       </g>
     </g>
     <g transform="translate(58 83)">
-      <g class="plate" style="--dx:5.30px;--dy:-7.20px">
+      <g>
         <path d="M0 0 93.48 54.72 257.48 -1.04v3.6L93.48 58.32 0 3.6z" fill="#eda56f" opacity=".50"/>
         <g transform="matrix(1 -.34 .82 .48 0 0)">
           <rect width="164" height="114" rx="3" fill="#14202b" stroke="url(#edge-610)" stroke-width="1.9"/>
@@ -123,7 +116,7 @@
       </g>
     </g>
     <g transform="translate(68 68)">
-      <g class="plate" style="--dx:7.95px;--dy:-10.80px">
+      <g>
         <path d="M0 0 93.48 54.72 257.48 -1.04v3.6L93.48 58.32 0 3.6z" fill="#e67f87" opacity=".50"/>
         <g transform="matrix(1 -.34 .82 .48 0 0)">
           <rect width="164" height="114" rx="3" fill="#14202b" stroke="url(#edge-660)" stroke-width="1.9"/>
@@ -135,7 +128,7 @@
       </g>
     </g>
     <g transform="translate(78 53)">
-      <g class="plate" style="--dx:10.60px;--dy:-14.40px">
+      <g>
         <path d="M0 0 93.48 54.72 257.48 -1.04v3.6L93.48 58.32 0 3.6z" fill="#cee4de" opacity=".50"/>
         <g transform="matrix(1 -.34 .82 .48 0 0)">
           <rect width="164" height="114" rx="3" fill="#14202b" stroke="url(#edge-frame)" stroke-width="1.9"/>
@@ -147,9 +140,9 @@
       </g>
     </g>
     </g>
-    <g transform="translate(24 0)"><path class="cursor" d="M1 27.62v18.90" stroke="#c4ede2" stroke-width="1.8"/></g>
-    <text x="24" y="44" class="mono" font-size="21" textLength="88.2" lengthAdjust="spacingAndGlyphs" fill="#b6dfd7" clip-path="url(#en)">Hi, I'm</text>
-    <text x="24" y="44" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="21" textLength="105" lengthAdjust="spacingAndGlyphs" fill="#b6dfd7" clip-path="url(#cn)">你好，我是</text>
+
+    <text x="24" y="44" class="mono" font-size="21" textLength="88.2" lengthAdjust="spacingAndGlyphs" fill="#b6dfd7">Hi, I'm</text>
+    <text x="131" y="44" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="21" textLength="105" lengthAdjust="spacingAndGlyphs" fill="#a5c7c0">你好，我是</text>
     <text x="21" y="124" font-family="Georgia, 'Times New Roman', serif" font-size="84" font-style="italic" letter-spacing="-4" fill="#f4f2e9">dvd.</text>
     <text x="24" y="160" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22" font-weight="550" letter-spacing="-.5" fill="#e3e9ed">AI Full-Stack Engineer</text>
   <g aria-hidden="true">
@@ -161,6 +154,6 @@
     <path d="M24.00 196v9 M38.40 196v4 M52.80 196v4 M67.20 196v4 M81.60 196v4 M96.00 196v9 M110.40 196v4 M124.80 196v4 M139.20 196v4 M153.60 196v4 M168.00 196v9 M182.40 196v4 M196.80 196v4 M211.20 196v4 M225.60 196v4 M240.00 196v9 M254.40 196v4 M268.80 196v4 M283.20 196v4 M297.60 196v4 M312.00 196v9 M326.40 196v4 M340.80 196v4 M355.20 196v4 M369.60 196v4 M384.00 196v9 M398.40 196v4 M412.80 196v4 M427.20 196v4 M441.60 196v4 M456.00 196v9" fill="none" stroke="#8290a2" opacity=".75"/>
     <g class="mono" font-size="15" fill="#c2cad2"><text x="24.00" y="223" text-anchor="start">400 nm</text><text x="168.00" y="223" text-anchor="middle">500</text><text x="312.00" y="223" text-anchor="middle">600</text><text x="456.00" y="223" text-anchor="end">700 nm</text></g>
   </g>
-  <path d="M24 236H456" stroke="#657383" opacity=".36"/><path d="M26 249l6 5-6 5" stroke="#91ddd7" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="46" y="259" class="mono" font-size="16" textLength="268.8" lengthAdjust="spacingAndGlyphs" fill="#d6c7f5" clip-path="url(#statement-0)">AI applications, end to end.</text><text x="46" y="259" class="mono" font-size="16" textLength="316.8" lengthAdjust="spacingAndGlyphs" fill="#d6c7f5" clip-path="url(#statement-1)">Interfaces · agents · APIs · data</text><text x="46" y="259" class="mono" font-size="16" textLength="201.6" lengthAdjust="spacingAndGlyphs" fill="#d6c7f5" clip-path="url(#statement-2)">Computational imaging</text><g aria-hidden="true"><path d="M52.8 203v3" stroke="#a99aff" stroke-width="1.3" opacity=".80"/><rect x="49.8" y="198" width="6" height="1.6" rx=".8" fill="#a99aff" opacity=".67"/><path d="M110.4 203v3" stroke="#86b7ff" stroke-width="1.3" opacity=".80"/><rect x="107.4" y="198" width="6" height="1.6" rx=".8" fill="#86b7ff" opacity=".67"/><path d="M168.0 203v3" stroke="#6ed2de" stroke-width="1.3" opacity=".80"/><rect x="165.0" y="198" width="6" height="1.6" rx=".8" fill="#6ed2de" opacity=".67"/><path d="M225.6 203v3" stroke="#84d3af" stroke-width="1.3" opacity=".80"/><rect x="222.6" y="198" width="6" height="1.6" rx=".8" fill="#84d3af" opacity=".67"/><path d="M268.8 203v3" stroke="#d7da98" stroke-width="1.3" opacity=".80"/><rect x="265.8" y="198" width="6" height="1.6" rx=".8" fill="#d7da98" opacity=".67"/><path d="M326.4 203v3" stroke="#edbd84" stroke-width="1.3" opacity=".80"/><rect x="323.4" y="198" width="6" height="1.6" rx=".8" fill="#edbd84" opacity=".67"/><path d="M398.4 203v3" stroke="#e9a2a8" stroke-width="1.3" opacity=".80"/><rect x="395.4" y="198" width="6" height="1.6" rx=".8" fill="#e9a2a8" opacity=".67"/></g></g>
+  <path d="M24 236H456" stroke="#657383" opacity=".36"/><path d="M26 249l6 5-6 5" stroke="#91ddd7" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="46" y="259" class="mono" font-size="16" textLength="268.8" lengthAdjust="spacingAndGlyphs" fill="#d6c7f5">AI applications, end to end.</text><g aria-hidden="true"><path d="M52.8 203v3" stroke="#a99aff" stroke-width="1.3" opacity=".80"/><rect x="49.8" y="198" width="6" height="1.6" rx=".8" fill="#a99aff" opacity=".67"/><path d="M110.4 203v3" stroke="#86b7ff" stroke-width="1.3" opacity=".80"/><rect x="107.4" y="198" width="6" height="1.6" rx=".8" fill="#86b7ff" opacity=".67"/><path d="M168.0 203v3" stroke="#6ed2de" stroke-width="1.3" opacity=".80"/><rect x="165.0" y="198" width="6" height="1.6" rx=".8" fill="#6ed2de" opacity=".67"/><path d="M225.6 203v3" stroke="#84d3af" stroke-width="1.3" opacity=".80"/><rect x="222.6" y="198" width="6" height="1.6" rx=".8" fill="#84d3af" opacity=".67"/><path d="M268.8 203v3" stroke="#d7da98" stroke-width="1.3" opacity=".80"/><rect x="265.8" y="198" width="6" height="1.6" rx=".8" fill="#d7da98" opacity=".67"/><path d="M326.4 203v3" stroke="#edbd84" stroke-width="1.3" opacity=".80"/><rect x="323.4" y="198" width="6" height="1.6" rx=".8" fill="#edbd84" opacity=".67"/><path d="M398.4 203v3" stroke="#e9a2a8" stroke-width="1.3" opacity=".80"/><rect x="395.4" y="198" width="6" height="1.6" rx=".8" fill="#e9a2a8" opacity=".67"/></g></g>
   <rect x=".75" y=".75" width="478.5" height="275.5" rx="15" fill="none" stroke="#45515f" stroke-width="1.5"/>
 </svg>

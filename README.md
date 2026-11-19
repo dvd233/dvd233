@@ -6,7 +6,31 @@
   </picture>
 </h1>
 
-### ✦ Selected engineering work <a href="#user-content-selected-projects" title="View all 24 selected projects"><img src="assets/selected-projects-link.svg" width="154" height="44" align="absmiddle" alt="View all 24 selected projects"></a>
+## Hyperspectral reconstruction demo
+
+[Play full demo · 10.75 s](https://cdn.jsdelivr.net/gh/dvd233/dvd233@23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4) · [Still frame](https://github.com/dvd233/dvd233/blob/cb92e3eb0c7bacf655d355e856b35d2cde9550f4/assets/demo-poster-1920x1080.png)
+
+<details open>
+<summary>The desktop prototype reconstructs 30 spectral bands from a camera frame and plots the spectrum at a selected pixel.</summary>
+
+<p align="center">
+  <a href="https://cdn.jsdelivr.net/gh/dvd233/dvd233@23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4">
+    <picture><source media="(max-width: 650px)" srcset="assets/demo-compact.webp"><img src="assets/demo-preview.webp" width="100%" alt="Six-second preview showing the camera frame, 30 reconstructed bands and the selected pixel’s spectrum on a 400–700 nm axis. Play the full silent demo."></picture>
+  </a>
+</p>
+
+</details>
+
+**Reconstruction** · I was responsible for the lightweight reconstruction model and dataset.<br>
+**Desktop** · I built modules for camera capture, the desktop interface, spectral plots and saving results.
+
+This public demo shows an earlier private prototype. Its code and data remain private.
+
+[GitHub animation · 23.4 MiB](https://github.com/dvd233/dvd233/blob/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-loop.webp) · [Download MP4 · 3.45 MiB](https://github.com/dvd233/dvd233/raw/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4) (1080p, 60 fps)
+
+Merged upstream fix · [Qwen Code #11300 — preserving commits after a failed checkout](https://github.com/QwenLM/qwen-code/pull/11300)
+
+### Selected engineering work
 
 <p align="center">
   <a href="https://github.com/QwenLM/qwen-code/pull/11300"><img src="assets/case-qwen.svg" width="272" alt="Qwen Code keeps hook-created commits on rollback. Delete the newly created branch only if its tip still matches the starting commit. Merged PR 11300."></a>
@@ -14,27 +38,11 @@
   <a href="https://github.com/volcengine/OpenViking/pull/5318"><img src="assets/case-openviking.svg" width="272" alt="OpenViking writes new memory injections with the producer-owned plugin:openviking-memory source kind. Replay still recognizes the legacy OpenViking plugin tag. Merged AI-generated PR 5318."></a>
 </p>
 
-<p align="center"><sub>⭐ Upstream repository stars · Select a case to read the merged change.</sub></p>
+- **Qwen Code** · Rollback deletes the new branch only if its tip still matches the starting commit.
+- **WeKnora** · Four standalone quantities survive PDF cleanup. Page numbers and chart labels are filtered when the surrounding layout identifies them.
+- **OpenViking** · New memory injections use <code>plugin:openviking-memory</code>. Older sessions still replay with the legacy tag. This merged PR was AI-generated.
 
-## Hyperspectral reconstruction demo
-
-<details open>
-<summary>Camera frame → 30 reconstructed bands → selected pixel’s spectrum (400–700 nm axis)</summary>
-
-<p align="center">
-  <a href="https://github.com/dvd233/dvd233/blob/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-loop.webp">
-    <picture><source media="(max-width: 650px)" srcset="assets/demo-compact.webp"><img src="assets/demo-preview.webp" width="100%" alt="Six-second loop of a camera frame, 30 reconstructed bands and the selected pixel’s spectrum on a 400–700 nm axis."></picture>
-  </a>
-</p>
-
-<p><strong>Reconstruction</strong> · I was responsible for the lightweight model and dataset.<br>
-<strong>Desktop</strong> · I developed modules for camera capture, the UI, spectral visualization and saving results.</p>
-
-</details>
-
-[View the still frame](https://github.com/dvd233/dvd233/blob/cb92e3eb0c7bacf655d355e856b35d2cde9550f4/assets/demo-poster-1920x1080.png) · [Watch the animated demo on GitHub](https://github.com/dvd233/dvd233/blob/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-loop.webp) · [Download the silent MP4](https://github.com/dvd233/dvd233/raw/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4) (10.75 s, 1080p, 60 fps)
-
-This public demo shows an earlier private desktop prototype. The code and data remain private.
+<p align="center"><a href="#user-content-selected-projects" title="View all 24 selected projects"><img src="assets/selected-projects-link.svg" width="154" height="44" align="absmiddle" alt="View all 24 selected projects"></a> <sub>⭐ Upstream repository stars</sub></p>
 
 <p align="center"><code>AI applications</code> &nbsp; <code>frontend + client systems</code> &nbsp; <code>agent workflows</code> &nbsp; <code>computational imaging</code></p>
 
@@ -43,13 +51,16 @@ This public demo shows an earlier private desktop prototype. The code and data r
 <details open>
 <summary>React and TypeScript · Python and PyTorch · Node.js and PostgreSQL · Rust and Tauri</summary>
 
+**Frontend** · [Ant Design X #2066](https://github.com/ant-design/x/pull/2066) · Prevented an older request’s error from clearing a newer request’s loading state.
+
 <p align="center">
   <picture><source media="(max-width: 650px)" srcset="assets/tech-stack-compact.svg"><img class="tech-stack" src="assets/tech-stack.svg" width="100%" alt="Tech stack: React, TypeScript, Vite, and React Flow for interfaces; Python, PyTorch, LangGraph, and MCP for AI applications; Node.js, NestJS, PostgreSQL, and Redis for backend and data; Rust, Tauri, Git, SSE, and WebSocket for client delivery. Also shown: HTML5, CSS3, JavaScript, Zustand, Webpack, Rspack, LangChain, pgvector, RBAC, diff and rollback, and the 400–700 nm imaging range."></picture>
 </p>
 
 </details>
 
-## AI development tools
+<details>
+<summary>AI development tools (8)</summary>
 
 <p align="center">
   <a href="https://github.com/MoonshotAI/kimi-cli" title="Kimi Code"><picture><source media="(max-width: 360px)" srcset="assets/tool-kimi.svg" width="113" height="44"><img src="assets/tool-kimi.svg" alt="Kimi Code"></picture></a>
@@ -61,6 +72,8 @@ This public demo shows an earlier private desktop prototype. The code and data r
   <a href="https://github.com/zai-org/zcode-plugins" title="ZCode"><picture><source media="(max-width: 360px)" srcset="assets/tool-zcode.svg" width="113" height="44"><img src="assets/tool-zcode.svg" alt="ZCode"></picture></a>
   <a href="https://github.com/deepseek-ai/deepseek-harness" title="DeepSeek Harness"><picture><source media="(max-width: 360px)" srcset="assets/tool-deepseek-harness.svg" width="113" height="44"><img src="assets/tool-deepseek-harness.svg" alt="DeepSeek Harness"></picture></a>
 </p>
+
+</details>
 
 ## 🌐 Open-source contributions
 
@@ -87,7 +100,7 @@ Kept hook-created commits reachable after a failed checkout <a href="https://git
 </details>
 
 <p>📖 <a href="https://github.com/Tencent/WeKnora" title="Tencent/WeKnora"><img src="assets/project/tencent--weknora.svg" width="150" height="26" align="absmiddle" alt="Tencent/WeKnora"></a> &nbsp;<a href="https://github.com/Tencent/WeKnora" title="Upstream stars for Tencent/WeKnora"><kbd>⭐ <!--stars:Tencent/WeKnora-->37.8k<!--/stars--></kbd></a><br>
-Preserved numeric PDF rows and their label–value pairs <a href="https://github.com/Tencent/WeKnora/pull/3228" title="Tencent/WeKnora#3228"><kbd>#3228</kbd></a>.</p>
+Fixed PDF text extraction that dropped all four values in a quantity column <a href="https://github.com/Tencent/WeKnora/pull/3228" title="Tencent/WeKnora#3228"><kbd>#3228</kbd></a>.</p>
 
 <details>
 <summary>PDF cleanup test · 5 more PRs</summary>
