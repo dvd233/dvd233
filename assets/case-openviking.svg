@@ -22,7 +22,7 @@
     <text x="15" y="25" fill="#f0f3f2" font-size="17.5" font-weight="650">OpenViking</text>
     <rect x="192" y="8.5" width="67" height="21" rx="10.5" fill="#292920" stroke="#826b43" stroke-opacity=".65"/>
     <use href="#star" transform="translate(198 12) scale(.82)" fill="url(#gilt)"/>
-    <text x="253" y="23.5" text-anchor="end" class="stars" fill="#fbe4a6"><!--stars:volcengine/OpenViking-->42.6k<!--/stars--></text>
+    <text x="253" y="23.5" text-anchor="end" class="stars" fill="#fbe4a6"><!--stars:volcengine/OpenViking-->42.7k<!--/stars--></text>
     <g aria-hidden="true">
   <g fill="#29232e" stroke="#826d83"><rect x="18" y="45" width="60" height="19" rx="3"/><rect x="18" y="74" width="60" height="19" rx="3"/></g>
   <g fill="#ebd5e4" class="micro"><text x="28" y="58">legacy</text><text x="28" y="87">v4</text></g>
