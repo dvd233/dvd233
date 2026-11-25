@@ -1,57 +1,55 @@
-<h1 align="center">
-  <a name="dvd--ai-full-stack-engineer"></a>
-  <picture>
-    <source media="(max-width: 900px)" srcset="assets/spectral-intro-compact.svg">
-    <img src="assets/spectral-intro.svg" width="100%" alt="Hello, I’m dvd · AI Full-Stack Engineer">
-  </picture>
-</h1>
+<p><a name="dvd--ai-full-stack-engineer"></a>Hello, I’m <strong>dvd</strong>, an <strong>AI Full-Stack Engineer</strong>.</p>
 
-## Hyperspectral reconstruction demo
+<p>
+  <a href="https://cdn.jsdelivr.net/gh/dvd233/dvd233@23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4">
+    <picture>
+      <source media="(max-width: 767px) and (prefers-reduced-motion: reduce)" srcset="assets/spectral-film-mobile-still.webp">
+      <source media="(prefers-reduced-motion: reduce)" srcset="assets/spectral-film-still.webp">
+      <source media="(max-width: 767px)" srcset="assets/spectral-film-mobile.webp">
+      <img src="assets/spectral-film.webp" width="100%" alt="Play the hyperspectral reconstruction demo. A camera frame, 30 reconstructed bands and a plot of the selected pixel’s spectrum.">
+    </picture>
+  </a>
+</p>
 
-[Play full demo · 10.75 s](https://cdn.jsdelivr.net/gh/dvd233/dvd233@23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4) · [Still frame](https://github.com/dvd233/dvd233/blob/cb92e3eb0c7bacf655d355e856b35d2cde9550f4/assets/demo-poster-1920x1080.png)
+<a name="hyperspectral-reconstruction-demo"></a>
+[Play the hyperspectral demo · 10.75 s, silent](https://cdn.jsdelivr.net/gh/dvd233/dvd233@23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4) · [Still frame](https://github.com/dvd233/dvd233/blob/cb92e3eb0c7bacf655d355e856b35d2cde9550f4/assets/demo-poster-1920x1080.png) · [Engineering work](#selected-engineering-work)
 
-<details open>
-<summary>The desktop prototype reconstructs 30 spectral bands from a camera frame and plots the spectrum at a selected pixel.</summary>
+The desktop app reconstructs 30 spectral bands from a camera frame. Selecting a pixel plots its spectrum across those bands.
+
+I was responsible for the lightweight reconstruction model and dataset. I also built the desktop modules for camera capture, the interface, spectral plots and saving results. The demo shows an earlier private prototype. Its code and data remain private.
+
+<details>
+<summary>Animation and download</summary>
+
+[GitHub animation · 23.4 MiB](https://github.com/dvd233/dvd233/blob/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-loop.webp) · [Download MP4 · 3.45 MiB](https://github.com/dvd233/dvd233/raw/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4) (1080p, 60 fps)
+
+</details>
+
+## Selected engineering work
+
+- **[Qwen Code · Git rollback](https://github.com/QwenLM/qwen-code/pull/11300)** — A checkout hook can make a commit and then fail. Rollback now keeps the new branch if its tip moved, so the commit stays reachable.
+- **[WeKnora · PDF extraction](https://github.com/Tencent/WeKnora/pull/3228)** — The PDF parser kept a quantity heading but discarded all four values beneath it. It now keeps those rows and uses the surrounding layout to identify page numbers and chart labels.
+- **[OpenViking · Agent memory](https://github.com/volcengine/OpenViking/pull/5318)** — DeepSeek Harness rejected the old memory tag before it could save a turn. The plugin now writes its own source tag and still recognizes the legacy tag when replaying older sessions. This merged PR was AI-generated.
+
+[Explore merged contributions across 24 selected projects](#user-content-selected-projects)
+
+<details>
+<summary>Diagrams for the three fixes</summary>
 
 <p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/dvd233/dvd233@23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4">
-    <picture><source media="(max-width: 650px)" srcset="assets/demo-compact.webp"><img src="assets/demo-preview.webp" width="100%" alt="Six-second preview of a camera frame beside the selected pixel’s spectrum on a 400–700 nm axis, with 30 reconstructed bands below. Play the full silent demo."></picture>
-  </a>
+  <a href="https://github.com/QwenLM/qwen-code/pull/11300"><picture><source media="(prefers-reduced-motion: no-preference)" srcset="assets/case-qwen.svg#motion"><img src="assets/case-qwen.svg" width="272" alt="Qwen Code keeps hook-created commits on rollback. Delete the newly created branch only if its tip still matches the starting commit. Merged PR 11300."></picture></a>
+  <a href="https://github.com/Tencent/WeKnora/pull/3228"><picture><source media="(prefers-reduced-motion: no-preference)" srcset="assets/case-weknora.svg#motion"><img src="assets/case-weknora.svg" width="272" alt="WeKnora keeps all four PDF quantities (124, 237, 68 and 91). Layout distinguishes these values from page numbers and chart labels. Merged PR 3228."></picture></a>
+  <a href="https://github.com/volcengine/OpenViking/pull/5318"><picture><source media="(prefers-reduced-motion: no-preference)" srcset="assets/case-openviking.svg#motion"><img src="assets/case-openviking.svg" width="272" alt="OpenViking writes new memory injections with the producer-owned plugin:openviking-memory source kind. Replay still recognizes the legacy OpenViking plugin tag. Merged AI-generated PR 5318."></picture></a>
 </p>
 
 </details>
 
-**Reconstruction** · I was responsible for the lightweight reconstruction model and dataset.<br>
-**Desktop** · I built modules for camera capture, the desktop interface, spectral plots and saving results.
-
-This public demo shows an earlier private prototype. Its code and data remain private.
-
-[GitHub animation · 23.4 MiB](https://github.com/dvd233/dvd233/blob/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-loop.webp) · [Download MP4 · 3.45 MiB](https://github.com/dvd233/dvd233/raw/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4) (1080p, 60 fps)
-
-Merged upstream fix · [Qwen Code #11300 — preserving commits after a failed checkout](https://github.com/QwenLM/qwen-code/pull/11300)
-
-### Selected engineering work
-
-<p align="center">
-  <a href="https://github.com/QwenLM/qwen-code/pull/11300"><img src="assets/case-qwen.svg" width="272" alt="Qwen Code keeps hook-created commits on rollback. Delete the newly created branch only if its tip still matches the starting commit. Merged PR 11300."></a>
-  <a href="https://github.com/Tencent/WeKnora/pull/3228"><img src="assets/case-weknora.svg" width="272" alt="WeKnora preserves numeric rows and their label–value pairs in PDFs. Filter numeric text only when context identifies a page number or chart label. Merged PR 3228."></a>
-  <a href="https://github.com/volcengine/OpenViking/pull/5318"><img src="assets/case-openviking.svg" width="272" alt="OpenViking writes new memory injections with the producer-owned plugin:openviking-memory source kind. Replay still recognizes the legacy OpenViking plugin tag. Merged AI-generated PR 5318."></a>
-</p>
-
-- **Qwen Code** · A post-checkout hook can commit to the new branch and then fail. The old rollback deleted that branch even when it was the only ref keeping the commit reachable.
-- **WeKnora** · Four standalone quantities survive PDF cleanup. Page numbers and chart labels are filtered when the surrounding layout identifies them.
-- **OpenViking** · New memory injections use <code>plugin:openviking-memory</code>. Older sessions still replay with the legacy tag. This merged PR was AI-generated.
-
-<p align="center"><a href="#user-content-selected-projects" title="View all 24 selected projects"><img src="assets/selected-projects-link.svg" width="154" height="44" align="absmiddle" alt="View all 24 selected projects"></a> <sub>⭐ Upstream repository stars</sub></p>
-
-<p align="center"><code>AI applications</code> &nbsp; <code>frontend + client systems</code> &nbsp; <code>agent workflows</code> &nbsp; <code>computational imaging</code></p>
-
 ## Tech stack
 
-<details open>
-<summary>React and TypeScript · Python and PyTorch · Node.js and PostgreSQL · Rust and Tauri</summary>
+**[Ant Design X · Request lifecycle](https://github.com/ant-design/x/pull/2066)** — An HTTP 200 response can still report a business error. The SDK now ends the failed request while keeping the loading state of any newer request intact.
 
-**Frontend** · [Ant Design X #2066](https://github.com/ant-design/x/pull/2066) · Prevented an older request’s error from clearing a newer request’s loading state.
+<details>
+<summary>React and TypeScript · Python and PyTorch · Node.js and PostgreSQL · Rust and Tauri</summary>
 
 <p align="center">
   <picture><source media="(max-width: 650px)" srcset="assets/tech-stack-compact.svg"><img class="tech-stack" src="assets/tech-stack.svg" width="100%" alt="Tech stack: React, TypeScript, Vite, and React Flow for interfaces; Python, PyTorch, LangGraph, and MCP for AI applications; Node.js, NestJS, PostgreSQL, and Redis for backend and data; Rust, Tauri, Git, SSE, and WebSocket for client delivery. Also shown: HTML5, CSS3, JavaScript, Zustand, Webpack, Rspack, LangChain, pgvector, RBAC, diff and rollback, and the 400–700 nm imaging range."></picture>
@@ -335,7 +333,7 @@ Delivered a 41-file bilingual civic-data package for repository intake <a href="
 |---|---|---|---|
 | 🎓 **Interactive learning tooling** | [grafana/grafana-pathfinder-app](https://github.com/grafana/grafana-pathfinder-app) | `31 PRs · 31 merged` | Block editor bulk actions, coda VM lifecycle, docs retrieval, Windows check-runner fixes, and lint plus e2e coverage |
 | 🏙️ **Civic data delivery** | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | `28 PRs · 27 merged` | Structured submissions, geometry sources, deterministic artifacts, review semantics, and a CJK font screenshot regression |
-| 🤖 **AI agent systems** | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | `10 merged · 4 open` | Windows event-loop compatibility, tool data-block replay, post-checkout commit safety, and MCP registration plus status fixes merged; open PRs address output language and session behavior |
+| 🤖 **AI agent systems** | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | `10 merged · 3 open` | Windows event-loop compatibility, tool data-block replay, post-checkout commit safety, and MCP registration and status fixes merged. Open PRs cover output language, model selection and session titles |
 | 🧩 **Frontend component ecosystems** | [ant-design/ant-design](https://github.com/ant-design/ant-design) · [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) · [DouyinFE/semi-design](https://github.com/DouyinFE/semi-design) · [alibaba/hooks](https://github.com/alibaba/hooks) · [nuxt/ui](https://github.com/nuxt/ui) · [Tencent/tdesign-vue-next](https://github.com/Tencent/tdesign-vue-next) · [Tencent/cherry-markdown](https://github.com/Tencent/cherry-markdown) · [mui/material-ui](https://github.com/mui/material-ui) · [ant-design/x](https://github.com/ant-design/x) | `16 merged · 7 open` | AI request loading state, i18n guide links, modal stacking, ref types, infinite-scroll cancellation, storage documentation, input and selection behavior, toolbar alignment, and upload triggers |
 | 🔍 **Code review tooling** | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | `6 PRs · 5 merged` | Pug and Jinja support, atomic report writes, unknown config-field preservation, and mobile viewer wrapping merged |
 | 🔐 **AI safety & evaluation** | [microsoft/PyRIT](https://github.com/microsoft/PyRIT) · [wandb/rai-toolkit](https://github.com/wandb/rai-toolkit) | `2 merged` | Feedback-dialog restore after secret confirmation; explicit adapter call-time options |
@@ -361,7 +359,7 @@ Delivered a 41-file bilingual civic-data package for repository intake <a href="
 </details>
 
 <details>
-  <summary><strong>🤖 AI agent systems · 19 open PRs</strong></summary>
+  <summary><strong>🤖 AI agent systems · 18 open PRs</strong></summary>
 
   - [TencentCloud/TencentDB-Agent-Memory#1383](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1383): terminate the Gateway process tree on Windows.
   - [TencentCloud/TencentDB-Agent-Memory#1272](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1272): emit local-time ISO 8601 timestamps from the knowledge logger.
@@ -377,7 +375,6 @@ Delivered a 41-file bilingual civic-data package for repository intake <a href="
   - [bytedance/UI-TARS-desktop#1958](https://github.com/bytedance/UI-TARS-desktop/pull/1958): await asynchronous ADB device actions.
   - [bytedance/UI-TARS-desktop#1957](https://github.com/bytedance/UI-TARS-desktop/pull/1957): release the exclusive slot when agent-server stream startup fails.
   - [QwenLM/qwen-code#12484](https://github.com/QwenLM/qwen-code/pull/12484): explain discontinued qwen-oauth typed model selections.
-  - [QwenLM/qwen-code#12227](https://github.com/QwenLM/qwen-code/pull/12227): preserve activity state during slash dispatch.
   - [QwenLM/qwen-code#11794](https://github.com/QwenLM/qwen-code/pull/11794): honor the configured output language in stateless generation.
   - [QwenLM/qwen-code#10580](https://github.com/QwenLM/qwen-code/pull/10580): localize untitled session search in the VS Code integration.
   - [Tencent/WeKnora#3592](https://github.com/Tencent/WeKnora/pull/3592): prevent large spreadsheet preview crashes.
@@ -600,8 +597,8 @@ Delivered a 41-file bilingual civic-data package for repository intake <a href="
 
 ## 📈 GitHub activity
 
-<details open>
-<summary>View trophies, contribution streak, and calendar</summary>
+<details>
+<summary>Contribution calendars, streak and trophies</summary>
 
 <p align="center">
   <picture class="trophy-card">
@@ -627,8 +624,6 @@ Delivered a 41-file bilingual civic-data package for repository intake <a href="
   </picture>
 </p>
 
-</details>
-
 <p align="center">
   <picture class="contribution-snake">
     <source class="contribution-snake-source" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dvd233/dvd233/output/github-contribution-grid-snake-dark.svg">
@@ -636,6 +631,8 @@ Delivered a 41-file bilingual civic-data package for repository intake <a href="
     <img class="contribution-snake" src="assets/spectral-snake-fallback.svg" width="100%" alt="Animated GitHub contribution snake generated from dvd233's public contribution calendar, with theme-aware spectral colors.">
   </picture>
 </p>
+
+</details>
 
 <p align="center">
   <picture><source media="(max-width: 650px)" srcset="assets/footer-compact.svg"><img class="footer-card" src="assets/footer-card.svg" width="100%" alt="Animated spectral trace on a graduated 400 to 700 nanometre axis."></picture>

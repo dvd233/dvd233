@@ -1,46 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="280" height="190" viewBox="-3 0 280 190" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" id="motion" width="280" height="208" viewBox="-3 0 280 208" role="img" aria-labelledby="title desc">
   <title id="title">Tencent/WeKnora #3228</title>
-  <desc id="desc">WeKnora preserves numeric rows and their label–value pairs in PDFs. Filter numeric text only when context identifies a page number or chart label. Merged PR 3228. The star count belongs to the upstream repository.</desc>
+  <desc id="desc">A PDF Quantity field contains four standalone values: 124, 237, 68 and 91. The parser retains all four after cleanup. Layout helps identify removable page numbers and chart labels. Merged PR 3228. The star count belongs to the upstream repository.</desc>
   <style>
-    text { font-family:system-ui,-apple-system,'Segoe UI',sans-serif; }
-    .micro,.val,.ticket,.stars {font-family:ui-monospace,Consolas,'Liberation Mono',monospace}
-    .micro {font-size:11.5px}.val {font-size:12.5px}.ticket {font-size:13px}.stars {font-size:12px;font-weight:600}
-
-    .signal{opacity:0;animation:arrival 9s ease-out infinite;animation-delay:var(--phase,0s)}
-    @keyframes arrival{0%,46%,94%,100%{opacity:0}59%{opacity:.52}79%{opacity:.25}}
-    </style>
+    text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+    .micro, .val, .ticket, .stars { font-family: ui-monospace, Consolas, 'Liberation Mono', monospace; }
+    .micro { font-size: 11.5px; }
+    .val { font-size: 15px; font-variant-numeric: tabular-nums; }
+    .ticket { font-size: 13px; }
+    .stars { font-size: 12px; font-weight: 600; }
+    .trace, .signal { opacity: 0; }
+    #motion:target .trace { stroke-dasharray: 9 40; animation: transfer 6s ease-out infinite; }
+    #motion:target .signal { animation: confirm 6s ease-out var(--phase) infinite; }
+    #motion:target .input-cell { animation: select-cell 6s ease-out var(--phase) infinite; }
+    @keyframes select-cell {
+      0%, 9%, 37%, 100% { opacity: 0; }
+      16%, 26% { opacity: .85; }
+    }
+    @keyframes transfer {
+      0%, 8% { opacity: 0; stroke-dashoffset: 9; }
+      13% { opacity: 1; }
+      26%, 100% { opacity: 0; stroke-dashoffset: -32; }
+    }
+    @keyframes confirm {
+      0%, 20%, 52%, 100% { opacity: 0; }
+      28%, 34% { opacity: .75; }
+    }
+  </style>
   <defs>
     <linearGradient id="ink-weknora" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1c3030"/><stop offset="1" stop-color="#10161d"/></linearGradient>
     <linearGradient id="gilt" x1="0" y1="0" x2=".65" y2="1"><stop stop-color="#fff1ba"/><stop offset=".53" stop-color="#f3c66e"/><stop offset="1" stop-color="#d79b48"/></linearGradient>
     <path id="star" d="m8 .8 2.05 4.34 4.76 .64-3.48 3.36 .85 4.82L8 11.6 3.82 13.96l.85-4.82L1.2 5.78l4.75-.64z"/>
     <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".55" fill="#adbbc0"/></pattern>
   </defs>
-  <g>
-    <rect x=".6" y=".6" width="272.8" height="188.8" rx="10" fill="url(#ink-weknora)" stroke="#47525d" stroke-width="1.2"/>
-    <path d="M15 35h244" stroke="#48515e" opacity=".62"/>
-    <rect x="15" y="39" width="244" height="59" fill="url(#dots)" opacity=".21"/>
-    <text x="15" y="25" fill="#f0f3f2" font-size="17.5" font-weight="650">WeKnora</text>
-    <rect x="192" y="8.5" width="67" height="21" rx="10.5" fill="#292920" stroke="#826b43" stroke-opacity=".65"/>
-    <use href="#star" transform="translate(198 12) scale(.82)" fill="url(#gilt)"/>
-    <text x="253" y="23.5" text-anchor="end" class="stars" fill="#fbe4a6"><!--stars:Tencent/WeKnora-->38.2k<!--/stars--></text>
-    <g aria-hidden="true">
-  <rect x="18" y="42" width="89" height="54" rx="3" fill="#142b2f" stroke="#547f7e"/>
-  <path d="M19 59h87M19 76h87M65 59v37" stroke="#365357"/>
-  <text x="25" y="55" class="micro" fill="#c8e6db">Quantity</text>
-  <g fill="#d8eee6" class="val"><text x="73" y="72">124</text><text x="73" y="90">237</text></g>
-  <path d="M28 67h27M28 85h19" stroke="#708d8c" stroke-width="2"/>
-  <path d="M110 68h32l12-12h21M142 68l12 15h21" fill="none" stroke="#62ab9e" stroke-width="1.7"/>
-  <rect x="178" y="46" width="65" height="20" rx="3" fill="#193531" stroke="#4d8071"/>
-  <rect x="178" y="73" width="65" height="20" rx="3" fill="#193531" stroke="#4d8071"/>
-  <g class="val" fill="#c4f5d7"><text x="190" y="60">124</text><text x="190" y="87">237</text></g>
-  <g fill="none" stroke="#9de2cc" stroke-width="1.5" stroke-linecap="round"><path d="m226 56 2 2 4-5"/><path d="m226 83 2 2 4-5"/></g>
-
-<rect x="178" y="46" width="65" height="20" rx="3" fill="none" stroke="#9ce7ce" stroke-width="1.4" class="signal" style="--phase:0s"/><rect x="178" y="73" width="65" height="20" rx="3" fill="none" stroke="#9ce7ce" stroke-width="1.4" class="signal" style="--phase:1.0s"/></g>
-    <path d="M15 105h244" stroke="#47515b" opacity=".69"/>
-    <text x="15" y="126" fill="#eef2ef" font-size="16" font-weight="610">Keep all four PDF quantities</text>
-    <text x="15" y="145" font-size="15.5" fill="#cedad6" class="decision">124 · 237 · 68 · 91</text>
-    <text x="15" y="162" font-size="15.5" fill="#cedad6" class="decision">Use layout to filter page labels.</text>
-    <text x="15" y="181" class="ticket" fill="#9fdbc4">PDF extraction</text>
-    <text x="259" y="181" text-anchor="end" class="ticket" fill="#d2d9da">#3228 ↗</text>
+  <rect x=".6" y=".6" width="272.8" height="206.8" rx="10" fill="url(#ink-weknora)" stroke="#47525d" stroke-width="1.2"/>
+  <path d="M15 35h244" stroke="#48515e" opacity=".62"/>
+  <rect x="15" y="39" width="244" height="77" fill="url(#dots)" opacity=".21"/>
+  <text x="15" y="25" fill="#f0f3f2" font-size="17.5" font-weight="650">WeKnora</text>
+  <rect x="192" y="8.5" width="67" height="21" rx="10.5" fill="#292920" stroke="#826b43" stroke-opacity=".65"/>
+  <use href="#star" transform="translate(198 12) scale(.82)" fill="url(#gilt)"/>
+  <text x="253" y="23.5" text-anchor="end" class="stars" fill="#fbe4a6"><!--stars:Tencent/WeKnora-->38.2k<!--/stars--></text>
+  <g aria-hidden="true">
+    <text x="18" y="52" class="micro" fill="#c8e6db">Quantity</text>
+    <rect x="18" y="60" width="94" height="49" rx="4" fill="#142b2f" stroke="#547f7e"/>
+    <path d="M65 60v49 M18 84.5h94" stroke="#365357"/>
+    <g fill="#24463e" stroke="#a4eccb" stroke-width="1.3">
+      <rect class="input-cell" opacity="0" style="--phase:0s" x="19" y="61" width="45" height="23" rx="2"/>
+      <rect class="input-cell" opacity="0" style="--phase:.14s" x="66" y="61" width="45" height="23" rx="2"/>
+      <rect class="input-cell" opacity="0" style="--phase:.28s" x="19" y="85.5" width="45" height="22.5" rx="2"/>
+      <rect class="input-cell" opacity="0" style="--phase:.42s" x="66" y="85.5" width="45" height="22.5" rx="2"/>
+    </g>
+    <g class="val" fill="#dbebe5" text-anchor="middle">
+      <text x="41.5" y="77.5">124</text><text x="88.5" y="77.5">237</text>
+      <text x="41.5" y="102">68</text><text x="88.5" y="102">91</text>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M119 84.5h34m-4-4 4 4-4 4" stroke="#72ad9d" stroke-width="1.6"/>
+      <path class="trace" d="M119 84.5h34" stroke="#c0f3da" stroke-width="2.2"/>
+    </g>
+    <text x="162" y="52" class="micro" fill="#bde9d5">Extracted</text>
+    <g fill="#193531" stroke="#4d8071">
+      <rect x="162" y="60" width="43" height="23" rx="3"/><rect x="212" y="60" width="43" height="23" rx="3"/>
+      <rect x="162" y="86" width="43" height="23" rx="3"/><rect x="212" y="86" width="43" height="23" rx="3"/>
+    </g>
+    <g class="val" fill="#c4f5d7" text-anchor="middle">
+      <text x="183.5" y="77">124</text><text x="233.5" y="77">237</text>
+      <text x="183.5" y="103">68</text><text x="233.5" y="103">91</text>
+    </g>
+    <g fill="none" stroke="#a4eccb" stroke-width="1.5">
+      <rect class="signal" style="--phase:0s" x="162" y="60" width="43" height="23" rx="3"/>
+      <rect class="signal" style="--phase:.14s" x="212" y="60" width="43" height="23" rx="3"/>
+      <rect class="signal" style="--phase:.28s" x="162" y="86" width="43" height="23" rx="3"/>
+      <rect class="signal" style="--phase:.42s" x="212" y="86" width="43" height="23" rx="3"/>
+    </g>
   </g>
-  </svg>
+  <path d="M15 123h244" stroke="#47515b" opacity=".69"/>
+  <text x="15" y="144" fill="#eef2ef" font-size="16" font-weight="610">Keep all four PDF quantities</text>
+  <text x="15" y="163" font-size="15.5" fill="#cedad6">Use layout to identify page</text>
+  <text x="15" y="180" font-size="15.5" fill="#cedad6">numbers and chart labels.</text>
+  <text x="15" y="199" class="ticket" fill="#9fdbc4">PDF extraction</text>
+  <text x="259" y="199" text-anchor="end" class="ticket" fill="#d2d9da">#3228 ↗</text>
+</svg>
