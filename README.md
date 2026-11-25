@@ -1,10 +1,14 @@
-<p><a name="dvd--ai-full-stack-engineer"></a>Hello, I’m <strong>dvd</strong>, an <strong>AI Full-Stack Engineer</strong>.</p>
+<h1 align="center">
+  <a name="dvd--ai-full-stack-engineer"></a>
+  <picture>
+    <source media="(max-width: 900px)" srcset="assets/spectral-intro-compact.svg">
+    <img src="assets/spectral-intro.svg" width="100%" alt="Hello, I’m dvd · AI Full-Stack Engineer">
+  </picture>
+</h1>
 
 <p>
   <a href="https://cdn.jsdelivr.net/gh/dvd233/dvd233@23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4">
     <picture>
-      <source media="(max-width: 767px) and (prefers-reduced-motion: reduce)" srcset="assets/spectral-film-mobile-still.webp">
-      <source media="(prefers-reduced-motion: reduce)" srcset="assets/spectral-film-still.webp">
       <source media="(max-width: 767px)" srcset="assets/spectral-film-mobile.webp">
       <img src="assets/spectral-film.webp" width="100%" alt="Play the hyperspectral reconstruction demo. A camera frame, 30 reconstructed bands and a plot of the selected pixel’s spectrum.">
     </picture>
@@ -18,7 +22,7 @@ The desktop app reconstructs 30 spectral bands from a camera frame. Selecting a 
 
 I was responsible for the lightweight reconstruction model and dataset. I also built the desktop modules for camera capture, the interface, spectral plots and saving results. The demo shows an earlier private prototype. Its code and data remain private.
 
-<details>
+<details open>
 <summary>Animation and download</summary>
 
 [GitHub animation · 23.4 MiB](https://github.com/dvd233/dvd233/blob/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-loop.webp) · [Download MP4 · 3.45 MiB](https://github.com/dvd233/dvd233/raw/23d05a9d5212d37684a810c4c28137d881070098/assets/demo-sanitized-1080p60-muted.mp4) (1080p, 60 fps)
@@ -27,28 +31,23 @@ I was responsible for the lightweight reconstruction model and dataset. I also b
 
 ## Selected engineering work
 
+<p align="center">
+  <a href="https://github.com/QwenLM/qwen-code/pull/11300"><img src="assets/case-qwen.svg#motion" width="272" alt="Qwen Code keeps hook-created commits on rollback. Delete the newly created branch only if its tip still matches the starting commit. Merged PR 11300."></a>
+  <a href="https://github.com/Tencent/WeKnora/pull/3228"><img src="assets/case-weknora.svg#motion" width="272" alt="WeKnora keeps all four PDF quantities (124, 237, 68 and 91). Layout distinguishes these values from page numbers and chart labels. Merged PR 3228."></a>
+  <a href="https://github.com/volcengine/OpenViking/pull/5318"><img src="assets/case-openviking.svg#motion" width="272" alt="OpenViking writes new memory injections with the producer-owned plugin:openviking-memory source kind. Replay still recognizes the legacy OpenViking plugin tag. Merged AI-generated PR 5318."></a>
+</p>
+
 - **[Qwen Code · Git rollback](https://github.com/QwenLM/qwen-code/pull/11300)** — A checkout hook can make a commit and then fail. Rollback now keeps the new branch if its tip moved, so the commit stays reachable.
 - **[WeKnora · PDF extraction](https://github.com/Tencent/WeKnora/pull/3228)** — The PDF parser kept a quantity heading but discarded all four values beneath it. It now keeps those rows and uses the surrounding layout to identify page numbers and chart labels.
 - **[OpenViking · Agent memory](https://github.com/volcengine/OpenViking/pull/5318)** — DeepSeek Harness rejected the old memory tag before it could save a turn. The plugin now writes its own source tag and still recognizes the legacy tag when replaying older sessions. This merged PR was AI-generated.
 
 [Explore merged contributions across 24 selected projects](#user-content-selected-projects)
 
-<details>
-<summary>Diagrams for the three fixes</summary>
-
-<p align="center">
-  <a href="https://github.com/QwenLM/qwen-code/pull/11300"><picture><source media="(prefers-reduced-motion: no-preference)" srcset="assets/case-qwen.svg#motion"><img src="assets/case-qwen.svg" width="272" alt="Qwen Code keeps hook-created commits on rollback. Delete the newly created branch only if its tip still matches the starting commit. Merged PR 11300."></picture></a>
-  <a href="https://github.com/Tencent/WeKnora/pull/3228"><picture><source media="(prefers-reduced-motion: no-preference)" srcset="assets/case-weknora.svg#motion"><img src="assets/case-weknora.svg" width="272" alt="WeKnora keeps all four PDF quantities (124, 237, 68 and 91). Layout distinguishes these values from page numbers and chart labels. Merged PR 3228."></picture></a>
-  <a href="https://github.com/volcengine/OpenViking/pull/5318"><picture><source media="(prefers-reduced-motion: no-preference)" srcset="assets/case-openviking.svg#motion"><img src="assets/case-openviking.svg" width="272" alt="OpenViking writes new memory injections with the producer-owned plugin:openviking-memory source kind. Replay still recognizes the legacy OpenViking plugin tag. Merged AI-generated PR 5318."></picture></a>
-</p>
-
-</details>
-
 ## Tech stack
 
 **[Ant Design X · Request lifecycle](https://github.com/ant-design/x/pull/2066)** — An HTTP 200 response can still report a business error. The SDK now ends the failed request while keeping the loading state of any newer request intact.
 
-<details>
+<details open>
 <summary>React and TypeScript · Python and PyTorch · Node.js and PostgreSQL · Rust and Tauri</summary>
 
 <p align="center">
@@ -57,7 +56,7 @@ I was responsible for the lightweight reconstruction model and dataset. I also b
 
 </details>
 
-<details>
+<details open>
 <summary>AI development tools (8)</summary>
 
 <p align="center">
@@ -597,7 +596,7 @@ Delivered a 41-file bilingual civic-data package for repository intake <a href="
 
 ## 📈 GitHub activity
 
-<details>
+<details open>
 <summary>Contribution calendars, streak and trophies</summary>
 
 <p align="center">

@@ -11,6 +11,8 @@ on:
 permissions:
   contents: write
 
+concurrency: contribution-snake-output
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -29,5 +31,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output
           publish_dir: ./dist
-          force_orphan: true
           keep_files: false
