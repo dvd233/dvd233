@@ -80,7 +80,7 @@ I contribute fixes and features focused on agent interoperability, reliable deve
 
 <sub>⭐ opens the upstream repository, where GitHub displays its current star count.</sub>
 
-<p>💬 <a href="https://github.com/QwenLM/qwen-code" title="QwenLM/qwen-code"><img src="assets/project/qwenlm--qwen-code.svg" width="173" height="26" align="absmiddle" alt="QwenLM/qwen-code"></a> &nbsp;<a href="https://github.com/QwenLM/qwen-code" title="Upstream stars for QwenLM/qwen-code"><kbd>⭐ <!--stars:QwenLM/qwen-code-->30.9k<!--/stars--></kbd></a><br>
+<p>💬 <a href="https://github.com/QwenLM/qwen-code" title="QwenLM/qwen-code"><img src="assets/project/qwenlm--qwen-code.svg" width="173" height="26" align="absmiddle" alt="QwenLM/qwen-code"></a> &nbsp;<a href="https://github.com/QwenLM/qwen-code" title="Upstream stars for QwenLM/qwen-code"><kbd>⭐ <!--stars:QwenLM/qwen-code-->31.0k<!--/stars--></kbd></a><br>
 Kept hook-created commits reachable after a failed checkout <a href="https://github.com/QwenLM/qwen-code/pull/11300" title="QwenLM/qwen-code#11300"><kbd>#11300</kbd></a>.</p>
 
 <details>
@@ -96,7 +96,7 @@ Kept hook-created commits reachable after a failed checkout <a href="https://git
 
 </details>
 
-<p>📖 <a href="https://github.com/Tencent/WeKnora" title="Tencent/WeKnora"><img src="assets/project/tencent--weknora.svg" width="150" height="26" align="absmiddle" alt="Tencent/WeKnora"></a> &nbsp;<a href="https://github.com/Tencent/WeKnora" title="Upstream stars for Tencent/WeKnora"><kbd>⭐ <!--stars:Tencent/WeKnora-->38.2k<!--/stars--></kbd></a><br>
+<p>📖 <a href="https://github.com/Tencent/WeKnora" title="Tencent/WeKnora"><img src="assets/project/tencent--weknora.svg" width="150" height="26" align="absmiddle" alt="Tencent/WeKnora"></a> &nbsp;<a href="https://github.com/Tencent/WeKnora" title="Upstream stars for Tencent/WeKnora"><kbd>⭐ <!--stars:Tencent/WeKnora-->38.3k<!--/stars--></kbd></a><br>
 Fixed PDF text extraction that dropped all four values in a quantity column <a href="https://github.com/Tencent/WeKnora/pull/3228" title="Tencent/WeKnora#3228"><kbd>#3228</kbd></a>.</p>
 
 <details>
@@ -112,7 +112,7 @@ Fixed PDF text extraction that dropped all four values in a quantity column <a h
 
 </details>
 
-<p>🧠 <a href="https://github.com/volcengine/OpenViking" title="volcengine/OpenViking"><img src="assets/project/volcengine--openviking.svg" width="189" height="26" align="absmiddle" alt="volcengine/OpenViking"></a> &nbsp;<a href="https://github.com/volcengine/OpenViking" title="Upstream stars for volcengine/OpenViking"><kbd>⭐ <!--stars:volcengine/OpenViking-->42.7k<!--/stars--></kbd></a><br>
+<p>🧠 <a href="https://github.com/volcengine/OpenViking" title="volcengine/OpenViking"><img src="assets/project/volcengine--openviking.svg" width="189" height="26" align="absmiddle" alt="volcengine/OpenViking"></a> &nbsp;<a href="https://github.com/volcengine/OpenViking" title="Upstream stars for volcengine/OpenViking"><kbd>⭐ <!--stars:volcengine/OpenViking-->42.8k<!--/stars--></kbd></a><br>
 An AI-generated fix restored DeepSeek Harness memory injection with legacy replay support <a href="https://github.com/volcengine/OpenViking/pull/5318" title="volcengine/OpenViking#5318"><kbd>#5318</kbd></a>.</p>
 
 <details>
@@ -125,7 +125,7 @@ An AI-generated fix restored DeepSeek Harness memory injection with legacy repla
 
 </details>
 
-<p>🔍 <a href="https://github.com/alibaba/open-code-review" title="alibaba/open-code-review"><img src="assets/project/alibaba--open-code-review.svg" width="213" height="26" align="absmiddle" alt="alibaba/open-code-review"></a> &nbsp;<a href="https://github.com/alibaba/open-code-review" title="Upstream stars for alibaba/open-code-review"><kbd>⭐ <!--stars:alibaba/open-code-review-->56.2k<!--/stars--></kbd></a><br>
+<p>🔍 <a href="https://github.com/alibaba/open-code-review" title="alibaba/open-code-review"><img src="assets/project/alibaba--open-code-review.svg" width="213" height="26" align="absmiddle" alt="alibaba/open-code-review"></a> &nbsp;<a href="https://github.com/alibaba/open-code-review" title="Upstream stars for alibaba/open-code-review"><kbd>⭐ <!--stars:alibaba/open-code-review-->56.5k<!--/stars--></kbd></a><br>
 Kept interrupted writes from truncating existing reports <a href="https://github.com/alibaba/open-code-review/pull/1160" title="alibaba/open-code-review#1160"><kbd>#1160</kbd></a>.</p>
 
 <details>
@@ -155,7 +155,7 @@ Protected local edits when pushing to an explicit team branch <a href="https://g
 
 </details>
 
-<p>🤖 <a href="https://github.com/agentscope-ai/agentscope" title="agentscope-ai/agentscope"><img src="assets/project/agentscope-ai--agentscope.svg" width="207" height="26" align="absmiddle" alt="agentscope-ai/agentscope"></a> &nbsp;<a href="https://github.com/agentscope-ai/agentscope" title="Upstream stars for agentscope-ai/agentscope"><kbd>⭐ <!--stars:agentscope-ai/agentscope-->36.7k<!--/stars--></kbd></a><br>
+<p>🤖 <a href="https://github.com/agentscope-ai/agentscope" title="agentscope-ai/agentscope"><img src="assets/project/agentscope-ai--agentscope.svg" width="207" height="26" align="absmiddle" alt="agentscope-ai/agentscope"></a> &nbsp;<a href="https://github.com/agentscope-ai/agentscope" title="Upstream stars for agentscope-ai/agentscope"><kbd>⭐ <!--stars:agentscope-ai/agentscope-->36.8k<!--/stars--></kbd></a><br>
 Preserved tool data-block IDs when replay merged streamed Base64 chunks <a href="https://github.com/agentscope-ai/agentscope/pull/2551" title="agentscope-ai/agentscope#2551"><kbd>#2551</kbd></a>.</p>
 
 <details>
@@ -185,7 +185,7 @@ Emitted a stylesheet for every mini-program page sharing a CSS asset <a href="ht
 
 </details>
 
-<p>🧪 <a href="https://github.com/PKU-YuanGroup/OpenAI4S/pull/216" title="PKU-YuanGroup/OpenAI4S#216"><img src="assets/project/pku-yuangroup--openai4s.svg" width="240" height="26" align="absmiddle" alt="PKU-YuanGroup/OpenAI4S#216"></a> &nbsp;<a href="https://github.com/PKU-YuanGroup/OpenAI4S" title="Upstream stars for PKU-YuanGroup/OpenAI4S"><kbd>⭐ <!--stars:PKU-YuanGroup/OpenAI4S-->672<!--/stars--></kbd></a><br>
+<p>🧪 <a href="https://github.com/PKU-YuanGroup/OpenAI4S/pull/216" title="PKU-YuanGroup/OpenAI4S#216"><img src="assets/project/pku-yuangroup--openai4s.svg" width="240" height="26" align="absmiddle" alt="PKU-YuanGroup/OpenAI4S#216"></a> &nbsp;<a href="https://github.com/PKU-YuanGroup/OpenAI4S" title="Upstream stars for PKU-YuanGroup/OpenAI4S"><kbd>⭐ <!--stars:PKU-YuanGroup/OpenAI4S-->673<!--/stars--></kbd></a><br>
 Prevented stale execution-history responses from replacing newer cells through per-frame request ownership, with unit and browser regression coverage.</p>
 
 <p>📊 <a href="https://github.com/grafana/grafana-pathfinder-app" title="grafana/grafana-pathfinder-app"><img src="assets/project/grafana--grafana-pathfinder-app.svg" width="254" height="26" align="absmiddle" alt="grafana/grafana-pathfinder-app"></a> &nbsp;<a href="https://github.com/grafana/grafana-pathfinder-app" title="Upstream stars for grafana/grafana-pathfinder-app"><kbd>⭐ <!--stars:grafana/grafana-pathfinder-app-->23<!--/stars--></kbd></a><br>
@@ -250,7 +250,7 @@ Kept TreeSelect values in sync when users removed tags in all-value mode <a href
 
 </details>
 
-<p>🎚️ <a href="https://github.com/Tencent/tdesign-react/pull/4425" title="Tencent/tdesign-react#4425"><img src="assets/project/tencent--tdesign-react.svg" width="219" height="26" align="absmiddle" alt="Tencent/tdesign-react#4425"></a> &nbsp;<a href="https://github.com/Tencent/tdesign-react" title="Upstream stars for Tencent/tdesign-react"><kbd>⭐ <!--stars:Tencent/tdesign-react-->980<!--/stars--></kbd></a><br>
+<p>🎚️ <a href="https://github.com/Tencent/tdesign-react/pull/4425" title="Tencent/tdesign-react#4425"><img src="assets/project/tencent--tdesign-react.svg" width="219" height="26" align="absmiddle" alt="Tencent/tdesign-react#4425"></a> &nbsp;<a href="https://github.com/Tencent/tdesign-react" title="Upstream stars for Tencent/tdesign-react"><kbd>⭐ <!--stars:Tencent/tdesign-react-->981<!--/stars--></kbd></a><br>
 Restored two-handle Slider interactions for empty range values, preserving controlled behavior and scalar callbacks for explicit numeric inputs, with interaction regression tests.</p>
 
 <p>🧩 <a href="https://github.com/Tencent/wujie" title="Tencent/wujie"><img src="assets/project/tencent--wujie.svg" width="122" height="26" align="absmiddle" alt="Tencent/wujie"></a> &nbsp;<a href="https://github.com/Tencent/wujie" title="Upstream stars for Tencent/wujie"><kbd>⭐ <!--stars:Tencent/wujie-->5.1k<!--/stars--></kbd></a><br>
@@ -283,7 +283,7 @@ Prevented late image callbacks from updating a destroyed previewer <a href="http
 <p>📦 <a href="https://github.com/pnpm/pnpm/pull/14708" title="pnpm/pnpm#14708"><img src="assets/project/pnpm--pnpm.svg" width="161" height="26" align="absmiddle" alt="pnpm/pnpm#14708"></a> &nbsp;<a href="https://github.com/pnpm/pnpm" title="Upstream stars for pnpm/pnpm"><kbd>⭐ <!--stars:pnpm/pnpm-->37.2k<!--/stars--></kbd></a><br>
 Stopped emitting empty package authors in SBOM documents.</p>
 
-<p>⚡ <a href="https://github.com/chakra-ui/chakra-ui/pull/10979" title="chakra-ui/chakra-ui#10979"><img src="assets/project/chakra-ui--chakra-ui.svg" width="207" height="26" align="absmiddle" alt="chakra-ui/chakra-ui#10979"></a> &nbsp;<a href="https://github.com/chakra-ui/chakra-ui" title="Upstream stars for chakra-ui/chakra-ui"><kbd>⭐ <!--stars:chakra-ui/chakra-ui-->40.7k<!--/stars--></kbd></a><br>
+<p>⚡ <a href="https://github.com/chakra-ui/chakra-ui/pull/10979" title="chakra-ui/chakra-ui#10979"><img src="assets/project/chakra-ui--chakra-ui.svg" width="207" height="26" align="absmiddle" alt="chakra-ui/chakra-ui#10979"></a> &nbsp;<a href="https://github.com/chakra-ui/chakra-ui" title="Upstream stars for chakra-ui/chakra-ui"><kbd>⭐ <!--stars:chakra-ui/chakra-ui-->40.8k<!--/stars--></kbd></a><br>
 Gave the file-upload delete trigger a proper disabled style.</p>
 
 <p>🐜 <a href="https://github.com/ant-design/ant-design/pull/59173" title="ant-design/ant-design#59173"><img src="assets/project/ant-design--ant-design.svg" width="226" height="26" align="absmiddle" alt="ant-design/ant-design#59173"></a> &nbsp;<a href="https://github.com/ant-design/ant-design" title="Upstream stars for ant-design/ant-design"><kbd>⭐ <!--stars:ant-design/ant-design-->100.4k<!--/stars--></kbd></a><br>
@@ -418,63 +418,63 @@ Delivered a 41-file bilingual civic-data package for repository intake <a href="
 |:---|:---:|:---:|:---:|:---:|
 | [`grafana/grafana-pathfinder-app`](https://github.com/grafana/grafana-pathfinder-app) | 23 | 31 | 31 | 0 |
 | [`open-city-ai/haidian`](https://github.com/open-city-ai/haidian) | 418 | 28 | 27 | 0 |
-| [`Tencent/teamai-cli`](https://github.com/Tencent/teamai-cli) | 5930 | 11 | 9 | 0 |
-| [`PKU-YuanGroup/OpenAI4S`](https://github.com/PKU-YuanGroup/OpenAI4S) | 672 | 10 | 9 | 0 |
-| [`NervJS/taro`](https://github.com/NervJS/taro) | 37763 | 8 | 8 | 0 |
-| [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) | 30933 | 12 | 8 | 3 |
-| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 38202 | 11 | 6 | 2 |
-| [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 56224 | 6 | 5 | 0 |
+| [`Tencent/teamai-cli`](https://github.com/Tencent/teamai-cli) | 5942 | 11 | 9 | 0 |
+| [`PKU-YuanGroup/OpenAI4S`](https://github.com/PKU-YuanGroup/OpenAI4S) | 673 | 10 | 9 | 0 |
+| [`NervJS/taro`](https://github.com/NervJS/taro) | 37765 | 8 | 8 | 0 |
+| [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) | 30951 | 12 | 8 | 3 |
+| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 38275 | 11 | 6 | 2 |
+| [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) | 56486 | 6 | 5 | 0 |
 | [`Tencent/tdesign-vue-next`](https://github.com/Tencent/tdesign-vue-next) | 2212 | 5 | 4 | 1 |
 | [`michaelegner/architecture-intelligence-platform`](https://github.com/michaelegner/architecture-intelligence-platform) | 9 | 4 | 4 | 0 |
-| [`volcengine/OpenViking`](https://github.com/volcengine/OpenViking) | 42747 | 5 | 3 | 1 |
+| [`volcengine/OpenViking`](https://github.com/volcengine/OpenViking) | 42844 | 5 | 3 | 1 |
 | [`alibaba/hooks`](https://github.com/alibaba/hooks) | 14988 | 4 | 3 | 1 |
 | [`web-infra-dev/rsdoctor`](https://github.com/web-infra-dev/rsdoctor) | 1152 | 3 | 3 | 0 |
-| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 36701 | 3 | 2 | 0 |
-| [`Tencent/omi`](https://github.com/Tencent/omi) | 13285 | 2 | 2 | 0 |
-| [`antvis/G2`](https://github.com/antvis/G2) | 12675 | 2 | 2 | 0 |
-| [`wxt-dev/wxt`](https://github.com/wxt-dev/wxt) | 10776 | 3 | 2 | 1 |
-| [`bytedance/xgplayer`](https://github.com/bytedance/xgplayer) | 9317 | 4 | 2 | 0 |
-| [`bytedance/flowgram.ai`](https://github.com/bytedance/flowgram.ai) | 8621 | 4 | 2 | 2 |
-| [`nuxt/ui`](https://github.com/nuxt/ui) | 7101 | 2 | 2 | 0 |
+| [`agentscope-ai/agentscope`](https://github.com/agentscope-ai/agentscope) | 36753 | 3 | 2 | 0 |
+| [`Tencent/omi`](https://github.com/Tencent/omi) | 13284 | 2 | 2 | 0 |
+| [`antvis/G2`](https://github.com/antvis/G2) | 12677 | 2 | 2 | 0 |
+| [`wxt-dev/wxt`](https://github.com/wxt-dev/wxt) | 10779 | 3 | 2 | 1 |
+| [`bytedance/xgplayer`](https://github.com/bytedance/xgplayer) | 9318 | 4 | 2 | 0 |
+| [`bytedance/flowgram.ai`](https://github.com/bytedance/flowgram.ai) | 8622 | 4 | 2 | 2 |
+| [`nuxt/ui`](https://github.com/nuxt/ui) | 7104 | 2 | 2 | 0 |
 | [`Tencent/wujie`](https://github.com/Tencent/wujie) | 5067 | 2 | 2 | 0 |
-| [`Tencent/cherry-markdown`](https://github.com/Tencent/cherry-markdown) | 4936 | 2 | 2 | 0 |
-| [`snapotter-hq/SnapOtter`](https://github.com/snapotter-hq/SnapOtter) | 3010 | 2 | 2 | 0 |
-| [`reticlehq/reticle`](https://github.com/reticlehq/reticle) | 1332 | 2 | 2 | 0 |
+| [`Tencent/cherry-markdown`](https://github.com/Tencent/cherry-markdown) | 4937 | 2 | 2 | 0 |
+| [`snapotter-hq/SnapOtter`](https://github.com/snapotter-hq/SnapOtter) | 3012 | 2 | 2 | 0 |
+| [`reticlehq/reticle`](https://github.com/reticlehq/reticle) | 1333 | 2 | 2 | 0 |
 | [`Tencent/tdesign-common`](https://github.com/Tencent/tdesign-common) | 195 | 2 | 2 | 0 |
-| [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 100373 | 1 | 1 | 0 |
-| [`mui/material-ui`](https://github.com/mui/material-ui) | 99394 | 1 | 1 | 0 |
-| [`storybookjs/storybook`](https://github.com/storybookjs/storybook) | 91719 | 4 | 1 | 0 |
-| [`cline/cline`](https://github.com/cline/cline) | 71890 | 1 | 1 | 0 |
-| [`chakra-ui/chakra-ui`](https://github.com/chakra-ui/chakra-ui) | 40748 | 1 | 1 | 0 |
-| [`CopilotKit/CopilotKit`](https://github.com/CopilotKit/CopilotKit) | 38966 | 1 | 1 | 0 |
-| [`pnpm/pnpm`](https://github.com/pnpm/pnpm) | 37160 | 2 | 1 | 0 |
-| [`mantinedev/mantine`](https://github.com/mantinedev/mantine) | 32003 | 1 | 1 | 0 |
-| [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 31171 | 8 | 1 | 5 |
-| [`eslint/eslint`](https://github.com/eslint/eslint) | 27652 | 1 | 1 | 0 |
-| [`youzan/vant`](https://github.com/youzan/vant) | 24427 | 2 | 1 | 1 |
-| [`meta/lexical`](https://github.com/meta/lexical) | 24043 | 2 | 1 | 1 |
+| [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | 100389 | 1 | 1 | 0 |
+| [`mui/material-ui`](https://github.com/mui/material-ui) | 99401 | 1 | 1 | 0 |
+| [`storybookjs/storybook`](https://github.com/storybookjs/storybook) | 91729 | 4 | 1 | 0 |
+| [`cline/cline`](https://github.com/cline/cline) | 71911 | 1 | 1 | 0 |
+| [`chakra-ui/chakra-ui`](https://github.com/chakra-ui/chakra-ui) | 40751 | 1 | 1 | 0 |
+| [`CopilotKit/CopilotKit`](https://github.com/CopilotKit/CopilotKit) | 38986 | 1 | 1 | 0 |
+| [`pnpm/pnpm`](https://github.com/pnpm/pnpm) | 37164 | 2 | 1 | 0 |
+| [`mantinedev/mantine`](https://github.com/mantinedev/mantine) | 32022 | 1 | 1 | 0 |
+| [`TencentCloud/TencentDB-Agent-Memory`](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 31205 | 8 | 1 | 5 |
+| [`eslint/eslint`](https://github.com/eslint/eslint) | 27654 | 1 | 1 | 0 |
+| [`youzan/vant`](https://github.com/youzan/vant) | 24426 | 2 | 1 | 1 |
+| [`meta/lexical`](https://github.com/meta/lexical) | 24047 | 2 | 1 | 1 |
 | [`camsong/You-Dont-Need-jQuery`](https://github.com/camsong/You-Dont-Need-jQuery) | 20122 | 1 | 1 | 0 |
 | [`eggjs/egg`](https://github.com/eggjs/egg) | 18990 | 1 | 1 | 0 |
-| [`langchain-ai/langchainjs`](https://github.com/langchain-ai/langchainjs) | 18366 | 2 | 1 | 1 |
-| [`antvis/G6`](https://github.com/antvis/G6) | 12402 | 3 | 1 | 2 |
-| [`Tencent/BrowserSkill`](https://github.com/Tencent/BrowserSkill) | 10711 | 1 | 1 | 0 |
-| [`DouyinFE/semi-design`](https://github.com/DouyinFE/semi-design) | 10500 | 2 | 1 | 1 |
-| [`gridstack/gridstack.js`](https://github.com/gridstack/gridstack.js) | 9263 | 1 | 1 | 0 |
-| [`dequelabs/axe-core`](https://github.com/dequelabs/axe-core) | 7882 | 1 | 1 | 0 |
-| [`Tencent/AI-Infra-Guard`](https://github.com/Tencent/AI-Infra-Guard) | 7742 | 1 | 1 | 0 |
-| [`kando-menu/kando`](https://github.com/kando-menu/kando) | 6695 | 1 | 1 | 0 |
-| [`conorbronsdon/avoid-ai-writing`](https://github.com/conorbronsdon/avoid-ai-writing) | 6291 | 1 | 1 | 0 |
-| [`callstack/agent-device`](https://github.com/callstack/agent-device) | 5508 | 1 | 1 | 0 |
-| [`tencentmusic/supersonic`](https://github.com/tencentmusic/supersonic) | 5191 | 1 | 1 | 0 |
-| [`microsoft/PyRIT`](https://github.com/microsoft/PyRIT) | 5068 | 1 | 1 | 0 |
-| [`ant-design/x`](https://github.com/ant-design/x) | 4854 | 5 | 1 | 4 |
+| [`langchain-ai/langchainjs`](https://github.com/langchain-ai/langchainjs) | 18370 | 2 | 1 | 1 |
+| [`antvis/G6`](https://github.com/antvis/G6) | 12403 | 3 | 1 | 2 |
+| [`Tencent/BrowserSkill`](https://github.com/Tencent/BrowserSkill) | 10748 | 1 | 1 | 0 |
+| [`DouyinFE/semi-design`](https://github.com/DouyinFE/semi-design) | 10503 | 2 | 1 | 1 |
+| [`gridstack/gridstack.js`](https://github.com/gridstack/gridstack.js) | 9265 | 1 | 1 | 0 |
+| [`dequelabs/axe-core`](https://github.com/dequelabs/axe-core) | 7890 | 1 | 1 | 0 |
+| [`Tencent/AI-Infra-Guard`](https://github.com/Tencent/AI-Infra-Guard) | 7761 | 1 | 1 | 0 |
+| [`kando-menu/kando`](https://github.com/kando-menu/kando) | 6698 | 1 | 1 | 0 |
+| [`conorbronsdon/avoid-ai-writing`](https://github.com/conorbronsdon/avoid-ai-writing) | 6330 | 1 | 1 | 0 |
+| [`callstack/agent-device`](https://github.com/callstack/agent-device) | 5518 | 1 | 1 | 0 |
+| [`tencentmusic/supersonic`](https://github.com/tencentmusic/supersonic) | 5192 | 1 | 1 | 0 |
+| [`microsoft/PyRIT`](https://github.com/microsoft/PyRIT) | 5101 | 1 | 1 | 0 |
+| [`ant-design/x`](https://github.com/ant-design/x) | 4856 | 5 | 1 | 4 |
 | [`crxjs/chrome-extension-tools`](https://github.com/crxjs/chrome-extension-tools) | 4185 | 1 | 1 | 0 |
-| [`Tencent/tdesign-miniprogram`](https://github.com/Tencent/tdesign-miniprogram) | 1804 | 3 | 1 | 0 |
-| [`astral-sh/ruff-vscode`](https://github.com/astral-sh/ruff-vscode) | 1684 | 1 | 1 | 0 |
+| [`Tencent/tdesign-miniprogram`](https://github.com/Tencent/tdesign-miniprogram) | 1805 | 3 | 1 | 0 |
+| [`astral-sh/ruff-vscode`](https://github.com/astral-sh/ruff-vscode) | 1685 | 1 | 1 | 0 |
 | [`add2cal/add-to-calendar-button`](https://github.com/add2cal/add-to-calendar-button) | 1490 | 1 | 1 | 0 |
-| [`libredb/libredb-studio`](https://github.com/libredb/libredb-studio) | 1367 | 1 | 1 | 0 |
-| [`Tencent/tdesign-react`](https://github.com/Tencent/tdesign-react) | 980 | 4 | 1 | 2 |
-| [`PostHog/posthog-js`](https://github.com/PostHog/posthog-js) | 676 | 1 | 1 | 0 |
+| [`libredb/libredb-studio`](https://github.com/libredb/libredb-studio) | 1370 | 1 | 1 | 0 |
+| [`Tencent/tdesign-react`](https://github.com/Tencent/tdesign-react) | 981 | 4 | 1 | 2 |
+| [`PostHog/posthog-js`](https://github.com/PostHog/posthog-js) | 682 | 1 | 1 | 0 |
 | [`Tencent/tdesign-mobile-vue`](https://github.com/Tencent/tdesign-mobile-vue) | 441 | 1 | 1 | 0 |
 | [`OpsiMate/OpsiMate`](https://github.com/OpsiMate/OpsiMate) | 299 | 1 | 1 | 0 |
 | [`VisActor/VRender`](https://github.com/VisActor/VRender) | 264 | 1 | 1 | 0 |
@@ -496,92 +496,92 @@ Delivered a 41-file bilingual civic-data package for repository intake <a href="
 
 | Project | ⭐ | PRs | ✅ Merged | 🚀 Open |
 |:---|:---:|:---:|:---:|:---:|
-| [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop) | 39589 | 9 | 0 | 8 |
-| [`MiniMax-AI/skills`](https://github.com/MiniMax-AI/skills) | 13912 | 5 | 0 | 5 |
-| [`adobe/react-spectrum`](https://github.com/adobe/react-spectrum) | 16066 | 4 | 0 | 4 |
+| [`bytedance/UI-TARS-desktop`](https://github.com/bytedance/UI-TARS-desktop) | 39595 | 9 | 0 | 8 |
+| [`MiniMax-AI/skills`](https://github.com/MiniMax-AI/skills) | 13922 | 5 | 0 | 5 |
+| [`adobe/react-spectrum`](https://github.com/adobe/react-spectrum) | 16071 | 4 | 0 | 4 |
 | [`MiniMax-AI/Mini-Agent`](https://github.com/MiniMax-AI/Mini-Agent) | 3081 | 4 | 0 | 4 |
 | [`MiniMax-AI/MiniMax-MCP-JS`](https://github.com/MiniMax-AI/MiniMax-MCP-JS) | 132 | 4 | 0 | 4 |
-| [`baidu/amis`](https://github.com/baidu/amis) | 18889 | 3 | 0 | 3 |
+| [`baidu/amis`](https://github.com/baidu/amis) | 18891 | 3 | 0 | 3 |
 | [`Tencent/vConsole`](https://github.com/Tencent/vConsole) | 17545 | 3 | 0 | 3 |
-| [`freshframework/fresh`](https://github.com/freshframework/fresh) | 13784 | 3 | 0 | 3 |
-| [`alibaba/formily`](https://github.com/alibaba/formily) | 12589 | 3 | 0 | 3 |
-| [`didi/LogicFlow`](https://github.com/didi/LogicFlow) | 11790 | 3 | 0 | 3 |
-| [`huggingface/chat-ui`](https://github.com/huggingface/chat-ui) | 11054 | 4 | 0 | 3 |
+| [`freshframework/fresh`](https://github.com/freshframework/fresh) | 13783 | 3 | 0 | 3 |
+| [`alibaba/formily`](https://github.com/alibaba/formily) | 12588 | 3 | 0 | 3 |
+| [`didi/LogicFlow`](https://github.com/didi/LogicFlow) | 11789 | 3 | 0 | 3 |
+| [`huggingface/chat-ui`](https://github.com/huggingface/chat-ui) | 11059 | 4 | 0 | 3 |
 | [`ecomfe/zrender`](https://github.com/ecomfe/zrender) | 6313 | 3 | 0 | 3 |
 | [`arco-design/arco-design`](https://github.com/arco-design/arco-design) | 5777 | 3 | 0 | 3 |
 | [`denoland/std`](https://github.com/denoland/std) | 3559 | 3 | 0 | 3 |
-| [`MiniMax-AI/cli`](https://github.com/MiniMax-AI/cli) | 2235 | 6 | 0 | 3 |
-| [`payloadcms/payload`](https://github.com/payloadcms/payload) | 46004 | 2 | 0 | 2 |
-| [`radix-ui/primitives`](https://github.com/radix-ui/primitives) | 19576 | 2 | 0 | 2 |
-| [`TanStack/router`](https://github.com/TanStack/router) | 15363 | 2 | 0 | 2 |
-| [`MoonshotAI/kimi-cli`](https://github.com/MoonshotAI/kimi-cli) | 11398 | 3 | 0 | 2 |
+| [`MiniMax-AI/cli`](https://github.com/MiniMax-AI/cli) | 2238 | 6 | 0 | 3 |
+| [`payloadcms/payload`](https://github.com/payloadcms/payload) | 46018 | 2 | 0 | 2 |
+| [`radix-ui/primitives`](https://github.com/radix-ui/primitives) | 19586 | 2 | 0 | 2 |
+| [`TanStack/router`](https://github.com/TanStack/router) | 15371 | 2 | 0 | 2 |
+| [`MoonshotAI/kimi-cli`](https://github.com/MoonshotAI/kimi-cli) | 11400 | 3 | 0 | 2 |
 | [`alibaba/x-render`](https://github.com/alibaba/x-render) | 7846 | 2 | 0 | 2 |
-| [`zai-org/GLM-OCR`](https://github.com/zai-org/GLM-OCR) | 7612 | 2 | 0 | 2 |
-| [`antvis/Infographic`](https://github.com/antvis/Infographic) | 7163 | 2 | 0 | 2 |
-| [`zai-org/GLM-4`](https://github.com/zai-org/GLM-4) | 7076 | 2 | 0 | 2 |
-| [`antvis/X6`](https://github.com/antvis/X6) | 6769 | 2 | 0 | 2 |
-| [`deepseek-ai/deepseek-recipe`](https://github.com/deepseek-ai/deepseek-recipe) | 2916 | 4 | 0 | 2 |
+| [`zai-org/GLM-OCR`](https://github.com/zai-org/GLM-OCR) | 7613 | 2 | 0 | 2 |
+| [`antvis/Infographic`](https://github.com/antvis/Infographic) | 7180 | 2 | 0 | 2 |
+| [`zai-org/GLM-4`](https://github.com/zai-org/GLM-4) | 7077 | 2 | 0 | 2 |
+| [`antvis/X6`](https://github.com/antvis/X6) | 6771 | 2 | 0 | 2 |
+| [`deepseek-ai/deepseek-recipe`](https://github.com/deepseek-ai/deepseek-recipe) | 2921 | 4 | 0 | 2 |
 | [`Tencent/WeSmartFlow`](https://github.com/Tencent/WeSmartFlow) | 1065 | 2 | 0 | 2 |
 | [`react-component/select`](https://github.com/react-component/select) | 940 | 2 | 0 | 2 |
-| [`MoonshotAI/kimi-agent-sdk`](https://github.com/MoonshotAI/kimi-agent-sdk) | 583 | 2 | 0 | 2 |
-| [`MiniMax-AI/OpenAgentCore`](https://github.com/MiniMax-AI/OpenAgentCore) | 352 | 2 | 0 | 2 |
+| [`MoonshotAI/kimi-agent-sdk`](https://github.com/MoonshotAI/kimi-agent-sdk) | 582 | 2 | 0 | 2 |
+| [`MiniMax-AI/OpenAgentCore`](https://github.com/MiniMax-AI/OpenAgentCore) | 353 | 2 | 0 | 2 |
 | [`parcel-bundler/parcel`](https://github.com/parcel-bundler/parcel) | 44031 | 1 | 0 | 1 |
-| [`streamich/react-use`](https://github.com/streamich/react-use) | 43978 | 1 | 0 | 1 |
-| [`continuedev/continue`](https://github.com/continuedev/continue) | 36557 | 1 | 0 | 1 |
-| [`floating-ui/floating-ui`](https://github.com/floating-ui/floating-ui) | 32814 | 1 | 0 | 1 |
-| [`alibaba/page-agent`](https://github.com/alibaba/page-agent) | 29755 | 2 | 0 | 1 |
-| [`tailwindlabs/headlessui`](https://github.com/tailwindlabs/headlessui) | 28845 | 1 | 0 | 1 |
-| [`OtterMind/Chat2DB`](https://github.com/OtterMind/Chat2DB) | 28373 | 1 | 0 | 1 |
-| [`zai-org/Open-AutoGLM`](https://github.com/zai-org/Open-AutoGLM) | 26664 | 1 | 0 | 1 |
-| [`browserbase/stagehand`](https://github.com/browserbase/stagehand) | 26139 | 1 | 0 | 1 |
-| [`desktop/desktop`](https://github.com/desktop/desktop) | 22141 | 1 | 0 | 1 |
-| [`ag-ui-protocol/ag-ui`](https://github.com/ag-ui-protocol/ag-ui) | 21665 | 1 | 0 | 1 |
-| [`QwenLM/Qwen-Agent`](https://github.com/QwenLM/Qwen-Agent) | 17284 | 1 | 0 | 1 |
-| [`organicmaps/organicmaps`](https://github.com/organicmaps/organicmaps) | 16128 | 1 | 0 | 1 |
-| [`lynx-family/lynx`](https://github.com/lynx-family/lynx) | 15278 | 1 | 0 | 1 |
-| [`alibaba/spring-ai-alibaba`](https://github.com/alibaba/spring-ai-alibaba) | 11174 | 1 | 0 | 1 |
-| [`evidence-dev/evidence`](https://github.com/evidence-dev/evidence) | 7146 | 1 | 0 | 1 |
+| [`streamich/react-use`](https://github.com/streamich/react-use) | 43979 | 1 | 0 | 1 |
+| [`continuedev/continue`](https://github.com/continuedev/continue) | 36572 | 1 | 0 | 1 |
+| [`floating-ui/floating-ui`](https://github.com/floating-ui/floating-ui) | 32820 | 1 | 0 | 1 |
+| [`alibaba/page-agent`](https://github.com/alibaba/page-agent) | 29769 | 2 | 0 | 1 |
+| [`tailwindlabs/headlessui`](https://github.com/tailwindlabs/headlessui) | 28848 | 1 | 0 | 1 |
+| [`OtterMind/Chat2DB`](https://github.com/OtterMind/Chat2DB) | 28374 | 1 | 0 | 1 |
+| [`zai-org/Open-AutoGLM`](https://github.com/zai-org/Open-AutoGLM) | 26678 | 1 | 0 | 1 |
+| [`browserbase/stagehand`](https://github.com/browserbase/stagehand) | 26154 | 1 | 0 | 1 |
+| [`desktop/desktop`](https://github.com/desktop/desktop) | 22144 | 1 | 0 | 1 |
+| [`ag-ui-protocol/ag-ui`](https://github.com/ag-ui-protocol/ag-ui) | 21792 | 1 | 0 | 1 |
+| [`QwenLM/Qwen-Agent`](https://github.com/QwenLM/Qwen-Agent) | 17289 | 1 | 0 | 1 |
+| [`organicmaps/organicmaps`](https://github.com/organicmaps/organicmaps) | 16136 | 1 | 0 | 1 |
+| [`lynx-family/lynx`](https://github.com/lynx-family/lynx) | 15282 | 1 | 0 | 1 |
+| [`alibaba/spring-ai-alibaba`](https://github.com/alibaba/spring-ai-alibaba) | 11181 | 1 | 0 | 1 |
+| [`evidence-dev/evidence`](https://github.com/evidence-dev/evidence) | 7148 | 1 | 0 | 1 |
 | [`jd-opensource/nutui`](https://github.com/jd-opensource/nutui) | 6517 | 1 | 0 | 1 |
 | [`jd-opensource/micro-app`](https://github.com/jd-opensource/micro-app) | 6262 | 1 | 0 | 1 |
-| [`coze-dev/coze-loop`](https://github.com/coze-dev/coze-loop) | 5799 | 1 | 0 | 1 |
-| [`web-infra-dev/modern.js`](https://github.com/web-infra-dev/modern.js) | 5055 | 1 | 0 | 1 |
-| [`Tencent/tmagic-editor`](https://github.com/Tencent/tmagic-editor) | 4959 | 1 | 0 | 1 |
+| [`coze-dev/coze-loop`](https://github.com/coze-dev/coze-loop) | 5801 | 1 | 0 | 1 |
+| [`web-infra-dev/modern.js`](https://github.com/web-infra-dev/modern.js) | 5056 | 1 | 0 | 1 |
+| [`Tencent/tmagic-editor`](https://github.com/Tencent/tmagic-editor) | 4961 | 1 | 0 | 1 |
 | [`alibaba/ChatUI`](https://github.com/alibaba/ChatUI) | 4463 | 1 | 0 | 1 |
-| [`zai-org/GLM-4.5`](https://github.com/zai-org/GLM-4.5) | 4432 | 1 | 0 | 1 |
-| [`VisActor/VTable`](https://github.com/VisActor/VTable) | 3683 | 1 | 0 | 1 |
-| [`arco-design/arco-design-vue`](https://github.com/arco-design/arco-design-vue) | 3125 | 1 | 0 | 1 |
+| [`zai-org/GLM-4.5`](https://github.com/zai-org/GLM-4.5) | 4431 | 1 | 0 | 1 |
+| [`VisActor/VTable`](https://github.com/VisActor/VTable) | 3685 | 1 | 0 | 1 |
+| [`arco-design/arco-design-vue`](https://github.com/arco-design/arco-design-vue) | 3126 | 1 | 0 | 1 |
 | [`opentiny/tiny-engine`](https://github.com/opentiny/tiny-engine) | 2790 | 1 | 0 | 1 |
 | [`antvis/S2`](https://github.com/antvis/S2) | 1698 | 1 | 0 | 1 |
-| [`MiniMax-AI/MiniMax-MCP`](https://github.com/MiniMax-AI/MiniMax-MCP) | 1614 | 1 | 0 | 1 |
-| [`react-component/table`](https://github.com/react-component/table) | 1373 | 1 | 0 | 1 |
+| [`MiniMax-AI/MiniMax-MCP`](https://github.com/MiniMax-AI/MiniMax-MCP) | 1615 | 1 | 0 | 1 |
+| [`react-component/table`](https://github.com/react-component/table) | 1374 | 1 | 0 | 1 |
 | [`MiniMax-AI/OpenRoom`](https://github.com/MiniMax-AI/OpenRoom) | 1274 | 1 | 0 | 1 |
 | [`Tencent/tdesign-vue`](https://github.com/Tencent/tdesign-vue) | 1035 | 1 | 0 | 1 |
 | [`XiaoMi/hiui`](https://github.com/XiaoMi/hiui) | 881 | 1 | 0 | 1 |
 | [`zai-org/Synapse`](https://github.com/zai-org/Synapse) | 568 | 1 | 0 | 1 |
 | [`MetaGLM/zhipuai-sdk-python-v4`](https://github.com/MetaGLM/zhipuai-sdk-python-v4) | 198 | 1 | 0 | 1 |
 | [`DSpace/dspace-angular`](https://github.com/DSpace/dspace-angular) | 181 | 1 | 0 | 1 |
-| [`zai-org/zcode-plugins`](https://github.com/zai-org/zcode-plugins) | 164 | 2 | 0 | 1 |
+| [`zai-org/zcode-plugins`](https://github.com/zai-org/zcode-plugins) | 165 | 2 | 0 | 1 |
 | [`NervJS/taro-project-templates`](https://github.com/NervJS/taro-project-templates) | 92 | 1 | 0 | 1 |
 | [`MetaGLM/zhipuai-sdk-nodejs-v4`](https://github.com/MetaGLM/zhipuai-sdk-nodejs-v4) | 64 | 1 | 0 | 1 |
 | [`NervJS/taro-docs`](https://github.com/NervJS/taro-docs) | 32 | 1 | 0 | 1 |
 | [`alibaba/loongsuite-js`](https://github.com/alibaba/loongsuite-js) | 26 | 1 | 0 | 1 |
-| [`ChatGPTNextWeb/NextChat`](https://github.com/ChatGPTNextWeb/NextChat) | 88984 | 1 | 0 | 0 |
-| [`vitejs/vite`](https://github.com/vitejs/vite) | 84090 | 1 | 0 | 0 |
-| [`code-yeongyu/oh-my-openagent`](https://github.com/code-yeongyu/oh-my-openagent) | 71102 | 1 | 0 | 0 |
-| [`TanStack/query`](https://github.com/TanStack/query) | 50636 | 1 | 0 | 0 |
-| [`langchain-ai/langgraph`](https://github.com/langchain-ai/langgraph) | 45401 | 1 | 0 | 0 |
-| [`trpc/trpc`](https://github.com/trpc/trpc) | 40862 | 1 | 0 | 0 |
-| [`recharts/recharts`](https://github.com/recharts/recharts) | 27763 | 1 | 0 | 0 |
-| [`vitest-dev/vitest`](https://github.com/vitest-dev/vitest) | 17448 | 2 | 0 | 0 |
+| [`ChatGPTNextWeb/NextChat`](https://github.com/ChatGPTNextWeb/NextChat) | 88985 | 1 | 0 | 0 |
+| [`vitejs/vite`](https://github.com/vitejs/vite) | 84115 | 1 | 0 | 0 |
+| [`code-yeongyu/oh-my-openagent`](https://github.com/code-yeongyu/oh-my-openagent) | 71130 | 1 | 0 | 0 |
+| [`TanStack/query`](https://github.com/TanStack/query) | 50651 | 1 | 0 | 0 |
+| [`langchain-ai/langgraph`](https://github.com/langchain-ai/langgraph) | 45447 | 1 | 0 | 0 |
+| [`trpc/trpc`](https://github.com/trpc/trpc) | 40872 | 1 | 0 | 0 |
+| [`recharts/recharts`](https://github.com/recharts/recharts) | 27765 | 1 | 0 | 0 |
+| [`vitest-dev/vitest`](https://github.com/vitest-dev/vitest) | 17464 | 2 | 0 | 0 |
 | [`typescript-eslint/typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint) | 16477 | 4 | 0 | 0 |
 | [`umijs/umi`](https://github.com/umijs/umi) | 16053 | 1 | 0 | 0 |
-| [`assistant-ui/assistant-ui`](https://github.com/assistant-ui/assistant-ui) | 13412 | 1 | 0 | 0 |
-| [`deepseek-ai/DeepEP`](https://github.com/deepseek-ai/DeepEP) | 10475 | 1 | 0 | 0 |
-| [`ant-design/pro-components`](https://github.com/ant-design/pro-components) | 4862 | 2 | 0 | 0 |
-| [`npmx-dev/npmx.dev`](https://github.com/npmx-dev/npmx.dev) | 3684 | 3 | 0 | 0 |
+| [`assistant-ui/assistant-ui`](https://github.com/assistant-ui/assistant-ui) | 13433 | 1 | 0 | 0 |
+| [`deepseek-ai/DeepEP`](https://github.com/deepseek-ai/DeepEP) | 10477 | 1 | 0 | 0 |
+| [`ant-design/pro-components`](https://github.com/ant-design/pro-components) | 4861 | 2 | 0 | 0 |
+| [`npmx-dev/npmx.dev`](https://github.com/npmx-dev/npmx.dev) | 3685 | 3 | 0 | 0 |
 | [`eclipse-paho/paho.mqtt.golang`](https://github.com/eclipse-paho/paho.mqtt.golang) | 3134 | 1 | 0 | 0 |
 | [`Gamote/lottie-react`](https://github.com/Gamote/lottie-react) | 969 | 1 | 0 | 0 |
-| [`w3c/aria`](https://github.com/w3c/aria) | 760 | 1 | 0 | 0 |
+| [`w3c/aria`](https://github.com/w3c/aria) | 761 | 1 | 0 | 0 |
 | [`web-infra-dev/rstest`](https://github.com/web-infra-dev/rstest) | 515 | 2 | 0 | 0 |
 | [`astral-sh/ty-vscode`](https://github.com/astral-sh/ty-vscode) | 384 | 1 | 0 | 0 |
 | [`pnpm/pnpm.io`](https://github.com/pnpm/pnpm.io) | 313 | 1 | 0 | 0 |
